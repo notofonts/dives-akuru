@@ -1,5 +1,8 @@
 {
 .appVersion = "3109";
+DisplayStrings = (
+"/u1190C/katouch-divesakuru"
+);
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/dives-akuru)";
 customParameters = (
 {
@@ -258,10 +261,6 @@ name = cjct;
 {
 code = "script diak;\012\012lookup halantForms {\012sub u1190C u1193D by k-divesakuru;\012sub u11912 u1193D by ch-divesakuru;\012sub u11916 u1193D by tt-divesakuru;\012sub u1191B u1193D by t-divesakuru;\012sub u1191F u1193D by n-divesakuru;\012sub u11920 u1193D by p-divesakuru;\012sub u1192C u1193D by s-divesakuru;\012sub u1191E u1193D by dh-divesakuru;\012sub u11922 u1193D by b-divesakuru;\012sub u11925 u1193D by ya_u-divesakuru;\012sub tta_tta-divesakuru u1193D by tta_tt-divesakuru;\012sub na_dha-divesakuru u1193D by na_dh-divesakuru;\012sub ma_ba-divesakuru u1193D by ma_b-divesakuru;\012#sub tatouch-divesakuru u1193D by ttouch-divesakuru;\012sub tatouch-divesakuru u1193D by t-divesakuru;\012#sub patouch-divesakuru u1193D by ptouch-divesakuru;\012sub patouch-divesakuru u1193D by p-divesakuru;\012#sub katouch-divesakuru u1193D by ktouch-divesakuru;\012sub katouch-divesakuru u1193D by k-divesakuru;\012#sub natouch-divesakuru u1193D by ntouch-divesakuru;\012sub natouch-divesakuru u1193D by n-divesakuru;\012#sub yatouch-divesakuru u1193D by ya_utouch-divesakuru;\012sub yatouch-divesakuru u1193D by ya_u-divesakuru;\012sub ssa_tta-divesakuru u1193D by ssa_tt-divesakuru;\012sub u11926 u1193D by yy-divesakuru;\012} halantForms;\012\012lookup halant_00 {\012sub [u1190E u11918 u11919 u11926 u11923 u1192F ba_bha-divesakuru] u1193D' by halanta-divesakuru.00;\012} halant_00;\012lookup halant_01 {\012sub [u1190F u11913 u1191C u11924 u11929 u1192A na_tha-divesakuru] u1193D' by halanta-divesakuru.01;\012} halant_01;\012lookup halant_02 {\012sub [u1190D nga_ga-divesakuru] u1193D' by halanta-divesakuru.02;\012} halant_02;\012lookup halant_03 {\012sub u1192B u1193D' by halanta-divesakuru.03;\012} halant_03;\012lookup halant_04 {\012sub [ka_tha-divesakuru ka_ssa-divesakuru tta_va-divesakuru ta_tha-divesakuru va_va-divesakuru] u1193D' by halanta-divesakuru.02;\012} halant_04;\012";
 name = haln;
-},
-{
-code = "script diak;\012\012lookup distances {\012	position u1190E gatouch-divesakuru <0 0 -227 0>;\012	position u11924 matouch-divesakuru <0 0 -257 0>;\012	position u11924 ma_ba-divesakuru <0 0 -257 0>;\012	position u11924 ma_vowelU-divesakuru <0 0 -257 0>;\012	position u11925 ya_vowelI-divesakuru <0 0 -183 0>;\012	position u11925 yatouch-divesakuru <0 0 -183 0>;\012	position u11925 ya_medya-divesakuru <0 0 -183 0>;\012	position u11925 ya_u-divesakuru <0 0 -183 0>;\012	position u1190C katouch-divesakuru <0 0 -174 0>;\012	position u1190C ka_vowelU-divesakuru <0 0 -174 0>;\012	position u1190C ka_vowelUU-divesakuru <0 0 -174 0>;\012	position u1190C ka_tha-divesakuru <0 0 -174 0>;\012	position u1190C ka_ra_vowelI-divesakuru <0 0 -174 0>;\012	position u1190C ka_ssa-divesakuru <0 0 -174 0>;\012	position u1190C ka_medra-divesakuru <0 0 -174 0>;\012	position u1190C tatouch-divesakuru <0 0 -170 0>;\012	position u1190C ta_tha-divesakuru <0 0 -170 0>;\012	position u1190C ta_medya-divesakuru <0 0 -170 0>;\012#	position u1190C ttouch-divesakuru <0 0 -143 0>;\012	position u1191F t-divesakuru <0 0 -138 0>;\012	position u1190C ratouch-divesakuru <0 0 -169 0>;\012	position u1190C ra_vowelU-divesakuru <0 0 -169 0>;\012#	position u1190C ktouch-divesakuru <0 0 -174 0>;\012	position u1190C k-divesakuru <0 0 -174 0>;\012	position u1191B katouch-divesakuru <0 0 -160 0>;\012	position u1191B ka_vowelU-divesakuru <0 0 -160 0>;\012	position u1191B ka_vowelUU-divesakuru <0 0 -160 0>;\012	position u1191B ka_tha-divesakuru <0 0 -160 0>;\012	position u1191B ka_ra_vowelI-divesakuru <0 0 -160 0>;\012	position u1191B ka_ssa-divesakuru <0 0 -160 0>;\012	position u1191B ka_medra-divesakuru <0 0 -160 0>;\012	position u1191B patouch-divesakuru <0 0 -240 0>;\012	position u1191B pa_medra-divesakuru <0 0 -240 0>;\012	position u1191B pa_vowelI-divesakuru <0 0 -240 0>;\012	position u1191B pa_vowelU-divesakuru <0 0 -240 0>;\012	position u1191B pa_vowelUU-divesakuru <0 0 -240 0>;\012	position u1191B atouch-divesakuru <0 0 -180 0>;\012#	position u1191B ktouch-divesakuru <0 0 -180 0>;\012	position u1191B k-divesakuru <0 0 -180 0>;\012#	position u1191F ttouch-divesakuru <0 0 -138 0>;\012	position u1191F t-divesakuru <0 0 -138 0>;\012	position u1191F etouch-divesakuru <0 0 -130 0>;\012	position u1191F itouch-divesakuru <0 0 -143 0>;\012	position u1191F ya_u-divesakuru <0 0 -135 0>;\012#	position u1191F ntouch-divesakuru <0 0 -120 0>;\012	position u1191F n-divesakuru <0 0 -120 0>;\012	position u1191F ya_vowelI-divesakuru <0 0 -135 0>;\012	position u1191F natouch-divesakuru <0 0 -120 0>;\012	position u1191F na_ta_medra-divesakuru <0 0 -120 0>;\012	position u1191F na_tha-divesakuru <0 0 -120 0>;\012	position u1191F na_dha-divesakuru <0 0 -120 0>;\012	position u1191F na_dha_vowelI-divesakuru <0 0 -120 0>;\012	position u1191F na_dha_vowelII-divesakuru <0 0 -120 0>;\012	position u1191F na_dha_vowelU-divesakuru <0 0 -120 0>;\012	position u1191F na_vowelU-divesakuru <0 0 -120 0>;\012	position u1191F na_dh-divesakuru <0 0 -120 0>;\012	position u1191F yatouch-divesakuru <0 0 -135 0>;\012	position u1191F ya_medya-divesakuru <0 0 -135 0>;\012	position u1192C patouch-divesakuru <0 0 -113 0>;\012	position u1192C pa_medra-divesakuru <0 0 -113 0>;\012	position u1192C pa_vowelI-divesakuru <0 0 -113 0>;\012	position u1192C pa_vowelU-divesakuru <0 0 -113 0>;\012	position u1192C pa_vowelUU-divesakuru <0 0 -113 0>;\012#	position u1192C ptouch-divesakuru <0 0 -113 0>;\012	position u1192C p-divesakuru <0 0 -113 0>;\012	position u1192E llatouch-divesakuru <0 0 -142 0>;\012	position u1192E lla_vowelU-divesakuru <0 0 -142 0>;\012} distances;\012";
-name = dist;
 },
 {
 code = "# Automatic Code Start\012";
@@ -14484,7 +14483,7 @@ width = 1087;
 },
 {
 glyphname = "ptouch-divesakuru";
-lastChange = "2022-04-27 14:39:17 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -14577,6 +14576,8 @@ nodes = (
 width = 1087;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "b-divesakuru";
@@ -14779,7 +14780,7 @@ width = 1142;
 },
 {
 glyphname = "ktouch-divesakuru";
-lastChange = "2022-04-27 14:39:17 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -14872,10 +14873,12 @@ nodes = (
 width = 1157;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "ntouch-divesakuru";
-lastChange = "2022-04-27 14:39:17 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -14946,10 +14949,12 @@ nodes = (
 width = 1065;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "ttouch-divesakuru";
-lastChange = "2022-04-27 14:39:17 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -15009,10 +15014,12 @@ nodes = (
 width = 972;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "atouch-divesakuru";
-lastChange = "2022-02-03 16:10:58 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -15170,10 +15177,12 @@ nodes = (
 width = 931;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "etouch-divesakuru";
-lastChange = "2022-02-03 16:10:49 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -15273,10 +15282,12 @@ nodes = (
 width = 794;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "gatouch-divesakuru";
-lastChange = "2022-02-03 16:19:30 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -15363,10 +15374,12 @@ nodes = (
 width = 746;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "itouch-divesakuru";
-lastChange = "2022-02-03 16:13:10 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -15475,10 +15488,12 @@ nodes = (
 width = 819;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "katouch-divesakuru";
-lastChange = "2022-02-03 16:14:57 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -15609,10 +15624,12 @@ nodes = (
 width = 944;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "patouch-divesakuru";
-lastChange = "2022-02-07 12:08:18 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -15721,10 +15738,12 @@ nodes = (
 width = 858;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "llatouch-divesakuru";
-lastChange = "2022-01-28 16:15:27 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -15843,10 +15862,12 @@ nodes = (
 width = 607;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "matouch-divesakuru";
-lastChange = "2022-02-03 12:37:48 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -15973,10 +15994,12 @@ nodes = (
 width = 692;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "natouch-divesakuru";
-lastChange = "2022-02-01 22:53:09 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -16069,10 +16092,12 @@ nodes = (
 width = 823;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "ratouch-divesakuru";
-lastChange = "2022-02-02 17:00:27 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -16134,10 +16159,12 @@ nodes = (
 width = 455;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "tatouch-divesakuru";
-lastChange = "2022-02-02 17:00:41 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -16219,10 +16246,12 @@ nodes = (
 width = 767;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "yatouch-divesakuru";
-lastChange = "2022-02-02 09:49:18 +0000";
+lastChange = "2022-10-10 13:32:26 +0000";
 layers = (
 {
 anchors = (
@@ -16304,6 +16333,8 @@ nodes = (
 width = 817;
 }
 );
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = "ya_utouch-divesakuru";
