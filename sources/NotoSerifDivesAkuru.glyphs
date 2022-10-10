@@ -1,9 +1,6 @@
 {
 .appVersion = "3109";
 .formatVersion = 3;
-DisplayStrings = (
-"◌"
-);
 axes = (
 {
 name = Weight;
@@ -12,17 +9,6 @@ tag = wght;
 {
 name = Width;
 tag = wdth;
-}
-);
-classes = (
-{
-code = "u11900 u11901 u11902 u11903 u11904 u11905 u11906 u11909 u1190C u1190D u1190E u1190F u11910 u11911 u11912 u11913 u11915 u11916 u11918 u11919 u1191A u1191B u1191C u1191D u1191E u1191F u11920 u11921 u11922 u11923 u11924 u11925 u11940 u11926 u11927 u11942 u11928 u11929 u1192A u1192B u1192C u1192D u1192E u1192F ka_tha-divesakuru ka_ra_vowelI-divesakuru ka_ssa-divesakuru ka_medra-divesakuru ka_vowelU-divesakuru ka_vowelUU-divesakuru nga_ga-divesakuru tta_tta-divesakuru tta_va-divesakuru nna_dda-divesakuru ta_tha-divesakuru ta_medya-divesakuru da_medya-divesakuru da_vowelU-divesakuru dha_medya-divesakuru dha_vowelI-divesakuru dha_vowelII-divesakuru dha_vowelU-divesakuru na_ta_medra-divesakuru na_tha-divesakuru na_dha-divesakuru na_dha_vowelI-divesakuru na_dha_vowelII-divesakuru na_dha_vowelU-divesakuru na_vowelU-divesakuru pa_medra-divesakuru pa_vowelI-divesakuru pa_vowelU-divesakuru pa_vowelUU-divesakuru ba_bha-divesakuru ma_ba-divesakuru ma_vowelU-divesakuru ya_medya-divesakuru ya_vowelI-divesakuru u-divesakuru.00 uu-divesakuru.00 yya_medya-divesakuru yya_vowelI-divesakuru ra_vowelU-divesakuru va_va-divesakuru sha_ra_vowelI-divesakuru sha_medra-divesakuru ssa_tta-divesakuru sa_ta-divesakuru sa_ta_medra-divesakuru sa_pa_medra-divesakuru sa_va-divesakuru sa_medya-divesakuru sa_vowelI-divesakuru sa_vowelU-divesakuru lla_vowelU-divesakuru nasal_ga-divesakuru k-divesakuru n-divesakuru s-divesakuru t-divesakuru tt-divesakuru tta_tt-divesakuru na_dh-divesakuru ma_b-divesakuru ya_u-divesakuru ch-divesakuru ssa_tt-divesakuru yy-divesakuru p-divesakuru ptouch-divesakuru b-divesakuru dh-divesakuru ktouch-divesakuru ntouch-divesakuru ttouch-divesakuru atouch-divesakuru etouch-divesakuru gatouch-divesakuru itouch-divesakuru katouch-divesakuru patouch-divesakuru llatouch-divesakuru matouch-divesakuru natouch-divesakuru ratouch-divesakuru tatouch-divesakuru yatouch-divesakuru ya_utouch-divesakuru ya_vowelItouch-divesakuru u11941 u11930 u11931 u11932 u11933 u11934
-";
-name = GDEF_base;
-},
-{
-code = "u11941 u11930 u11931 u11932 u11933 u11934 u11935 u11937 u11938 u1193B u1193C u1193D virama-divesakuru u1193F u11943 halanta-divesakuru.00 halanta-divesakuru.01 halanta-divesakuru.02 halanta-divesakuru.03 halanta-divesakuru.04";
-name = GDEF_mark;
 }
 );
 customParameters = (
@@ -463,470 +449,6 @@ tag = haln;
 {
 code = "script diak;
 
-lookup mark_to_abv_base {
-	markClass u11941 <anchor -232 673> @markclass_0;
-	markClass u1193B <anchor -405 673> @markclass_0;
-	markClass u1193C <anchor -426 673> @markclass_0;
-	markClass u11931 <anchor -236 495> @markclass_3;
-	markClass u11932 <anchor -266 495> @markclass_3;
-	markClass u1193F <anchor -207 674> @markclass_5;
-	position base u11900 <anchor 576 590> mark @markclass_0;
-	position base u11900 <anchor 707 366> mark @markclass_3;
-	position base u11900 <anchor 252 607> mark @markclass_5;
-	position base u11901 <anchor 961 536> mark @markclass_0;
-	position base u11900 <anchor 252 607> mark @markclass_5;
-	position base u11902 <anchor 472 590> mark @markclass_0;
-	position base u11902 <anchor 617 334> mark @markclass_3;
-	position base u11902 <anchor 136 607> mark @markclass_5;
-	position base u11903 <anchor 776 590> mark @markclass_0;
-	position base u11903 <anchor 836 274> mark @markclass_3;
-	position base u11903 <anchor 136 607> mark @markclass_5;
-	position base u11904 <anchor 516 590> mark @markclass_0;
-	position base u11904 <anchor 343 543> mark @markclass_5;
-	position base u11905 <anchor 526 590> mark @markclass_0;
-	position base u11905 <anchor 343 543> mark @markclass_5;
-	position base u11906 <anchor 566 590> mark @markclass_0;
-	position base u11906 <anchor 367 543> mark @markclass_5;
-	position base u11909 <anchor 586 590> mark @markclass_0;
-	position base u11909 <anchor 257 537> mark @markclass_5;
-	position base u1190C <anchor 532 653> mark @markclass_0;
-	position base u1190C <anchor 674 495> mark @markclass_3;
-	position base u1190C <anchor 534 551> mark @markclass_5;
-	position base u1190D <anchor 454 590> mark @markclass_0;
-	position base u1190D <anchor 372 494> mark @markclass_3;
-	position base u1190D <anchor 312 537> mark @markclass_5;
-	position base u1190E <anchor 144 714> mark @markclass_0;
-	position base u1190F <anchor 539 590> mark @markclass_0;
-	position base u1190F <anchor 340 543> mark @markclass_5;
-	position base u11910 <anchor 296 590> mark @markclass_0;
-	position base u11910 <anchor 259 547> mark @markclass_5;
-	position base u11911 <anchor 535 590> mark @markclass_0;
-	position base u11911 <anchor 346 543> mark @markclass_5;
-	position base u11912 <anchor 515 590> mark @markclass_0;
-	position base u11912 <anchor 347 543> mark @markclass_5;
-	position base u11913 <anchor 516 590> mark @markclass_0;
-	position base u11913 <anchor 342 543> mark @markclass_5;
-	position base u11915 <anchor 446 590> mark @markclass_0;
-	position base u11915 <anchor 620 494> mark @markclass_3;
-	position base u11915 <anchor 350 543> mark @markclass_5;
-	position base u11916 <anchor 476 590> mark @markclass_0;
-	position base u11916 <anchor 270 543> mark @markclass_5;
-	position base u11918 <anchor 556 590> mark @markclass_0;
-	position base u11918 <anchor 341 543> mark @markclass_5;
-	position base u11919 <anchor 556 590> mark @markclass_0;
-	position base u11919 <anchor 260 543> mark @markclass_5;
-	position base u1191A <anchor 446 590> mark @markclass_0;
-	position base u1191A <anchor 350 543> mark @markclass_5;
-	position base u1191B <anchor 476 590> mark @markclass_0;
-	position base u1191B <anchor 310 543> mark @markclass_5;
-	position base u1191C <anchor 416 590> mark @markclass_0;
-	position base u1191C <anchor 300 492> mark @markclass_3;
-	position base u1191C <anchor 292 536> mark @markclass_5;
-	position base u1191D <anchor 296 590> mark @markclass_0;
-	position base u1191D <anchor 319 495> mark @markclass_3;
-	position base u1191D <anchor 252 546> mark @markclass_5;
-	position base u1191E <anchor 596 590> mark @markclass_0;
-	position base u1191E <anchor 262 536> mark @markclass_5;
-	position base u1191F <anchor 416 590> mark @markclass_0;
-	position base u1191F <anchor 589 494> mark @markclass_3;
-	position base u1191F <anchor 330 543> mark @markclass_5;
-	position base u11920 <anchor 566 590> mark @markclass_0;
-	position base u11920 <anchor 262 536> mark @markclass_5;
-	position base u11921 <anchor 606 590> mark @markclass_0;
-	position base u11921 <anchor 737 343> mark @markclass_3;
-	position base u11921 <anchor 252 536> mark @markclass_5;
-	position base u11922 <anchor 496 590> mark @markclass_0;
-	position base u11922 <anchor 547 437> mark @markclass_3;
-	position base u11922 <anchor 246 536> mark @markclass_5;
-	position base u11923 <anchor 596 590> mark @markclass_0;
-	position base u11923 <anchor 669 312> mark @markclass_3;
-	position base u11923 <anchor 242 536> mark @markclass_5;
-	position base u11924 <anchor 486 590> mark @markclass_0;
-	position base u11924 <anchor 325 493> mark @markclass_3;
-	position base u11924 <anchor 262 536> mark @markclass_5;
-	position base u11925 <anchor 436 590> mark @markclass_0;
-	position base u11925 <anchor 292 536> mark @markclass_5;
-	position base u11926 <anchor 436 590> mark @markclass_0;
-	position base u11926 <anchor 432 316> mark @markclass_5;
-	position base u11927 <anchor 250 590> mark @markclass_0;
-	position base u11927 <anchor 182 383> mark @markclass_3;
-	position base u11927 <anchor 182 467> mark @markclass_5;
-	position base u11928 <anchor 396 590> mark @markclass_0;
-	position base u11928 <anchor 228 390> mark @markclass_5;
-	position base u11929 <anchor 456 590> mark @markclass_0;
-	position base u11929 <anchor 336 485> mark @markclass_3;
-	position base u11929 <anchor 348 543> mark @markclass_5;
-	position base u1192A <anchor 556 590> mark @markclass_0;
-	position base u1192A <anchor 716 219> mark @markclass_3;
-	position base u1192A <anchor 292 543> mark @markclass_5;
-	position base u1192B <anchor 442 590> mark @markclass_0;
-	position base u1192B <anchor 663 503> mark @markclass_3;
-	position base u1192B <anchor 292 543> mark @markclass_5;
-	position base u1192C <anchor 466 590> mark @markclass_0;
-	position base u1192C <anchor 260 541> mark @markclass_5;
-	position base u1192D <anchor 466 590> mark @markclass_0;
-	position base u1192D <anchor 581 495> mark @markclass_3;
-	position base u1192D <anchor 382 543> mark @markclass_5;
-	position base u1192E <anchor 326 590> mark @markclass_0;
-	position base u1192E <anchor 259 547> mark @markclass_5;
-	position base u1192F <anchor 546 590> mark @markclass_0;
-	position base u1192F <anchor 335 535> mark @markclass_5;
-	position base u11930 <anchor 82 590> mark @markclass_0;
-	position base u11930 <anchor 131 402> mark @markclass_5;
-	position base u11940 <anchor 276 590> mark @markclass_0;
-	position base u11940 <anchor 354 495> mark @markclass_3;
-	position base u11940 <anchor 152 495> mark @markclass_5;
-	position base u11942 <anchor -58 653> mark @markclass_0;
-	position base u11942 <anchor -52 422> mark @markclass_3;
-	position base u11942 <anchor -52 467> mark @markclass_5;
-	position base ka_tha-divesakuru <anchor 835 590> mark @markclass_0;
-	position base ka_ssa-divesakuru <anchor 925 590> mark @markclass_0;
-	position base nga_ga-divesakuru <anchor 565 590> mark @markclass_0;
-	position base tta_tta-divesakuru <anchor 671 590> mark @markclass_0;
-	position base tta_va-divesakuru <anchor 915 590> mark @markclass_0;
-	position base nna_dda-divesakuru <anchor 795 590> mark @markclass_0;
-	position base ta_tha-divesakuru <anchor 695 590> mark @markclass_0;
-	position base na_ta_medra-divesakuru <anchor 1445 590> mark @markclass_0;
-	position base na_ta_medra-divesakuru <anchor 1405 264> mark @markclass_5;
-	position base na_tha-divesakuru <anchor 715 590> mark @markclass_0;
-	position base na_dha-divesakuru <anchor 825 590> mark @markclass_0;
-	position base pa_medra-divesakuru <anchor 885 590> mark @markclass_0;
-	position base pa_medra-divesakuru <anchor 845 370> mark @markclass_5;
-	position base ba_bha-divesakuru <anchor 1175 590> mark @markclass_0;
-	position base ma_ba-divesakuru <anchor 805 590> mark @markclass_0;
-	position base sha_medra-divesakuru <anchor 865 590> mark @markclass_0;
-	position base sha_medra-divesakuru <anchor 814 229> mark @markclass_3;
-	position base sha_medra-divesakuru <anchor 896 265> mark @markclass_5;
-	position base ssa_tta-divesakuru <anchor 822 590> mark @markclass_0;
-	position base sa_ta-divesakuru <anchor 990 590> mark @markclass_0;
-	position base sa_ta_medra-divesakuru <anchor 1140 590> mark @markclass_0;
-	position base sa_ta_medra-divesakuru <anchor 1175 264> mark @markclass_5;
-	position base sa_pa_medra-divesakuru <anchor 1406 590> mark @markclass_0;
-	position base sa_pa_medra-divesakuru <anchor 1417 368> mark @markclass_5;
-	position base sa_va-divesakuru <anchor 930 590> mark @markclass_0;
-	position base katouch-divesakuru <anchor 532 653> mark @markclass_0;
-	position base katouch-divesakuru <anchor 674 495> mark @markclass_3;
-	position base llatouch-divesakuru <anchor 326 590> mark @markclass_0;
-	position base matouch-divesakuru <anchor 486 590> mark @markclass_0;
-	position base matouch-divesakuru <anchor 60 590> mark @markclass_0;
-	position base natouch-divesakuru <anchor 416 590> mark @markclass_0;
-	position base natouch-divesakuru <anchor 589 494> mark @markclass_3;
-	position base ratouch-divesakuru <anchor 250 590> mark @markclass_0;
-	position base tatouch-divesakuru <anchor 476 590> mark @markclass_0;
-	position base yatouch-divesakuru <anchor 436 590> mark @markclass_0;
-	position base ya_medya-divesakuru <anchor 436 590> mark @markclass_0;
-	position base ya_medya-divesakuru <anchor 982 495> mark @markclass_3;
-	position base ya_medya-divesakuru <anchor 822 398> mark @markclass_5;
-	position base atouch-divesakuru <anchor 707 366> mark @markclass_0;
-	position base atouch-divesakuru <anchor 707 366> mark @markclass_3;
-	position base etouch-divesakuru <anchor 566 590> mark @markclass_0;
-	position base gatouch-divesakuru <anchor 148 714> mark @markclass_0;
-	position base gatouch-divesakuru <anchor 90 590> mark @markclass_0;
-	position base itouch-divesakuru <anchor 617 334> mark @markclass_3;
-	position base patouch-divesakuru <anchor 566 590> mark @markclass_0;
-	position base ka_medra-divesakuru <anchor 842 653> mark @markclass_0;
-	position base ka_medra-divesakuru <anchor 805 564> mark @markclass_5;
-	position base ka_ra_vowelI-divesakuru <anchor 1121 714> mark @markclass_0;
-	position base ka_ra_vowelI-divesakuru <anchor 1025 633> mark @markclass_5;
-	position base ka_vowelU-divesakuru <anchor 691 714> mark @markclass_0;
-	position base ka_vowelU-divesakuru <anchor 534 551> mark @markclass_5;
-	position base ka_vowelUU-divesakuru <anchor 962 536> mark @markclass_0;
-	position base ka_vowelUU-divesakuru <anchor 534 551> mark @markclass_5;
-	position base da_vowelU-divesakuru <anchor 672 536> mark @markclass_0;
-	position base da_vowelU-divesakuru <anchor 635 199> mark @markclass_5;
-	position base dha_vowelI-divesakuru <anchor 971 714> mark @markclass_0;
-	position base dha_vowelI-divesakuru <anchor 932 622> mark @markclass_5;
-	position base dha_vowelII-divesakuru <anchor 1071 714> mark @markclass_0;
-	position base dha_vowelII-divesakuru <anchor 1035 662> mark @markclass_5;
-	position base dha_vowelU-divesakuru <anchor 1092 536> mark @markclass_0;
-	position base dha_vowelU-divesakuru <anchor 1046 367> mark @markclass_5;
-	position base na_dha_vowelI-divesakuru <anchor 1192 714> mark @markclass_0;
-	position base na_dha_vowelI-divesakuru <anchor 1157 622> mark @markclass_5;
-	position base na_dha_vowelII-divesakuru <anchor 1298 714> mark @markclass_0;
-	position base na_dha_vowelII-divesakuru <anchor 1225 655> mark @markclass_5;
-	position base na_dha_vowelU-divesakuru <anchor 1319 536> mark @markclass_0;
-	position base na_dha_vowelU-divesakuru <anchor 1264 363> mark @markclass_5;
-	position base na_vowelU-divesakuru <anchor 752 653> mark @markclass_0;
-	position base na_vowelU-divesakuru <anchor 652 542> mark @markclass_5;
-	position base pa_vowelI-divesakuru <anchor 792 714> mark @markclass_0;
-	position base pa_vowelI-divesakuru <anchor 755 622> mark @markclass_5;
-	position base pa_vowelU-divesakuru <anchor 977 536> mark @markclass_0;
-	position base pa_vowelU-divesakuru <anchor 932 370> mark @markclass_5;
-	position base pa_vowelUU-divesakuru <anchor 1049 536> mark @markclass_0;
-	position base pa_vowelUU-divesakuru <anchor 992 372> mark @markclass_5;
-	position base ma_vowelU-divesakuru <anchor 742 536> mark @markclass_0;
-	position base ma_vowelU-divesakuru <anchor 708 251> mark @markclass_5;
-	position base ya_vowelI-divesakuru <anchor 746 536> mark @markclass_0;
-	position base ya_vowelItouch-divesakuru <anchor 746 536> mark @markclass_0;
-	position base ra_vowelU-divesakuru <anchor 552 653> mark @markclass_0;
-	position base ra_vowelU-divesakuru <anchor 440 510> mark @markclass_5;
-	position base sha_ra_vowelI-divesakuru <anchor 1072 536> mark @markclass_0;
-	position base sha_ra_vowelI-divesakuru <anchor 1031 340> mark @markclass_5;
-	position base sa_vowelI-divesakuru <anchor 692 714> mark @markclass_0;
-	position base sa_vowelI-divesakuru <anchor 665 622> mark @markclass_5;
-	position base sa_vowelU-divesakuru <anchor 772 653> mark @markclass_0;
-	position base sa_vowelU-divesakuru <anchor 735 456> mark @markclass_5;
-	position base lla_vowelU-divesakuru <anchor 326 590> mark @markclass_0;
-	position base va_va-divesakuru <anchor 837 590> mark @markclass_0;
-	position base ta_medya-divesakuru <anchor 846 536> mark @markclass_0;
-	position base ta_medya-divesakuru <anchor 1016 495> mark @markclass_3;
-	position base ta_medya-divesakuru <anchor 815 292> mark @markclass_5;
-	position base da_medya-divesakuru <anchor 627 536> mark @markclass_0;
-	position base da_medya-divesakuru <anchor 766 495> mark @markclass_3;
-	position base da_medya-divesakuru <anchor 625 252> mark @markclass_5;
-	position base dha_medya-divesakuru <anchor 1019 536> mark @markclass_0;
-	position base dha_medya-divesakuru <anchor 1138 495> mark @markclass_3;
-	position base dha_medya-divesakuru <anchor 953 401> mark @markclass_5;
-	position base sa_medya-divesakuru <anchor 739 590> mark @markclass_0;
-	position base sa_medya-divesakuru <anchor 869 495> mark @markclass_3;
-	position base sa_medya-divesakuru <anchor 715 466> mark @markclass_5;
-	position base u11931 <anchor 64 714> mark @markclass_0;
-	position base u11931 <anchor 5 639> mark @markclass_5;
-	position base u11932 <anchor 84 714> mark @markclass_0;
-	position base u11932 <anchor 45 663> mark @markclass_5;
-	position base u-divesakuru.00 <anchor 911 590> mark @markclass_0;
-	position base u-divesakuru.00 <anchor 962 367> mark @markclass_5;
-	position base uu-divesakuru.00 <anchor 1011 590> mark @markclass_0;
-	position base uu-divesakuru.00 <anchor 945 367> mark @markclass_5;
-	position base u11933 <anchor 144 540> mark @markclass_0;
-	position base u11933 <anchor 83 367> mark @markclass_5;
-	position base u11934 <anchor 264 540> mark @markclass_0;
-	position base u11934 <anchor 213 367> mark @markclass_5;
-	position base yya_vowelI-divesakuru <anchor 746 536> mark @markclass_0;
-	position base yya_vowelI-divesakuru <anchor 780 360> mark @markclass_5;
-	position base yya_medya-divesakuru <anchor 958 536> mark @markclass_0;
-	position base yya_medya-divesakuru <anchor 790 387> mark @markclass_5;
-} mark_to_abv_base;
-";
-tag = abvm;
-},
-{
-code = "script diak;
-
-lookup mark_to_blw_base {
-	markClass u11943 <anchor -355 -38> @markclass_1;
-	position base u11900 <anchor 466 -202> mark @markclass_1;
-	position base u11901 <anchor 466 -202> mark @markclass_1;
-	position base u11902 <anchor 456 -292> mark @markclass_1;
-	position base u11903 <anchor 552 -432> mark @markclass_1;
-	position base u11904 <anchor 405 -38> mark @markclass_1;
-	position base u11905 <anchor 526 590> mark @markclass_1;
-	position base u11906 <anchor 435 -38> mark @markclass_1;
-	position base u11909 <anchor 535 -38> mark @markclass_1;
-	position base u1190C <anchor 505 -276> mark @markclass_1;
-	position base u1190D <anchor 403 -38> mark @markclass_1;
-	position base u1190E <anchor 375 -38> mark @markclass_1;
-	position base u1190F <anchor 488 -38> mark @markclass_1;
-	position base u11910 <anchor 275 -38> mark @markclass_1;
-	position base u11911 <anchor 514 -38> mark @markclass_1;
-	position base u11912 <anchor 614 -138> mark @markclass_1;
-	position base u11913 <anchor 495 -38> mark @markclass_1;
-	position base u11915 <anchor 425 -138> mark @markclass_1;
-	position base u11916 <anchor 455 -38> mark @markclass_1;
-	position base u11918 <anchor 535 -38> mark @markclass_1;
-	position base u11919 <anchor 535 -38> mark @markclass_1;
-	position base u1191A <anchor 425 -38> mark @markclass_1;
-	position base u1191B <anchor 455 -276> mark @markclass_1;
-	position base u1191C <anchor 395 -38> mark @markclass_1;
-	position base u1191D <anchor 275 -38> mark @markclass_1;
-	position base u1191E <anchor 575 -38> mark @markclass_1;
-	position base u1191F <anchor 415 -38> mark @markclass_1;
-	position base u11920 <anchor 545 -38> mark @markclass_1;
-	position base u11921 <anchor 585 -277> mark @markclass_1;
-	position base u11922 <anchor 475 -38> mark @markclass_1;
-	position base u11923 <anchor 575 -277> mark @markclass_1;
-	position base u11924 <anchor 382 -38> mark @markclass_1;
-	position base u11925 <anchor 415 -38> mark @markclass_1;
-	position base u11926 <anchor 415 -38> mark @markclass_1;
-	position base u11927 <anchor 229 -38> mark @markclass_1;
-	position base u11928 <anchor 375 -38> mark @markclass_1;
-	position base u11929 <anchor 436 -38> mark @markclass_1;
-	position base u1192A <anchor 535 -38> mark @markclass_1;
-	position base u1192B <anchor 421 -38> mark @markclass_1;
-	position base u1192C <anchor 445 -38> mark @markclass_1;
-	position base u1192D <anchor 445 -38> mark @markclass_1;
-	position base u1192E <anchor 305 -248> mark @markclass_1;
-	position base u1192F <anchor 525 -38> mark @markclass_1;
-	position base u11940 <anchor 295 -138> mark @markclass_1;
-	position base u11942 <anchor -235 -328> mark @markclass_1;
-	position base ka_tha-divesakuru <anchor 829 -293> mark @markclass_1;
-	position base ka_ssa-divesakuru <anchor 929 -293> mark @markclass_1;
-	position base nga_ga-divesakuru <anchor 539 -293> mark @markclass_1;
-	position base tta_tta-divesakuru <anchor 670 -38> mark @markclass_1;
-	position base tta_va-divesakuru <anchor 889 -293> mark @markclass_1;
-	position base nna_dda-divesakuru <anchor 769 -38> mark @markclass_1;
-	position base ta_tha-divesakuru <anchor 689 -293> mark @markclass_1;
-	position base na_ta_medra-divesakuru <anchor 1239 -492> mark @markclass_1;
-	position base na_tha-divesakuru <anchor 689 -38> mark @markclass_1;
-	position base na_dha-divesakuru <anchor 799 -38> mark @markclass_1;
-	position base pa_medra-divesakuru <anchor 769 -276> mark @markclass_1;
-	position base ba_bha-divesakuru <anchor 1115 -276> mark @markclass_1;
-	position base ma_ba-divesakuru <anchor 789 -116> mark @markclass_1;
-	position base sha_medra-divesakuru <anchor 749 -276> mark @markclass_1;
-	position base ssa_tta-divesakuru <anchor 801 -38> mark @markclass_1;
-	position base sa_ta-divesakuru <anchor 969 -276> mark @markclass_1;
-	position base sa_ta_medra-divesakuru <anchor 1019 -486> mark @markclass_1;
-	position base sa_pa_medra-divesakuru <anchor 1285 -276> mark @markclass_1;
-	position base sa_va-divesakuru <anchor 899 -166> mark @markclass_1;
-	position base ya_u-divesakuru <anchor 415 -38> mark @markclass_1;
-	position base katouch-divesakuru <anchor 505 -276> mark @markclass_1;
-	position base llatouch-divesakuru <anchor 305 -248> mark @markclass_1;
-	position base matouch-divesakuru <anchor 382 -38> mark @markclass_1;
-	position base natouch-divesakuru <anchor 415 -38> mark @markclass_1;
-	position base ratouch-divesakuru <anchor 229 -38> mark @markclass_1;
-	position base tatouch-divesakuru <anchor 455 -276> mark @markclass_1;
-	position base yatouch-divesakuru <anchor 415 -38> mark @markclass_1;
-	position base ya_medya-divesakuru <anchor 815 -138> mark @markclass_1;
-	position base ya_vowelI-divesakuru <anchor 705 -238> mark @markclass_1;
-	position base ya_vowelItouch-divesakuru <anchor 705 -238> mark @markclass_1;
-	position base atouch-divesakuru <anchor 466 -202> mark @markclass_1;
-	position base etouch-divesakuru <anchor 435 -38> mark @markclass_1;
-	position base gatouch-divesakuru <anchor 375 -38> mark @markclass_1;
-	position base itouch-divesakuru <anchor 456 -292> mark @markclass_1;
-	position base patouch-divesakuru <anchor 545 -38> mark @markclass_1;
-	position base ka_medra-divesakuru <anchor 815 -308> mark @markclass_1;
-	position base ka_ra_vowelI-divesakuru <anchor 1169 -171> mark @markclass_1;
-	position base ka_vowelU-divesakuru <anchor 739 -15> mark @markclass_1;
-	position base ka_vowelUU-divesakuru <anchor 966 -353> mark @markclass_1;
-	position base da_vowelU-divesakuru <anchor 676 -353> mark @markclass_1;
-	position base dha_vowelI-divesakuru <anchor 1019 -38> mark @markclass_1;
-	position base dha_vowelII-divesakuru <anchor 1119 -138> mark @markclass_1;
-	position base dha_vowelU-divesakuru <anchor 1117 -273> mark @markclass_1;
-	position base na_dha_vowelI-divesakuru <anchor 1240 -38> mark @markclass_1;
-	position base dha_vowelII-divesakuru <anchor 1346 -138> mark @markclass_1;
-	position base dha_vowelU-divesakuru <anchor 1344 -273> mark @markclass_1;
-	position base na_vowelU-divesakuru <anchor 819 -148> mark @markclass_1;
-	position base pa_vowelI-divesakuru <anchor 840 -38> mark @markclass_1;
-	position base pa_vowelU-divesakuru <anchor 1002 -273> mark @markclass_1;
-	position base pa_vowelUU-divesakuru <anchor 1074 -273> mark @markclass_1;
-	position base ma_vowelU-divesakuru <anchor 764 -273> mark @markclass_1;
-	position base ra_vowelU-divesakuru <anchor 619 -148> mark @markclass_1;
-	position base sha_ra_vowelI-divesakuru <anchor 1104 -323> mark @markclass_1;
-	position base sa_vowelI-divesakuru <anchor 740 -38> mark @markclass_1;
-	position base sa_vowelU-divesakuru <anchor 794 -187> mark @markclass_1;
-	position base lla_vowelU-divesakuru <anchor 305 -238> mark @markclass_1;
-	position base va_va-divesakuru <anchor 811 -293> mark @markclass_1;
-	position base ta_medya-divesakuru <anchor 995 -208> mark @markclass_1;
-	position base da_medya-divesakuru <anchor 775 -208> mark @markclass_1;
-	position base dha_medya-divesakuru <anchor 1115 -98> mark @markclass_1;
-	position base sa_medya-divesakuru <anchor 815 -88> mark @markclass_1;
-	position base u11931 <anchor 83 -18> mark @markclass_1;
-	position base u11932 <anchor 103 -105> mark @markclass_1;
-	position base u-divesakuru.00 <anchor 953 -239> mark @markclass_1;
-	position base uu-divesakuru.00 <anchor 1083 -239> mark @markclass_1;
-	position base u11933 <anchor 182 -275> mark @markclass_1;
-	position base u11934 <anchor 322 -275> mark @markclass_1;
-	position base yya_vowelI-divesakuru <anchor 705 -238> mark @markclass_1;
-	position base yya_medya-divesakuru <anchor 929 -128> mark @markclass_1;
-} mark_to_blw_base;
-";
-tag = blwm;
-},
-{
-code = "script diak;
-
-lookup mark_to_base {
-	markClass u11930 <anchor -2 300> @markclass_2;
-	markClass u11933 <anchor 8 300> @markclass_7;
-	markClass u11934 <anchor 5 300> @markclass_7;
-	markClass u1193D <anchor -81 374> @markclass_4;
-	markClass u11940 <anchor -109 488> @markclass_6;
-	markClass halanta-divesakuru.00 <anchor -158 333> @markclass_4;
-	markClass halanta-divesakuru.01 <anchor -198 257> @markclass_4;
-	markClass halanta-divesakuru.02 <anchor -74 191> @markclass_4;
-	markClass halanta-divesakuru.03 <anchor -111 191> @markclass_4;
-	markClass uVowel-divesakuru.00 <anchor 8 300> @markclass_7;
-	markClass uuVowel-divesakuru.00 <anchor 5 300> @markclass_7;
-	position base u1190D <anchor 601 197> mark @markclass_4;
-	position base u1190D <anchor 670 120> mark @markclass_7;
-	position base u1190E <anchor 665 374> mark @markclass_4;
-	position base u1190F <anchor 724 320> mark @markclass_4;
-	position base u1190F <anchor 780 297> mark @markclass_7;
-	position base u11910 <anchor 447 274> mark @markclass_4;
-	position base u11910 <anchor 539 110> mark @markclass_7;
-	position base u11911 <anchor 732 380> mark @markclass_4;
-	position base u11911 <anchor 797 305> mark @markclass_7;
-	position base u11912 <anchor 1162 378> mark @markclass_4;
-	position base u11913 <anchor 559 -256> mark @markclass_4;
-	position base u11913 <anchor 708 202> mark @markclass_7;
-	position base u11916 <anchor 724 201> mark @markclass_7;
-	position base u11918 <anchor 728 333> mark @markclass_4;
-	position base u11918 <anchor 765 279> mark @markclass_7;
-	position base u11919 <anchor 712 333> mark @markclass_4;
-	position base u11919 <anchor 749 279> mark @markclass_7;
-	position base u1191A <anchor 738 380> mark @markclass_4;
-	position base u1191B <anchor 745 183> mark @markclass_7;
-	position base u1191C <anchor 509 256> mark @markclass_4;
-	position base u1191C <anchor 597 201> mark @markclass_7;
-	position base u1191D <anchor 385 383> mark @markclass_4;
-	position base u1191F <anchor 728 380> mark @markclass_4;
-	position base u1191F <anchor 718 489> mark @markclass_6;
-	position base u11920 <anchor 773 380> mark @markclass_4;
-	position base u11921 <anchor 762 382> mark @markclass_4;
-	position base u11922 <anchor 618 406> mark @markclass_7;
-	position base u11923 <anchor 699 356> mark @markclass_4;
-	position base u11923 <anchor 843 301> mark @markclass_7;
-	position base u11924 <anchor 658 300> mark @markclass_2;
-	position base u11924 <anchor 437 250> mark @markclass_4;
-	position base u11924 <anchor 622 201> mark @markclass_7;
-	position base u11925 <anchor 827 285> mark @markclass_7;
-	position base u11926 <anchor 714 350> mark @markclass_4;
-	position base u11927 <anchor 312 373> mark @markclass_4;
-	position base u11928 <anchor 585 372> mark @markclass_4;
-	position base u11928 <anchor 690 318> mark @markclass_7;
-	position base u11929 <anchor 437 257> mark @markclass_4;
-	position base u11929 <anchor 626 207> mark @markclass_7;
-	position base u1192A <anchor 688 267> mark @markclass_4;
-	position base u1192A <anchor 815 203> mark @markclass_7;
-	position base u1192B <anchor 724 206> mark @markclass_4;
-	position base u1192B <anchor 778 183> mark @markclass_7;
-	position base u1192D <anchor 783 379> mark @markclass_4;
-	position base u1192E <anchor 454 374> mark @markclass_4;
-	position base u1192F <anchor 714 333> mark @markclass_4;
-	position base u1192F <anchor 751 279> mark @markclass_7;
-	position base u11930 <anchor 254 304> mark @markclass_2;
-	position base u11940 <anchor 619 300> mark @markclass_2;
-	position base u11942 <anchor 199 300> mark @markclass_2;
-	position base ka_tha-divesakuru <anchor 1088 300> mark @markclass_2;
-	position base ka_tha-divesakuru <anchor 941 -21> mark @markclass_4;
-	position base ka_ssa-divesakuru <anchor 1200 -14> mark @markclass_4;
-	position base tta_va-divesakuru <anchor 1148 300> mark @markclass_2;
-	position base tta_va-divesakuru <anchor 907 -4> mark @markclass_4;
-	position base ta_tha-divesakuru <anchor 938 300> mark @markclass_2;
-	position base ta_tha-divesakuru <anchor 774-9> mark @markclass_4;
-	position base katouch-divesakuru <anchor 938 300> mark @markclass_2;
-	position base llatouch-divesakuru <anchor 454 374> mark @markclass_4;
-	position base matouch-divesakuru <anchor 658 300> mark @markclass_2;
-	position base matouch-divesakuru <anchor 437 250> mark @markclass_4;
-	position base natouch-divesakuru <anchor 728 380> mark @markclass_4;
-	position base natouch-divesakuru <anchor 718 489> mark @markclass_6;
-	position base ratouch-divesakuru <anchor 312 373> mark @markclass_4;
-	position base ya_medya-divesakuru <anchor 1247 300> mark @markclass_2;
-	position base atouch-divesakuru <anchor 792 304> mark @markclass_2;
-	position base gatouch-divesakuru <anchor 665 374> mark @markclass_4;
-	position base patouch-divesakuru <anchor 773 380> mark @markclass_4;
-	position base va_va-divesakuru <anchor 1070 300> mark @markclass_2;
-	position base va_va-divesakuru <anchor 831 -4> mark @markclass_4;
-	position base ba_bha-divesakuru <anchor 1225 356> mark @markclass_4;
-	position base nga_ga-divesakuru <anchor 615 187> mark @markclass_4;
-	position base na_tha-divesakuru <anchor 797 246> mark @markclass_4;
-} mark_to_base;
-";
-tag = mark;
-},
-{
-code = "script diak;
-
-lookup stack_top {
-	lookupflag MarkAttachmentType @markclass_0;
-	position mark u11941 <anchor 0 860> mark @markclass_0;
-} stack_top;
-";
-tag = mkmk;
-},
-{
-code = "script diak;
-
 lookup distances {
 	position u1190E gatouch-divesakuru <0 0 -227 0>;
 	position u11924 matouch-divesakuru <0 0 -257 0>;
@@ -998,6 +520,31 @@ lookup distances {
 } distances;
 ";
 tag = dist;
+},
+{
+code = "# Automatic Code Start
+";
+tag = abvm;
+},
+{
+code = "# Automatic Code Start
+";
+tag = blwm;
+},
+{
+code = "# Automatic Code Start
+";
+tag = dist;
+},
+{
+code = "# Automatic Code Start
+";
+tag = mark;
+},
+{
+code = "# Automatic Code Start
+";
+tag = mkmk;
 }
 );
 fontMaster = (
@@ -1129,6 +676,22 @@ lastChange = "2022-02-03 14:16:54 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (576,590);
+},
+{
+name = Anchor3;
+pos = (707,366);
+},
+{
+name = Anchor4;
+pos = (252,607);
+},
+{
+name = Anchor6;
+pos = (466,-202);
+},
 {
 name = bottom;
 pos = (466,-202);
@@ -1280,6 +843,14 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (961,536);
+},
+{
+name = Anchor6;
+pos = (466,-202);
+},
+{
 name = bottom;
 pos = (466,-202);
 },
@@ -1328,6 +899,22 @@ lastChange = "2022-02-03 14:17:09 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (472,590);
+},
+{
+name = Anchor3;
+pos = (617,334);
+},
+{
+name = Anchor4;
+pos = (136,607);
+},
+{
+name = Anchor6;
+pos = (456,-292);
+},
 {
 name = bottom;
 pos = (456,-292);
@@ -1437,6 +1024,22 @@ lastChange = "2022-02-03 14:17:29 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (776,590);
+},
+{
+name = Anchor3;
+pos = (836,274);
+},
+{
+name = Anchor4;
+pos = (136,607);
+},
+{
+name = Anchor6;
+pos = (552,-432);
+},
 {
 name = bottom;
 pos = (552,-432);
@@ -1596,6 +1199,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (516,590);
+},
+{
+name = Anchor4;
+pos = (343,543);
+},
+{
+name = Anchor6;
+pos = (405,-38);
+},
+{
 name = bottom;
 pos = (405,-38);
 },
@@ -1685,6 +1300,18 @@ lastChange = "2022-02-03 14:07:37 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (526,590);
+},
+{
+name = Anchor4;
+pos = (343,543);
+},
+{
+name = Anchor6;
+pos = (526,590);
+},
 {
 name = bottom;
 pos = (405,-38);
@@ -1794,6 +1421,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (566,590);
+},
+{
+name = Anchor4;
+pos = (367,543);
+},
+{
+name = Anchor6;
+pos = (435,-38);
+},
+{
 name = bottom;
 pos = (435,-38);
 },
@@ -1893,6 +1532,18 @@ lastChange = "2022-02-03 14:14:10 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (586,590);
+},
+{
+name = Anchor4;
+pos = (257,537);
+},
+{
+name = Anchor6;
+pos = (535,-38);
+},
 {
 name = bottom;
 pos = (535,-38);
@@ -2041,6 +1692,22 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (532,653);
+},
+{
+name = Anchor3;
+pos = (674,495);
+},
+{
+name = Anchor4;
+pos = (534,551);
+},
+{
+name = Anchor6;
+pos = (505,-276);
+},
+{
 name = bottom;
 pos = (505,-276);
 },
@@ -2164,6 +1831,30 @@ layers = (
 {
 anchors = (
 {
+name = Anchor10;
+pos = (670,120);
+},
+{
+name = Anchor11;
+pos = (601,197);
+},
+{
+name = Anchor2;
+pos = (454,590);
+},
+{
+name = Anchor3;
+pos = (372,494);
+},
+{
+name = Anchor4;
+pos = (312,537);
+},
+{
+name = Anchor6;
+pos = (403,-38);
+},
+{
 name = bottom;
 pos = (403,-38);
 },
@@ -2276,6 +1967,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor11;
+pos = (665,374);
+},
+{
+name = Anchor2;
+pos = (144,714);
+},
+{
+name = Anchor6;
+pos = (375,-38);
+},
+{
 name = bottom;
 pos = (375,-38);
 },
@@ -2350,6 +2053,26 @@ lastChange = "2022-02-07 14:33:42 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor10;
+pos = (780,297);
+},
+{
+name = Anchor11;
+pos = (724,320);
+},
+{
+name = Anchor2;
+pos = (539,590);
+},
+{
+name = Anchor4;
+pos = (340,543);
+},
+{
+name = Anchor6;
+pos = (488,-38);
+},
 {
 name = bottom;
 pos = (488,-38);
@@ -2474,6 +2197,26 @@ layers = (
 {
 anchors = (
 {
+name = Anchor10;
+pos = (539,110);
+},
+{
+name = Anchor11;
+pos = (447,274);
+},
+{
+name = Anchor2;
+pos = (296,590);
+},
+{
+name = Anchor4;
+pos = (259,547);
+},
+{
+name = Anchor6;
+pos = (275,-38);
+},
+{
 name = bottom;
 pos = (275,-38);
 },
@@ -2583,6 +2326,26 @@ layers = (
 {
 anchors = (
 {
+name = Anchor10;
+pos = (797,305);
+},
+{
+name = Anchor11;
+pos = (732,380);
+},
+{
+name = Anchor2;
+pos = (535,590);
+},
+{
+name = Anchor4;
+pos = (346,543);
+},
+{
+name = Anchor6;
+pos = (514,-38);
+},
+{
 name = bottom;
 pos = (514,-38);
 },
@@ -2676,6 +2439,22 @@ lastChange = "2022-02-03 13:22:38 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (1162,378);
+},
+{
+name = Anchor2;
+pos = (515,590);
+},
+{
+name = Anchor4;
+pos = (347,543);
+},
+{
+name = Anchor6;
+pos = (614,-138);
+},
 {
 name = bottom;
 pos = (614,-138);
@@ -2821,6 +2600,26 @@ layers = (
 {
 anchors = (
 {
+name = Anchor10;
+pos = (708,202);
+},
+{
+name = Anchor11;
+pos = (559,-256);
+},
+{
+name = Anchor2;
+pos = (516,590);
+},
+{
+name = Anchor4;
+pos = (342,543);
+},
+{
+name = Anchor6;
+pos = (495,-38);
+},
+{
 name = bottom;
 pos = (495,-38);
 },
@@ -2927,6 +2726,22 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (446,590);
+},
+{
+name = Anchor3;
+pos = (620,494);
+},
+{
+name = Anchor4;
+pos = (350,543);
+},
+{
+name = Anchor6;
+pos = (425,-138);
+},
+{
 name = bottom;
 pos = (425,-138);
 },
@@ -3020,6 +2835,22 @@ layers = (
 {
 anchors = (
 {
+name = Anchor10;
+pos = (724,201);
+},
+{
+name = Anchor2;
+pos = (476,590);
+},
+{
+name = Anchor4;
+pos = (270,543);
+},
+{
+name = Anchor6;
+pos = (455,-38);
+},
+{
 name = bottom;
 pos = (455,-38);
 },
@@ -3109,6 +2940,26 @@ lastChange = "2022-02-07 14:36:18 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor10;
+pos = (765,279);
+},
+{
+name = Anchor11;
+pos = (728,333);
+},
+{
+name = Anchor2;
+pos = (556,590);
+},
+{
+name = Anchor4;
+pos = (341,543);
+},
+{
+name = Anchor6;
+pos = (535,-38);
+},
 {
 name = bottom;
 pos = (535,-38);
@@ -3220,6 +3071,26 @@ lastChange = "2022-02-07 14:36:38 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor10;
+pos = (749,279);
+},
+{
+name = Anchor11;
+pos = (712,333);
+},
+{
+name = Anchor2;
+pos = (556,590);
+},
+{
+name = Anchor4;
+pos = (260,543);
+},
+{
+name = Anchor6;
+pos = (535,-38);
+},
 {
 name = bottom;
 pos = (535,-38);
@@ -3347,6 +3218,22 @@ layers = (
 {
 anchors = (
 {
+name = Anchor11;
+pos = (738,380);
+},
+{
+name = Anchor2;
+pos = (446,590);
+},
+{
+name = Anchor4;
+pos = (350,543);
+},
+{
+name = Anchor6;
+pos = (425,-38);
+},
+{
 name = bottom;
 pos = (425,-38);
 },
@@ -3457,6 +3344,22 @@ layers = (
 {
 anchors = (
 {
+name = Anchor10;
+pos = (745,183);
+},
+{
+name = Anchor2;
+pos = (476,590);
+},
+{
+name = Anchor4;
+pos = (310,543);
+},
+{
+name = Anchor6;
+pos = (455,-276);
+},
+{
 name = bottom;
 pos = (455,-276);
 },
@@ -3542,6 +3445,30 @@ lastChange = "2022-02-07 14:37:55 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor10;
+pos = (597,201);
+},
+{
+name = Anchor11;
+pos = (509,256);
+},
+{
+name = Anchor2;
+pos = (416,590);
+},
+{
+name = Anchor3;
+pos = (300,492);
+},
+{
+name = Anchor4;
+pos = (292,536);
+},
+{
+name = Anchor6;
+pos = (395,-38);
+},
 {
 name = bottom;
 pos = (395,-38);
@@ -3647,6 +3574,26 @@ layers = (
 {
 anchors = (
 {
+name = Anchor11;
+pos = (385,383);
+},
+{
+name = Anchor2;
+pos = (296,590);
+},
+{
+name = Anchor3;
+pos = (319,495);
+},
+{
+name = Anchor4;
+pos = (252,546);
+},
+{
+name = Anchor6;
+pos = (275,-38);
+},
+{
 name = bottom;
 pos = (275,-38);
 },
@@ -3736,6 +3683,18 @@ lastChange = "2022-02-03 14:45:22 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (596,590);
+},
+{
+name = Anchor4;
+pos = (262,536);
+},
+{
+name = Anchor6;
+pos = (575,-38);
+},
 {
 name = bottom;
 pos = (575,-38);
@@ -3866,6 +3825,26 @@ layers = (
 {
 anchors = (
 {
+name = Anchor11;
+pos = (728,380);
+},
+{
+name = Anchor2;
+pos = (416,590);
+},
+{
+name = Anchor3;
+pos = (589,494);
+},
+{
+name = Anchor4;
+pos = (330,543);
+},
+{
+name = Anchor6;
+pos = (415,-38);
+},
+{
 name = bottom;
 pos = (415,-38);
 },
@@ -3954,6 +3933,22 @@ lastChange = "2022-02-03 14:45:31 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (773,380);
+},
+{
+name = Anchor2;
+pos = (566,590);
+},
+{
+name = Anchor4;
+pos = (262,536);
+},
+{
+name = Anchor6;
+pos = (545,-38);
+},
 {
 name = bottom;
 pos = (545,-38);
@@ -4059,6 +4054,26 @@ lastChange = "2022-02-07 13:33:11 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (762,382);
+},
+{
+name = Anchor2;
+pos = (606,590);
+},
+{
+name = Anchor3;
+pos = (737,343);
+},
+{
+name = Anchor4;
+pos = (252,536);
+},
+{
+name = Anchor6;
+pos = (585,-277);
+},
 {
 name = bottom;
 pos = (585,-277);
@@ -4194,6 +4209,26 @@ layers = (
 {
 anchors = (
 {
+name = Anchor10;
+pos = (618,406);
+},
+{
+name = Anchor2;
+pos = (496,590);
+},
+{
+name = Anchor3;
+pos = (547,437);
+},
+{
+name = Anchor4;
+pos = (246,536);
+},
+{
+name = Anchor6;
+pos = (475,-38);
+},
+{
 name = bottom;
 pos = (475,-38);
 },
@@ -4301,6 +4336,30 @@ lastChange = "2022-02-07 14:38:45 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor10;
+pos = (843,301);
+},
+{
+name = Anchor11;
+pos = (699,356);
+},
+{
+name = Anchor2;
+pos = (596,590);
+},
+{
+name = Anchor3;
+pos = (669,312);
+},
+{
+name = Anchor4;
+pos = (242,536);
+},
+{
+name = Anchor6;
+pos = (575,-277);
+},
 {
 name = bottom;
 pos = (575,-276);
@@ -4432,6 +4491,34 @@ layers = (
 {
 anchors = (
 {
+name = Anchor10;
+pos = (622,201);
+},
+{
+name = Anchor11;
+pos = (437,250);
+},
+{
+name = Anchor2;
+pos = (486,590);
+},
+{
+name = Anchor3;
+pos = (325,493);
+},
+{
+name = Anchor4;
+pos = (262,536);
+},
+{
+name = Anchor6;
+pos = (382,-38);
+},
+{
+name = Anchor9;
+pos = (658,300);
+},
+{
 name = bottom;
 pos = (382,-38);
 },
@@ -4559,6 +4646,22 @@ layers = (
 {
 anchors = (
 {
+name = Anchor10;
+pos = (827,285);
+},
+{
+name = Anchor2;
+pos = (436,590);
+},
+{
+name = Anchor4;
+pos = (292,536);
+},
+{
+name = Anchor6;
+pos = (415,-38);
+},
+{
 name = bottom;
 pos = (415,-38);
 },
@@ -4646,6 +4749,26 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (276,590);
+},
+{
+name = Anchor3;
+pos = (354,495);
+},
+{
+name = Anchor4;
+pos = (152,495);
+},
+{
+name = Anchor6;
+pos = (295,-138);
+},
+{
+name = Anchor9;
+pos = (619,300);
+},
+{
 name = _medya;
 pos = (-109,488);
 },
@@ -4730,6 +4853,22 @@ lastChange = "2022-02-03 13:25:39 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (714,350);
+},
+{
+name = Anchor2;
+pos = (436,590);
+},
+{
+name = Anchor4;
+pos = (432,316);
+},
+{
+name = Anchor6;
+pos = (415,-38);
+},
 {
 name = bottom;
 pos = (415,-38);
@@ -4817,6 +4956,26 @@ layers = (
 {
 anchors = (
 {
+name = Anchor11;
+pos = (312,373);
+},
+{
+name = Anchor2;
+pos = (250,590);
+},
+{
+name = Anchor3;
+pos = (182,383);
+},
+{
+name = Anchor4;
+pos = (182,467);
+},
+{
+name = Anchor6;
+pos = (229,-38);
+},
+{
 name = bottom;
 pos = (229,-38);
 },
@@ -4884,6 +5043,26 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (-58,653);
+},
+{
+name = Anchor3;
+pos = (-52,422);
+},
+{
+name = Anchor4;
+pos = (-52,467);
+},
+{
+name = Anchor6;
+pos = (-235,-328);
+},
+{
+name = Anchor9;
+pos = (199,300);
+},
+{
 name = bottom;
 pos = (-235,-328);
 },
@@ -4945,6 +5124,26 @@ lastChange = "2022-02-07 14:40:26 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor10;
+pos = (690,318);
+},
+{
+name = Anchor11;
+pos = (585,372);
+},
+{
+name = Anchor2;
+pos = (396,590);
+},
+{
+name = Anchor4;
+pos = (228,390);
+},
+{
+name = Anchor6;
+pos = (375,-38);
+},
 {
 name = bottom;
 pos = (375,-38);
@@ -5040,6 +5239,30 @@ lastChange = "2022-02-07 14:40:46 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor10;
+pos = (626,207);
+},
+{
+name = Anchor11;
+pos = (437,257);
+},
+{
+name = Anchor2;
+pos = (456,590);
+},
+{
+name = Anchor3;
+pos = (336,485);
+},
+{
+name = Anchor4;
+pos = (348,543);
+},
+{
+name = Anchor6;
+pos = (436,-38);
+},
 {
 name = bottom;
 pos = (435,-38);
@@ -5148,6 +5371,30 @@ lastChange = "2022-02-07 14:40:58 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor10;
+pos = (815,203);
+},
+{
+name = Anchor11;
+pos = (688,267);
+},
+{
+name = Anchor2;
+pos = (556,590);
+},
+{
+name = Anchor3;
+pos = (716,219);
+},
+{
+name = Anchor4;
+pos = (292,543);
+},
+{
+name = Anchor6;
+pos = (535,-38);
+},
 {
 name = bottom;
 pos = (535,-38);
@@ -5299,6 +5546,30 @@ layers = (
 {
 anchors = (
 {
+name = Anchor10;
+pos = (778,183);
+},
+{
+name = Anchor11;
+pos = (724,206);
+},
+{
+name = Anchor2;
+pos = (442,590);
+},
+{
+name = Anchor3;
+pos = (663,503);
+},
+{
+name = Anchor4;
+pos = (292,543);
+},
+{
+name = Anchor6;
+pos = (421,-38);
+},
+{
 name = bottom;
 pos = (421,-38);
 },
@@ -5443,6 +5714,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (466,590);
+},
+{
+name = Anchor4;
+pos = (260,541);
+},
+{
+name = Anchor6;
+pos = (445,-38);
+},
+{
 name = bottom;
 pos = (445,-38);
 },
@@ -5538,6 +5821,26 @@ lastChange = "2022-02-03 13:27:22 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (783,379);
+},
+{
+name = Anchor2;
+pos = (466,590);
+},
+{
+name = Anchor3;
+pos = (581,495);
+},
+{
+name = Anchor4;
+pos = (382,543);
+},
+{
+name = Anchor6;
+pos = (445,-38);
+},
 {
 name = bottom;
 pos = (445,-38);
@@ -5642,6 +5945,22 @@ lastChange = "2022-02-03 13:28:16 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (454,374);
+},
+{
+name = Anchor2;
+pos = (326,590);
+},
+{
+name = Anchor4;
+pos = (259,547);
+},
+{
+name = Anchor6;
+pos = (305,-248);
+},
 {
 name = bottom;
 pos = (305,-248);
@@ -5762,6 +6081,26 @@ layers = (
 {
 anchors = (
 {
+name = Anchor10;
+pos = (751,279);
+},
+{
+name = Anchor11;
+pos = (714,333);
+},
+{
+name = Anchor2;
+pos = (546,590);
+},
+{
+name = Anchor4;
+pos = (335,535);
+},
+{
+name = Anchor6;
+pos = (525,-38);
+},
+{
 name = bottom;
 pos = (525,-38);
 },
@@ -5880,6 +6219,22 @@ lastChange = "2022-02-03 18:10:45 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (941,-21);
+},
+{
+name = Anchor2;
+pos = (835,590);
+},
+{
+name = Anchor6;
+pos = (829,-293);
+},
+{
+name = Anchor9;
+pos = (1088,300);
+},
 {
 name = bottom;
 pos = (829,-293);
@@ -6023,6 +6378,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (1121,714);
+},
+{
+name = Anchor4;
+pos = (1025,633);
+},
+{
+name = Anchor6;
+pos = (1169,-171);
+},
+{
 name = bottom;
 pos = (1169,-171);
 },
@@ -6076,6 +6443,18 @@ lastChange = "2022-02-03 18:07:47 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (1200,-14);
+},
+{
+name = Anchor2;
+pos = (925,590);
+},
+{
+name = Anchor6;
+pos = (929,-293);
+},
 {
 name = bottom;
 pos = (929,-293);
@@ -6251,6 +6630,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (842,653);
+},
+{
+name = Anchor4;
+pos = (805,564);
+},
+{
+name = Anchor6;
+pos = (815,-308);
+},
+{
 name = bottom;
 pos = (815,-308);
 },
@@ -6318,6 +6709,18 @@ lastChange = "2022-02-03 17:09:40 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (691,714);
+},
+{
+name = Anchor4;
+pos = (534,551);
+},
+{
+name = Anchor6;
+pos = (739,-15);
+},
 {
 name = bottom;
 pos = (739,-15);
@@ -6439,6 +6842,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (962,536);
+},
+{
+name = Anchor4;
+pos = (534,551);
+},
+{
+name = Anchor6;
+pos = (966,-353);
+},
+{
 name = bottom;
 pos = (966,-353);
 },
@@ -6498,6 +6913,18 @@ lastChange = "2022-02-03 18:09:34 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (615,187);
+},
+{
+name = Anchor2;
+pos = (565,590);
+},
+{
+name = Anchor6;
+pos = (539,-293);
+},
 {
 name = bottom;
 pos = (539,-293);
@@ -6638,6 +7065,14 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (671,590);
+},
+{
+name = Anchor6;
+pos = (670,-38);
+},
+{
 name = bottom;
 pos = (670,-38);
 },
@@ -6743,6 +7178,22 @@ lastChange = "2022-02-03 18:09:49 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (907,-4);
+},
+{
+name = Anchor2;
+pos = (915,590);
+},
+{
+name = Anchor6;
+pos = (889,-293);
+},
+{
+name = Anchor9;
+pos = (1148,300);
+},
 {
 name = bottom;
 pos = (889,-293);
@@ -6881,6 +7332,14 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (795,590);
+},
+{
+name = Anchor6;
+pos = (769,-38);
+},
+{
 name = bottom;
 pos = (769,-38);
 },
@@ -7013,6 +7472,22 @@ layers = (
 {
 anchors = (
 {
+name = Anchor11;
+pos = (774,-9);
+},
+{
+name = Anchor2;
+pos = (695,590);
+},
+{
+name = Anchor6;
+pos = (689,-293);
+},
+{
+name = Anchor9;
+pos = (938,300);
+},
+{
 name = bottom;
 pos = (689,-293);
 },
@@ -7121,6 +7596,22 @@ lastChange = "2022-02-03 16:39:14 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (846,536);
+},
+{
+name = Anchor3;
+pos = (1016,495);
+},
+{
+name = Anchor4;
+pos = (815,292);
+},
+{
+name = Anchor6;
+pos = (995,-208);
+},
 {
 name = bottom;
 pos = (995,-208);
@@ -7255,6 +7746,22 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (627,536);
+},
+{
+name = Anchor3;
+pos = (766,495);
+},
+{
+name = Anchor4;
+pos = (625,252);
+},
+{
+name = Anchor6;
+pos = (775,-208);
+},
+{
 name = bottom;
 pos = (775,-208);
 },
@@ -7388,6 +7895,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (672,536);
+},
+{
+name = Anchor4;
+pos = (635,199);
+},
+{
+name = Anchor6;
+pos = (676,-353);
+},
+{
 name = bottom;
 pos = (676,-353);
 },
@@ -7499,6 +8018,22 @@ lastChange = "2022-02-03 16:43:32 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (1019,536);
+},
+{
+name = Anchor3;
+pos = (1138,495);
+},
+{
+name = Anchor4;
+pos = (953,401);
+},
+{
+name = Anchor6;
+pos = (1115,-98);
+},
 {
 name = bottom;
 pos = (1115,-98);
@@ -7680,6 +8215,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (971,714);
+},
+{
+name = Anchor4;
+pos = (932,622);
+},
+{
+name = Anchor6;
+pos = (1019,-38);
+},
+{
 name = bottom;
 pos = (1019,-38);
 },
@@ -7831,6 +8378,18 @@ lastChange = "2022-02-03 17:11:22 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (1071,714);
+},
+{
+name = Anchor4;
+pos = (1035,662);
+},
+{
+name = Anchor6;
+pos = (1346,-138);
+},
 {
 name = bottom;
 pos = (1119,-138);
@@ -8008,6 +8567,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (1092,536);
+},
+{
+name = Anchor4;
+pos = (1046,367);
+},
+{
+name = Anchor6;
+pos = (1344,-273);
+},
+{
 name = bottom;
 pos = (1117,-273);
 },
@@ -8161,6 +8732,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (1445,590);
+},
+{
+name = Anchor4;
+pos = (1405,264);
+},
+{
+name = Anchor6;
+pos = (1239,-492);
+},
+{
 name = bottom;
 pos = (1229,-492);
 },
@@ -8224,6 +8807,18 @@ lastChange = "2022-02-03 18:10:59 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (797,246);
+},
+{
+name = Anchor2;
+pos = (715,590);
+},
+{
+name = Anchor6;
+pos = (689,-38);
+},
 {
 name = bottom;
 pos = (689,-38);
@@ -8320,6 +8915,14 @@ lastChange = "2022-01-28 16:15:27 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (825,590);
+},
+{
+name = Anchor6;
+pos = (799,-38);
+},
 {
 name = bottom;
 pos = (799,-38);
@@ -8430,6 +9033,18 @@ lastChange = "2022-02-03 17:11:49 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (1192,714);
+},
+{
+name = Anchor4;
+pos = (1157,622);
+},
+{
+name = Anchor6;
+pos = (1240,-38);
+},
 {
 name = bottom;
 pos = (1240,-38);
@@ -8568,6 +9183,14 @@ lastChange = "2022-02-03 17:11:58 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (1298,714);
+},
+{
+name = Anchor4;
+pos = (1225,655);
+},
 {
 name = bottom;
 pos = (1346,-138);
@@ -8731,6 +9354,14 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (1319,536);
+},
+{
+name = Anchor4;
+pos = (1264,363);
+},
+{
 name = bottom;
 pos = (1344,-273);
 },
@@ -8870,6 +9501,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (752,653);
+},
+{
+name = Anchor4;
+pos = (652,542);
+},
+{
+name = Anchor6;
+pos = (819,-148);
+},
+{
 name = bottom;
 pos = (819,-148);
 },
@@ -8947,6 +9590,18 @@ lastChange = "2022-02-03 16:07:25 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (885,590);
+},
+{
+name = Anchor4;
+pos = (845,370);
+},
+{
+name = Anchor6;
+pos = (769,-276);
+},
 {
 name = bottom;
 pos = (769,-276);
@@ -9175,6 +9830,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (792,714);
+},
+{
+name = Anchor4;
+pos = (755,622);
+},
+{
+name = Anchor6;
+pos = (840,-38);
+},
+{
 name = bottom;
 pos = (840,-38);
 },
@@ -9299,6 +9966,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (977,536);
+},
+{
+name = Anchor4;
+pos = (932,370);
+},
+{
+name = Anchor6;
+pos = (1002,-273);
+},
+{
 name = bottom;
 pos = (1002,-273);
 },
@@ -9358,6 +10037,18 @@ lastChange = "2022-02-03 17:13:51 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (1049,536);
+},
+{
+name = Anchor4;
+pos = (992,372);
+},
+{
+name = Anchor6;
+pos = (1074,-273);
+},
 {
 name = bottom;
 pos = (1074,-273);
@@ -9437,6 +10128,18 @@ lastChange = "2022-02-03 18:12:32 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (1225,356);
+},
+{
+name = Anchor2;
+pos = (1175,590);
+},
+{
+name = Anchor6;
+pos = (1115,-276);
+},
 {
 name = bottom;
 pos = (1115,-276);
@@ -9586,6 +10289,14 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (805,590);
+},
+{
+name = Anchor6;
+pos = (789,-116);
+},
+{
 name = bottom;
 pos = (789,-116);
 },
@@ -9722,6 +10433,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (742,536);
+},
+{
+name = Anchor4;
+pos = (708,251);
+},
+{
+name = Anchor6;
+pos = (764,-273);
+},
+{
 name = bottom;
 pos = (764,-273);
 },
@@ -9848,6 +10571,26 @@ lastChange = "2022-02-03 16:07:48 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (436,590);
+},
+{
+name = Anchor3;
+pos = (982,495);
+},
+{
+name = Anchor4;
+pos = (822,398);
+},
+{
+name = Anchor6;
+pos = (815,-138);
+},
+{
+name = Anchor9;
+pos = (1247,300);
+},
 {
 name = bottom;
 pos = (915,-128);
@@ -9982,6 +10725,14 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (746,536);
+},
+{
+name = Anchor6;
+pos = (705,-238);
+},
+{
 name = bottom;
 pos = (705,-238);
 },
@@ -10083,6 +10834,18 @@ lastChange = "2022-02-03 17:13:32 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (911,590);
+},
+{
+name = Anchor4;
+pos = (962,367);
+},
+{
+name = Anchor6;
+pos = (953,-239);
+},
 {
 name = bottom;
 pos = (953,-239);
@@ -10189,6 +10952,18 @@ lastChange = "2022-02-03 17:13:23 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (1011,590);
+},
+{
+name = Anchor4;
+pos = (945,367);
+},
+{
+name = Anchor6;
+pos = (1083,-239);
+},
 {
 name = bottom;
 pos = (1083,-239);
@@ -10314,6 +11089,18 @@ lastChange = "2022-02-03 18:31:54 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (958,536);
+},
+{
+name = Anchor4;
+pos = (790,387);
+},
+{
+name = Anchor6;
+pos = (929,-128);
+},
 {
 name = bottom;
 pos = (929,-128);
@@ -10541,6 +11328,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (746,536);
+},
+{
+name = Anchor4;
+pos = (780,360);
+},
+{
+name = Anchor6;
+pos = (705,-238);
+},
+{
 name = bottom;
 pos = (705,-238);
 },
@@ -10647,6 +11446,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (552,653);
+},
+{
+name = Anchor4;
+pos = (440,510);
+},
+{
+name = Anchor6;
+pos = (619,-148);
+},
+{
 name = bottom;
 pos = (619,-148);
 },
@@ -10729,6 +11540,22 @@ lastChange = "2022-02-03 15:46:22 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (831,-4);
+},
+{
+name = Anchor2;
+pos = (837,590);
+},
+{
+name = Anchor6;
+pos = (811,-293);
+},
+{
+name = Anchor9;
+pos = (1070,300);
+},
 {
 name = bottom;
 pos = (811,-293);
@@ -10870,6 +11697,18 @@ lastChange = "2022-02-03 17:12:57 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (1072,536);
+},
+{
+name = Anchor4;
+pos = (1031,340);
+},
+{
+name = Anchor6;
+pos = (1104,-323);
+},
 {
 name = bottom;
 pos = (1104,-323);
@@ -11034,6 +11873,22 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (865,590);
+},
+{
+name = Anchor3;
+pos = (814,229);
+},
+{
+name = Anchor4;
+pos = (896,265);
+},
+{
+name = Anchor6;
+pos = (749,-276);
+},
+{
 name = bottom;
 pos = (749,-276);
 },
@@ -11176,6 +12031,14 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (822,590);
+},
+{
+name = Anchor6;
+pos = (801,-38);
+},
+{
 name = bottom;
 pos = (801,-38);
 },
@@ -11308,6 +12171,14 @@ lastChange = "2022-01-28 16:15:27 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (990,590);
+},
+{
+name = Anchor6;
+pos = (969,-276);
+},
 {
 name = bottom;
 pos = (969,-276);
@@ -11458,6 +12329,18 @@ lastChange = "2022-04-25 13:28:11 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (1140,590);
+},
+{
+name = Anchor4;
+pos = (1175,264);
+},
+{
+name = Anchor6;
+pos = (1019,-486);
+},
 {
 name = bottom;
 pos = (1019,-486);
@@ -11643,6 +12526,18 @@ lastChange = "2022-02-03 16:08:38 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (1406,590);
+},
+{
+name = Anchor4;
+pos = (1417,368);
+},
+{
+name = Anchor6;
+pos = (1285,-276);
+},
 {
 name = bottom;
 pos = (1285,-276);
@@ -11838,6 +12733,14 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (930,590);
+},
+{
+name = Anchor6;
+pos = (899,-166);
+},
+{
 name = bottom;
 pos = (899,-166);
 },
@@ -11972,6 +12875,22 @@ lastChange = "2022-02-03 16:50:14 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (739,590);
+},
+{
+name = Anchor3;
+pos = (869,495);
+},
+{
+name = Anchor4;
+pos = (715,466);
+},
+{
+name = Anchor6;
+pos = (815,-88);
+},
 {
 name = bottom;
 pos = (815,-88);
@@ -12120,6 +13039,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (692,714);
+},
+{
+name = Anchor4;
+pos = (665,622);
+},
+{
+name = Anchor6;
+pos = (740,-38);
+},
+{
 name = bottom;
 pos = (740,-38);
 },
@@ -12244,6 +13175,18 @@ lastChange = "2022-02-03 17:14:01 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (772,653);
+},
+{
+name = Anchor4;
+pos = (735,456);
+},
+{
+name = Anchor6;
+pos = (794,-187);
+},
 {
 name = bottom;
 pos = (794,-187);
@@ -12370,6 +13313,14 @@ lastChange = "2022-02-02 19:15:04 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (326,590);
+},
+{
+name = Anchor6;
+pos = (305,-238);
+},
 {
 name = bottom;
 pos = (305,-238);
@@ -13297,6 +14248,10 @@ lastChange = "2022-02-02 17:15:13 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor6;
+pos = (415,-38);
+},
 {
 name = bottom;
 pos = (415,-38);
@@ -14326,6 +15281,22 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (707,366);
+},
+{
+name = Anchor3;
+pos = (707,366);
+},
+{
+name = Anchor6;
+pos = (466,-202);
+},
+{
+name = Anchor9;
+pos = (792,304);
+},
+{
 name = bottom;
 pos = (466,-202);
 },
@@ -14471,6 +15442,14 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (566,590);
+},
+{
+name = Anchor6;
+pos = (435,-38);
+},
+{
 name = bottom;
 pos = (435,-38);
 },
@@ -14566,6 +15545,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor11;
+pos = (665,374);
+},
+{
+name = Anchor2;
+pos = (90,590);
+},
+{
+name = Anchor6;
+pos = (375,-38);
+},
+{
 name = bottom;
 pos = (375,-38);
 },
@@ -14643,6 +15634,14 @@ lastChange = "2022-02-03 16:13:10 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor3;
+pos = (617,334);
+},
+{
+name = Anchor6;
+pos = (456,-292);
+},
 {
 name = bottom;
 pos = (456,-292);
@@ -14747,6 +15746,22 @@ lastChange = "2022-02-03 16:14:57 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (532,653);
+},
+{
+name = Anchor3;
+pos = (674,495);
+},
+{
+name = Anchor6;
+pos = (505,-276);
+},
+{
+name = Anchor9;
+pos = (938,300);
+},
 {
 name = bottom;
 pos = (505,-276);
@@ -14866,6 +15881,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor11;
+pos = (773,380);
+},
+{
+name = Anchor2;
+pos = (566,590);
+},
+{
+name = Anchor6;
+pos = (545,-38);
+},
+{
 name = bottom;
 pos = (545,-38);
 },
@@ -14965,6 +15992,18 @@ lastChange = "2022-01-28 16:15:27 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (454,374);
+},
+{
+name = Anchor2;
+pos = (326,590);
+},
+{
+name = Anchor6;
+pos = (305,-248);
+},
 {
 name = bottom;
 pos = (305,-248);
@@ -15075,6 +16114,22 @@ lastChange = "2022-02-03 12:37:48 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor11;
+pos = (437,250);
+},
+{
+name = Anchor2;
+pos = (60,590);
+},
+{
+name = Anchor6;
+pos = (382,-38);
+},
+{
+name = Anchor9;
+pos = (658,300);
+},
 {
 name = bottom;
 pos = (388,-38);
@@ -15190,6 +16245,22 @@ layers = (
 {
 anchors = (
 {
+name = Anchor11;
+pos = (728,380);
+},
+{
+name = Anchor2;
+pos = (416,590);
+},
+{
+name = Anchor3;
+pos = (589,494);
+},
+{
+name = Anchor6;
+pos = (415,-38);
+},
+{
 name = bottom;
 pos = (415,-38);
 },
@@ -15270,6 +16341,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor11;
+pos = (312,373);
+},
+{
+name = Anchor2;
+pos = (250,590);
+},
+{
+name = Anchor6;
+pos = (229,-38);
+},
+{
 name = bottom;
 pos = (229,-38);
 },
@@ -15322,6 +16405,14 @@ lastChange = "2022-02-02 17:00:41 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (476,590);
+},
+{
+name = Anchor6;
+pos = (455,-276);
+},
 {
 name = bottom;
 pos = (455,-276);
@@ -15399,6 +16490,14 @@ lastChange = "2022-02-02 09:49:18 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (436,590);
+},
+{
+name = Anchor6;
+pos = (415,-38);
+},
 {
 name = bottom;
 pos = (415,-38);
@@ -15549,6 +16648,14 @@ lastChange = "2022-04-27 14:39:17 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (746,536);
+},
+{
+name = Anchor6;
+pos = (705,-238);
+},
 {
 name = bottom;
 pos = (705,-238);
@@ -16470,6 +17577,14 @@ layers = (
 {
 anchors = (
 {
+name = Anchor13;
+pos = (0,860);
+},
+{
+name = _Anchor2;
+pos = (-232,673);
+},
+{
 name = _ra;
 pos = (-218,673);
 },
@@ -16525,6 +17640,18 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (82,590);
+},
+{
+name = Anchor4;
+pos = (131,402);
+},
+{
+name = Anchor9;
+pos = (254,304);
+},
+{
 name = _right;
 pos = (-2,300);
 },
@@ -16577,6 +17704,18 @@ lastChange = "2022-02-07 13:12:44 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (64,714);
+},
+{
+name = Anchor4;
+pos = (5,639);
+},
+{
+name = Anchor6;
+pos = (83,-18);
+},
 {
 name = _topright;
 pos = (-236,495);
@@ -16636,6 +17775,18 @@ lastChange = "2022-02-07 13:12:40 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (84,714);
+},
+{
+name = Anchor4;
+pos = (45,663);
+},
+{
+name = Anchor6;
+pos = (103,-105);
+},
 {
 name = _topright;
 pos = (-266,495);
@@ -16720,6 +17871,22 @@ layers = (
 {
 anchors = (
 {
+name = Anchor2;
+pos = (144,540);
+},
+{
+name = Anchor4;
+pos = (83,367);
+},
+{
+name = Anchor6;
+pos = (182,-275);
+},
+{
+name = _Anchor10;
+pos = (8,300);
+},
+{
 name = _right2;
 pos = (8,300);
 },
@@ -16784,6 +17951,22 @@ lastChange = "2022-02-07 15:37:00 +0000";
 layers = (
 {
 anchors = (
+{
+name = Anchor2;
+pos = (264,540);
+},
+{
+name = Anchor4;
+pos = (213,367);
+},
+{
+name = Anchor6;
+pos = (322,-275);
+},
+{
+name = _Anchor10;
+pos = (5,300);
+},
 {
 name = _right2;
 pos = (5,300);
@@ -17051,6 +18234,10 @@ layers = (
 {
 anchors = (
 {
+name = _Anchor2;
+pos = (-405,673);
+},
+{
 name = _top;
 pos = (-405,673);
 },
@@ -17110,6 +18297,10 @@ lastChange = "2022-02-02 01:02:38 +0000";
 layers = (
 {
 anchors = (
+{
+name = _Anchor2;
+pos = (-426,673);
+},
 {
 name = _top;
 pos = (-426,673);
@@ -17184,6 +18375,10 @@ lastChange = "2022-01-28 17:15:24 +0000";
 layers = (
 {
 anchors = (
+{
+name = _Anchor11;
+pos = (-81,374);
+},
 {
 name = _halant;
 pos = (-81,374);
@@ -17363,6 +18558,10 @@ layers = (
 {
 anchors = (
 {
+name = _Anchor11;
+pos = (-158,333);
+},
+{
 name = _halant;
 pos = (-158,333);
 }
@@ -17401,6 +18600,10 @@ lastChange = "2022-01-28 17:15:24 +0000";
 layers = (
 {
 anchors = (
+{
+name = _Anchor11;
+pos = (-198,257);
+},
 {
 name = _halant;
 pos = (-198,257);
@@ -17441,6 +18644,10 @@ layers = (
 {
 anchors = (
 {
+name = _Anchor11;
+pos = (-74,191);
+},
+{
 name = _halant;
 pos = (-74,191);
 }
@@ -17479,6 +18686,10 @@ lastChange = "2022-01-28 17:15:24 +0000";
 layers = (
 {
 anchors = (
+{
+name = _Anchor11;
+pos = (-111,191);
+},
 {
 name = _halant;
 pos = (-111,191);
@@ -18164,6 +19375,10 @@ layers = (
 {
 anchors = (
 {
+name = _Anchor10;
+pos = (8,300);
+},
+{
 name = _right2;
 pos = (-92,300);
 },
@@ -18227,6 +19442,10 @@ lastChange = "2022-02-07 15:42:30 +0000";
 layers = (
 {
 anchors = (
+{
+name = _Anchor10;
+pos = (5,300);
+},
 {
 name = _right2;
 pos = (5,300);
@@ -18322,6 +19541,86 @@ UUID0 = 1;
 name = Regular;
 }
 );
+kerningLTR = {
+UUID0 = {
+u1190C = {
+"k-divesakuru" = -174;
+"ka_medra-divesakuru" = -174;
+"ka_ra_vowelI-divesakuru" = -174;
+"ka_ssa-divesakuru" = -174;
+"ka_tha-divesakuru" = -174;
+"ka_vowelU-divesakuru" = -174;
+"ka_vowelUU-divesakuru" = -174;
+"katouch-divesakuru" = -174;
+"ra_vowelU-divesakuru" = -169;
+"ratouch-divesakuru" = -169;
+"ta_medya-divesakuru" = -170;
+"ta_tha-divesakuru" = -170;
+"tatouch-divesakuru" = -170;
+};
+u1190E = {
+"gatouch-divesakuru" = -227;
+};
+u1191B = {
+"atouch-divesakuru" = -180;
+"k-divesakuru" = -180;
+"ka_medra-divesakuru" = -160;
+"ka_ra_vowelI-divesakuru" = -160;
+"ka_ssa-divesakuru" = -160;
+"ka_tha-divesakuru" = -160;
+"ka_vowelU-divesakuru" = -160;
+"ka_vowelUU-divesakuru" = -160;
+"katouch-divesakuru" = -160;
+"pa_medra-divesakuru" = -240;
+"pa_vowelI-divesakuru" = -240;
+"pa_vowelU-divesakuru" = -240;
+"pa_vowelUU-divesakuru" = -240;
+"patouch-divesakuru" = -240;
+};
+u1191F = {
+"etouch-divesakuru" = -130;
+"itouch-divesakuru" = -143;
+"n-divesakuru" = -120;
+"na_dh-divesakuru" = -120;
+"na_dha-divesakuru" = -120;
+"na_dha_vowelI-divesakuru" = -120;
+"na_dha_vowelII-divesakuru" = -120;
+"na_dha_vowelU-divesakuru" = -120;
+"na_ta_medra-divesakuru" = -120;
+"na_tha-divesakuru" = -120;
+"na_vowelU-divesakuru" = -120;
+"natouch-divesakuru" = -120;
+"t-divesakuru" = -138;
+"ya_medya-divesakuru" = -135;
+"ya_u-divesakuru" = -135;
+"ya_vowelI-divesakuru" = -135;
+"yatouch-divesakuru" = -135;
+};
+u11924 = {
+"ma_ba-divesakuru" = -257;
+"ma_vowelU-divesakuru" = -257;
+"matouch-divesakuru" = -257;
+};
+u11925 = {
+"ya_medya-divesakuru" = -183;
+"ya_u-divesakuru" = -183;
+"ya_vowelI-divesakuru" = -183;
+"yatouch-divesakuru" = -183;
+};
+u1192C = {
+"p-divesakuru" = -113;
+"pa_medra-divesakuru" = -113;
+"pa_vowelI-divesakuru" = -113;
+"pa_vowelU-divesakuru" = -113;
+"pa_vowelUU-divesakuru" = -113;
+"patouch-divesakuru" = -113;
+};
+u1192E = {
+"lla_vowelU-divesakuru" = -142;
+"llatouch-divesakuru" = -142;
+};
+};
+};
 metrics = (
 {
 type = ascender;
