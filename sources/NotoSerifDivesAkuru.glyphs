@@ -3,7 +3,7 @@
 DisplayStrings = (
 "/u1190C/katouch-divesakuru"
 );
-copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/dives-akuru)";
+copyright = "Copyright 2023 The Noto Project Authors (https://github.com/notofonts/dives-akuru)";
 customParameters = (
 {
 name = glyphOrder;
@@ -19387,6 +19387,6 @@ u1192E = {
 manufacturer = "";
 manufacturerURL = "http://www.google.com/get/noto/";
 unitsPerEm = 1000;
-versionMajor = 1;
-versionMinor = 1;
+versionMajor = 2;
+versionMinor = 0;
 }
