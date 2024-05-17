@@ -228,11 +228,18 @@ sub a-divesakuru' uuVowel-divesakuru by a-divesakuru.001;
 sub a-divesakuru' sa-divesakuru.001 by a-divesakuru.001;
 sub a-divesakuru' sa-divesakuru.002 by a-divesakuru.001;
 } rclt1;
-lookup rclt2 {
-pos @a' 3000 @All ;
-} rclt2;
+
 ";
 tag = rclt;
+},
+{
+code = "#lookup rclt2 {
+#pos @a' 1000 @All ;
+#} rclt2;
+
+
+# Automatic Code";
+tag = kern;
 }
 );
 fontMaster = (
