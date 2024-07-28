@@ -2,185 +2,6 @@
 .appVersion = "3306";
 .formatVersion = 3;
 DisplayStrings = (
-"/ra_aaVowel-divesakuru/ra_iVowel-divesakuru/ra_iiVowel-divesakuru/ra_uVowel-divesakuru  /ra_eVowel-divesakuru 𑤧/ra_aiVowel-divesakuru  /ra_halanta-divesakuru   𑤝
-
-𑤧/ra_iiVowel-divesakuru 𑤝/na_iiVowel-divesakuru 
- 𑤧/ra_iVowel-divesakuru/dha_iVowel-divesakuru/ha_iVowel-divesakuru 
-
-𑤆/ra_halanta-divesakuru 𑤌/ra_halanta-divesakuru 𑤎/ra_halanta-divesakuru 𑤖/ra_halanta-divesakuru 𑤘/ra_halanta-divesakuru 𑤚/ra_halanta-divesakuru 𑤛/ra_halanta-divesakuru 𑤝/ra_halanta-divesakuru 𑤞/ra_halanta-divesakuru 𑤟/ra_halanta-divesakuru 𑤠/ra_halanta-divesakuru 𑤢/ra_halanta-divesakuru 𑤤/ra_halanta-divesakuru 𑤥/ra_halanta-divesakuru 𑥀/ra_halanta-divesakuru 𑤦/ra_halanta-divesakuru 𑤧/ra_halanta-divesakuru    𑤨/ra_halanta-divesakuru 𑤩/ra_halanta-divesakuru 𑤫/ra_halanta-divesakuru 𑤬/ra_halanta-divesakuru 𑤭/ra_halanta-divesakuru 𑤮/ra_halanta-divesakuru  /ra_halanta-divesakuru 
-
-
-𑤞/dha_aaVowel-divesakuru 𑤞/dha_iVowel-divesakuru/dha_iiVowel-divesakuru/dha_uVowel-divesakuru  /dha_eVowel-divesakuru/dha_aiVowel-divesakuru  
-/dha_uVowel-divesakuru 𑤄
- 𑤫
-/dha_iVowel-divesakuru/dha_iiVowel-divesakuru/na_iiVowel-divesakuru/ra_iiVowel-divesakuru 𑤝/na_iiVowel-divesakuru 
-/dha_aaVowel-divesakuru/ra_aaVowel-divesakuru 
-
-/ya_aaVowel-divesakuru/ya_iVowel-divesakuru/ya_iiVowel-divesakuru/ya_uVowel-divesakuru/ya_halanta-divesakuru  
-
-/ya_iVowel-divesakuru/dha_iVowel-divesakuru 
-/ya_aaVowel-divesakuru/dha_aaVowel-divesakuru/ra_aaVowel-divesakuru 
-/ya_iVowel-divesakuru/ya_iiVowel-divesakuru/dha_iiVowel-divesakuru/na_iiVowel-divesakuru/ra_iiVowel-divesakuru 𑤝
-/ya_uVowel-divesakuru/dha_uVowel-divesakuru 
-/ya_halanta-divesakuru  
-
-𑤤/ma-divesakuru.alt/ma-divesakuru.alt2 
-/dha_iVowel-divesakuru/ma-divesakuru.alt/ma_aaVowel-divesakuru/ma_iVowel-divesakuru/ma_iiVowel-divesakuru/ma_uVowel-divesakuru/ma_halanta-divesakuru 
-
-/ma_aaVowel-divesakuru/ya_aaVowel-divesakuru/dha_aaVowel-divesakuru 𑤧/ra_aaVowel-divesakuru 
-/ma_iVowel-divesakuru/ya_iVowel-divesakuru/dha_iVowel-divesakuru 
-/ma_iVowel-divesakuru/ma_iiVowel-divesakuru/ya_iiVowel-divesakuru/dha_iiVowel-divesakuru/na_iiVowel-divesakuru/ra_iiVowel-divesakuru 𑤝
-/ma_uVowel-divesakuru  /ya_uVowel-divesakuru/dha_uVowel-divesakuru 
-/ma_halanta-divesakuru/ya_halanta-divesakuru  /ra_halanta-divesakuru 
-
-
-/ha_aaVowel-divesakuru/ha_iVowel-divesakuru/ha_iiVowel-divesakuru/ha_uVowel-divesakuru 𑤵/ha_eVowel-divesakuru/ha_aiVowel-divesakuru/ha_halanta-divesakuru 
-
-𑤭/ha_aaVowel-divesakuru/ma_aaVowel-divesakuru/ya_aaVowel-divesakuru/dha_aaVowel-divesakuru/ra_aaVowel-divesakuru 
-/ha_iVowel-divesakuru/ma_iVowel-divesakuru/ya_iVowel-divesakuru/dha_iVowel-divesakuru 
-/ha_iiVowel-divesakuru/na_iiVowel-divesakuru/ma_iVowel-divesakuru/ma_iiVowel-divesakuru/ya_iiVowel-divesakuru/dha_iiVowel-divesakuru/na_iiVowel-divesakuru/ra_iiVowel-divesakuru 𑤝
-/ha_iVowel-divesakuru/ha_uVowel-divesakuru/ha_uVowel-divesakuru/ma_uVowel-divesakuru/ya_uVowel-divesakuru/dha_uVowel-divesakuru 
-𑤽/ha_halanta-divesakuru/ma_halanta-divesakuru/ya_halanta-divesakuru  /ra_halanta-divesakuru 𑤧
-
-/dha_aaVowel-divesakuru/ma_aaVowel-divesakuru/ya_aaVowel-divesakuru/ra_aaVowel-divesakuru/ha_aaVowel-divesakuru 
-/dha_iVowel-divesakuru/ma_iVowel-divesakuru/ya_iVowel-divesakuru/ra_iVowel-divesakuru/ha_iVowel-divesakuru 
-/dha_iiVowel-divesakuru/na_iiVowel-divesakuru/ma_iiVowel-divesakuru/ya_iiVowel-divesakuru/ra_iiVowel-divesakuru/ha_iiVowel-divesakuru 
-/dha_uVowel-divesakuru/ma_uVowel-divesakuru/ya_uVowel-divesakuru/ra_uVowel-divesakuru/ha_uVowel-divesakuru 
-/dha_halanta-divesakuru/ma_halanta-divesakuru/ya_halanta-divesakuru/ra_halanta-divesakuru 𑤽/ha_halanta-divesakuru 
-
-/ma-divesakuru.alt/ma_aaVowel-divesakuru/ma_iVowel-divesakuru/ma_iiVowel-divesakuru/ma_uVowel-divesakuru/ma_halanta-divesakuru 
-/tta_aaVowel-divesakuru/tta_iVowel-divesakuru/tta_iiVowel-divesakuru/tta_uVowel-divesakuru/tta_uuVowel-divesakuru/tta_halanta-divesakuru 
-/tta_aaVowel-divesakuru/dha_aaVowel-divesakuru/ma-divesakuru.alt/ma_aaVowel-divesakuru/ya_aaVowel-divesakuru/ra_aaVowel-divesakuru/ha_aaVowel-divesakuru 
-𑤖/tta_iVowel-divesakuru/ma_iVowel-divesakuru/ma_iVowel-divesakuru 
-/tta_iiVowel-divesakuru/ma_iiVowel-divesakuru 
-/tta_uVowel-divesakuru/dha_uVowel-divesakuru/ma_uVowel-divesakuru/ya_uVowel-divesakuru/ra_uVowel-divesakuru/ha_uVowel-divesakuru 
-/tta_uuVowel-divesakuru 
-
-/tta_halanta-divesakuru/dha_halanta-divesakuru/ma_halanta-divesakuru/ya_halanta-divesakuru/ra_halanta-divesakuru/ha_halanta-divesakuru  
-
-/na_aaVowel-divesakuru/na_iVowel-divesakuru/na_iiVowel-divesakuru/na_uVowel-divesakuru/na_uVowel-divesakuru/na_uuVowel-divesakuru/na_halanta-divesakuru 
-𑤌/na_halanta-divesakuru 𑤎/na_halanta-divesakuru 𑤖/na_halanta-divesakuru 𑤘/na_halanta-divesakuru 𑤚/na_halanta-divesakuru 𑤛/na_halanta-divesakuru 𑤜/na_halanta-divesakuru 𑤝/na_halanta-divesakuru 𑤞/na_halanta-divesakuru 𑤟/na_halanta-divesakuru 𑤠/na_halanta-divesakuru 𑤢/na_halanta-divesakuru 𑤤/na_halanta-divesakuru 𑤥/na_halanta-divesakuru 𑤦/na_halanta-divesakuru 𑤧/na_halanta-divesakuru 𑤨/na_halanta-divesakuru 𑤩/na_halanta-divesakuru 𑤫/na_halanta-divesakuru 𑤬/na_halanta-divesakuru 𑤭/na_halanta-divesakuru 𑤮/na_halanta-divesakuru  /na_halanta-divesakuru 
-
- 
-
-
-/na_aaVowel-divesakuru/dha_aaVowel-divesakuru/ma_aaVowel-divesakuru/ya_aaVowel-divesakuru/ra_aaVowel-divesakuru/ha_aaVowel-divesakuru 
-𑤟/na_iVowel-divesakuru/ha_iVowel-divesakuru/dha_iVowel-divesakuru/ma_iVowel-divesakuru/ya_iVowel-divesakuru/ra_iVowel-divesakuru/ha_iVowel-divesakuru 
-𑤟/na_iiVowel-divesakuru/dha_iiVowel-divesakuru/na_iiVowel-divesakuru/ma_iiVowel-divesakuru/ya_iiVowel-divesakuru/ra_iiVowel-divesakuru/ha_iiVowel-divesakuru 
-/na_uVowel-divesakuru/ha_uVowel-divesakuru/tta_uVowel-divesakuru/dha_uVowel-divesakuru/ma_uVowel-divesakuru/ya_uVowel-divesakuru/ra_uVowel-divesakuru/ha_uVowel-divesakuru 
-/na_uuVowel-divesakuru 
-/na_halanta-divesakuru/tta_halanta-divesakuru/dha_halanta-divesakuru/ma_halanta-divesakuru/ya_halanta-divesakuru/ra_halanta-divesakuru/ha_halanta-divesakuru  
-
-/na_iVowel-divesakuru/ha_iVowel-divesakuru/dha_iVowel-divesakuru  /ma_iVowel-divesakuru/ya_iVowel-divesakuru/ra_iVowel-divesakuru/ha_iVowel-divesakuru 
-/na_aaVowel-divesakuru/dha_aaVowel-divesakuru/ma_aaVowel-divesakuru/ga_aaVowel-divesakuru  /ya_aaVowel-divesakuru/ra_aaVowel-divesakuru/ha_aaVowel-divesakuru 
-𑤟/na_iiVowel-divesakuru/dha_iiVowel-divesakuru/la_iiVowel-divesakuru/ma_iiVowel-divesakuru/ya_iiVowel-divesakuru/pa_iiVowel-divesakuru/na_iiVowel-divesakuru/ga_iiVowel-divesakuru/ra_iiVowel-divesakuru/ha_iiVowel-divesakuru 
-/na_uVowel-divesakuru/ha_uVowel-divesakuru/tta_uVowel-divesakuru/dha_uVowel-divesakuru/ga_uVowel-divesakuru/ma_uVowel-divesakuru/ya_uVowel-divesakuru/ra_uVowel-divesakuru/ha_uVowel-divesakuru 
-
-𑤨  /la_iiVowel-divesakuru/la_uVowel-divesakuru/la_uuVowel-divesakuru/la_eVowel-divesakuru/la_aiVowel-divesakuru/la_halanta-divesakuru/pa_halanta-divesakuru/dha_halanta-divesakuru 
-/ya_aaVowel-divesakuru/ya_iVowel-divesakuru/ma_iVowel-divesakuru/ya_iiVowel-divesakuru/ya_uVowel-divesakuru/ya_uuVowel-divesakuru/ya_eVowel-divesakuru/ya_aiVowel-divesakuru/ya_halanta-divesakuru 
-
-𑤎/ga_aaVowel-divesakuru/ga_iVowel-divesakuru/ha_iVowel-divesakuru/ga_iiVowel-divesakuru/ga_iiVowel-divesakuru/ga_uVowel-divesakuru/ga_uuVowel-divesakuru/ga_eVowel-divesakuru/ga_aiVowel-divesakuru 𑤎/ga_halanta-divesakuru 
-𑤟/na_aaVowel-divesakuru/na_iVowel-divesakuru/na_iiVowel-divesakuru/na_uVowel-divesakuru  
-
-/ha_aaVowel-divesakuru/ha_iVowel-divesakuru/ha_iiVowel-divesakuru/ha_uVowel-divesakuru 𑤵/ha_eVowel-divesakuru/ha_aiVowel-divesakuru 𑤭/ha_halanta-divesakuru 
-/nna-divesakuru.alt 𑤚  /nna_iiVowel-divesakuru   /nna-divesakuru.alt/nna_uVowel-divesakuru/na_uVowel-divesakuru/nna_uuVowel-divesakuru/nna_eVowel-divesakuru/nna_aiVowel-divesakuru/nna-divesakuru.alt 𑤚/nna_halanta-divesakuru 
-
-𑤠/pa_aaVowel-divesakuru 𑤠/pa_iVowel-divesakuru/dha_iVowel-divesakuru/pa_iiVowel-divesakuru/pa_uVowel-divesakuru/pa_uuVowel-divesakuru/pa_eVowel-divesakuru/pa_aiVowel-divesakuru/pa_halanta-divesakuru/dha_halanta-divesakuru 
-/dha_aaVowel-divesakuru/dha_iVowel-divesakuru/dha_iiVowel-divesakuru/dha_uVowel-divesakuru/dha_uuVowel-divesakuru/dha_eVowel-divesakuru/dha_aiVowel-divesakuru/dha_halanta-divesakuru 
-
-/va_aaVowel-divesakuru/va_iVowel-divesakuru/va_iiVowel-divesakuru/va_uVowel-divesakuru/va_uuVowel-divesakuru 𑤩/va_eVowel-divesakuru/va_aiVowel-divesakuru/va-divesakuru.alt/va-divesakuru.alt2/va_halanta-divesakuru/ma_halanta-divesakuru/ma_halanta-divesakuru/lla_halanta-divesakuru 
-/ma_aaVowel-divesakuru/ma_iVowel-divesakuru/ma_iiVowel-divesakuru/ma_uVowel-divesakuru/ma_uuVowel-divesakuru/ma_eVowel-divesakuru/ma_aiVowel-divesakuru/ma_halanta-divesakuru 
-
-/lla_aaVowel-divesakuru/lla_iVowel-divesakuru/ma_iiVowel-divesakuru/lla_iiVowel-divesakuru/lla_uVowel-divesakuru/lla_uuVowel-divesakuru/lla_eVowel-divesakuru/lla_aiVowel-divesakuru/lla-divesakuru.alt/lla_halanta-divesakuru 
-/ma_aaVowel-divesakuru/ma_iVowel-divesakuru/ma_iiVowel-divesakuru/ma_uVowel-divesakuru/ma_uuVowel-divesakuru 𑤵/ma_eVowel-divesakuru/ma_aiVowel-divesakuru/ma_halanta-divesakuru 
-
-𑤛/ta_aaVowel-divesakuru 𑤛/ta_iVowel-divesakuru/ta_iiVowel-divesakuru/ta_uVowel-divesakuru/ta_uuVowel-divesakuru/ta_halanta-divesakuru          /na_halanta-divesakuru   
-𑤎/ga_aaVowel-divesakuru/ga_iVowel-divesakuru/ha_iVowel-divesakuru/ga_iiVowel-divesakuru/ga_iiVowel-divesakuru/ga_uVowel-divesakuru/ga_uuVowel-divesakuru/ga_eVowel-divesakuru/ga_aiVowel-divesakuru 𑤎/ga_halanta-divesakuru 
-/ta_halanta-divesakuru/ta_halanta-divesakuru 𑤌/ta_halanta-divesakuru 𑤎/ta_halanta-divesakuru 𑤖/ta_halanta-divesakuru 𑤘/ta_halanta-divesakuru 𑤚/ta_halanta-divesakuru 𑤛/ta_halanta-divesakuru 𑤜/ta_halanta-divesakuru 𑤝/ta_halanta-divesakuru 𑤞/ta_halanta-divesakuru 𑤟/ta_halanta-divesakuru 𑤠/ta_halanta-divesakuru 𑤢/ta_halanta-divesakuru 𑤤/ta_halanta-divesakuru 𑤥/ta_halanta-divesakuru 𑤦/ta_halanta-divesakuru 𑤧/ta_halanta-divesakuru 𑤨/ta_halanta-divesakuru 𑤩/ta_halanta-divesakuru 𑤫/ta_halanta-divesakuru 𑤬/ta_halanta-divesakuru 𑤭/ta_halanta-divesakuru 𑤮/ta_halanta-divesakuru 
-
-/na_iVowel-divesakuru/ha_iVowel-divesakuru/dha_iVowel-divesakuru/ba_iVowel-divesakuru  /ma_iVowel-divesakuru/ya_iVowel-divesakuru/ra_iVowel-divesakuru/ha_iVowel-divesakuru 
-/ba_aaVowel-divesakuru/ba_iVowel-divesakuru/ba_iiVowel-divesakuru/ba_uVowel-divesakuru/ba_uuVowel-divesakuru/ba_halanta-divesakuru 
-/ma_aaVowel-divesakuru/ma_iVowel-divesakuru/ma_iiVowel-divesakuru/ma_uVowel-divesakuru/ma_uuVowel-divesakuru/ma_eVowel-divesakuru/ma_aiVowel-divesakuru/ma_halanta-divesakuru 
-
-𑤬/sa_aaVowel-divesakuru/sa_iVowel-divesakuru/sa_iiVowel-divesakuru/sa_uVowel-divesakuru/sa_halanta-divesakuru/sa_uuVowel-divesakuru 
-𑤠/pa_aaVowel-divesakuru/pa_iVowel-divesakuru/pa_iiVowel-divesakuru/pa_uVowel-divesakuru/pa_uuVowel-divesakuru/pa_halanta-divesakuru/dha_halanta-divesakuru 
-/na_iVowel-divesakuru/ha_iVowel-divesakuru/dha_iVowel-divesakuru/sa_iVowel-divesakuru  /ma_iVowel-divesakuru/ya_iVowel-divesakuru/ra_iVowel-divesakuru/ha_iVowel-divesakuru 
-
-/yya_aaVowel-divesakuru/yya_iVowel-divesakuru/yya_iiVowel-divesakuru/yya_uVowel-divesakuru 𑤦/dha_uVowel-divesakuru/yya_uuVowel-divesakuru/yya_halanta-divesakuru/dha_halanta-divesakuru 
-/dha_aaVowel-divesakuru/dha_iVowel-divesakuru/dha_iiVowel-divesakuru/dha_uVowel-divesakuru/dha_uuVowel-divesakuru 𑤞/dha_eVowel-divesakuru/dha_aiVowel-divesakuru/dha_halanta-divesakuru 
-
-/ga_iiVowel-divesakuru/tta_iiVowel-divesakuru/nna_iiVowel-divesakuru/dha_iiVowel-divesakuru/na_iiVowel-divesakuru/pa_iiVowel-divesakuru/ba_iiVowel-divesakuru/ma_iiVowel-divesakuru/ya_iiVowel-divesakuru/ra_iiVowel-divesakuru/la_iiVowel-divesakuru/va_iiVowel-divesakuru/sa_iiVowel-divesakuru/ha_iiVowel-divesakuru/lla_iiVowel-divesakuru 
-
-
-𑤌/ka_aaVowel-divesakuru/ka_iVowel-divesakuru/ka_iiVowel-divesakuru/ka_iiVowel-divesakuru/ka_uVowel-divesakuru/ka_uuVowel-divesakuru/ka_halanta-divesakuru  /ta_halanta-divesakuru     /na_halanta-divesakuru 
-/ha_aaVowel-divesakuru/ha_iVowel-divesakuru/ha_iiVowel-divesakuru/ha_uVowel-divesakuru 𑤵/ha_eVowel-divesakuru/ha_aiVowel-divesakuru 𑤭/ha_halanta-divesakuru 
-
-
-/da_aaVowel-divesakuru/da_iVowel-divesakuru/da_iiVowel-divesakuru/da_uVowel-divesakuru/da_uuVowel-divesakuru/da_eVowel-divesakuru 𑤝/da_aiVowel-divesakuru/da_halanta-divesakuru 
-𑤟/na_aaVowel-divesakuru/na_iVowel-divesakuru/na_iiVowel-divesakuru/na_uVowel-divesakuru 
-/ha_aaVowel-divesakuru/ha_iVowel-divesakuru/ha_iiVowel-divesakuru/ha_uVowel-divesakuru 𑤵/ha_eVowel-divesakuru/ha_aiVowel-divesakuru 𑤭/ha_halanta-divesakuru 
-/dha_aaVowel-divesakuru/dha_iVowel-divesakuru/dha_iiVowel-divesakuru/dha_uVowel-divesakuru/dha_uuVowel-divesakuru 𑤞/dha_eVowel-divesakuru 𑤷/dha_aiVowel-divesakuru/dha_halanta-divesakuru 
-
-/dda_aaVowel-divesakuru/dda_iVowel-divesakuru/ra_aaVowel-divesakuru/dda_iiVowel-divesakuru/dda_uVowel-divesakuru/dda_uuVowel-divesakuru/dda_eVowel-divesakuru/dda_aiVowel-divesakuru/dda_halanta-divesakuru 
-/dha_aaVowel-divesakuru/dha_iVowel-divesakuru/dha_iiVowel-divesakuru/dha_uVowel-divesakuru/dha_uuVowel-divesakuru 𑤞/dha_eVowel-divesakuru 𑤷/dha_aiVowel-divesakuru/dha_halanta-divesakuru 
-/ra_aaVowel-divesakuru/ra_iVowel-divesakuru 
-
-
-𑤙/ddha_aaVowel-divesakuru/ddha_iVowel-divesakuru/ddha_iiVowel-divesakuru/ddha_uVowel-divesakuru/ddha_uuVowel-divesakuru/ddha_eVowel-divesakuru/ddha_aiVowel-divesakuru/ddha_halanta-divesakuru 
-/dha_aaVowel-divesakuru/dha_iVowel-divesakuru/dha_iiVowel-divesakuru/dha_uVowel-divesakuru/dha_uuVowel-divesakuru/dha_eVowel-divesakuru/dha_aiVowel-divesakuru/dha_halanta-divesakuru 
-/yya_aaVowel-divesakuru/yya_iVowel-divesakuru/yya_iiVowel-divesakuru/yya_uVowel-divesakuru/yya_uuVowel-divesakuru/yya_eVowel-divesakuru/yya_aiVowel-divesakuru/yya_halanta-divesakuru 
-
-𑤡𑤡/pha_aaVowel-divesakuru/pha_iVowel-divesakuru/pha_iiVowel-divesakuru/ha_iiVowel-divesakuru/pha_uVowel-divesakuru/pha_uuVowel-divesakuru/pha_eVowel-divesakuru/pha_aiVowel-divesakuru/pha_halanta-divesakuru  𑤎/ga_uVowel-divesakuru/da_uVowel-divesakuru 
-/pa_aaVowel-divesakuru/pa_iVowel-divesakuru/pa_iiVowel-divesakuru/pa_uVowel-divesakuru/pa_uuVowel-divesakuru/pa_eVowel-divesakuru/pa_aiVowel-divesakuru/pa_halanta-divesakuru 
-/ha_aaVowel-divesakuru/ha_iVowel-divesakuru/ha_iiVowel-divesakuru/ha_uVowel-divesakuru/ha_uuVowel-divesakuru/ha_eVowel-divesakuru/ha_aiVowel-divesakuru 𑤭/ha_halanta-divesakuru 
-
-𑤡𑤡/pha_aaVowel-divesakuru/pha_iVowel-divesakuru/pha_iiVowel-divesakuru/ha_iiVowel-divesakuru/pha_uVowel-divesakuru/pha_uuVowel-divesakuru/pha_eVowel-divesakuru/pha_aiVowel-divesakuru/pha_halanta-divesakuru 
-𑤣/bha_aaVowel-divesakuru/bha_iVowel-divesakuru/bha_iiVowel-divesakuru 𑤣/bha_uVowel-divesakuru/bha_uuVowel-divesakuru/bha_eVowel-divesakuru/bha_aiVowel-divesakuru/bha_halanta-divesakuru 
-/ba_aaVowel-divesakuru/ba_iVowel-divesakuru/ba_iiVowel-divesakuru/ba_uVowel-divesakuru/ba_uuVowel-divesakuru/ba_halanta-divesakuru 
-
-𑤯/za_aaVowel-divesakuru/za_iVowel-divesakuru/ba_iVowel-divesakuru/za_iiVowel-divesakuru/za_uVowel-divesakuru/za_uuVowel-divesakuru/o-divesakuru.alt/za_eVowel-divesakuru/za_aiVowel-divesakuru/za_halanta-divesakuru 
-/dda_aaVowel-divesakuru/dda_iVowel-divesakuru/dda_iiVowel-divesakuru/dda_uVowel-divesakuru/dda_uuVowel-divesakuru/dda_eVowel-divesakuru/dda_aiVowel-divesakuru/dda_halanta-divesakuru",
-"𑥆/gapFiller-divesakuru_endofTextMark-divesakuru/gapFiller-divesakuru_endofTextMark-divesakuru.init 𑥅/gapFiller-divesakuru.fina/gapFiller-divesakuru.init/gapFiller-divesakuru_endofTextMark-divesakuru.init/gapFiller-divesakuru.isol",
-"/ka_eVowel-divesakuru/ka_aiVowel-divesakuru/ka_aaVowel-divesakuru/ka_iVowel-divesakuru/ka_iiVowel-divesakuru/ka_uVowel-divesakuru/ka_uuVowel-divesakuru 
-/ga_eVowel-divesakuru/ga_aiVowel-divesakuru/ga_aaVowel-divesakuru 𑤎/ga_iVowel-divesakuru/ga_iiVowel-divesakuru/ga_uVowel-divesakuru/ga_uuVowel-divesakuru 𑤵
-/tta_eVowel-divesakuru/tta_aiVowel-divesakuru/tta_aaVowel-divesakuru/tta_iVowel-divesakuru/tta_iiVowel-divesakuru/tta_uVowel-divesakuru/tta_uuVowel-divesakuru 
-
-
-/nna_eVowel-divesakuru/nna_aiVowel-divesakuru/nna_iVowel-divesakuru/nna_aaVowel-divesakuru/nna_iiVowel-divesakuru/nna_uVowel-divesakuru/nna_uuVowel-divesakuru 
-/ta_eVowel-divesakuru/ta_aiVowel-divesakuru/ta_aaVowel-divesakuru/ta_iVowel-divesakuru/ta_iiVowel-divesakuru/ta_uVowel-divesakuru/ta_uuVowel-divesakuru 
-
-/da_eVowel-divesakuru/da_aiVowel-divesakuru/da_aaVowel-divesakuru/da_iVowel-divesakuru/da_iiVowel-divesakuru/da_uVowel-divesakuru/da_uuVowel-divesakuru 
-/dha_eVowel-divesakuru/dha_aiVowel-divesakuru/dha_aaVowel-divesakuru/dha_iVowel-divesakuru/dha_iiVowel-divesakuru/dha_uVowel-divesakuru/dha_uuVowel-divesakuru 
-/na_eVowel-divesakuru/na_aiVowel-divesakuru/na_aaVowel-divesakuru/na_iVowel-divesakuru/na_iiVowel-divesakuru/na_uVowel-divesakuru/na_uuVowel-divesakuru 
-/pa_eVowel-divesakuru/pa_aiVowel-divesakuru/pa_aaVowel-divesakuru/pa_iVowel-divesakuru/pa_iiVowel-divesakuru/pa_uVowel-divesakuru/pa_uuVowel-divesakuru 
-/pha_eVowel-divesakuru/pha_aiVowel-divesakuru     /pha_uuVowel-divesakuru  
-/ba_eVowel-divesakuru 𑤵𑤷/ba_aiVowel-divesakuru/ba_aaVowel-divesakuru/ba_iVowel-divesakuru/ba_iiVowel-divesakuru/ba_uVowel-divesakuru/ba_uuVowel-divesakuru 
-
-/ma_eVowel-divesakuru/ma_aiVowel-divesakuru/ma_aaVowel-divesakuru/ma_iVowel-divesakuru/ma_iiVowel-divesakuru/ma_uVowel-divesakuru/ma_uuVowel-divesakuru 
-𑤥/ya_eVowel-divesakuru/ya_aiVowel-divesakuru/ya_aaVowel-divesakuru/ya_iVowel-divesakuru/ya_iiVowel-divesakuru/ya_uVowel-divesakuru/ya_uuVowel-divesakuru 
-/yya_eVowel-divesakuru/yya_aiVowel-divesakuru/yya_aaVowel-divesakuru/yya_iVowel-divesakuru/yya_iiVowel-divesakuru/yya_uVowel-divesakuru/yya_uuVowel-divesakuru 
-/ra_eVowel-divesakuru/ra_aiVowel-divesakuru/ra_aaVowel-divesakuru/ra_iVowel-divesakuru/ra_iiVowel-divesakuru/ra_uVowel-divesakuru/ra_uuVowel-divesakuru 
-/la_eVowel-divesakuru/la_aiVowel-divesakuru/la_iVowel-divesakuru/la_aaVowel-divesakuru/la_iiVowel-divesakuru/la_uVowel-divesakuru/la_uuVowel-divesakuru 
-/va_eVowel-divesakuru/va_aiVowel-divesakuru/va_aaVowel-divesakuru/va_iVowel-divesakuru/va_iiVowel-divesakuru/va_uVowel-divesakuru/va_uuVowel-divesakuru 
-
-/sa_eVowel-divesakuru/sa_aiVowel-divesakuru/sa_aaVowel-divesakuru/sa_iVowel-divesakuru/sa_iiVowel-divesakuru/sa_uVowel-divesakuru/sa_uuVowel-divesakuru 
-/ha_eVowel-divesakuru/ha_aiVowel-divesakuru/ha_aaVowel-divesakuru/ha_iVowel-divesakuru/ha_iiVowel-divesakuru/ha_uVowel-divesakuru/ha_uuVowel-divesakuru 
-/lla_eVowel-divesakuru/lla_aiVowel-divesakuru/lla_aaVowel-divesakuru/lla_iVowel-divesakuru/lla_iiVowel-divesakuru/lla_uVowel-divesakuru/lla_uuVowel-divesakuru",
-"𑤌/ka_aaVowel-divesakuru/ka_uVowel-divesakuru",
-"𑤌/ka_uVowel-divesakuru/ka_halanta-divesakuru",
-"",
-"𑤌𑤽  𑤛𑤽  𑤟𑤽    𑤖𑤽 𑤽 𑤩𑤢𑤣𑤽 𑤢𑤽 𑤮𑤽 𑤘𑤽 𑤙𑤽 𑤨𑤽 𑤬𑤽 𑤯𑤽 𑤞𑤽 𑤠𑤽 𑤥𑤽 𑤦𑤽 𑤡𑤽 𑤣𑤽 𑤧𑤽 𑤎𑤽 𑤭𑤽 𑤚𑤽 𑤝𑤽",
-"/ka_aaVowel-divesakuru/ga_aaVowel-divesakuru/tta_aaVowel-divesakuru/dda_aaVowel-divesakuru/ddha_aaVowel-divesakuru/nna_aaVowel-divesakuru/ta_aaVowel-divesakuru/da_aaVowel-divesakuru/dha_aaVowel-divesakuru/na_aaVowel-divesakuru/pa_aaVowel-divesakuru/pha_aaVowel-divesakuru/ba_aaVowel-divesakuru/bha_aaVowel-divesakuru/ma_aaVowel-divesakuru/ya_aaVowel-divesakuru/yya_aaVowel-divesakuru/ra_aaVowel-divesakuru/la_aaVowel-divesakuru/va_aaVowel-divesakuru/sa_aaVowel-divesakuru/ha_aaVowel-divesakuru/lla_aaVowel-divesakuru/za_aaVowel-divesakuru 
-
-/ga_aaVowel-divesakuru/tta_aaVowel-divesakuru/pha_aaVowel-divesakuru/bha_aaVowel-divesakuru/ma-divesakuru.alt/ma_aaVowel-divesakuru/la_aaVowel-divesakuru/va_aaVowel-divesakuru/lla_aaVowel-divesakuru 
-/dda_aaVowel-divesakuru/za_aaVowel-divesakuru 
-/pa_aaVowel-divesakuru/sa_aaVowel-divesakuru 
-/ra_aaVowel-divesakuru 
-
-𑤯/za_aaVowel-divesakuru/za_iVowel-divesakuru/za_iiVowel-divesakuru/za_uVowel-divesakuru 𑤯/za_halanta-divesakuru 
-/lla_aaVowel-divesakuru/lla_iVowel-divesakuru/lla_iiVowel-divesakuru/lla_uVowel-divesakuru/lla_uuVowel-divesakuru/lla_eVowel-divesakuru/lla_aiVowel-divesakuru/lla_halanta-divesakuru 
-
-𑤌𑤯𑤎𑤯𑤖𑤯𑤘𑤯𑤙𑤯𑤚𑤯𑤛𑤯𑤜𑤯𑤝𑤯𑤞𑤯𑤟𑤯𑤠𑤯𑤡𑤯𑤢𑤯𑤣𑤯𑤤𑤯𑤥𑤯𑤦𑤯𑤧𑤯𑤨𑤯𑤩𑤯𑤫𑤯𑤬𑤯𑤭𑤯𑤮𑤯𑤯𑤯",
 "𑤄𑤌𑤌𑤄𑤌𑤌
 𑤌𑤌𑤰𑤌𑤱𑤌𑤲𑤌𑤳𑤌𑤴𑤌𑤌𑤸𑤌𑤽𑤌𑤌
 𑤎𑤎𑤰𑤎𑤱𑤎𑤲𑤎𑤳𑤎𑤴𑤎𑤸𑤎𑤽𑤎𑤎𑤎
@@ -206,56 +27,37 @@ DisplayStrings = (
 𑤭𑤭𑤰𑤭𑤱𑤭𑤲𑤭𑤳𑤭𑤴𑤭𑤸𑤭𑤽
 𑤮𑤮𑤰𑤮𑤱𑤮𑤲𑤮𑤳𑤮𑤴𑤮𑤸𑤮𑤽
 𑤯𑤯𑤰𑤯𑤱𑤯𑤲𑤯𑤳𑤯𑤴𑤯𑤸𑤯𑤽",
-"𑤌𑤵𑤎𑤵𑤖𑤵𑤘𑤵𑤙𑤵𑤚𑤵𑤛𑤵𑤝𑤵𑤞𑤵𑤟𑤵𑤠𑤵𑤡𑤵𑤢𑤵𑤣𑤵𑤤𑤵𑤥𑤵𑤦𑤵𑤧𑤵𑤨𑤵𑤩𑤵𑤬𑤵𑤭𑤵𑤮𑤵𑤯𑤵
-
-𑤌𑤷𑤎𑤷𑤖𑤷𑤘𑤷𑤙𑤷𑤚𑤷𑤛𑤷𑤝𑤷𑤞𑤷𑤟𑤷𑤠𑤷𑤡𑤷𑤢𑤷𑤣𑤷𑤤𑤷𑤥𑤷𑤦𑤷𑤧𑤷𑤨𑤷𑤩𑤷𑤬𑤷𑤭𑤷𑤮𑤷𑤯𑤷
-
-𑤌𑤰𑤎𑤰𑤖𑤰𑤘𑤰𑤙𑤰𑤚𑤰𑤛𑤰𑤝𑤰𑤞𑤰𑤟𑤰𑤠𑤰𑤡𑤰𑤢𑤰𑤣𑤰𑤤𑤰𑤥𑤰𑤦𑤰𑤧𑤰𑤨𑤰𑤩𑤰𑤬𑤰𑤭𑤰𑤮𑤰𑤯𑤰
-
-𑤌𑤱𑤎𑤱𑤖𑤱𑤘𑤱𑤙𑤱𑤚𑤱𑤛𑤱𑤝𑤱𑤞𑤱𑤟𑤱𑤠𑤱𑤡𑤱𑤢𑤱𑤣𑤱𑤤𑤱𑤥𑤱𑤦𑤱𑤧𑤱𑤨𑤱𑤩𑤱𑤬𑤱𑤭𑤱𑤮𑤱𑤯𑤱
-
-𑤌𑤲𑤎𑤲𑤖𑤲𑤘𑤲𑤙𑤲𑤚𑤲𑤛𑤲𑤝𑤲𑤞𑤲𑤟𑤲𑤠𑤲𑤡𑤲𑤢𑤲𑤣𑤲𑤤𑤲𑤥𑤲𑤦𑤲𑤧𑤲𑤨𑤲𑤩𑤲𑤬𑤲𑤭𑤲𑤮𑤲𑤯𑤲
-
-𑤌𑤳𑤎𑤳𑤖𑤳𑤘𑤳𑤙𑤳𑤚𑤳𑤛𑤳𑤝𑤳𑤞𑤳/za_uVowel-divesakuru 𑤟𑤳𑤠𑤳𑤡𑤳𑤢𑤳𑤣𑤳𑤤𑤳𑤥𑤳𑤦𑤳𑤧𑤳𑤨𑤳𑤩𑤳𑤬𑤳𑤭𑤳𑤮𑤳𑤯𑤳
-
-𑤌𑤴𑤎𑤴𑤖𑤴𑤘𑤴𑤙𑤴𑤴𑤴𑤚𑤴𑤛𑤴𑤝𑤴𑤞𑤠𑤴𑤡𑤴𑤢𑤴𑤣𑤴𑤤𑤴𑤥𑤴𑤦𑤴𑤧𑤴𑤨𑤴𑤩𑤴𑤬𑤴    
-𑤮𑤴𑤯𑤴
-
-𑤌𑤸𑤎𑤸𑤖
-𑤸𑤘𑤸𑤙𑤸𑤚𑤸𑤛𑤸𑤝𑤸𑤞𑤸𑤟𑤸𑤠𑤸𑤡𑤸𑤢𑤸𑤣𑤸𑤤𑤸𑤥𑤸𑤦𑤸𑤧𑤸𑤨𑤸𑤩𑤸𑤬𑤸𑤭𑤸𑤮𑤸𑤯𑤸
-
-𑤌𑤽𑤎𑤽𑤖𑤽𑤘𑤽𑤙𑤽𑤚𑤽𑤛𑤽𑤝𑤽𑤞𑤽𑤟𑤽𑤠𑤽𑤡𑤽𑤢𑤽𑤣𑤽𑤤𑤽𑤥𑤽𑤦𑤽𑤧𑤽𑤨𑤽𑤩𑤽𑤬𑤽𑤭𑤽𑤮𑤽𑤯𑤽
-
-𑤌𑤵𑤎𑤵𑤖𑤵𑤘𑤵𑤙𑤵𑤚𑤵𑤛𑤵𑤝𑤵𑤞𑤵𑤟𑤵𑤠𑤵𑤡𑤵𑤢𑤵𑤣𑤵𑤤𑤵𑤥𑤵𑤦𑤵𑤧𑤵𑤨𑤵𑤩𑤵𑤬𑤵𑤭𑤵𑤮𑤵𑤯𑤵
-𑤌𑤷𑤎𑤷𑤖𑤷𑤘𑤷𑤙𑤷𑤚𑤷𑤛𑤷𑤝𑤷𑤞𑤷𑤟𑤷𑤠𑤷𑤡𑤷𑤢𑤷𑤣𑤷𑤤𑤷𑤥𑤷𑤦𑤷𑤧𑤷𑤨𑤷𑤩𑤷𑤬𑤷𑤭𑤷𑤮𑤷𑤯𑤷
-𑤌𑤰𑤎𑤰𑤖𑤰𑤘𑤰𑤙𑤰𑤚𑤰𑤛𑤰𑤝𑤰𑤞𑤰𑤟𑤰𑤠𑤰𑤡𑤰𑤢𑤰𑤣𑤰𑤤𑤰𑤥𑤰𑤦𑤰𑤧𑤰𑤨𑤰𑤩𑤰𑤬𑤰𑤭𑤰𑤮𑤰𑤯𑤰
-𑤌𑤱𑤎𑤱𑤖𑤱𑤘𑤱𑤙𑤱𑤚𑤱𑤛𑤱𑤝𑤱𑤞𑤱𑤟𑤱𑤠𑤱𑤡𑤱𑤢𑤱𑤣𑤱𑤤𑤱𑤥𑤱𑤦𑤱𑤧𑤱𑤨𑤱𑤩𑤱𑤬𑤱𑤭𑤱𑤮𑤱𑤯𑤱
-𑤌𑤲𑤎𑤲𑤖𑤲𑤘𑤲𑤙𑤲𑤚𑤲𑤛𑤲𑤝𑤲𑤞𑤲𑤟𑤲𑤠𑤲𑤡𑤲𑤢𑤲𑤣𑤲𑤤𑤲𑤥𑤲𑤦𑤲𑤧𑤲𑤨𑤲𑤩𑤲𑤬𑤲𑤭𑤲𑤮𑤲𑤯𑤲
-𑤌𑤳𑤎𑤳𑤖𑤳𑤘𑤳𑤙𑤳𑤚𑤳𑤛𑤳𑤝𑤳𑤞𑤳𑤟𑤳𑤠𑤳𑤡𑤳𑤢𑤳𑤣𑤳𑤤𑤳𑤥𑤳𑤦𑤳𑤧𑤳𑤨𑤳𑤩𑤳𑤬𑤳𑤭𑤳𑤮𑤳𑤯𑤳
-𑤌𑤴𑤎𑤴𑤖𑤴𑤘𑤴𑤙𑤴𑤚𑤴𑤛𑤴𑤝𑤴𑤞𑤴𑤟𑤴𑤠𑤴𑤡𑤴𑤢𑤴𑤣𑤴𑤤𑤴𑤥𑤴𑤦𑤴𑤧𑤴𑤨𑤴𑤩𑤴𑤬𑤴𑤭𑤴𑤮𑤴𑤯𑤴
-𑤌𑤸𑤎𑤸𑤖𑤸𑤘𑤸𑤙𑤸𑤚𑤸𑤛𑤸𑤝𑤸𑤞𑤸𑤟𑤸𑤠𑤸𑤡𑤸𑤢𑤸𑤣𑤸𑤤𑤸𑤥𑤸𑤦𑤸𑤧𑤸𑤨𑤸𑤩𑤸𑤬𑤸𑤭𑤸𑤮𑤸𑤯𑤸
-𑤌𑤽𑤎𑤽𑤖𑤽𑤘𑤽𑤙𑤽𑤚𑤽𑤛𑤽𑤝𑤽𑤞𑤽𑤟𑤽𑤠𑤽𑤡𑤽𑤢𑤽𑤣𑤽𑤤𑤽𑤥𑤽𑤦𑤽𑤧𑤽𑤨𑤽𑤩𑤽𑤬𑤽𑤭𑤽𑤮𑤽𑤯𑤽",
-"𑤥𑤥𑤌𑤵𑤥𑤥𑤎𑤵𑤥𑤥𑤖𑤵𑤥𑤥𑤘𑤵𑤥𑤥𑤙𑤵𑤥𑤥𑤚𑤵𑤥𑤥𑤛𑤵𑤥𑤥𑤝𑤵𑤥𑤥𑤞𑤵𑤥𑤥𑤟𑤵𑤥𑤥𑤠𑤵𑤥𑤥𑤡𑤵𑤥𑤥𑤢𑤵𑤥𑤥𑤣𑤵𑤥𑤥𑤤𑤵𑤥𑤥𑤥𑤥𑤵𑤥𑤥𑤦𑤵𑤥𑤥𑤧𑤵𑤥𑤥𑤨𑤵𑤥𑤥𑤩𑤵𑤥𑤥𑤬𑤵𑤥𑤥𑤭𑤵𑤥𑤥𑤮𑤵𑤥𑤥𑤯𑤵𑤥𑤥𑤌𑤷𑤥𑤥𑤎𑤷𑤥𑤥𑤖𑤷𑤥𑤥𑤘𑤷𑤥𑤥𑤙𑤷𑤥𑤥𑤚𑤷𑤥𑤥𑤛𑤷𑤥𑤥𑤝𑤷𑤥𑤥𑤞𑤷𑤥𑤥𑤟𑤷𑤥𑤥𑤠𑤷𑤥𑤥𑤡𑤷𑤥𑤥𑤢𑤷𑤥𑤥𑤣𑤷𑤥𑤥𑤤𑤷𑤥𑤥𑤥𑤥𑤷𑤥𑤥𑤦𑤷𑤥𑤥𑤧𑤷𑤥𑤥𑤨𑤷𑤥𑤥𑤩𑤷𑤥𑤥𑤬𑤷𑤥𑤥𑤭𑤷𑤥𑤥𑤮𑤷𑤥𑤥𑤯𑤷𑤥𑤥𑤌𑤰𑤥𑤥𑤎𑤰𑤥𑤥𑤖𑤰𑤥𑤥𑤘𑤰𑤥𑤥𑤙𑤰𑤥𑤥𑤚𑤰𑤥𑤥𑤛𑤰𑤥𑤥𑤝𑤰𑤥𑤥𑤞𑤰𑤥𑤥𑤟𑤰𑤥𑤥𑤠𑤰𑤥𑤥𑤡𑤰𑤥𑤥𑤢𑤰𑤥𑤥𑤣𑤰𑤥𑤥𑤤𑤰𑤥𑤥𑤥𑤥𑤰𑤥𑤥𑤦𑤰𑤥𑤥𑤧𑤰𑤥𑤥𑤨𑤰𑤥𑤥𑤩𑤰𑤥𑤥𑤬𑤰𑤥𑤥𑤭𑤰𑤥𑤥𑤮𑤰𑤥𑤥𑤯𑤰𑤥𑤥𑤌𑤱𑤥𑤥𑤎𑤱𑤥𑤥𑤖𑤱𑤥𑤥𑤘𑤱𑤥𑤥𑤙𑤱𑤥𑤥𑤚𑤱𑤥𑤥𑤛𑤱𑤥𑤥𑤝𑤱𑤥𑤥𑤞𑤱𑤥𑤥𑤟𑤱𑤥𑤥𑤠𑤱𑤥𑤥𑤡𑤱𑤥𑤥𑤢𑤱𑤥𑤥𑤣𑤱𑤥𑤥𑤤𑤱𑤥𑤥𑤥𑤥𑤱𑤥𑤥𑤦𑤱𑤥𑤥𑤧𑤱𑤥𑤥𑤨𑤱𑤥𑤥𑤩𑤱𑤥𑤥𑤬𑤱𑤥𑤥𑤭𑤱𑤥𑤥𑤮𑤱𑤥𑤥𑤯𑤱𑤥𑤥𑤌𑤲𑤥𑤥𑤎𑤲𑤥𑤥𑤖𑤲𑤥𑤥𑤘𑤲𑤥𑤥𑤙𑤲𑤥𑤥𑤚𑤲𑤥𑤥𑤛𑤲𑤥𑤥𑤝𑤲𑤥𑤥𑤞𑤲𑤥𑤥𑤟𑤥𑤥
-/ga_uVowel-divesakuru 𑤠𑤲𑤥𑤥𑤡𑤲𑤥𑤥𑤢𑤲𑤥𑤥𑤣𑤲𑤥𑤥𑤤𑤲𑤥𑤥𑤥𑤥𑤲𑤥𑤥𑤦𑤲𑤥𑤥𑤧𑤲𑤥𑤥𑤨𑤲𑤥𑤥𑤩𑤲𑤥𑤥𑤬𑤲𑤥𑤥𑤭𑤲𑤥𑤥𑤮𑤲𑤥𑤥𑤯𑤲𑤥𑤥𑤌𑤳𑤥𑤥𑤎𑤳𑤥𑤥𑤖𑤳𑤥𑤥𑤘𑤳𑤥𑤥𑤙𑤳𑤥𑤥𑤚𑤳𑤥𑤥𑤛𑤳𑤥𑤥𑤝𑤳𑤥𑤥𑤞𑤳𑤥𑤥𑤟𑤳𑤥𑤥𑤠𑤳𑤥𑤥𑤡𑤳𑤥𑤥𑤢𑤳𑤥𑤥𑤣𑤳𑤥𑤥𑤤𑤳𑤥𑤥𑤥𑤥𑤳𑤥𑤥𑤦𑤳𑤥𑤥𑤧𑤳𑤥𑤥𑤨𑤳𑤥𑤥𑤩𑤳𑤥𑤥𑤬𑤳𑤥𑤥𑤭𑤳𑤥𑤥𑤮𑤳𑤥𑤥𑤯𑤳𑤥𑤥𑤌𑤴𑤥𑤥𑤎𑤴𑤥𑤥𑤖𑤴𑤥𑤥𑤘𑤴𑤥𑤥𑤙𑤴𑤥𑤥𑤚𑤴𑤥𑤥𑤛𑤴𑤥𑤥𑤝𑤴𑤥𑤥𑤞𑤴𑤥𑤥𑤟𑤴𑤥𑤥𑤠𑤴𑤥𑤥𑤡𑤴𑤥𑤥𑤢𑤴𑤥𑤥𑤣𑤴𑤥𑤥𑤤𑤴𑤥𑤥𑤥𑤥𑤴𑤥𑤥𑤦𑤴𑤥𑤥𑤧𑤴𑤥𑤥𑤨𑤴𑤥𑤥𑤩𑤴𑤥𑤥𑤬𑤴𑤥𑤥𑤭𑤴𑤥𑤥𑤮𑤴𑤥𑤥𑤯𑤴𑤥𑤥𑤌𑤸𑤥𑤥𑤎𑤸𑤥𑤥𑤖𑤸𑤥𑤥𑤘𑤸𑤥𑤥𑤙𑤸𑤥𑤥𑤚𑤸𑤥𑤥𑤛𑤸𑤥𑤥𑤝𑤸𑤥𑤥𑤞𑤸𑤥𑤥𑤟𑤸𑤥𑤥𑤠𑤸𑤥𑤥𑤡𑤸𑤥𑤥𑤢𑤸𑤥𑤥𑤣𑤸𑤥𑤥𑤤𑤸𑤥𑤥𑤥𑤥𑤸𑤥𑤥𑤦𑤸𑤥𑤥𑤧𑤸𑤥𑤥𑤨𑤸𑤥𑤥𑤩𑤸𑤥𑤥𑤬𑤸𑤥𑤥𑤭𑤸𑤥𑤥𑤮𑤸𑤥𑤥𑤯𑤸𑤥𑤥𑤌𑤽𑤥𑤥𑤎𑤽𑤥𑤥𑤖𑤽𑤥𑤥𑤘𑤽𑤥𑤥𑤙𑤽𑤥𑤥𑤚𑤽𑤥𑤥𑤛𑤽𑤥𑤥𑤝𑤽𑤥𑤥𑤞𑤽𑤥𑤥𑤟𑤽𑤥𑤥𑤠𑤽𑤥𑤥𑤡𑤽𑤥𑤥𑤢𑤽𑤥𑤥𑤣𑤽𑤥𑤥𑤤𑤽𑤥𑤥𑤥𑤥𑤽𑤥𑤥𑤦𑤽𑤥𑤥𑤧𑤽𑤥𑤥𑤨𑤽𑤥𑤥𑤩𑤽𑤥𑤥𑤬𑤽𑤥𑤥𑤭𑤽𑤥𑤥𑤮𑤽𑤥𑤥𑤯𑤽𑤥𑤥
-𑤌𑤽𑤟𑤽𑤛𑤽𑤎𑤽𑤚𑤽𑤝𑤽𑤡𑤽𑤧𑤽𑤭𑤽𑤣𑤽𑤖𑤽𑤢𑤽𑤤𑤽𑤩𑤽𑤮𑤽𑤘𑤽𑤙𑤽𑤞𑤽𑤠𑤽𑤥𑤽𑤦𑤽𑤨𑤽𑤬𑤽𑤯𑤽",
-"/ddha_aaVowel-divesakuru/ddha_iVowel-divesakuru/ddha_iiVowel-divesakuru/ddha_uVowel-divesakuru/ddha_uuVowel-divesakuru/ddha_eVowel-divesakuru/ddha_aiVowel-divesakuru/ddha_halanta-divesakuru 
-/dha_aaVowel-divesakuru/dha_iVowel-divesakuru/dha_iiVowel-divesakuru/dha_uVowel-divesakuru/dha_uuVowel-divesakuru/dha_eVowel-divesakuru/dha_aiVowel-divesakuru/dha_halanta-divesakuru 
-/yya_aaVowel-divesakuru/yya_iVowel-divesakuru/yya_iiVowel-divesakuru/yya_uVowel-divesakuru/yya_uuVowel-divesakuru/yya_eVowel-divesakuru/yya_aiVowel-divesakuru/yya_halanta-divesakuru",
-"I𑤀/a-divesakuru.00/a-divesakuru.001/a-divesakuru.002/a-divesakuru.003/a-divesakuru.004/a-divesakuru.005/a-divesakuru.006/a-divesakuru.007/a-divesakuru.008/a-divesakuru.009/a-divesakuru.010/a-divesakuru.alt/a-divesakuru.alt.001/a-divesakuru.alt.002/a-divesakuru.alt.003/a-divesakuru.alt.004/a-divesakuru.alt.005/a-divesakuru.alt.006/a-divesakuru.alt.007/a-divesakuru.alt.008/a-divesakuru.alt.009 𑤂𑤄𑤆𑤉/o-divesakuru.alt 𑤌𑤎𑤖𑤘𑤙𑤚/nna-divesakuru.alt 𑤛𑤜𑤝𑤞𑤟𑤠𑤡𑤢𑤣𑤤/ma-divesakuru.alt/ma-divesakuru.alt2 𑤥𑥀𑤦𑤧𑥂𑤨𑤩/va-divesakuru.alt/va-divesakuru.alt2 𑤫𑤬𑤭𑤮/lla-divesakuru.alt 𑤯𑤵𑤷/ka_aaVowel-divesakuru/ka_iVowel-divesakuru/ka_iiVowel-divesakuru/ka_uVowel-divesakuru/ka_uuVowel-divesakuru/ka_eVowel-divesakuru/ka_aiVowel-divesakuru/ka_halanta-divesakuru/ga_aaVowel-divesakuru/ga_iVowel-divesakuru/ga_iiVowel-divesakuru/ga_uVowel-divesakuru/ga_uuVowel-divesakuru/ga_eVowel-divesakuru/ga_aiVowel-divesakuru/ga_halanta-divesakuru/tta_aaVowel-divesakuru/tta_iVowel-divesakuru/tta_iiVowel-divesakuru/tta_uVowel-divesakuru/tta_uuVowel-divesakuru/tta_eVowel-divesakuru/tta_aiVowel-divesakuru/tta_halanta-divesakuru/dda_aaVowel-divesakuru/dda_iVowel-divesakuru/dda_iiVowel-divesakuru/dda_uVowel-divesakuru/dda_uuVowel-divesakuru/dda_eVowel-divesakuru/dda_aiVowel-divesakuru/dda_halanta-divesakuru/ddha_aaVowel-divesakuru/ddha_iVowel-divesakuru/ddha_iiVowel-divesakuru/ddha_uVowel-divesakuru/ddha_uuVowel-divesakuru/ddha_eVowel-divesakuru/ddha_aiVowel-divesakuru/ddha_halanta-divesakuru/nna_aaVowel-divesakuru/nna_iVowel-divesakuru/nna_iiVowel-divesakuru/nna_uVowel-divesakuru/nna_uuVowel-divesakuru/nna_eVowel-divesakuru/nna_aiVowel-divesakuru/nna_halanta-divesakuru/ta_aaVowel-divesakuru/ta_iVowel-divesakuru/ta_iiVowel-divesakuru/ta_uVowel-divesakuru/ta_uuVowel-divesakuru/ta_eVowel-divesakuru/ta_aiVowel-divesakuru/ta_halanta-divesakuru/da_aaVowel-divesakuru/da_iVowel-divesakuru/da_iiVowel-divesakuru/da_uVowel-divesakuru/da_uuVowel-divesakuru/da_eVowel-divesakuru/da_aiVowel-divesakuru/da_halanta-divesakuru/dha_aaVowel-divesakuru/dha_iVowel-divesakuru/dha_iiVowel-divesakuru/dha_uVowel-divesakuru/dha_uuVowel-divesakuru/dha_eVowel-divesakuru/dha_aiVowel-divesakuru/dha_halanta-divesakuru/na_aaVowel-divesakuru/na_iVowel-divesakuru/na_iiVowel-divesakuru/na_uVowel-divesakuru/na_uuVowel-divesakuru/na_eVowel-divesakuru/na_aiVowel-divesakuru/na_halanta-divesakuru/pa_aaVowel-divesakuru/pa_iVowel-divesakuru/pa_iiVowel-divesakuru/pa_uVowel-divesakuru/pa_uuVowel-divesakuru/pa_eVowel-divesakuru/pa_aiVowel-divesakuru/pa_halanta-divesakuru/pha_aaVowel-divesakuru/pha_iVowel-divesakuru/pha_iiVowel-divesakuru/pha_uVowel-divesakuru/pha_uuVowel-divesakuru/pha_eVowel-divesakuru/pha_aiVowel-divesakuru/pha_halanta-divesakuru/ba_aaVowel-divesakuru/ba_iVowel-divesakuru/ba_iiVowel-divesakuru/ba_uVowel-divesakuru/ba_uuVowel-divesakuru/ba_eVowel-divesakuru/ba_aiVowel-divesakuru/ba_halanta-divesakuru/bha_aaVowel-divesakuru/bha_iVowel-divesakuru/bha_iiVowel-divesakuru/bha_uVowel-divesakuru/bha_uuVowel-divesakuru/bha_eVowel-divesakuru/bha_aiVowel-divesakuru/bha_halanta-divesakuru/ma_aaVowel-divesakuru/ma_iVowel-divesakuru/ma_iiVowel-divesakuru/ma_uVowel-divesakuru/ma_uuVowel-divesakuru/ma_eVowel-divesakuru/ma_aiVowel-divesakuru/ma_halanta-divesakuru/ya_aaVowel-divesakuru/ya_iVowel-divesakuru/ya_iiVowel-divesakuru/ya_uVowel-divesakuru/ya_uuVowel-divesakuru/ya_eVowel-divesakuru/ya_aiVowel-divesakuru/ya_halanta-divesakuru/yya_aaVowel-divesakuru/yya_iVowel-divesakuru/yya_iiVowel-divesakuru/yya_uVowel-divesakuru/yya_uuVowel-divesakuru/yya_eVowel-divesakuru/yya_aiVowel-divesakuru/yya_halanta-divesakuru/ra_aaVowel-divesakuru/ra_iVowel-divesakuru/ra_iiVowel-divesakuru/ra_uVowel-divesakuru/ra_uuVowel-divesakuru/ra_eVowel-divesakuru/ra_aiVowel-divesakuru/ra_halanta-divesakuru/la_aaVowel-divesakuru/la_iVowel-divesakuru/la_iiVowel-divesakuru/la_uVowel-divesakuru/la_uuVowel-divesakuru/la_eVowel-divesakuru/la_aiVowel-divesakuru/la_halanta-divesakuru/va_aaVowel-divesakuru/va_iVowel-divesakuru/va_iiVowel-divesakuru/va_uVowel-divesakuru/va_uuVowel-divesakuru/va_eVowel-divesakuru/va_aiVowel-divesakuru/va_halanta-divesakuru/ssa_halanta-divesakuru/sa_aaVowel-divesakuru/sa_iVowel-divesakuru/sa_iiVowel-divesakuru/sa_uVowel-divesakuru/sa_uuVowel-divesakuru/sa_eVowel-divesakuru/sa_aiVowel-divesakuru/sa_halanta-divesakuru/ha_aaVowel-divesakuru/ha_iVowel-divesakuru/ha_iiVowel-divesakuru/ha_uVowel-divesakuru/ha_uuVowel-divesakuru/ha_eVowel-divesakuru/ha_aiVowel-divesakuru/ha_halanta-divesakuru/lla_aaVowel-divesakuru/lla_iVowel-divesakuru/lla_iiVowel-divesakuru/lla_uVowel-divesakuru/lla_uuVowel-divesakuru/lla_eVowel-divesakuru/lla_aiVowel-divesakuru/lla_halanta-divesakuru/za_aaVowel-divesakuru/za_iVowel-divesakuru/za_iiVowel-divesakuru/za_uVowel-divesakuru/za_uuVowel-divesakuru/za_eVowel-divesakuru/za_aiVowel-divesakuru/za_halanta-divesakuru/ka_ssa_halanda-divesakuru/na_tha-divesakuru  /gapFiller-divesakuru_endofTextMark-divesakuru/gapFiller-divesakuru_endofTextMark-divesakuru.init 𑥄𑥅/gapFiller-divesakuru.fina/gapFiller-divesakuru.init/gapFiller-divesakuru.isol 𑥆/a-divesakuru.00.undera/i-divesakuru.undera/u-divesakuru.undera/e-divesakuru.undera/ka-divesakuru.undera/ga-divesakuru.undera/tta-divesakuru.undera/dda-divesakuru.undera/nna-divesakuru.undera/ta-divesakuru.undera/da-divesakuru.undera/dha-divesakuru.undera/na-divesakuru.undera/pa-divesakuru.undera/ba-divesakuru.undera/ma-divesakuru.alt.undera/ma-divesakuru.alt2.undera/ma-divesakuru.undera/ya-divesakuru.undera/ya-divesakuru.medi.undera/ra-divesakuru.undera/la-divesakuru.undera/va-divesakuru.alt.undera/va-divesakuru.alt2.undera/va-divesakuru.undera/ssa-divesakuru.undera/sa-divesakuru.undera/ha-divesakuru.undera/lla-divesakuru.alt.undera/lla-divesakuru.undera/za-divesakuru.undera 𑤿𑤰𑤱𑤲𑤳𑤴𑤸𑤽𑤾/_part.a/_part.a.alt/_part.i-divesakuru/_uuVowel-divesakuru",
-"𑤭𑤛𑤌𑤌𑤌𑤭𑤌𑤭𑤌𑤭𑤎𑤖𑤘𑤙𑤌𑤛𑤜𑤝𑤞𑤟𑤠𑤡𑤢𑤣𑤤𑤥𑤦𑤧𑤨𑤩𑤫𑤬𑤭𑤮𑤯",
-"𑥃/ka_oVowel-divesakuru/ka_ooVowel-divesakuru/ga_oVowel-divesakuru/ga_ooVowel-divesakuru/tta_oVowel-divesakuru/tta_ooVowel-divesakuru/dda_oVowel-divesakuru/dda_ooVowel-divesakuru/ddha_oVowel-divesakuru/ddha_ooVowel-divesakuru/nna_oVowel-divesakuru/nna_ooVowel-divesakuru/ta_oVowel-divesakuru/ta_ooVowel-divesakuru/da_oVowel-divesakuru/da_ooVowel-divesakuru/dha_oVowel-divesakuru/dha_ooVowel-divesakuru/na_oVowel-divesakuru/na_ooVowel-divesakuru/pa_oVowel-divesakuru/pa_ooVowel-divesakuru/pha_oVowel-divesakuru/pha_ooVowel-divesakuru/ba_oVowel-divesakuru/ba_ooVowel-divesakuru/bha_oVowel-divesakuru/bha_ooVowel-divesakuru/ma_oVowel-divesakuru/ma_ooVowel-divesakuru/ya_oVowel-divesakuru/ya_ooVowel-divesakuru/yya_oVowel-divesakuru/yya_ooVowel-divesakuru/ra_oVowel-divesakuru/ra_ooVowel-divesakuru/la_oVowel-divesakuru/la_ooVowel-divesakuru/va_oVowel-divesakuru/va_ooVowel-divesakuru/sa_oVowel-divesakuru/sa_ooVowel-divesakuru/ha_oVowel-divesakuru/ha_ooVowel-divesakuru/lla_oVowel-divesakuru/lla_ooVowel-divesakuru/za_oVowel-divesakuru/za_ooVowel-divesakuru",
 "/ha_ra.medi_aaVowel-divesakuru/ha_ra.medi_aaVowel-divesakuru/ha_aaVowel-divesakuru 
-𑤛/ta_uVowel-divesakuru/ta_ra.medi.medi_uVowel-divesakuru 
-𑤌/ka_uVowel-divesakuru/ka_ra.medi_uVowel-divesakuru 
-𑤬/sa_iVowel-divesakuru/sa_iiVowel-divesakuru/sa_ra.medi_iiVowel-divesakuru 
-𑤥/ya_iVowel-divesakuru/ya_ra.medi-divesakuru 
-𑤟/na_iVowel-divesakuru/na_ra.medi-divesakuru/na_ra.medi_aaVowel-divesakuru 
-/pa_iVowel-divesakuru 𑤠/pa_ra.medi-divesakuru"
+𑤛/ta_uVowel-divesakuru/ta_ra.medi.medi_uVowel-divesakuru     /ha_ra.medi_aaVowel-divesakuru/ta_ra.medi.medi_uVowel-divesakuru 
+𑤌/ka_uVowel-divesakuru/ka_ra.medi_uVowel-divesakuru/ka_ra.medi_uVowel-divesakuru 
+𑤬/sa_iVowel-divesakuru/sa_iiVowel-divesakuru/sa_ra.medi_iiVowel-divesakuru/sa_ra.medi_iiVowel-divesakuru 
+𑤥/ya_iVowel-divesakuru/ya_ra.medi-divesakuru/ya_ra.medi-divesakuru 
+𑤟/na_iVowel-divesakuru/na_ra.medi-divesakuru/na_ra.medi-divesakuru/na_aaVowel-divesakuru/na_ra.medi_aaVowel-divesakuru/na_ra.medi_aaVowel-divesakuru 
+/pa_iVowel-divesakuru 𑤠/pa_ra.medi-divesakuru/pa_ra.medi-divesakuru 
+
+/ha_ra.medi_aaVowel-divesakuru/na_uVowel-divesakuru/ta_ra.medi.medi_uVowel-divesakuru/ka_ra.medi_uVowel-divesakuru/sa_ra.medi_iiVowel-divesakuru/ya_ra.medi-divesakuru/na_ra.medi-divesakuru/na_ra.medi_aaVowel-divesakuru/pa_ra.medi-divesakuru",
+"/ka_iiVowel-divesakuru/ga_iiVowel-divesakuru/tta_iiVowel-divesakuru/dda_iiVowel-divesakuru/ddha_iiVowel-divesakuru/nna_iiVowel-divesakuru/ta_iiVowel-divesakuru/da_iiVowel-divesakuru/dha_iiVowel-divesakuru/na_iiVowel-divesakuru/pa_iiVowel-divesakuru/pha_iiVowel-divesakuru/ba_iiVowel-divesakuru/bha_iiVowel-divesakuru/ma_iiVowel-divesakuru/ya_iiVowel-divesakuru/yya_iiVowel-divesakuru/ra_iiVowel-divesakuru/la_iiVowel-divesakuru/va_iiVowel-divesakuru/sa_iiVowel-divesakuru/ha_iiVowel-divesakuru/lla_iiVowel-divesakuru/za_iiVowel-divesakuru",
+"𑤌𑤎𑤖𑤘𑤙𑤚/nna-divesakuru.alt 𑤛𑤜𑤝𑤞𑤟𑤠𑤡𑤢𑤣𑤤/ma-divesakuru.alt/ma-divesakuru.alt2 𑤥𑥀𑤦𑤧𑥂𑤨𑤩/va-divesakuru.alt/va-divesakuru.alt2 𑤫𑤬𑤭𑤮/lla-divesakuru.alt 𑤯
+
+𑤤/ma-divesakuru.alt2 𑥀/ba_ya/ma_ya_eVowel/ba_ya_iVowel 
+𑥀/va_ya/va_ya_iVowel/va_ya_uVowel 
+𑤙/ddha_ya 
+𑤞/dha_ya 
+𑤨/la_ya 
+𑤬/sa_ya 
+
+𑤥/ya_ya 
+𑤘/dda_ya 
+𑤌/ka_ya 
+/lla-divesakuru.alt/lla_ya_iVowel 
+𑤤/ma-divesakuru.alt2/ma_ya 
+𑤟/na_ya_iVowel 
+𑤛/ta_ya/ta_ya_halanda"
 );
 classes = (
 {
 automatic = 1;
-code = "I a-divesakuru a-divesakuru.00 a-divesakuru.001 a-divesakuru.002 a-divesakuru.003 a-divesakuru.004 a-divesakuru.005 a-divesakuru.006 a-divesakuru.007 a-divesakuru.008 a-divesakuru.009 a-divesakuru.010 a-divesakuru.alt a-divesakuru.alt.001 a-divesakuru.alt.002 a-divesakuru.alt.003 a-divesakuru.alt.004 a-divesakuru.alt.005 a-divesakuru.alt.006 a-divesakuru.alt.007 a-divesakuru.alt.008 a-divesakuru.alt.009 i-divesakuru u-divesakuru e-divesakuru o-divesakuru o-divesakuru.alt ka-divesakuru ga-divesakuru tta-divesakuru dda-divesakuru ddha-divesakuru nna-divesakuru nna-divesakuru.alt ta-divesakuru tha-divesakuru da-divesakuru dha-divesakuru na-divesakuru pa-divesakuru pha-divesakuru ba-divesakuru bha-divesakuru ma-divesakuru ma-divesakuru.alt ma-divesakuru.alt2 ya-divesakuru ya-divesakuru.medi yya-divesakuru ra-divesakuru ra-divesakuru.medi la-divesakuru va-divesakuru va-divesakuru.alt va-divesakuru.alt2 ssa-divesakuru sa-divesakuru ha-divesakuru lla-divesakuru lla-divesakuru.alt za-divesakuru eVowel-divesakuru aiVowel-divesakuru ka_aaVowel-divesakuru ka_iVowel-divesakuru ka_iiVowel-divesakuru ka_uVowel-divesakuru ka_uuVowel-divesakuru ka_eVowel-divesakuru ka_aiVowel-divesakuru ka_oVowel-divesakuru ka_halanta-divesakuru ga_aaVowel-divesakuru ga_iVowel-divesakuru ga_iiVowel-divesakuru ga_uVowel-divesakuru ga_uuVowel-divesakuru ga_eVowel-divesakuru ga_aiVowel-divesakuru ga_oVowel-divesakuru ga_halanta-divesakuru tta_aaVowel-divesakuru tta_iVowel-divesakuru tta_iiVowel-divesakuru tta_uVowel-divesakuru tta_uuVowel-divesakuru tta_eVowel-divesakuru tta_aiVowel-divesakuru tta_oVowel-divesakuru tta_halanta-divesakuru dda_aaVowel-divesakuru dda_iVowel-divesakuru dda_iiVowel-divesakuru dda_uVowel-divesakuru dda_uuVowel-divesakuru dda_eVowel-divesakuru dda_aiVowel-divesakuru dda_oVowel-divesakuru dda_halanta-divesakuru ddha_aaVowel-divesakuru ddha_iVowel-divesakuru ddha_iiVowel-divesakuru ddha_uVowel-divesakuru ddha_uuVowel-divesakuru ddha_eVowel-divesakuru ddha_aiVowel-divesakuru ddha_oVowel-divesakuru ddha_halanta-divesakuru nna_aaVowel-divesakuru nna_iVowel-divesakuru nna_iiVowel-divesakuru nna_uVowel-divesakuru nna_uuVowel-divesakuru nna_eVowel-divesakuru nna_aiVowel-divesakuru nna_oVowel-divesakuru nna_halanta-divesakuru ta_aaVowel-divesakuru ta_iVowel-divesakuru ta_iiVowel-divesakuru ta_uVowel-divesakuru ta_uuVowel-divesakuru ta_eVowel-divesakuru ta_aiVowel-divesakuru ta_oVowel-divesakuru ta_halanta-divesakuru da_aaVowel-divesakuru da_iVowel-divesakuru da_iiVowel-divesakuru da_uVowel-divesakuru da_uuVowel-divesakuru da_eVowel-divesakuru da_aiVowel-divesakuru da_oVowel-divesakuru da_halanta-divesakuru dha_aaVowel-divesakuru dha_iVowel-divesakuru dha_iiVowel-divesakuru dha_uVowel-divesakuru dha_uuVowel-divesakuru dha_eVowel-divesakuru dha_aiVowel-divesakuru dha_oVowel-divesakuru dha_halanta-divesakuru na_aaVowel-divesakuru na_iVowel-divesakuru na_iiVowel-divesakuru na_uVowel-divesakuru na_uuVowel-divesakuru na_eVowel-divesakuru na_aiVowel-divesakuru na_oVowel-divesakuru na_halanta-divesakuru pa_aaVowel-divesakuru pa_iVowel-divesakuru pa_iiVowel-divesakuru pa_uVowel-divesakuru pa_uuVowel-divesakuru pa_eVowel-divesakuru pa_aiVowel-divesakuru pa_oVowel-divesakuru pa_halanta-divesakuru pha_aaVowel-divesakuru pha_iVowel-divesakuru pha_iiVowel-divesakuru pha_uVowel-divesakuru pha_uuVowel-divesakuru pha_eVowel-divesakuru pha_aiVowel-divesakuru pha_oVowel-divesakuru pha_halanta-divesakuru ba_aaVowel-divesakuru ba_iVowel-divesakuru ba_iiVowel-divesakuru ba_uVowel-divesakuru ba_uuVowel-divesakuru ba_eVowel-divesakuru ba_aiVowel-divesakuru ba_oVowel-divesakuru ba_halanta-divesakuru bha_aaVowel-divesakuru bha_iVowel-divesakuru bha_iiVowel-divesakuru bha_uVowel-divesakuru bha_uuVowel-divesakuru bha_eVowel-divesakuru bha_aiVowel-divesakuru bha_oVowel-divesakuru bha_halanta-divesakuru ma_aaVowel-divesakuru ma_iVowel-divesakuru ma_iiVowel-divesakuru ma_uVowel-divesakuru ma_uuVowel-divesakuru ma_eVowel-divesakuru ma_aiVowel-divesakuru ma_oVowel-divesakuru ma_halanta-divesakuru ya_aaVowel-divesakuru ya_iVowel-divesakuru ya_iiVowel-divesakuru ya_uVowel-divesakuru ya_uuVowel-divesakuru ya_eVowel-divesakuru ya_aiVowel-divesakuru ya_oVowel-divesakuru ya_halanta-divesakuru yya_aaVowel-divesakuru yya_iVowel-divesakuru yya_iiVowel-divesakuru yya_uVowel-divesakuru yya_uuVowel-divesakuru yya_eVowel-divesakuru yya_aiVowel-divesakuru yya_oVowel-divesakuru yya_halanta-divesakuru ra_aaVowel-divesakuru ra_iVowel-divesakuru ra_iiVowel-divesakuru ra_uVowel-divesakuru ra_uuVowel-divesakuru ra_eVowel-divesakuru ra_aiVowel-divesakuru ra_oVowel-divesakuru ra_halanta-divesakuru la_aaVowel-divesakuru la_iVowel-divesakuru la_iiVowel-divesakuru la_uVowel-divesakuru la_uuVowel-divesakuru la_eVowel-divesakuru la_aiVowel-divesakuru la_oVowel-divesakuru la_halanta-divesakuru va_aaVowel-divesakuru va_iVowel-divesakuru va_iiVowel-divesakuru va_uVowel-divesakuru va_uuVowel-divesakuru va_eVowel-divesakuru va_aiVowel-divesakuru va_oVowel-divesakuru va_halanta-divesakuru ssa_halanta-divesakuru sa_aaVowel-divesakuru sa_iVowel-divesakuru sa_iiVowel-divesakuru sa_uVowel-divesakuru sa_uuVowel-divesakuru sa_eVowel-divesakuru sa_aiVowel-divesakuru sa_oVowel-divesakuru sa_halanta-divesakuru ha_aaVowel-divesakuru ha_iVowel-divesakuru ha_iiVowel-divesakuru ha_uVowel-divesakuru ha_uuVowel-divesakuru ha_eVowel-divesakuru ha_aiVowel-divesakuru ha_oVowel-divesakuru ha_halanta-divesakuru lla_aaVowel-divesakuru lla_iVowel-divesakuru lla_iiVowel-divesakuru lla_uVowel-divesakuru lla_uuVowel-divesakuru lla_eVowel-divesakuru lla_aiVowel-divesakuru lla_oVowel-divesakuru lla_halanta-divesakuru za_aaVowel-divesakuru za_iVowel-divesakuru za_iiVowel-divesakuru za_uVowel-divesakuru za_uuVowel-divesakuru za_eVowel-divesakuru za_aiVowel-divesakuru za_oVowel-divesakuru za_halanta-divesakuru ka_ssa_halanda-divesakuru na_tha-divesakuru space gapFiller-divesakuru_endofTextMark-divesakuru gapFiller-divesakuru_endofTextMark-divesakuru.init doubleDanda-divesakuru gapFiller-divesakuru gapFiller-divesakuru.fina gapFiller-divesakuru.init gapFiller-divesakuru.isol.002 gapFiller-divesakuru.isol.001 gapFiller-divesakuru.isol endofTextMark-divesakuru a-divesakuru.00.undera i-divesakuru.undera u-divesakuru.undera e-divesakuru.undera ka-divesakuru.undera ga-divesakuru.undera tta-divesakuru.undera dda-divesakuru.undera nna-divesakuru.undera ta-divesakuru.undera da-divesakuru.undera dha-divesakuru.undera na-divesakuru.undera pa-divesakuru.undera ba-divesakuru.undera ma-divesakuru.alt.undera ma-divesakuru.alt2.undera ma-divesakuru.undera ya-divesakuru.undera ya-divesakuru.medi.undera ra-divesakuru.undera la-divesakuru.undera va-divesakuru.alt.undera va-divesakuru.alt2.undera va-divesakuru.undera ssa-divesakuru.undera sa-divesakuru.undera ha-divesakuru.undera lla-divesakuru.alt.undera lla-divesakuru.undera za-divesakuru.undera prefixedNasalSign-divesakuru ra-divesakuru.init aaVowel-divesakuru iVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru oVowel-divesakuru halanta-divesakuru virama-divesakuru";
+code = "I a-divesakuru a-divesakuru.00 a-divesakuru.001 a-divesakuru.002 a-divesakuru.003 a-divesakuru.004 a-divesakuru.005 a-divesakuru.006 a-divesakuru.007 a-divesakuru.008 a-divesakuru.009 a-divesakuru.010 a-divesakuru.alt a-divesakuru.alt.001 a-divesakuru.alt.002 a-divesakuru.alt.003 a-divesakuru.alt.004 a-divesakuru.alt.005 a-divesakuru.alt.006 a-divesakuru.alt.007 a-divesakuru.alt.008 a-divesakuru.alt.009 i-divesakuru u-divesakuru e-divesakuru o-divesakuru o-divesakuru.alt ka-divesakuru ga-divesakuru tta-divesakuru dda-divesakuru ddha-divesakuru nna-divesakuru nna-divesakuru.alt ta-divesakuru tha-divesakuru da-divesakuru dha-divesakuru na-divesakuru pa-divesakuru pha-divesakuru ba-divesakuru bha-divesakuru ma-divesakuru ma-divesakuru.alt ma-divesakuru.alt2 ya-divesakuru ya-divesakuru.medi yya-divesakuru ra-divesakuru ra-divesakuru.medi la-divesakuru va-divesakuru va-divesakuru.alt va-divesakuru.alt2 ssa-divesakuru sa-divesakuru ha-divesakuru lla-divesakuru lla-divesakuru.alt za-divesakuru eVowel-divesakuru aiVowel-divesakuru ka_aaVowel-divesakuru ka_iVowel-divesakuru ka_iiVowel-divesakuru ka_uVowel-divesakuru ka_uuVowel-divesakuru ka_eVowel-divesakuru ka_aiVowel-divesakuru ka_oVowel-divesakuru ka_ooVowel-divesakuru ka_halanta-divesakuru ga_aaVowel-divesakuru ga_iVowel-divesakuru ga_iiVowel-divesakuru ga_uVowel-divesakuru ga_uuVowel-divesakuru ga_eVowel-divesakuru ga_aiVowel-divesakuru ga_oVowel-divesakuru ga_ooVowel-divesakuru ga_halanta-divesakuru tta_aaVowel-divesakuru tta_iVowel-divesakuru tta_iiVowel-divesakuru tta_uVowel-divesakuru tta_uuVowel-divesakuru tta_eVowel-divesakuru tta_aiVowel-divesakuru tta_oVowel-divesakuru tta_ooVowel-divesakuru tta_halanta-divesakuru dda_aaVowel-divesakuru dda_iVowel-divesakuru dda_iiVowel-divesakuru dda_uVowel-divesakuru dda_uuVowel-divesakuru dda_eVowel-divesakuru dda_aiVowel-divesakuru dda_oVowel-divesakuru dda_ooVowel-divesakuru dda_halanta-divesakuru ddha_aaVowel-divesakuru ddha_iVowel-divesakuru ddha_iiVowel-divesakuru ddha_uVowel-divesakuru ddha_uuVowel-divesakuru ddha_eVowel-divesakuru ddha_aiVowel-divesakuru ddha_oVowel-divesakuru ddha_ooVowel-divesakuru ddha_halanta-divesakuru nna_aaVowel-divesakuru nna_iVowel-divesakuru nna_iiVowel-divesakuru nna_uVowel-divesakuru nna_uuVowel-divesakuru nna_eVowel-divesakuru nna_aiVowel-divesakuru nna_oVowel-divesakuru nna_ooVowel-divesakuru nna_halanta-divesakuru ta_aaVowel-divesakuru ta_iVowel-divesakuru ta_iiVowel-divesakuru ta_uVowel-divesakuru ta_uuVowel-divesakuru ta_eVowel-divesakuru ta_aiVowel-divesakuru ta_oVowel-divesakuru ta_ooVowel-divesakuru ta_halanta-divesakuru da_aaVowel-divesakuru da_iVowel-divesakuru da_iiVowel-divesakuru da_uVowel-divesakuru da_uuVowel-divesakuru da_eVowel-divesakuru da_aiVowel-divesakuru da_oVowel-divesakuru da_ooVowel-divesakuru da_halanta-divesakuru dha_aaVowel-divesakuru dha_iVowel-divesakuru dha_iiVowel-divesakuru dha_uVowel-divesakuru dha_uuVowel-divesakuru dha_eVowel-divesakuru dha_aiVowel-divesakuru dha_oVowel-divesakuru dha_ooVowel-divesakuru dha_halanta-divesakuru na_aaVowel-divesakuru na_iVowel-divesakuru na_iiVowel-divesakuru na_uVowel-divesakuru na_uuVowel-divesakuru na_eVowel-divesakuru na_aiVowel-divesakuru na_oVowel-divesakuru na_ooVowel-divesakuru na_halanta-divesakuru pa_aaVowel-divesakuru pa_iVowel-divesakuru pa_iiVowel-divesakuru pa_uVowel-divesakuru pa_uuVowel-divesakuru pa_eVowel-divesakuru pa_aiVowel-divesakuru pa_oVowel-divesakuru pa_ooVowel-divesakuru pa_halanta-divesakuru pha_aaVowel-divesakuru pha_iVowel-divesakuru pha_iiVowel-divesakuru pha_uVowel-divesakuru pha_uuVowel-divesakuru pha_eVowel-divesakuru pha_aiVowel-divesakuru pha_oVowel-divesakuru pha_ooVowel-divesakuru pha_halanta-divesakuru ba_aaVowel-divesakuru ba_iVowel-divesakuru ba_iiVowel-divesakuru ba_uVowel-divesakuru ba_uuVowel-divesakuru ba_eVowel-divesakuru ba_aiVowel-divesakuru ba_oVowel-divesakuru ba_ooVowel-divesakuru ba_halanta-divesakuru bha_aaVowel-divesakuru bha_iVowel-divesakuru bha_iiVowel-divesakuru bha_uVowel-divesakuru bha_uuVowel-divesakuru bha_eVowel-divesakuru bha_aiVowel-divesakuru bha_oVowel-divesakuru bha_ooVowel-divesakuru bha_halanta-divesakuru ma_aaVowel-divesakuru ma_iVowel-divesakuru ma_iiVowel-divesakuru ma_uVowel-divesakuru ma_uuVowel-divesakuru ma_eVowel-divesakuru ma_aiVowel-divesakuru ma_oVowel-divesakuru ma_ooVowel-divesakuru ma_halanta-divesakuru ya_aaVowel-divesakuru ya_iVowel-divesakuru ya_iiVowel-divesakuru ya_uVowel-divesakuru ya_uuVowel-divesakuru ya_eVowel-divesakuru ya_aiVowel-divesakuru ya_oVowel-divesakuru ya_ooVowel-divesakuru ya_halanta-divesakuru yya_aaVowel-divesakuru yya_iVowel-divesakuru yya_iiVowel-divesakuru yya_uVowel-divesakuru yya_uuVowel-divesakuru yya_eVowel-divesakuru yya_aiVowel-divesakuru yya_oVowel-divesakuru yya_ooVowel-divesakuru yya_halanta-divesakuru ra_aaVowel-divesakuru ra_iVowel-divesakuru ra_iiVowel-divesakuru ra_uVowel-divesakuru ra_uuVowel-divesakuru ra_eVowel-divesakuru ra_aiVowel-divesakuru ra_oVowel-divesakuru ra_ooVowel-divesakuru ra_halanta-divesakuru la_aaVowel-divesakuru la_iVowel-divesakuru la_iiVowel-divesakuru la_uVowel-divesakuru la_uuVowel-divesakuru la_eVowel-divesakuru la_aiVowel-divesakuru la_oVowel-divesakuru la_ooVowel-divesakuru la_halanta-divesakuru va_aaVowel-divesakuru va_iVowel-divesakuru va_iiVowel-divesakuru va_uVowel-divesakuru va_uuVowel-divesakuru va_eVowel-divesakuru va_aiVowel-divesakuru va_oVowel-divesakuru va_ooVowel-divesakuru va_halanta-divesakuru ssa_halanta-divesakuru sa_aaVowel-divesakuru sa_iVowel-divesakuru sa_iiVowel-divesakuru sa_uVowel-divesakuru sa_uuVowel-divesakuru sa_eVowel-divesakuru sa_aiVowel-divesakuru sa_oVowel-divesakuru sa_ooVowel-divesakuru sa_halanta-divesakuru ha_aaVowel-divesakuru ha_iVowel-divesakuru ha_iiVowel-divesakuru ha_uVowel-divesakuru ha_uuVowel-divesakuru ha_eVowel-divesakuru ha_aiVowel-divesakuru ha_oVowel-divesakuru ha_ooVowel-divesakuru ha_halanta-divesakuru lla_aaVowel-divesakuru lla_iVowel-divesakuru lla_iiVowel-divesakuru lla_uVowel-divesakuru lla_uuVowel-divesakuru lla_eVowel-divesakuru lla_aiVowel-divesakuru lla_oVowel-divesakuru lla_ooVowel-divesakuru lla_halanta-divesakuru za_aaVowel-divesakuru za_iVowel-divesakuru za_iiVowel-divesakuru za_uVowel-divesakuru za_uuVowel-divesakuru za_eVowel-divesakuru za_aiVowel-divesakuru za_oVowel-divesakuru za_ooVowel-divesakuru za_halanta-divesakuru ka_ssa_halanda-divesakuru ka_ra.medi_uVowel-divesakuru nga_ga-divesakuru ta_ra.medi.medi_uVowel-divesakuru na_tha-divesakuru na_ra.medi_aaVowel-divesakuru sa_ra.medi_iiVowel-divesakuru ha_ra.medi_aaVowel-divesakuru space gapFiller-divesakuru_endofTextMark-divesakuru gapFiller-divesakuru_endofTextMark-divesakuru.init doubleDanda-divesakuru gapFiller-divesakuru gapFiller-divesakuru.fina gapFiller-divesakuru.init gapFiller-divesakuru.isol endofTextMark-divesakuru a-divesakuru.00.undera i-divesakuru.undera u-divesakuru.undera e-divesakuru.undera ka-divesakuru.undera ga-divesakuru.undera tta-divesakuru.undera dda-divesakuru.undera nna-divesakuru.undera ta-divesakuru.undera da-divesakuru.undera dha-divesakuru.undera na-divesakuru.undera pa-divesakuru.undera ba-divesakuru.undera ma-divesakuru.alt.undera ma-divesakuru.alt2.undera ma-divesakuru.undera ya-divesakuru.undera ya-divesakuru.medi.undera ra-divesakuru.undera la-divesakuru.undera va-divesakuru.alt.undera va-divesakuru.alt2.undera va-divesakuru.undera ssa-divesakuru.undera sa-divesakuru.undera ha-divesakuru.undera lla-divesakuru.alt.undera lla-divesakuru.undera za-divesakuru.undera prefixedNasalSign-divesakuru aaVowel-divesakuru iVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru oVowel-divesakuru ooVowel-divesakuru halanta-divesakuru virama-divesakuru nukta-divesakuru na_ra.medi-divesakuru pa_ra.medi-divesakuru ya_ra.medi-divesakuru";
 name = All;
 },
 {
@@ -389,6 +191,7 @@ code = "lookup ccmp_diak_1 {
 	sub ba-divesakuru iVowel-divesakuru by ba_iVowel-divesakuru;
 	sub ba-divesakuru iiVowel-divesakuru by ba_iiVowel-divesakuru;
 	sub ba-divesakuru oVowel-divesakuru by ba_oVowel-divesakuru;
+	sub ba-divesakuru ooVowel-divesakuru by ba_ooVowel-divesakuru;
 	sub ba-divesakuru uVowel-divesakuru by ba_uVowel-divesakuru;
 	sub ba-divesakuru uuVowel-divesakuru by ba_uuVowel-divesakuru;
 	sub bha-divesakuru aaVowel-divesakuru by bha_aaVowel-divesakuru;
@@ -398,6 +201,7 @@ code = "lookup ccmp_diak_1 {
 	sub bha-divesakuru iVowel-divesakuru by bha_iVowel-divesakuru;
 	sub bha-divesakuru iiVowel-divesakuru by bha_iiVowel-divesakuru;
 	sub bha-divesakuru oVowel-divesakuru by bha_oVowel-divesakuru;
+	sub bha-divesakuru ooVowel-divesakuru by bha_ooVowel-divesakuru;
 	sub bha-divesakuru uVowel-divesakuru by bha_uVowel-divesakuru;
 	sub bha-divesakuru uuVowel-divesakuru by bha_uuVowel-divesakuru;
 	sub da-divesakuru aaVowel-divesakuru by da_aaVowel-divesakuru;
@@ -407,6 +211,7 @@ code = "lookup ccmp_diak_1 {
 	sub da-divesakuru iVowel-divesakuru by da_iVowel-divesakuru;
 	sub da-divesakuru iiVowel-divesakuru by da_iiVowel-divesakuru;
 	sub da-divesakuru oVowel-divesakuru by da_oVowel-divesakuru;
+	sub da-divesakuru ooVowel-divesakuru by da_ooVowel-divesakuru;
 	sub da-divesakuru uVowel-divesakuru by da_uVowel-divesakuru;
 	sub da-divesakuru uuVowel-divesakuru by da_uuVowel-divesakuru;
 	sub dda-divesakuru aaVowel-divesakuru by dda_aaVowel-divesakuru;
@@ -416,6 +221,7 @@ code = "lookup ccmp_diak_1 {
 	sub dda-divesakuru iVowel-divesakuru by dda_iVowel-divesakuru;
 	sub dda-divesakuru iiVowel-divesakuru by dda_iiVowel-divesakuru;
 	sub dda-divesakuru oVowel-divesakuru by dda_oVowel-divesakuru;
+	sub dda-divesakuru ooVowel-divesakuru by dda_ooVowel-divesakuru;
 	sub dda-divesakuru uVowel-divesakuru by dda_uVowel-divesakuru;
 	sub dda-divesakuru uuVowel-divesakuru by dda_uuVowel-divesakuru;
 	sub ddha-divesakuru aaVowel-divesakuru by ddha_aaVowel-divesakuru;
@@ -425,6 +231,7 @@ code = "lookup ccmp_diak_1 {
 	sub ddha-divesakuru iVowel-divesakuru by ddha_iVowel-divesakuru;
 	sub ddha-divesakuru iiVowel-divesakuru by ddha_iiVowel-divesakuru;
 	sub ddha-divesakuru oVowel-divesakuru by ddha_oVowel-divesakuru;
+	sub ddha-divesakuru ooVowel-divesakuru by ddha_ooVowel-divesakuru;
 	sub ddha-divesakuru uVowel-divesakuru by ddha_uVowel-divesakuru;
 	sub ddha-divesakuru uuVowel-divesakuru by ddha_uuVowel-divesakuru;
 	sub dha-divesakuru aaVowel-divesakuru by dha_aaVowel-divesakuru;
@@ -434,6 +241,7 @@ code = "lookup ccmp_diak_1 {
 	sub dha-divesakuru iVowel-divesakuru by dha_iVowel-divesakuru;
 	sub dha-divesakuru iiVowel-divesakuru by dha_iiVowel-divesakuru;
 	sub dha-divesakuru oVowel-divesakuru by dha_oVowel-divesakuru;
+	sub dha-divesakuru ooVowel-divesakuru by dha_ooVowel-divesakuru;
 	sub dha-divesakuru uVowel-divesakuru by dha_uVowel-divesakuru;
 	sub dha-divesakuru uuVowel-divesakuru by dha_uuVowel-divesakuru;
 	sub ga-divesakuru aaVowel-divesakuru by ga_aaVowel-divesakuru;
@@ -443,6 +251,7 @@ code = "lookup ccmp_diak_1 {
 	sub ga-divesakuru iVowel-divesakuru by ga_iVowel-divesakuru;
 	sub ga-divesakuru iiVowel-divesakuru by ga_iiVowel-divesakuru;
 	sub ga-divesakuru oVowel-divesakuru by ga_oVowel-divesakuru;
+	sub ga-divesakuru ooVowel-divesakuru by ga_ooVowel-divesakuru;
 	sub ga-divesakuru uVowel-divesakuru by ga_uVowel-divesakuru;
 	sub ga-divesakuru uuVowel-divesakuru by ga_uuVowel-divesakuru;
 	sub ha-divesakuru aaVowel-divesakuru by ha_aaVowel-divesakuru;
@@ -452,6 +261,7 @@ code = "lookup ccmp_diak_1 {
 	sub ha-divesakuru iVowel-divesakuru by ha_iVowel-divesakuru;
 	sub ha-divesakuru iiVowel-divesakuru by ha_iiVowel-divesakuru;
 	sub ha-divesakuru oVowel-divesakuru by ha_oVowel-divesakuru;
+	sub ha-divesakuru ooVowel-divesakuru by ha_ooVowel-divesakuru;
 	sub ha-divesakuru uVowel-divesakuru by ha_uVowel-divesakuru;
 	sub ha-divesakuru uuVowel-divesakuru by ha_uuVowel-divesakuru;
 	sub ka-divesakuru aaVowel-divesakuru by ka_aaVowel-divesakuru;
@@ -461,6 +271,7 @@ code = "lookup ccmp_diak_1 {
 	sub ka-divesakuru iVowel-divesakuru by ka_iVowel-divesakuru;
 	sub ka-divesakuru iiVowel-divesakuru by ka_iiVowel-divesakuru;
 	sub ka-divesakuru oVowel-divesakuru by ka_oVowel-divesakuru;
+	sub ka-divesakuru ooVowel-divesakuru by ka_ooVowel-divesakuru;
 	sub ka-divesakuru uVowel-divesakuru by ka_uVowel-divesakuru;
 	sub ka-divesakuru uuVowel-divesakuru by ka_uuVowel-divesakuru;
 	sub la-divesakuru aaVowel-divesakuru by la_aaVowel-divesakuru;
@@ -470,6 +281,7 @@ code = "lookup ccmp_diak_1 {
 	sub la-divesakuru iVowel-divesakuru by la_iVowel-divesakuru;
 	sub la-divesakuru iiVowel-divesakuru by la_iiVowel-divesakuru;
 	sub la-divesakuru oVowel-divesakuru by la_oVowel-divesakuru;
+	sub la-divesakuru ooVowel-divesakuru by la_ooVowel-divesakuru;
 	sub la-divesakuru uVowel-divesakuru by la_uVowel-divesakuru;
 	sub la-divesakuru uuVowel-divesakuru by la_uuVowel-divesakuru;
 	sub lla-divesakuru aaVowel-divesakuru by lla_aaVowel-divesakuru;
@@ -479,6 +291,7 @@ code = "lookup ccmp_diak_1 {
 	sub lla-divesakuru iVowel-divesakuru by lla_iVowel-divesakuru;
 	sub lla-divesakuru iiVowel-divesakuru by lla_iiVowel-divesakuru;
 	sub lla-divesakuru oVowel-divesakuru by lla_oVowel-divesakuru;
+	sub lla-divesakuru ooVowel-divesakuru by lla_ooVowel-divesakuru;
 	sub lla-divesakuru uVowel-divesakuru by lla_uVowel-divesakuru;
 	sub lla-divesakuru uuVowel-divesakuru by lla_uuVowel-divesakuru;
 	sub ma-divesakuru aaVowel-divesakuru by ma_aaVowel-divesakuru;
@@ -488,6 +301,7 @@ code = "lookup ccmp_diak_1 {
 	sub ma-divesakuru iVowel-divesakuru by ma_iVowel-divesakuru;
 	sub ma-divesakuru iiVowel-divesakuru by ma_iiVowel-divesakuru;
 	sub ma-divesakuru oVowel-divesakuru by ma_oVowel-divesakuru;
+	sub ma-divesakuru ooVowel-divesakuru by ma_ooVowel-divesakuru;
 	sub ma-divesakuru uVowel-divesakuru by ma_uVowel-divesakuru;
 	sub ma-divesakuru uuVowel-divesakuru by ma_uuVowel-divesakuru;
 	sub na-divesakuru aaVowel-divesakuru by na_aaVowel-divesakuru;
@@ -497,6 +311,7 @@ code = "lookup ccmp_diak_1 {
 	sub na-divesakuru iVowel-divesakuru by na_iVowel-divesakuru;
 	sub na-divesakuru iiVowel-divesakuru by na_iiVowel-divesakuru;
 	sub na-divesakuru oVowel-divesakuru by na_oVowel-divesakuru;
+	sub na-divesakuru ooVowel-divesakuru by na_ooVowel-divesakuru;
 	sub na-divesakuru uVowel-divesakuru by na_uVowel-divesakuru;
 	sub na-divesakuru uuVowel-divesakuru by na_uuVowel-divesakuru;
 	sub nna-divesakuru aaVowel-divesakuru by nna_aaVowel-divesakuru;
@@ -506,6 +321,7 @@ code = "lookup ccmp_diak_1 {
 	sub nna-divesakuru iVowel-divesakuru by nna_iVowel-divesakuru;
 	sub nna-divesakuru iiVowel-divesakuru by nna_iiVowel-divesakuru;
 	sub nna-divesakuru oVowel-divesakuru by nna_oVowel-divesakuru;
+	sub nna-divesakuru ooVowel-divesakuru by nna_ooVowel-divesakuru;
 	sub nna-divesakuru uVowel-divesakuru by nna_uVowel-divesakuru;
 	sub nna-divesakuru uuVowel-divesakuru by nna_uuVowel-divesakuru;
 	sub pa-divesakuru aaVowel-divesakuru by pa_aaVowel-divesakuru;
@@ -515,6 +331,7 @@ code = "lookup ccmp_diak_1 {
 	sub pa-divesakuru iVowel-divesakuru by pa_iVowel-divesakuru;
 	sub pa-divesakuru iiVowel-divesakuru by pa_iiVowel-divesakuru;
 	sub pa-divesakuru oVowel-divesakuru by pa_oVowel-divesakuru;
+	sub pa-divesakuru ooVowel-divesakuru by pa_ooVowel-divesakuru;
 	sub pa-divesakuru uVowel-divesakuru by pa_uVowel-divesakuru;
 	sub pa-divesakuru uuVowel-divesakuru by pa_uuVowel-divesakuru;
 	sub pha-divesakuru aaVowel-divesakuru by pha_aaVowel-divesakuru;
@@ -524,6 +341,7 @@ code = "lookup ccmp_diak_1 {
 	sub pha-divesakuru iVowel-divesakuru by pha_iVowel-divesakuru;
 	sub pha-divesakuru iiVowel-divesakuru by pha_iiVowel-divesakuru;
 	sub pha-divesakuru oVowel-divesakuru by pha_oVowel-divesakuru;
+	sub pha-divesakuru ooVowel-divesakuru by pha_ooVowel-divesakuru;
 	sub pha-divesakuru uVowel-divesakuru by pha_uVowel-divesakuru;
 	sub pha-divesakuru uuVowel-divesakuru by pha_uuVowel-divesakuru;
 	sub ra-divesakuru aaVowel-divesakuru by ra_aaVowel-divesakuru;
@@ -533,6 +351,7 @@ code = "lookup ccmp_diak_1 {
 	sub ra-divesakuru iVowel-divesakuru by ra_iVowel-divesakuru;
 	sub ra-divesakuru iiVowel-divesakuru by ra_iiVowel-divesakuru;
 	sub ra-divesakuru oVowel-divesakuru by ra_oVowel-divesakuru;
+	sub ra-divesakuru ooVowel-divesakuru by ra_ooVowel-divesakuru;
 	sub ra-divesakuru uVowel-divesakuru by ra_uVowel-divesakuru;
 	sub ra-divesakuru uuVowel-divesakuru by ra_uuVowel-divesakuru;
 	sub sa-divesakuru aaVowel-divesakuru by sa_aaVowel-divesakuru;
@@ -542,6 +361,7 @@ code = "lookup ccmp_diak_1 {
 	sub sa-divesakuru iVowel-divesakuru by sa_iVowel-divesakuru;
 	sub sa-divesakuru iiVowel-divesakuru by sa_iiVowel-divesakuru;
 	sub sa-divesakuru oVowel-divesakuru by sa_oVowel-divesakuru;
+	sub sa-divesakuru ooVowel-divesakuru by sa_ooVowel-divesakuru;
 	sub sa-divesakuru uVowel-divesakuru by sa_uVowel-divesakuru;
 	sub sa-divesakuru uuVowel-divesakuru by sa_uuVowel-divesakuru;
 	sub ssa-divesakuru halanta-divesakuru by ssa_halanta-divesakuru;
@@ -552,6 +372,7 @@ code = "lookup ccmp_diak_1 {
 	sub ta-divesakuru iVowel-divesakuru by ta_iVowel-divesakuru;
 	sub ta-divesakuru iiVowel-divesakuru by ta_iiVowel-divesakuru;
 	sub ta-divesakuru oVowel-divesakuru by ta_oVowel-divesakuru;
+	sub ta-divesakuru ooVowel-divesakuru by ta_ooVowel-divesakuru;
 	sub ta-divesakuru uVowel-divesakuru by ta_uVowel-divesakuru;
 	sub ta-divesakuru uuVowel-divesakuru by ta_uuVowel-divesakuru;
 	sub tta-divesakuru aaVowel-divesakuru by tta_aaVowel-divesakuru;
@@ -561,6 +382,7 @@ code = "lookup ccmp_diak_1 {
 	sub tta-divesakuru iVowel-divesakuru by tta_iVowel-divesakuru;
 	sub tta-divesakuru iiVowel-divesakuru by tta_iiVowel-divesakuru;
 	sub tta-divesakuru oVowel-divesakuru by tta_oVowel-divesakuru;
+	sub tta-divesakuru ooVowel-divesakuru by tta_ooVowel-divesakuru;
 	sub tta-divesakuru uVowel-divesakuru by tta_uVowel-divesakuru;
 	sub tta-divesakuru uuVowel-divesakuru by tta_uuVowel-divesakuru;
 	sub va-divesakuru aaVowel-divesakuru by va_aaVowel-divesakuru;
@@ -570,6 +392,7 @@ code = "lookup ccmp_diak_1 {
 	sub va-divesakuru iVowel-divesakuru by va_iVowel-divesakuru;
 	sub va-divesakuru iiVowel-divesakuru by va_iiVowel-divesakuru;
 	sub va-divesakuru oVowel-divesakuru by va_oVowel-divesakuru;
+	sub va-divesakuru ooVowel-divesakuru by va_ooVowel-divesakuru;
 	sub va-divesakuru uVowel-divesakuru by va_uVowel-divesakuru;
 	sub va-divesakuru uuVowel-divesakuru by va_uuVowel-divesakuru;
 	sub ya-divesakuru aaVowel-divesakuru by ya_aaVowel-divesakuru;
@@ -579,6 +402,7 @@ code = "lookup ccmp_diak_1 {
 	sub ya-divesakuru iVowel-divesakuru by ya_iVowel-divesakuru;
 	sub ya-divesakuru iiVowel-divesakuru by ya_iiVowel-divesakuru;
 	sub ya-divesakuru oVowel-divesakuru by ya_oVowel-divesakuru;
+	sub ya-divesakuru ooVowel-divesakuru by ya_ooVowel-divesakuru;
 	sub ya-divesakuru uVowel-divesakuru by ya_uVowel-divesakuru;
 	sub ya-divesakuru uuVowel-divesakuru by ya_uuVowel-divesakuru;
 	sub yya-divesakuru aaVowel-divesakuru by yya_aaVowel-divesakuru;
@@ -588,6 +412,7 @@ code = "lookup ccmp_diak_1 {
 	sub yya-divesakuru iVowel-divesakuru by yya_iVowel-divesakuru;
 	sub yya-divesakuru iiVowel-divesakuru by yya_iiVowel-divesakuru;
 	sub yya-divesakuru oVowel-divesakuru by yya_oVowel-divesakuru;
+	sub yya-divesakuru ooVowel-divesakuru by yya_ooVowel-divesakuru;
 	sub yya-divesakuru uVowel-divesakuru by yya_uVowel-divesakuru;
 	sub yya-divesakuru uuVowel-divesakuru by yya_uuVowel-divesakuru;
 	sub za-divesakuru aaVowel-divesakuru by za_aaVowel-divesakuru;
@@ -597,6 +422,7 @@ code = "lookup ccmp_diak_1 {
 	sub za-divesakuru iVowel-divesakuru by za_iVowel-divesakuru;
 	sub za-divesakuru iiVowel-divesakuru by za_iiVowel-divesakuru;
 	sub za-divesakuru oVowel-divesakuru by za_oVowel-divesakuru;
+	sub za-divesakuru ooVowel-divesakuru by za_ooVowel-divesakuru;
 	sub za-divesakuru uVowel-divesakuru by za_uVowel-divesakuru;
 	sub za-divesakuru uuVowel-divesakuru by za_uuVowel-divesakuru;
 } ccmp_diak_1;
@@ -66359,7 +66185,7 @@ width = 1230;
 {
 color = 0;
 glyphname = "ka-divesakuru";
-lastChange = "2024-07-19 06:58:56 +0000";
+lastChange = "2024-07-28 17:58:44 +0000";
 layers = (
 {
 associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
@@ -71954,20 +71780,20 @@ nodes = (
 (955,326,cs),
 (955,450,o),
 (757,525,o),
-(522,525,cs),
-(313,525,o),
-(103,461,o),
-(103,353,cs),
-(103,272,o),
-(221,227,o),
+(513,525,cs),
+(288,525,o),
+(53,461,o),
+(53,354,cs),
+(53,272,o),
+(193,227,o),
 (373,222,c),
 (407,257,l),
-(292,270,o),
-(218,306,o),
-(218,357,cs),
-(218,429,o),
-(364,467,o),
-(510,467,cs),
+(262,270,o),
+(168,306,o),
+(168,358,cs),
+(168,429,o),
+(339,467,o),
+(500,467,cs),
 (705,467,o),
 (853,406,o),
 (853,307,cs),
@@ -71980,45 +71806,45 @@ nodes = (
 closed = 1;
 nodes = (
 (1051,468,o),
-(1111,375,o),
-(1111,285,cs),
-(1111,150,o),
-(944,38,o),
-(759,-28,cs),
-(624,-76,o),
-(484,-97,o),
-(366,-97,cs),
-(266,-97,o),
-(194,-71,o),
-(194,-8,cs),
-(194,36,o),
-(226,73,o),
-(311,113,c),
+(1111,379,o),
+(1111,297,cs),
+(1111,155,o),
+(932,41,o),
+(747,-25,cs),
+(599,-77,o),
+(451,-97,o),
+(354,-97,cs),
+(247,-97,o),
+(194,-73,o),
+(194,-21,cs),
+(194,34,o),
+(255,87,o),
+(321,118,c),
 (306,159,l),
-(141,101,o),
-(75,38,o),
-(75,-34,cs),
-(75,-130,o),
-(204,-157,o),
-(325,-157,cs),
-(468,-157,o),
-(625,-132,o),
-(777,-80,cs),
-(1018,3,o),
-(1230,146,o),
-(1230,308,cs),
-(1230,439,o),
+(168,109,o),
+(75,34,o),
+(75,-45,cs),
+(75,-131,o),
+(183,-157,o),
+(312,-157,cs),
+(435,-157,o),
+(600,-133,o),
+(766,-76,cs),
+(1007,6,o),
+(1230,151,o),
+(1230,317,cs),
+(1230,442,o),
 (1105,524,o),
-(932,524,cs),
+(943,524,cs),
 (867,524,o),
 (774,506,o),
-(691,484,cs),
+(704,487,cs),
 (489,429,o),
 (300,310,o),
 (300,174,cs),
-(300,73,o),
+(300,78,o),
 (394,5,o),
-(507,5,cs),
+(513,5,cs),
 (640,5,o),
 (752,87,o),
 (752,181,cs),
@@ -72037,19 +71863,19 @@ AngleInDegrees = "360";
 (555,286,l),
 (600,261,o),
 (643,220,o),
-(643,163,cs),
+(643,164,cs),
 (643,107,o),
 (599,59,o),
 (533,59,cs),
 (462,59,o),
 (406,115,o),
-(406,191,cs),
+(406,187,cs),
 (406,304,o),
 (556,391,o),
-(705,431,cs),
+(727,437,cs),
 (777,451,o),
 (854,468,o),
-(902,468,cs)
+(914,468,cs)
 );
 }
 );
@@ -77603,7 +77429,7 @@ width = 1165;
 {
 color = 0;
 glyphname = "ta-divesakuru";
-lastChange = "2024-07-19 06:58:44 +0000";
+lastChange = "2024-07-28 18:02:40 +0000";
 layers = (
 {
 anchors = (
@@ -77777,10 +77603,10 @@ nodes = (
 (334,-15,cs),
 (477,-15,o),
 (615,101,o),
-(615,258,cs),
-(615,403,o),
+(615,253,cs),
+(615,393,o),
 (498,509,o),
-(338,509,cs)
+(333,509,cs)
 );
 }
 );
@@ -84250,7 +84076,7 @@ unicode = 71966;
 {
 color = 0;
 glyphname = "na-divesakuru";
-lastChange = "2024-07-18 19:45:50 +0000";
+lastChange = "2024-07-28 20:03:08 +0000";
 layers = (
 {
 anchors = (
@@ -84426,7 +84252,7 @@ AngleInDegrees = "360";
 );
 }
 );
-width = 1021;
+width = 1022;
 },
 {
 associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
@@ -97554,31 +97380,147 @@ width = 747;
 unicode = 71975;
 },
 {
+color = 0;
 glyphname = "ra-divesakuru.medi";
-lastChange = "2024-07-19 14:08:02 +0000";
+lastChange = "2024-07-28 21:13:16 +0000";
 layers = (
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(340,-137,o),
+(183,111,o),
+(183,361,cs),
+(183,675,o),
+(433,921,o),
+(581,925,cs),
+(638,927,o),
+(660,890,o),
+(660,852,cs),
+(660,795,o),
+(620,735,o),
+(541,677,c),
+(562,641,l),
+(683,700,o),
+(764,797,o),
+(764,872,cs),
+(764,936,o),
+(708,985,o),
+(618,985,cs),
+(358,984,o),
+(75,660,o),
+(75,340,cs),
+(75,63,o),
+(286,-197,o),
+(695,-197,cs),
+(838,-197,o),
+(1011,-152,o),
+(1153,-82,cs),
+(1335,8,o),
+(1473,157,o),
+(1473,284,cs),
+(1473,417,o),
+(1341,509,o),
+(1178,501,cs),
+(1107,498,o),
+(1012,502,o),
+(933,479,cs),
+(734,421,o),
+(536,303,o),
+(536,161,cs),
+(536,74,o),
+(618,7,o),
+(728,7,cs),
+(854,7,o),
+(991,95,o),
+(991,195,cs),
+(991,250,o),
+(950,299,o),
+(899,312,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(803,275,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(803,267,l),
+(844,254,o),
+(883,210,o),
+(883,166,cs),
+(883,114,o),
+(829,66,o),
+(761,66,cs),
+(691,66,o),
+(642,118,o),
+(642,172,cs),
+(642,342,o),
+(954,462,o),
+(1119,462,cs),
+(1269,462,o),
+(1354,374,o),
+(1354,266,cs),
+(1354,147,o),
+(1262,43,o),
+(1134,-25,cs),
+(1008,-94,o),
+(854,-137,o),
+(720,-137,cs)
+);
+}
+);
+};
 layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
 shapes = (
 {
 closed = 1;
 nodes = (
-(419,101,o),
-(479,203,o),
-(479,329,cs),
-(479,455,o),
-(419,557,o),
-(345,557,cs),
-(271,557,o),
-(211,455,o),
-(211,329,cs),
-(211,203,o),
-(271,101,o),
-(345,101,cs)
+(1118,457,l),
+(1272,463,o),
+(1354,371,o),
+(1354,266,cs),
+(1354,16,o),
+(1022,-137,o),
+(743,-137,cs),
+(349,-137,o),
+(183,111,o),
+(183,361,cs),
+(183,675,o),
+(433,921,o),
+(581,925,cs),
+(638,927,o),
+(660,890,o),
+(660,852,cs),
+(660,795,o),
+(620,735,o),
+(541,677,c),
+(562,641,l),
+(683,700,o),
+(764,797,o),
+(764,872,cs),
+(764,936,o),
+(708,985,o),
+(618,985,cs),
+(358,984,o),
+(75,660,o),
+(75,340,cs),
+(75,63,o),
+(296,-197,o),
+(717,-197,cs),
+(1060,-197,o),
+(1473,10,o),
+(1473,284,cs),
+(1473,417,o),
+(1341,520,o),
+(1118,501,c)
 );
 }
 );
-width = 600;
+width = 1548;
 }
 );
 unicode = 72002;
@@ -108846,7 +108788,7 @@ unicode = 71983;
 category = Letter;
 color = 3;
 glyphname = "eVowel-divesakuru";
-lastChange = "2024-07-18 14:34:29 +0000";
+lastChange = "2024-07-28 18:03:06 +0000";
 layers = (
 {
 background = {
@@ -108935,10 +108877,10 @@ nodes = (
 (290,-15,cs),
 (433,-15,o),
 (571,101,o),
-(571,258,cs),
-(571,403,o),
+(571,253,cs),
+(571,393,o),
 (454,509,o),
-(294,509,cs)
+(289,509,cs)
 );
 }
 );
@@ -120969,7 +120911,7 @@ metricRight = "=ka_aaVowel-divesakuru";
 {
 color = 7;
 glyphname = "ta_iVowel-divesakuru";
-lastChange = "2024-07-19 07:39:00 +0000";
+lastChange = "2024-07-28 18:02:45 +0000";
 layers = (
 {
 anchors = (
@@ -121256,10 +121198,10 @@ nodes = (
 (334,-15,cs),
 (477,-15,o),
 (615,101,o),
-(615,258,cs),
-(615,403,o),
+(615,253,cs),
+(615,393,o),
 (498,509,o),
-(338,509,cs)
+(333,509,cs)
 );
 }
 );
@@ -121272,7 +121214,7 @@ metricRight = "=ka_iVowel-divesakuru";
 {
 color = 7;
 glyphname = "ta_iiVowel-divesakuru";
-lastChange = "2024-07-19 07:39:00 +0000";
+lastChange = "2024-07-28 18:02:50 +0000";
 layers = (
 {
 anchors = (
@@ -121581,10 +121523,10 @@ nodes = (
 (334,-15,cs),
 (477,-15,o),
 (615,101,o),
-(615,258,cs),
-(615,403,o),
+(615,253,cs),
+(615,393,o),
 (498,509,o),
-(338,509,cs)
+(333,509,cs)
 );
 }
 );
@@ -121597,7 +121539,7 @@ metricRight = "=ka_iiVowel-divesakuru";
 {
 color = 7;
 glyphname = "ta_uVowel-divesakuru";
-lastChange = "2024-07-19 08:05:22 +0000";
+lastChange = "2024-07-28 18:02:55 +0000";
 layers = (
 {
 anchors = (
@@ -121778,10 +121720,10 @@ nodes = (
 (290,-15,cs),
 (433,-15,o),
 (571,101,o),
-(571,258,cs),
-(571,403,o),
+(571,253,cs),
+(571,393,o),
 (454,509,o),
-(294,509,cs)
+(289,509,cs)
 );
 }
 );
@@ -121964,7 +121906,7 @@ width = 2245;
 {
 color = 7;
 glyphname = "ta_halanta-divesakuru";
-lastChange = "2024-07-19 07:46:00 +0000";
+lastChange = "2024-07-28 18:03:22 +0000";
 layers = (
 {
 anchors = (
@@ -122105,8 +122047,8 @@ nodes = (
 (531,310,l),
 (542,361,l),
 (500,446,o),
-(411,509,o),
-(296,509,cs),
+(403,509,o),
+(288,509,cs),
 (163,509,o),
 (75,434,o),
 (75,356,cs),
@@ -130880,7 +130822,7 @@ pos = (646,0);
 ref = "na-divesakuru";
 }
 );
-width = 1667;
+width = 1668;
 }
 );
 },
@@ -130914,7 +130856,7 @@ pos = (996,0);
 ref = "na-divesakuru";
 }
 );
-width = 2017;
+width = 2018;
 }
 );
 },
@@ -132518,7 +132460,7 @@ metricRight = "=ka_aaVowel-divesakuru";
 {
 color = 7;
 glyphname = "pa_iVowel-divesakuru";
-lastChange = "2024-07-19 07:39:00 +0000";
+lastChange = "2024-07-28 20:10:47 +0000";
 layers = (
 {
 anchors = (
@@ -132685,10 +132627,10 @@ AngleInDegrees = "360";
 {
 closed = 1;
 nodes = (
-(788,-190,o),
-(1023,-176,o),
-(1244,-131,cs),
-(1635,-52,o),
+(773,-190,o),
+(989,-173,o),
+(1192,-132,cs),
+(1613,-46,o),
 (1906,130,o),
 (1906,310,cs),
 (1906,398,o),
@@ -132705,10 +132647,10 @@ nodes = (
 (1789,376,o),
 (1789,296,cs),
 (1789,140,o),
-(1578,-2,o),
-(1231,-73,cs),
-(1023,-116,o),
-(802,-131,o),
+(1558,4,o),
+(1179,-73,cs),
+(990,-112,o),
+(788,-131,o),
 (642,-131,cs),
 (484,-131,o),
 (414,-105,o),
@@ -141404,7 +141346,7 @@ metricRight = "=ka_aaVowel-divesakuru";
 {
 color = 7;
 glyphname = "ya_iVowel-divesakuru";
-lastChange = "2024-07-19 08:14:29 +0000";
+lastChange = "2024-07-28 18:53:26 +0000";
 layers = (
 {
 anchors = (
@@ -153036,7 +152978,7 @@ metricRight = "=ka_iVowel-divesakuru";
 {
 color = 7;
 glyphname = "sa_iiVowel-divesakuru";
-lastChange = "2024-07-19 07:52:18 +0000";
+lastChange = "2024-07-28 18:34:09 +0000";
 layers = (
 {
 anchors = (
@@ -153054,151 +152996,6 @@ pos = (247,614);
 }
 );
 background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(1418,386,ls),
-(1395,473,o),
-(1448,533,o),
-(1545,535,cs),
-(1651,538,o),
-(1712,469,o),
-(1712,387,cs),
-(1712,294,o),
-(1633,232,o),
-(1501,196,c),
-(1513,152,l),
-(1672,193,o),
-(1828,283,o),
-(1828,413,cs),
-(1828,526,o),
-(1709,595,o),
-(1567,595,cs),
-(1389,595,o),
-(1283,487,o),
-(1317,363,cs),
-(1329,320,ls),
-(1366,183,o),
-(1219,104,o),
-(1013,104,cs),
-(917,104,o),
-(760,125,o),
-(654,125,cs),
-(449,125,o),
-(320,35,o),
-(320,-59,cs),
-(320,-109,o),
-(353,-149,o),
-(433,-163,c,{
-"Letterink-NibData" = {
-AngleInDegrees = "360";
-};
-}),
-(480,-140,l),
-(276,-164,o),
-(193,-76,o),
-(193,12,cs),
-(193,147,o),
-(389,221,o),
-(663,223,c,{
-"Letterink-NibData" = {
-AngleInDegrees = "360";
-};
-}),
-(662,267,l),
-(346,251,o),
-(212,377,o),
-(212,483,cs),
-(212,532,o),
-(240,584,o),
-(308,584,cs),
-(370,584,o),
-(441,538,o),
-(501,404,c,{
-"Letterink-NibData" = {
-AngleInDegrees = "360";
-};
-}),
-(604,426,l,{
-"Letterink-NibData" = {
-AngleInDegrees = "360";
-};
-}),
-(545,561,o),
-(455,644,o),
-(322,644,cs),
-(185,644,o),
-(98,550,o),
-(98,458,cs),
-(98,355,o),
-(208,227,o),
-(483,226,c),
-(441,240,l),
-(259,235,o),
-(75,143,o),
-(75,3,cs),
-(75,-113,o),
-(205,-182,o),
-(365,-182,cs),
-(443,-182,o),
-(532,-170,o),
-(589,-159,c),
-(583,-121,l),
-(475,-140,o),
-(427,-102,o),
-(427,-51,cs),
-(427,10,o),
-(491,62,o),
-(611,62,cs),
-(702,62,o),
-(868,41,o),
-(982,41,cs),
-(1260,41,o),
-(1478,157,o),
-(1432,333,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(843,-109,o),
-(781,-93,o),
-(781,-44,cs),
-(781,-5,o),
-(824,37,o),
-(917,58,c),
-(883,75,l),
-(720,40,o),
-(660,-8,o),
-(659,-63,cs),
-(660,-130,o),
-(744,-166,o),
-(907,-166,cs),
-(1057,-166,o),
-(1233,-149,o),
-(1402,-115,cs),
-(1706,-54,o),
-(1890,42,o),
-(1891,147,cs),
-(1892,218,o),
-(1809,254,o),
-(1694,254,c),
-(1650,217,l),
-(1742,216,o),
-(1772,175,o),
-(1772,141,cs),
-(1772,60,o),
-(1622,-7,o),
-(1381,-59,cs),
-(1225,-92,o),
-(1077,-109,o),
-(969,-109,cs)
-);
-}
-);
-};
-layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
 shapes = (
 {
 closed = 1;
@@ -153323,6 +153120,166 @@ AngleInDegrees = "360";
 (1438,305,o),
 (1436,319,o),
 (1432,333,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(843,-109,o),
+(781,-93,o),
+(781,-44,cs),
+(781,-5,o),
+(824,37,o),
+(917,58,c),
+(883,75,l),
+(720,40,o),
+(659,-8,o),
+(659,-63,cs),
+(659,-130,o),
+(744,-166,o),
+(907,-166,cs),
+(1057,-166,o),
+(1233,-149,o),
+(1402,-115,cs),
+(1708,-54,o),
+(1891,50,o),
+(1891,158,cs),
+(1891,235,o),
+(1808,274,o),
+(1694,274,c),
+(1650,237,l),
+(1742,236,o),
+(1772,189,o),
+(1772,151,cs),
+(1772,66,o),
+(1623,-7,o),
+(1381,-59,cs),
+(1225,-92,o),
+(1077,-109,o),
+(969,-109,cs)
+);
+}
+);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1414,386,ls),
+(1383,477,o),
+(1451,535,o),
+(1551,535,cs),
+(1656,535,o),
+(1712,472,o),
+(1712,397,cs),
+(1712,309,o),
+(1633,250,o),
+(1501,216,c),
+(1513,172,l),
+(1672,211,o),
+(1828,298,o),
+(1828,423,cs),
+(1828,530,o),
+(1714,595,o),
+(1574,595,cs),
+(1403,595,o),
+(1263,498,o),
+(1313,363,cs),
+(1326,329,ls),
+(1334,306,o),
+(1335,292,o),
+(1335,279,cs),
+(1335,167,o),
+(1198,104,o),
+(1013,104,cs),
+(917,104,o),
+(760,125,o),
+(654,125,cs),
+(449,125,o),
+(320,35,o),
+(320,-59,cs),
+(320,-109,o),
+(353,-149,o),
+(433,-163,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(480,-140,l),
+(457,-143,o),
+(435,-144,o),
+(415,-144,cs),
+(258,-144,o),
+(193,-66,o),
+(193,12,cs),
+(193,147,o),
+(389,221,o),
+(663,223,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(663,267,l),
+(645,266,o),
+(626,266,o),
+(609,266,cs),
+(331,266,o),
+(212,383,o),
+(212,483,cs),
+(212,532,o),
+(240,584,o),
+(308,584,cs),
+(370,584,o),
+(441,538,o),
+(501,404,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(604,426,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(545,561,o),
+(455,644,o),
+(322,644,cs),
+(185,644,o),
+(98,550,o),
+(98,458,cs),
+(98,355,o),
+(208,227,o),
+(483,226,c),
+(441,240,l),
+(259,235,o),
+(75,143,o),
+(75,3,cs),
+(75,-113,o),
+(205,-182,o),
+(365,-182,cs),
+(443,-182,o),
+(532,-170,o),
+(589,-159,c),
+(583,-121,l),
+(564,-124,o),
+(546,-126,o),
+(531,-126,cs),
+(459,-126,o),
+(427,-93,o),
+(427,-51,cs),
+(427,10,o),
+(491,62,o),
+(611,62,cs),
+(702,62,o),
+(868,41,o),
+(982,41,cs),
+(1235,41,o),
+(1438,154,o),
+(1438,291,cs),
+(1438,305,o),
+(1437,319,o),
+(1430,340,cs)
 );
 },
 {
@@ -164948,25 +164905,9 @@ width = 2246;
 );
 },
 {
+color = 1;
 glyphname = "ka_ra.medi_uVowel-divesakuru";
-lastChange = "2024-07-19 15:09:28 +0000";
-layers = (
-{
-backgroundImage = {
-imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 39/Conjunct_D39_34.jpg";
-pos = (20,-618);
-scale = (56,56);
-};
-layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
-width = 2650;
-}
-);
-metricLeft = "ka-divesakuru";
-},
-{
-color = 0;
-glyphname = "nga_ga-divesakuru";
-lastChange = "2024-07-19 14:02:52 +0000";
+lastChange = "2024-07-28 21:12:44 +0000";
 layers = (
 {
 background = {
@@ -164974,97 +164915,262 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(369,900,o),
-(418,956,o),
-(418,1007,cs),
-(418,1058,o),
-(369,1086,o),
-(318,1079,c),
-(340,1064,l),
-(387,1091,o),
-(451,1108,o),
-(508,1108,cs),
-(597,1108,o),
-(650,1066,o),
-(651,1012,cs),
-(652,980,o),
-(634,950,o),
-(595,935,c),
-(668,927,l),
-(716,946,o),
-(760,990,o),
-(760,1037,cs),
-(760,1116,o),
-(658,1168,o),
-(538,1168,cs),
-(398,1168,o),
-(190,1101,o),
-(190,986,cs),
-(190,935,o),
-(230,900,o),
-(291,900,cs)
+(1118,457,l),
+(1272,463,o),
+(1354,371,o),
+(1354,266,cs),
+(1354,16,o),
+(1022,-137,o),
+(743,-137,cs),
+(349,-137,o),
+(183,111,o),
+(183,361,cs),
+(183,675,o),
+(433,921,o),
+(581,925,cs),
+(638,927,o),
+(660,890,o),
+(660,852,cs),
+(660,795,o),
+(620,735,o),
+(541,677,c),
+(562,641,l),
+(683,700,o),
+(764,797,o),
+(764,872,cs),
+(764,936,o),
+(708,985,o),
+(618,985,cs),
+(358,984,o),
+(75,660,o),
+(75,340,cs),
+(75,63,o),
+(296,-197,o),
+(717,-197,cs),
+(1060,-197,o),
+(1473,10,o),
+(1473,284,cs),
+(1473,417,o),
+(1341,520,o),
+(1118,501,c)
+);
+}
+);
+};
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 39/Conjunct_D39_34.jpg";
+pos = (245,-618);
+scale = (56,56);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1055,142,o),
+(1192,217,o),
+(1192,326,cs),
+(1192,512,o),
+(788,535,o),
+(652,535,cs),
+(495,535,o),
+(341,505,o),
+(341,406,cs),
+(341,304,o),
+(535,259,o),
+(594,259,c),
+(631,296,l),
+(564,301,o),
+(459,342,o),
+(459,403,cs),
+(459,460,o),
+(549,476,o),
+(661,476,cs),
+(753,476,o),
+(1093,465,o),
+(1093,308,cs),
+(1093,240,o),
+(1030,201,o),
+(982,201,c),
+(925,145,l),
+(934,143,o),
+(944,142,o),
+(955,142,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(694,1567,o),
-(804,1688,o),
-(804,1755,cs),
-(804,1798,o),
-(752,1841,o),
-(677,1841,cs),
-(603,1841,o),
-(507,1804,o),
-(431,1755,c),
-(478,1716,l),
-(520,1750,o),
-(540,1751,o),
-(563,1751,cs),
-(606,1751,o),
-(634,1730,o),
-(634,1696,cs),
-(634,1673,o),
-(610,1654,o),
-(563,1654,cs),
-(528,1654,o),
-(483,1664,o),
-(419,1698,c),
-(310,1622,l),
-(365,1581,o),
-(430,1567,o),
-(498,1567,cs)
+(346,-137,o),
+(183,111,o),
+(183,361,cs),
+(183,675,o),
+(433,921,o),
+(581,925,cs),
+(638,927,o),
+(660,890,o),
+(660,852,cs),
+(660,795,o),
+(620,735,o),
+(541,677,c),
+(562,641,l),
+(683,700,o),
+(764,797,o),
+(764,872,cs),
+(764,936,o),
+(708,985,o),
+(618,985,cs),
+(358,984,o),
+(75,660,o),
+(75,340,cs),
+(75,63,o),
+(293,-197,o),
+(719,-197,cs),
+(1077,-197,o),
+(1473,10,o),
+(1473,268,cs),
+(1473,417,o),
+(1341,509,o),
+(1178,501,cs),
+(1107,498,o),
+(1012,502,o),
+(933,479,cs),
+(734,421,o),
+(536,303,o),
+(536,161,cs),
+(536,74,o),
+(618,7,o),
+(728,7,cs),
+(854,7,o),
+(991,95,o),
+(991,195,cs),
+(991,250,o),
+(950,299,o),
+(899,312,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(803,275,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(803,267,l),
+(844,254,o),
+(883,210,o),
+(883,166,cs),
+(883,114,o),
+(829,66,o),
+(761,66,cs),
+(691,66,o),
+(642,118,o),
+(642,172,cs),
+(642,342,o),
+(954,462,o),
+(1119,462,cs),
+(1269,462,o),
+(1354,365,o),
+(1354,244,cs),
+(1354,9,o),
+(1031,-137,o),
+(741,-137,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(371,1778,o),
-(491,1875,o),
-(552,1970,c),
-(507,1950,l),
-(519,1953,o),
-(531,1954,o),
-(541,1954,cs),
-(600,1954,o),
-(629,1911,o),
-(629,1873,cs),
-(629,1856,o),
-(619,1835,o),
-(605,1822,c),
-(679,1822,l),
-(778,1849,o),
-(796,1892,o),
-(797,1926,cs),
-(797,1993,o),
-(705,2038,o),
-(581,2038,cs),
-(373,2038,o),
-(159,1961,o),
-(159,1852,cs),
-(159,1814,o),
-(194,1778,o),
-(260,1778,cs)
+(1932,-710,o),
+(2147,-667,o),
+(2323,-613,c),
+(2314,-568,l),
+(2105,-623,o),
+(1941,-650,o),
+(1828,-650,cs),
+(1639,-650,o),
+(1592,-593,o),
+(1592,-499,cs),
+(1592,-318,o),
+(1766,8,o),
+(1766,230,cs),
+(1766,439,o),
+(1613,570,o),
+(1376,570,cs),
+(1256,570,o),
+(1128,544,o),
+(976,486,c),
+(1012,455,l),
+(1133,490,o),
+(1241,516,o),
+(1356,516,cs),
+(1565,516,o),
+(1658,401,o),
+(1658,211,cs),
+(1658,3,o),
+(1484,-319,o),
+(1484,-518,cs),
+(1484,-627,o),
+(1560,-710,o),
+(1776,-710,cs)
+);
+}
+);
+width = 1866;
+},
+{
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 39/Conjunct_D39_34.jpg";
+pos = (20,-618);
+scale = (56,56);
+};
+layerId = "C5BD5E51-7D90-4EAA-AA10-ECE597F55168";
+name = "Jul 28, 24 at 14:58";
+width = 2650;
+}
+);
+metricRight = "=u-divesakuru-145";
+},
+{
+color = 0;
+glyphname = "nga_ga-divesakuru";
+lastChange = "2024-07-28 21:09:16 +0000";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(326,893,o),
+(375,948,o),
+(375,998,cs),
+(375,1048,o),
+(334,1069,o),
+(276,1069,c),
+(300,1054,l),
+(353,1087,o),
+(424,1109,o),
+(485,1109,cs),
+(565,1109,o),
+(611,1069,o),
+(611,1020,cs),
+(611,983,o),
+(579,949,o),
+(545,930,c),
+(618,922,l),
+(671,949,o),
+(720,990,o),
+(720,1039,cs),
+(720,1115,o),
+(627,1167,o),
+(507,1167,cs),
+(370,1167,o),
+(150,1097,o),
+(150,980,cs),
+(150,927,o),
+(189,893,o),
+(250,893,cs)
 );
 },
 {
@@ -165130,31 +165236,31 @@ nodes = (
 (288,674,o),
 (319,707,o),
 (363,707,cs),
-(414,707,o),
-(455,674,o),
-(545,674,cs),
-(680,674,o),
-(771,747,o),
-(771,825,cs),
-(771,893,o),
-(700,944,o),
-(613,944,cs),
-(567,944,o),
-(508,930,o),
-(456,911,c),
-(470,872,l),
-(504,883,o),
-(537,892,o),
-(565,892,cs),
-(622,892,o),
-(663,853,o),
-(663,810,cs),
-(663,779,o),
-(638,735,o),
-(577,735,cs),
-(525,735,o),
-(467,767,o),
-(392,767,cs),
+(396,707,o),
+(438,685,o),
+(507,685,cs),
+(621,685,o),
+(720,770,o),
+(720,849,cs),
+(716,913,o),
+(647,956,o),
+(567,950,cs),
+(520,947,o),
+(460,930,o),
+(407,908,c),
+(424,870,l),
+(459,883,o),
+(494,893,o),
+(522,895,cs),
+(572,899,o),
+(610,876,o),
+(613,826,cs),
+(613,795,o),
+(582,746,o),
+(523,746,cs),
+(475,746,o),
+(439,767,o),
+(391,767,cs),
 (284,767,o),
 (189,683,o),
 (177,579,cs)
@@ -165173,35 +165279,35 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(329,900,o),
-(378,956,o),
-(378,1007,cs),
-(378,1058,o),
-(329,1086,o),
-(278,1079,c),
-(300,1064,l),
-(347,1091,o),
-(411,1108,o),
-(467,1108,cs),
-(557,1108,o),
-(611,1065,o),
-(611,1010,cs),
-(611,977,o),
-(594,946,o),
-(555,930,c),
-(628,922,l),
-(676,940,o),
-(720,982,o),
-(720,1029,cs),
-(720,1111,o),
-(618,1168,o),
-(496,1168,cs),
-(358,1168,o),
-(150,1101,o),
-(150,986,cs),
-(150,935,o),
-(190,900,o),
-(251,900,cs)
+(356,893,o),
+(405,948,o),
+(405,998,cs),
+(405,1048,o),
+(364,1069,o),
+(306,1069,c),
+(330,1054,l),
+(374,1087,o),
+(434,1109,o),
+(485,1109,cs),
+(571,1109,o),
+(621,1069,o),
+(621,1020,cs),
+(621,993,o),
+(602,961,o),
+(575,943,c),
+(639,935,l),
+(687,955,o),
+(730,996,o),
+(730,1039,cs),
+(730,1115,o),
+(633,1167,o),
+(507,1167,cs),
+(382,1167,o),
+(180,1097,o),
+(180,980,cs),
+(180,927,o),
+(219,893,o),
+(280,893,cs)
 );
 },
 {
@@ -165264,36 +165370,36 @@ nodes = (
 (247,297,o),
 (274,549,o),
 (280,603,cs),
-(288,674,o),
-(319,707,o),
-(363,707,cs),
-(403,707,o),
-(435,680,o),
-(514,680,cs),
-(640,680,o),
-(731,750,o),
-(731,825,cs),
-(731,890,o),
-(661,938,o),
-(575,938,cs),
-(531,938,o),
-(474,925,o),
-(423,907,c),
-(437,868,l),
-(469,878,o),
-(501,886,o),
-(527,886,cs),
-(583,886,o),
-(623,850,o),
-(623,810,cs),
-(623,782,o),
-(598,741,o),
-(541,741,cs),
-(496,741,o),
-(451,767,o),
-(392,767,cs),
-(284,767,o),
-(189,683,o),
+(287,668,o),
+(319,698,o),
+(363,698,cs),
+(389,698,o),
+(422,688,o),
+(477,688,cs),
+(623,688,o),
+(720,771,o),
+(720,849,cs),
+(720,906,o),
+(664,951,o),
+(582,951,cs),
+(537,951,o),
+(476,934,o),
+(423,911,c),
+(440,873,l),
+(474,886,o),
+(507,895,o),
+(533,895,cs),
+(587,895,o),
+(613,866,o),
+(613,832,cs),
+(613,795,o),
+(572,747,o),
+(493,747,cs),
+(456,747,o),
+(428,758,o),
+(391,758,cs),
+(284,758,o),
+(188,678,o),
 (177,579,cs)
 );
 }
@@ -166384,25 +166490,932 @@ scale = (70,70);
 layerId = "6D58A46A-068D-467C-AC67-192762393E6C";
 name = "Jul 19, 24 at 15:48";
 width = 1024;
+},
+{
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(326,893,o),
+(375,948,o),
+(375,998,cs),
+(375,1048,o),
+(334,1069,o),
+(276,1069,c),
+(300,1054,l),
+(353,1087,o),
+(424,1109,o),
+(485,1109,cs),
+(565,1109,o),
+(611,1069,o),
+(611,1020,cs),
+(611,983,o),
+(579,949,o),
+(545,930,c),
+(618,922,l),
+(671,949,o),
+(720,990,o),
+(720,1039,cs),
+(720,1115,o),
+(627,1167,o),
+(507,1167,cs),
+(370,1167,o),
+(150,1097,o),
+(150,980,cs),
+(150,927,o),
+(189,893,o),
+(250,893,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(170,518,o),
+(145,285,o),
+(145,225,cs),
+(145,73,o),
+(246,-15,o),
+(382,-15,cs),
+(530,-15,o),
+(643,89,o),
+(643,192,cs),
+(643,251,o),
+(606,306,o),
+(545,323,c),
+(537,303,l),
+(579,309,o),
+(595,311,o),
+(633,311,cs),
+(754,311,o),
+(829,245,o),
+(829,156,cs),
+(829,-34,o),
+(486,-148,o),
+(272,-148,cs),
+(145,-148,o),
+(95,-109,o),
+(95,-66,cs),
+(95,-21,o),
+(148,16,o),
+(237,46,c),
+(213,79,l),
+(97,50,o),
+(-20,-13,o),
+(-20,-94,cs),
+(-20,-164,o),
+(71,-211,o),
+(233,-211,cs),
+(528,-211,o),
+(949,-50,o),
+(949,178,cs),
+(949,300,o),
+(829,369,o),
+(664,369,cs),
+(587,369,o),
+(501,350,o),
+(438,324,c),
+(436,307,l),
+(505,275,o),
+(538,220,o),
+(538,169,cs),
+(538,99,o),
+(477,45,o),
+(401,45,cs),
+(305,45,o),
+(247,131,o),
+(247,239,cs),
+(247,297,o),
+(274,549,o),
+(280,603,cs),
+(288,674,o),
+(319,707,o),
+(363,707,cs),
+(396,707,o),
+(438,685,o),
+(507,685,cs),
+(621,685,o),
+(720,770,o),
+(720,849,cs),
+(716,913,o),
+(647,956,o),
+(567,950,cs),
+(520,947,o),
+(460,930,o),
+(407,908,c),
+(424,870,l),
+(459,883,o),
+(494,893,o),
+(522,895,cs),
+(572,899,o),
+(610,876,o),
+(613,826,cs),
+(613,795,o),
+(582,746,o),
+(523,746,cs),
+(475,746,o),
+(439,767,o),
+(391,767,cs),
+(284,767,o),
+(189,683,o),
+(177,579,cs)
+);
+}
+);
+};
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Simple characters/Document 32/Samples/g_D32_259.jpg";
+locked = 1;
+pos = (45,-402);
+scale = (70,70);
+};
+layerId = "0203213E-798E-41F6-8D6B-4616CE04C306";
+name = "Jul 28, 24 at 18:05";
+shapes = (
+{
+closed = 1;
+nodes = (
+(329,880,o),
+(378,936,o),
+(378,987,cs),
+(378,1038,o),
+(329,1086,o),
+(278,1059,c),
+(300,1044,l),
+(353,1083,o),
+(424,1108,o),
+(485,1108,cs),
+(565,1108,o),
+(611,1069,o),
+(611,1020,cs),
+(611,983,o),
+(594,948,o),
+(555,930,c),
+(628,922,l),
+(676,942,o),
+(720,988,o),
+(720,1039,cs),
+(720,1115,o),
+(627,1168,o),
+(507,1168,cs),
+(370,1168,o),
+(150,1094,o),
+(150,966,cs),
+(150,915,o),
+(190,880,o),
+(251,880,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(170,518,o),
+(145,285,o),
+(145,225,cs),
+(145,73,o),
+(246,-15,o),
+(382,-15,cs),
+(530,-15,o),
+(643,89,o),
+(643,192,cs),
+(643,251,o),
+(606,306,o),
+(545,323,c),
+(537,303,l),
+(579,309,o),
+(595,311,o),
+(633,311,cs),
+(754,311,o),
+(829,245,o),
+(829,156,cs),
+(829,-34,o),
+(486,-148,o),
+(272,-148,cs),
+(145,-148,o),
+(95,-109,o),
+(95,-66,cs),
+(95,-21,o),
+(148,16,o),
+(237,46,c),
+(213,79,l),
+(97,50,o),
+(-20,-13,o),
+(-20,-94,cs),
+(-20,-164,o),
+(71,-211,o),
+(233,-211,cs),
+(528,-211,o),
+(949,-50,o),
+(949,178,cs),
+(949,300,o),
+(829,369,o),
+(664,369,cs),
+(587,369,o),
+(501,350,o),
+(438,324,c),
+(436,307,l),
+(505,275,o),
+(538,220,o),
+(538,169,cs),
+(538,99,o),
+(477,45,o),
+(401,45,cs),
+(305,45,o),
+(247,131,o),
+(247,239,cs),
+(247,297,o),
+(274,549,o),
+(280,603,cs),
+(288,674,o),
+(319,707,o),
+(363,707,cs),
+(403,707,o),
+(455,680,o),
+(526,680,cs),
+(640,680,o),
+(731,750,o),
+(731,826,cs),
+(731,890,o),
+(661,938,o),
+(575,938,cs),
+(531,938,o),
+(474,925,o),
+(423,907,c),
+(437,868,l),
+(469,878,o),
+(501,886,o),
+(527,886,cs),
+(583,886,o),
+(623,860,o),
+(623,811,cs),
+(623,783,o),
+(598,741,o),
+(541,741,cs),
+(496,741,o),
+(451,767,o),
+(391,767,cs),
+(284,767,o),
+(189,683,o),
+(177,579,cs)
+);
+}
+);
+width = 1024;
 }
 );
 metricLeft = "ga-divesakuru";
 metricRight = "ga-divesakuru";
 },
 {
+color = 1;
 glyphname = "ta_ra.medi.medi_uVowel-divesakuru";
-lastChange = "2024-07-19 15:09:17 +0000";
+lastChange = "2024-07-28 21:12:58 +0000";
 layers = (
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(903,-195,o),
+(1166,-21,o),
+(1166,154,cs),
+(1166,257,o),
+(1071,324,o),
+(947,329,cs),
+(913,330,o),
+(875,326,o),
+(836,321,c),
+(842,294,l),
+(869,299,o),
+(894,306,o),
+(912,301,cs),
+(980,283,o),
+(1048,236,o),
+(1048,134,cs),
+(1048,-14,o),
+(853,-136,o),
+(617,-136,cs),
+(330,-136,o),
+(183,103,o),
+(183,343,cs),
+(183,646,o),
+(433,883,o),
+(581,887,cs),
+(638,889,o),
+(660,852,o),
+(660,814,cs),
+(660,757,o),
+(620,697,o),
+(541,639,c),
+(562,603,l),
+(683,662,o),
+(764,759,o),
+(764,834,cs),
+(764,898,o),
+(708,947,o),
+(618,947,cs),
+(358,946,o),
+(75,632,o),
+(75,322,cs),
+(75,55,o),
+(273,-195,o),
+(600,-195,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(499,509,o),
+(414,439,o),
+(414,361,cs),
+(414,288,o),
+(490,227,o),
+(599,232,c),
+(637,264,l),
+(575,278,o),
+(526,322,o),
+(526,374,cs),
+(526,423,o),
+(570,452,o),
+(619,452,cs),
+(719,452,o),
+(804,329,o),
+(804,225,cs),
+(804,132,o),
+(737,42,o),
+(666,42,cs),
+(623,42,o),
+(594,75,o),
+(594,120,cs),
+(594,201,o),
+(688,265,o),
+(843,291,c),
+(833,339,l),
+(673,316,o),
+(483,222,o),
+(483,99,cs),
+(483,37,o),
+(534,-15,o),
+(629,-15,cs),
+(772,-15,o),
+(910,101,o),
+(910,253,cs),
+(910,393,o),
+(793,509,o),
+(628,509,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1624,-710,o),
+(1839,-667,o),
+(2015,-613,c),
+(2006,-568,l),
+(1797,-623,o),
+(1633,-650,o),
+(1520,-650,cs),
+(1331,-650,o),
+(1284,-593,o),
+(1284,-499,cs),
+(1284,-340,o),
+(1430,-55,o),
+(1430,140,cs),
+(1430,300,o),
+(1311,400,o),
+(1125,400,cs),
+(1051,400,o),
+(972,384,o),
+(878,349,c),
+(911,314,l),
+(979,332,o),
+(1040,346,o),
+(1105,346,cs),
+(1255,346,o),
+(1322,261,o),
+(1322,121,cs),
+(1322,-61,o),
+(1176,-344,o),
+(1176,-518,cs),
+(1176,-627,o),
+(1252,-710,o),
+(1468,-710,cs)
+);
+}
+);
+};
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_4.jpg";
+pos = (571,-726);
+scale = (56,56);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(900,-195,o),
+(1166,-16,o),
+(1166,159,cs),
+(1166,263,o),
+(1071,328,o),
+(947,333,cs),
+(913,334,o),
+(875,329,o),
+(836,321,c),
+(842,294,l),
+(869,299,o),
+(894,306,o),
+(912,301,cs),
+(980,283,o),
+(1048,234,o),
+(1048,142,cs),
+(1048,-16,o),
+(850,-136,o),
+(644,-136,cs),
+(359,-136,o),
+(233,93,o),
+(233,323,cs),
+(233,637,o),
+(477,883,o),
+(621,887,cs),
+(678,889,o),
+(700,852,o),
+(700,814,cs),
+(700,757,o),
+(660,697,o),
+(581,639,c),
+(602,603,l),
+(723,662,o),
+(804,759,o),
+(804,834,cs),
+(804,898,o),
+(748,947,o),
+(658,947,cs),
+(403,946,o),
+(125,622,o),
+(125,302,cs),
+(125,45,o),
+(301,-195,o),
+(622,-195,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(499,509,o),
+(414,439,o),
+(414,361,cs),
+(414,288,o),
+(490,227,o),
+(599,232,c),
+(637,264,l),
+(575,278,o),
+(526,322,o),
+(526,374,cs),
+(526,423,o),
+(570,452,o),
+(619,452,cs),
+(719,452,o),
+(804,329,o),
+(804,225,cs),
+(804,132,o),
+(737,42,o),
+(666,42,cs),
+(623,42,o),
+(594,75,o),
+(594,120,cs),
+(594,201,o),
+(688,265,o),
+(843,291,c),
+(833,339,l),
+(673,316,o),
+(483,222,o),
+(483,99,cs),
+(483,37,o),
+(534,-15,o),
+(629,-15,cs),
+(772,-15,o),
+(910,101,o),
+(910,253,cs),
+(910,393,o),
+(793,509,o),
+(628,509,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1624,-710,o),
+(1839,-667,o),
+(2015,-613,c),
+(2006,-568,l),
+(1797,-623,o),
+(1633,-650,o),
+(1520,-650,cs),
+(1331,-650,o),
+(1284,-593,o),
+(1284,-499,cs),
+(1284,-340,o),
+(1430,-55,o),
+(1430,140,cs),
+(1430,300,o),
+(1311,400,o),
+(1125,400,cs),
+(1051,400,o),
+(972,384,o),
+(878,349,c),
+(911,314,l),
+(979,332,o),
+(1040,346,o),
+(1105,346,cs),
+(1255,346,o),
+(1322,261,o),
+(1322,121,cs),
+(1322,-61,o),
+(1176,-344,o),
+(1176,-518,cs),
+(1176,-627,o),
+(1252,-710,o),
+(1468,-710,cs)
+);
+}
+);
+width = 1528;
+},
+{
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
 backgroundImage = {
 imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_4.jpg";
 pos = (267,-726);
 scale = (56,56);
 };
-layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+layerId = "36722688-098F-4E34-A291-CCD4045B7EA1";
+name = "Jul 28, 24 at 14:31";
 width = 2650;
+},
+{
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1633,-88,o),
+(1488,167,o),
+(1488,395,cs),
+(1488,678,o),
+(1713,881,o),
+(1846,885,cs),
+(1903,887,o),
+(1925,850,o),
+(1925,812,cs),
+(1925,755,o),
+(1885,695,o),
+(1806,637,c),
+(1827,601,l),
+(1948,660,o),
+(2029,757,o),
+(2029,832,cs),
+(2029,896,o),
+(1973,945,o),
+(1883,945,cs),
+(1642,944,o),
+(1380,668,o),
+(1380,372,cs),
+(1380,118,o),
+(1598,-147,o),
+(2053,-147,cs),
+(2342,-147,o),
+(2969,-7,o),
+(2969,303,cs),
+(2969,423,o),
+(2862,488,o),
+(2755,488,cs),
+(2700,488,o),
+(2628,471,o),
+(2574,444,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(2569,435,l),
+(2573,410,o),
+(2576,387,o),
+(2576,366,cs),
+(2576,295,o),
+(2541,228,o),
+(2475,228,cs),
+(2433,228,o),
+(2417,255,o),
+(2417,294,cs),
+(2417,334,o),
+(2432,399,o),
+(2432,427,cs),
+(2432,516,o),
+(2372,563,o),
+(2274,563,cs),
+(2125,563,o),
+(2016,453,o),
+(2016,317,cs),
+(2016,283,o),
+(2023,243,o),
+(2039,202,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(2054,229,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(2010,249,o),
+(1959,258,o),
+(1903,258,cs),
+(1802,258,o),
+(1693,228,o),
+(1618,174,c),
+(1660,114,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(1712,157,o),
+(1801,200,o),
+(1898,200,cs),
+(1966,200,o),
+(2038,181,o),
+(2099,126,c),
+(2185,150,l),
+(2188,161,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(2143,211,o),
+(2119,282,o),
+(2119,344,cs),
+(2119,442,o),
+(2180,501,o),
+(2244,501,cs),
+(2295,501,o),
+(2321,463,o),
+(2321,415,cs),
+(2321,363,o),
+(2305,317,o),
+(2305,277,cs),
+(2305,207,o),
+(2352,165,o),
+(2441,165,cs),
+(2574,165,o),
+(2690,258,o),
+(2690,391,cs),
+(2690,416,o),
+(2686,436,o),
+(2680,456,c),
+(2671,431,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(2688,435,o),
+(2704,437,o),
+(2719,437,cs),
+(2805,437,o),
+(2851,370,o),
+(2851,293,cs),
+(2851,20,o),
+(2321,-88,o),
+(2076,-88,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(852,294,l),
+(879,299,o),
+(903,301,o),
+(922,301,cs),
+(1015,301,o),
+(1088,235,o),
+(1088,160,cs),
+(1088,-6,o),
+(794,-136,o),
+(571,-136,cs),
+(449,-136,o),
+(401,-97,o),
+(401,-45,cs),
+(401,12,o),
+(465,61,o),
+(529,89,c),
+(529,128,l),
+(409,93,o),
+(286,18,o),
+(286,-71,cs),
+(286,-141,o),
+(355,-196,o),
+(532,-196,cs),
+(851,-196,o),
+(1206,-18,o),
+(1206,176,cs),
+(1206,283,o),
+(1104,354,o),
+(957,354,cs),
+(923,354,o),
+(885,350,o),
+(846,343,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(509,509,o),
+(424,439,o),
+(424,361,cs),
+(424,288,o),
+(500,227,o),
+(609,232,c),
+(647,264,l),
+(585,278,o),
+(536,322,o),
+(536,374,cs),
+(536,423,o),
+(580,452,o),
+(629,452,cs),
+(729,452,o),
+(814,329,o),
+(814,225,cs),
+(814,132,o),
+(747,42,o),
+(676,42,cs),
+(633,42,o),
+(604,75,o),
+(604,120,cs),
+(604,201,o),
+(698,265,o),
+(853,291,c),
+(843,339,l),
+(683,316,o),
+(493,222,o),
+(493,99,cs),
+(493,37,o),
+(544,-15,o),
+(639,-15,cs),
+(782,-15,o),
+(920,101,o),
+(920,258,cs),
+(920,403,o),
+(803,509,o),
+(643,509,cs)
+);
 }
 );
+};
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_4.jpg";
+pos = (572,-726);
+scale = (56,56);
+};
+layerId = "2C07D433-3F7B-4F73-8312-1F132F13F725";
+name = "Jul 28, 24 at 14:43";
+shapes = (
+{
+closed = 1;
+nodes = (
+(896,-195,o),
+(1206,-17,o),
+(1206,176,cs),
+(1206,283,o),
+(1104,354,o),
+(957,354,cs),
+(923,354,o),
+(885,350,o),
+(846,343,c),
+(852,294,l),
+(879,299,o),
+(903,301,o),
+(922,301,cs),
+(1015,301,o),
+(1088,235,o),
+(1088,160,cs),
+(1088,-6,o),
+(834,-136,o),
+(641,-136,cs),
+(304,-136,o),
+(193,119,o),
+(193,347,cs),
+(193,659,o),
+(418,883,o),
+(551,887,cs),
+(608,889,o),
+(630,852,o),
+(630,814,cs),
+(630,757,o),
+(590,697,o),
+(511,639,c),
+(532,603,l),
+(653,662,o),
+(734,759,o),
+(734,834,cs),
+(734,898,o),
+(678,947,o),
+(588,947,cs),
+(347,946,o),
+(85,646,o),
+(85,324,cs),
+(85,70,o),
+(258,-195,o),
+(618,-195,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(509,509,o),
+(424,439,o),
+(424,361,cs),
+(424,288,o),
+(500,227,o),
+(609,232,c),
+(647,264,l),
+(585,278,o),
+(536,322,o),
+(536,374,cs),
+(536,423,o),
+(580,452,o),
+(629,452,cs),
+(729,452,o),
+(814,329,o),
+(814,225,cs),
+(814,132,o),
+(747,42,o),
+(676,42,cs),
+(633,42,o),
+(604,75,o),
+(604,120,cs),
+(604,201,o),
+(698,265,o),
+(853,291,c),
+(843,339,l),
+(683,316,o),
+(493,222,o),
+(493,99,cs),
+(493,37,o),
+(544,-15,o),
+(639,-15,cs),
+(782,-15,o),
+(920,101,o),
+(920,258,cs),
+(920,403,o),
+(803,509,o),
+(643,509,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1644,-710,o),
+(1859,-667,o),
+(2035,-613,c),
+(2026,-568,l),
+(1817,-623,o),
+(1653,-650,o),
+(1540,-650,cs),
+(1351,-650,o),
+(1304,-593,o),
+(1304,-499,cs),
+(1304,-340,o),
+(1450,-55,o),
+(1450,140,cs),
+(1450,283,o),
+(1348,360,o),
+(1214,360,cs),
+(1170,360,o),
+(1120,350,o),
+(1061,329,c),
+(1094,289,l),
+(1131,301,o),
+(1164,310,o),
+(1191,310,cs),
+(1283,310,o),
+(1342,234,o),
+(1342,121,cs),
+(1342,-61,o),
+(1196,-344,o),
+(1196,-518,cs),
+(1196,-627,o),
+(1272,-710,o),
+(1488,-710,cs)
+);
+}
+);
+width = 2955;
+}
+);
+metricRight = "=u-divesakuru-175";
 },
 {
 color = 0;
@@ -167839,8 +168852,9 @@ width = 1095;
 );
 },
 {
+color = 1;
 glyphname = "na_ra.medi_aaVowel-divesakuru";
-lastChange = "2024-07-19 15:19:35 +0000";
+lastChange = "2024-07-28 20:26:05 +0000";
 layers = (
 {
 backgroundImage = {
@@ -167849,29 +168863,1015 @@ pos = (0,-655);
 scale = (70,70);
 };
 layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "na_ra.medi-divesakuru";
+},
+{
+closed = 1;
+nodes = (
+(726,-337,o),
+(848,-319,o),
+(978,-284,cs),
+(1323,-192,o),
+(1595,21,o),
+(1595,261,cs),
+(1595,468,o),
+(1395,686,o),
+(1032,686,cs),
+(1020,686,o),
+(1008,685,o),
+(996,685,c),
+(996,640,l),
+(1300,631,o),
+(1478,448,o),
+(1478,247,cs),
+(1478,21,o),
+(1247,-149,o),
+(974,-222,cs),
+(852,-255,o),
+(738,-273,o),
+(650,-273,cs),
+(555,-273,o),
+(493,-255,o),
+(493,-215,cs),
+(493,-178,o),
+(544,-144,o),
+(622,-131,c),
+(598,-104,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99997";
+};
+}),
+(463,-135,o),
+(378,-173,o),
+(378,-236,cs),
+(378,-303,o),
+(477,-337,o),
+(624,-337,cs)
+);
+}
+);
+width = 1670;
+},
+{
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_77.jpg";
+pos = (0,-655);
+scale = (70,70);
+};
+layerId = "C212E3D0-89EB-4101-A123-B3D975A43110";
+name = "Jul 28, 24 at 17:03";
 width = 2027;
 }
 );
 },
 {
+color = 1;
 glyphname = "sa_ra.medi_iiVowel-divesakuru";
-lastChange = "2024-07-19 15:12:40 +0000";
+lastChange = "2024-07-28 20:26:05 +0000";
 layers = (
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1637,345,o),
+(1607,387,o),
+(1573,401,c),
+(1475,394,l),
+(1473,382,l),
+(1503,359,o),
+(1525,322,o),
+(1525,285,cs),
+(1525,198,o),
+(1420,110,o),
+(1241,110,cs),
+(1174,110,o),
+(1066,125,o),
+(992,125,cs),
+(787,125,o),
+(658,35,o),
+(658,-59,cs),
+(658,-109,o),
+(691,-149,o),
+(771,-163,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(818,-140,l),
+(795,-143,o),
+(773,-144,o),
+(753,-144,cs),
+(596,-144,o),
+(531,-66,o),
+(531,12,cs),
+(531,147,o),
+(727,221,o),
+(1001,223,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(1001,267,l),
+(983,266,o),
+(964,266,o),
+(947,266,cs),
+(669,266,o),
+(550,383,o),
+(550,483,cs),
+(550,532,o),
+(578,584,o),
+(646,584,cs),
+(708,584,o),
+(779,538,o),
+(839,404,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(942,426,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(883,561,o),
+(793,644,o),
+(660,644,cs),
+(523,644,o),
+(436,550,o),
+(436,458,cs),
+(436,355,o),
+(546,227,o),
+(821,226,c),
+(779,240,l),
+(597,235,o),
+(413,143,o),
+(413,3,cs),
+(413,-113,o),
+(543,-182,o),
+(703,-182,cs),
+(781,-182,o),
+(870,-170,o),
+(927,-159,c),
+(921,-121,l),
+(902,-124,o),
+(884,-126,o),
+(869,-126,cs),
+(797,-126,o),
+(765,-93,o),
+(765,-51,cs),
+(765,10,o),
+(829,62,o),
+(949,62,cs),
+(1013,62,o),
+(1130,47,o),
+(1210,47,cs),
+(1457,47,o),
+(1637,169,o),
+(1637,299,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(389,-298,o),
+(183,-60,o),
+(183,293,cs),
+(183,686,o),
+(476,1050,o),
+(649,1055,cs),
+(706,1057,o),
+(728,1020,o),
+(728,982,cs),
+(728,925,o),
+(688,865,o),
+(609,807,c),
+(630,771,l),
+(751,830,o),
+(832,927,o),
+(832,1002,cs),
+(832,1066,o),
+(776,1115,o),
+(686,1115,cs),
+(393,1114,o),
+(75,657,o),
+(75,279,cs),
+(75,-110,o),
+(326,-357,o),
+(845,-357,cs),
+(1034,-357,o),
+(1225,-306,o),
+(1368,-255,cs),
+(1721,-132,o),
+(1956,54,o),
+(1956,236,cs),
+(1956,351,o),
+(1847,442,o),
+(1696,442,cs),
+(1615,442,o),
+(1525,419,o),
+(1475,394,c),
+(1580,376,l),
+(1617,384,o),
+(1648,387,o),
+(1671,387,cs),
+(1774,387,o),
+(1849,316,o),
+(1849,214,cs),
+(1849,46,o),
+(1649,-95,o),
+(1351,-201,cs),
+(1217,-249,o),
+(1043,-298,o),
+(871,-298,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(438,-518,o),
+(516,-554,o),
+(653,-554,cs),
+(775,-554,o),
+(992,-542,o),
+(1395,-456,cs),
+(2008,-325,o),
+(2412,-159,o),
+(2412,37,cs),
+(2412,110,o),
+(2323,143,o),
+(2232,143,cs),
+(2223,143,o),
+(2214,143,o),
+(2205,142,c),
+(2141,105,l),
+(2249,112,o),
+(2295,73,o),
+(2295,23,cs),
+(2295,-126,o),
+(1938,-281,o),
+(1335,-409,cs),
+(994,-481,o),
+(808,-495,o),
+(699,-495,cs),
+(608,-495,o),
+(553,-474,o),
+(553,-442,cs),
+(553,-408,o),
+(596,-369,o),
+(705,-347,c),
+(677,-319,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99997";
+};
+}),
+(509,-337,o),
+(438,-398,o),
+(438,-463,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(2169,71,o),
+(2351,176,o),
+(2351,327,cs),
+(2351,434,o),
+(2260,513,o),
+(2140,513,cs),
+(2006,513,o),
+(1893,415,o),
+(1881,278,c),
+(1955,252,l),
+(1970,380,o),
+(2036,453,o),
+(2112,453,cs),
+(2186,453,o),
+(2233,382,o),
+(2233,312,cs),
+(2233,209,o),
+(2136,113,o),
+(1952,68,c),
+(1964,24,l)
+);
+}
+);
+};
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_64.jpg";
+pos = (-72,-681);
+scale = (70,70);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1637,345,o),
+(1607,387,o),
+(1573,401,c),
+(1475,394,l),
+(1473,382,l),
+(1503,359,o),
+(1525,322,o),
+(1525,285,cs),
+(1525,198,o),
+(1420,110,o),
+(1241,110,cs),
+(1174,110,o),
+(1066,125,o),
+(992,125,cs),
+(787,125,o),
+(658,35,o),
+(658,-59,cs),
+(658,-109,o),
+(691,-149,o),
+(771,-163,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(818,-140,l),
+(795,-143,o),
+(773,-144,o),
+(753,-144,cs),
+(596,-144,o),
+(531,-66,o),
+(531,12,cs),
+(531,147,o),
+(727,221,o),
+(1001,223,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(1001,267,l),
+(983,266,o),
+(964,266,o),
+(947,266,cs),
+(669,266,o),
+(550,383,o),
+(550,483,cs),
+(550,532,o),
+(578,584,o),
+(646,584,cs),
+(708,584,o),
+(779,538,o),
+(839,404,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(942,426,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(883,561,o),
+(793,644,o),
+(660,644,cs),
+(523,644,o),
+(436,550,o),
+(436,458,cs),
+(436,355,o),
+(546,227,o),
+(821,226,c),
+(779,240,l),
+(597,235,o),
+(413,143,o),
+(413,3,cs),
+(413,-113,o),
+(543,-182,o),
+(703,-182,cs),
+(781,-182,o),
+(870,-170,o),
+(927,-159,c),
+(921,-121,l),
+(902,-124,o),
+(884,-126,o),
+(869,-126,cs),
+(797,-126,o),
+(765,-93,o),
+(765,-51,cs),
+(765,10,o),
+(829,62,o),
+(949,62,cs),
+(1013,62,o),
+(1130,47,o),
+(1210,47,cs),
+(1457,47,o),
+(1637,169,o),
+(1637,299,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(357,-298,o),
+(183,-52,o),
+(183,275,cs),
+(183,696,o),
+(476,1050,o),
+(649,1055,cs),
+(706,1057,o),
+(728,1020,o),
+(728,982,cs),
+(728,925,o),
+(688,865,o),
+(609,807,c),
+(630,771,l),
+(751,830,o),
+(832,927,o),
+(832,1002,cs),
+(832,1066,o),
+(776,1115,o),
+(686,1115,cs),
+(393,1114,o),
+(75,668,o),
+(75,257,cs),
+(75,-85,o),
+(293,-357,o),
+(791,-357,cs),
+(1009,-357,o),
+(1217,-312,o),
+(1369,-258,cs),
+(1722,-135,o),
+(1956,47,o),
+(1956,236,cs),
+(1956,351,o),
+(1847,442,o),
+(1696,442,cs),
+(1615,442,o),
+(1525,419,o),
+(1475,394,c),
+(1580,376,l),
+(1617,384,o),
+(1648,387,o),
+(1671,387,cs),
+(1774,387,o),
+(1849,316,o),
+(1849,214,cs),
+(1849,46,o),
+(1649,-95,o),
+(1351,-201,cs),
+(1207,-253,o),
+(1017,-298,o),
+(813,-298,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(438,-527,o),
+(501,-562,o),
+(685,-562,cs),
+(766,-562,o),
+(1003,-551,o),
+(1375,-466,cs),
+(2000,-323,o),
+(2412,-149,o),
+(2412,27,cs),
+(2412,107,o),
+(2323,143,o),
+(2232,143,cs),
+(2223,143,o),
+(2214,143,o),
+(2205,142,c),
+(2141,105,l),
+(2249,112,o),
+(2295,69,o),
+(2295,13,cs),
+(2295,-115,o),
+(1957,-271,o),
+(1376,-406,cs),
+(1003,-493,o),
+(792,-503,o),
+(715,-503,cs),
+(579,-503,o),
+(553,-482,o),
+(553,-444,cs),
+(553,-412,o),
+(602,-371,o),
+(725,-350,c),
+(697,-323,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99997";
+};
+}),
+(515,-340,o),
+(438,-403,o),
+(438,-460,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(2169,71,o),
+(2351,176,o),
+(2351,327,cs),
+(2351,434,o),
+(2260,513,o),
+(2140,513,cs),
+(2006,513,o),
+(1893,415,o),
+(1881,278,c),
+(1955,252,l),
+(1970,380,o),
+(2036,453,o),
+(2112,453,cs),
+(2186,453,o),
+(2233,382,o),
+(2233,312,cs),
+(2233,209,o),
+(2136,113,o),
+(1952,68,c),
+(1964,24,l)
+);
+}
+);
+width = 2487;
+},
+{
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
 backgroundImage = {
 imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_64.jpg";
 pos = (0,-691);
 scale = (70,70);
 };
-layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+layerId = "625CC216-57EE-422E-B11A-F1FEBE621CF2";
+name = "Jul 28, 24 at 15:30";
 width = 2433;
+},
+{
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1797,345,o),
+(1767,387,o),
+(1733,401,c),
+(1636,394,l),
+(1633,382,l),
+(1663,359,o),
+(1685,322,o),
+(1685,285,cs),
+(1685,195,o),
+(1561,104,o),
+(1351,104,cs),
+(1255,104,o),
+(1098,125,o),
+(992,125,cs),
+(787,125,o),
+(658,35,o),
+(658,-59,cs),
+(658,-109,o),
+(691,-149,o),
+(771,-163,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(818,-140,l),
+(795,-143,o),
+(773,-144,o),
+(753,-144,cs),
+(596,-144,o),
+(531,-66,o),
+(531,12,cs),
+(531,147,o),
+(727,221,o),
+(1001,223,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(1001,267,l),
+(983,266,o),
+(964,266,o),
+(947,266,cs),
+(669,266,o),
+(550,383,o),
+(550,483,cs),
+(550,532,o),
+(578,584,o),
+(646,584,cs),
+(708,584,o),
+(779,538,o),
+(839,404,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(942,426,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(883,561,o),
+(793,644,o),
+(660,644,cs),
+(523,644,o),
+(436,550,o),
+(436,458,cs),
+(436,355,o),
+(546,227,o),
+(821,226,c),
+(779,240,l),
+(597,235,o),
+(413,143,o),
+(413,3,cs),
+(413,-113,o),
+(543,-182,o),
+(703,-182,cs),
+(781,-182,o),
+(870,-170,o),
+(927,-159,c),
+(921,-121,l),
+(902,-124,o),
+(884,-126,o),
+(869,-126,cs),
+(797,-126,o),
+(765,-93,o),
+(765,-51,cs),
+(765,10,o),
+(829,62,o),
+(949,62,cs),
+(1040,62,o),
+(1206,41,o),
+(1320,41,cs),
+(1596,41,o),
+(1797,166,o),
+(1797,299,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(389,-298,o),
+(183,-76,o),
+(183,253,cs),
+(183,667,o),
+(476,1050,o),
+(649,1055,cs),
+(706,1057,o),
+(728,1020,o),
+(728,982,cs),
+(728,925,o),
+(688,865,o),
+(609,807,c),
+(630,771,l),
+(751,830,o),
+(832,927,o),
+(832,1002,cs),
+(832,1066,o),
+(776,1115,o),
+(686,1115,cs),
+(393,1114,o),
+(75,635,o),
+(75,239,cs),
+(75,-126,o),
+(326,-357,o),
+(845,-357,cs),
+(1466,-357,o),
+(2126,-26,o),
+(2126,259,cs),
+(2126,355,o),
+(2021,442,o),
+(1876,442,cs),
+(1788,442,o),
+(1690,419,o),
+(1636,394,c),
+(1750,376,l),
+(1787,384,o),
+(1818,387,o),
+(1841,387,cs),
+(1941,387,o),
+(2014,322,o),
+(2014,234,cs),
+(2014,-9,o),
+(1420,-298,o),
+(871,-298,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(368,-514,o),
+(460,-554,o),
+(627,-554,cs),
+(764,-554,o),
+(1015,-532,o),
+(1374,-455,cs),
+(2137,-293,o),
+(2582,-152,o),
+(2582,37,cs),
+(2582,110,o),
+(2493,143,o),
+(2402,143,cs),
+(2393,143,o),
+(2384,143,o),
+(2375,142,c),
+(2311,105,l),
+(2419,112,o),
+(2465,73,o),
+(2465,23,cs),
+(2465,-119,o),
+(2068,-248,o),
+(1342,-402,cs),
+(1017,-471,o),
+(798,-495,o),
+(667,-495,cs),
+(553,-495,o),
+(483,-470,o),
+(483,-432,cs),
+(483,-401,o),
+(526,-365,o),
+(635,-345,c),
+(607,-317,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99997";
+};
+}),
+(439,-334,o),
+(368,-392,o),
+(368,-453,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(2339,71,o),
+(2521,176,o),
+(2521,327,cs),
+(2521,434,o),
+(2430,513,o),
+(2310,513,cs),
+(2176,513,o),
+(2063,415,o),
+(2051,278,c),
+(2125,252,l),
+(2140,380,o),
+(2206,453,o),
+(2282,453,cs),
+(2356,453,o),
+(2403,382,o),
+(2403,312,cs),
+(2403,209,o),
+(2306,113,o),
+(2122,68,c),
+(2134,24,l)
+);
 }
 );
+};
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_64.jpg";
+pos = (-72,-681);
+scale = (70,70);
+};
+layerId = "552F5C76-9496-419B-8BB6-96897764D815";
+name = "Jul 28, 24 at 15:55";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1797,345,o),
+(1767,387,o),
+(1733,401,c),
+(1636,394,l),
+(1633,382,l),
+(1663,359,o),
+(1685,322,o),
+(1685,285,cs),
+(1685,195,o),
+(1561,104,o),
+(1351,104,cs),
+(1255,104,o),
+(1098,125,o),
+(992,125,cs),
+(787,125,o),
+(658,35,o),
+(658,-59,cs),
+(658,-109,o),
+(691,-149,o),
+(771,-163,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(818,-140,l),
+(795,-143,o),
+(773,-144,o),
+(753,-144,cs),
+(596,-144,o),
+(531,-66,o),
+(531,12,cs),
+(531,147,o),
+(727,221,o),
+(1001,223,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(1001,267,l),
+(983,266,o),
+(964,266,o),
+(947,266,cs),
+(669,266,o),
+(550,383,o),
+(550,483,cs),
+(550,532,o),
+(578,584,o),
+(646,584,cs),
+(708,584,o),
+(779,538,o),
+(839,404,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(942,426,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(883,561,o),
+(793,644,o),
+(660,644,cs),
+(523,644,o),
+(436,550,o),
+(436,458,cs),
+(436,355,o),
+(546,227,o),
+(821,226,c),
+(779,240,l),
+(597,235,o),
+(413,143,o),
+(413,3,cs),
+(413,-113,o),
+(543,-182,o),
+(703,-182,cs),
+(781,-182,o),
+(870,-170,o),
+(927,-159,c),
+(921,-121,l),
+(902,-124,o),
+(884,-126,o),
+(869,-126,cs),
+(797,-126,o),
+(765,-93,o),
+(765,-51,cs),
+(765,10,o),
+(829,62,o),
+(949,62,cs),
+(1040,62,o),
+(1206,41,o),
+(1320,41,cs),
+(1596,41,o),
+(1797,166,o),
+(1797,299,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(389,-298,o),
+(183,-60,o),
+(183,293,cs),
+(183,686,o),
+(476,1050,o),
+(649,1055,cs),
+(706,1057,o),
+(728,1020,o),
+(728,982,cs),
+(728,925,o),
+(688,865,o),
+(609,807,c),
+(630,771,l),
+(751,830,o),
+(832,927,o),
+(832,1002,cs),
+(832,1066,o),
+(776,1115,o),
+(686,1115,cs),
+(393,1114,o),
+(75,657,o),
+(75,279,cs),
+(75,-110,o),
+(326,-357,o),
+(845,-357,cs),
+(1076,-357,o),
+(1312,-311,o),
+(1518,-239,cs),
+(1866,-117,o),
+(2126,80,o),
+(2126,259,cs),
+(2126,355,o),
+(2017,442,o),
+(1866,442,cs),
+(1782,442,o),
+(1688,419,o),
+(1636,394,c),
+(1750,376,l),
+(1787,384,o),
+(1818,387,o),
+(1841,387,cs),
+(1944,387,o),
+(2019,324,o),
+(2019,238,cs),
+(2019,80,o),
+(1794,-80,o),
+(1493,-187,cs),
+(1304,-255,o),
+(1084,-298,o),
+(871,-298,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(368,-514,o),
+(460,-554,o),
+(627,-554,cs),
+(764,-554,o),
+(1015,-532,o),
+(1374,-455,cs),
+(2137,-293,o),
+(2582,-152,o),
+(2582,37,cs),
+(2582,110,o),
+(2493,143,o),
+(2402,143,cs),
+(2393,143,o),
+(2384,143,o),
+(2375,142,c),
+(2311,105,l),
+(2419,112,o),
+(2465,73,o),
+(2465,23,cs),
+(2465,-119,o),
+(2068,-248,o),
+(1342,-402,cs),
+(1017,-471,o),
+(798,-495,o),
+(667,-495,cs),
+(553,-495,o),
+(483,-470,o),
+(483,-432,cs),
+(483,-401,o),
+(526,-365,o),
+(635,-345,c),
+(607,-317,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99997";
+};
+}),
+(439,-334,o),
+(368,-392,o),
+(368,-453,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(2339,71,o),
+(2521,176,o),
+(2521,327,cs),
+(2521,434,o),
+(2430,513,o),
+(2310,513,cs),
+(2176,513,o),
+(2063,415,o),
+(2051,278,c),
+(2125,252,l),
+(2140,380,o),
+(2206,453,o),
+(2282,453,cs),
+(2356,453,o),
+(2403,382,o),
+(2403,312,cs),
+(2403,209,o),
+(2306,113,o),
+(2122,68,c),
+(2134,24,l)
+);
+}
+);
+width = 2657;
+}
+);
+metricRight = "=ka_iiVowel-divesakuru";
 },
 {
 color = 1;
 glyphname = "ha_ra.medi_aaVowel-divesakuru";
-lastChange = "2024-07-19 15:05:08 +0000";
+lastChange = "2024-07-28 20:26:05 +0000";
 layers = (
 {
 anchors = (
@@ -167899,7 +169899,7 @@ closed = 1;
 nodes = (
 (762,-345,o),
 (984,-313,o),
-(1180,-265,cs),
+(1164,-269,cs),
 (1620,-158,o),
 (1982,73,o),
 (1982,350,cs),
@@ -167918,7 +169918,7 @@ nodes = (
 (1865,343,cs),
 (1865,85,o),
 (1549,-116,o),
-(1180,-206,cs),
+(1139,-216,cs),
 (987,-253,o),
 (782,-286,o),
 (637,-286,cs),
@@ -167944,36 +169944,33 @@ AngleInDegrees = "359.99997";
 {
 closed = 1;
 nodes = (
-(335,-88,o),
-(183,144,o),
-(183,368,cs),
-(183,631,o),
-(360,870,o),
-(546,875,cs),
-(590,876,o),
-(620,845,o),
-(620,801,cs),
-(620,754,o),
-(590,697,o),
-(503,633,c),
+(336,-88,o),
+(183,162,o),
+(183,385,cs),
+(183,674,o),
+(408,881,o),
+(541,885,cs),
+(598,887,o),
+(620,850,o),
+(620,812,cs),
+(620,755,o),
+(580,695,o),
+(501,637,c),
 (522,601,l),
-(683,680,o),
+(643,660,o),
 (724,757,o),
-(724,821,cs),
+(724,832,cs),
 (724,896,o),
 (668,945,o),
-(580,945,cs),
-(317,944,o),
-(75,636,o),
-(75,363,cs),
-(75,134,o),
-(267,-147,o),
-(692,-147,cs),
-(813,-147,o),
-(991,-127,o),
-(1147,-87,cs),
-(1440,-12,o),
-(1664,129,o),
+(578,945,cs),
+(337,944,o),
+(75,663,o),
+(75,362,cs),
+(75,113,o),
+(303,-147,o),
+(738,-147,cs),
+(1057,-147,o),
+(1664,-7,o),
 (1664,303,cs),
 (1664,423,o),
 (1557,488,o),
@@ -168071,12 +170068,9 @@ AngleInDegrees = "360";
 (1500,437,o),
 (1546,370,o),
 (1546,293,cs),
-(1546,137,o),
-(1368,30,o),
-(1132,-31,cs),
-(995,-66,o),
-(839,-88,o),
-(709,-88,cs)
+(1546,20,o),
+(1036,-88,o),
+(758,-88,cs)
 );
 }
 );
@@ -168094,7 +170088,7 @@ closed = 1;
 nodes = (
 (762,-345,o),
 (984,-313,o),
-(1180,-265,cs),
+(1164,-269,cs),
 (1620,-158,o),
 (1982,73,o),
 (1982,350,cs),
@@ -168113,7 +170107,7 @@ nodes = (
 (1865,343,cs),
 (1865,85,o),
 (1549,-116,o),
-(1180,-206,cs),
+(1139,-216,cs),
 (987,-253,o),
 (782,-286,o),
 (637,-286,cs),
@@ -168139,37 +170133,34 @@ AngleInDegrees = "359.99997";
 {
 closed = 1;
 nodes = (
-(325,-88,o),
-(183,144,o),
-(183,373,cs),
-(183,649,o),
-(392,881,o),
-(544,885,cs),
-(595,886,o),
-(620,849,o),
-(620,800,cs),
-(620,753,o),
-(578,692,o),
-(495,633,c),
+(338,-88,o),
+(183,162,o),
+(183,385,cs),
+(183,674,o),
+(408,881,o),
+(541,885,cs),
+(598,887,o),
+(620,850,o),
+(620,812,cs),
+(620,755,o),
+(580,695,o),
+(501,637,c),
 (522,601,l),
 (643,660,o),
 (724,757,o),
-(724,821,cs),
+(724,832,cs),
 (724,896,o),
 (668,945,o),
-(568,945,cs),
-(317,944,o),
-(75,637,o),
-(75,353,cs),
-(75,108,o),
-(277,-147,o),
-(698,-147,cs),
-(813,-147,o),
-(991,-127,o),
-(1147,-87,cs),
-(1440,-12,o),
-(1664,129,o),
-(1664,303,cs),
+(578,945,cs),
+(337,944,o),
+(75,663,o),
+(75,362,cs),
+(75,113,o),
+(303,-147,o),
+(749,-147,cs),
+(1077,-147,o),
+(1664,-7,o),
+(1664,294,cs),
 (1664,423,o),
 (1557,488,o),
 (1450,488,cs),
@@ -168265,13 +170256,10 @@ AngleInDegrees = "360";
 (1414,437,cs),
 (1500,437,o),
 (1546,370,o),
-(1546,293,cs),
-(1546,137,o),
-(1368,30,o),
-(1132,-31,cs),
-(995,-66,o),
-(840,-88,o),
-(721,-88,cs)
+(1546,288,cs),
+(1546,20,o),
+(1062,-88,o),
+(775,-88,cs)
 );
 }
 );
@@ -169183,6 +171171,400 @@ AngleInDegrees = "360";
 }
 );
 width = 1775;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (1159,-445);
+},
+{
+name = caret;
+pos = (1739,0);
+},
+{
+name = halanda;
+pos = (1033,494);
+},
+{
+name = top;
+pos = (474,230);
+}
+);
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(762,-345,o),
+(984,-313,o),
+(1180,-265,cs),
+(1620,-158,o),
+(1982,73,o),
+(1982,350,cs),
+(1982,523,o),
+(1826,675,o),
+(1543,675,cs),
+(1512,675,o),
+(1480,674,o),
+(1447,670,c),
+(1449,625,l),
+(1464,626,o),
+(1480,626,o),
+(1494,626,cs),
+(1741,626,o),
+(1865,494,o),
+(1865,343,cs),
+(1865,85,o),
+(1549,-116,o),
+(1180,-206,cs),
+(987,-253,o),
+(782,-286,o),
+(637,-286,cs),
+(493,-286,o),
+(450,-251,o),
+(450,-211,cs),
+(450,-183,o),
+(487,-154,o),
+(562,-136,c),
+(534,-111,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99997";
+};
+}),
+(402,-138,o),
+(335,-182,o),
+(335,-237,cs),
+(335,-307,o),
+(437,-345,o),
+(610,-345,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(328,-88,o),
+(183,167,o),
+(183,395,cs),
+(183,678,o),
+(408,881,o),
+(541,885,cs),
+(598,887,o),
+(620,850,o),
+(620,812,cs),
+(620,755,o),
+(580,695,o),
+(501,637,c),
+(522,601,l),
+(643,660,o),
+(724,757,o),
+(724,832,cs),
+(724,896,o),
+(668,945,o),
+(578,945,cs),
+(337,944,o),
+(75,668,o),
+(75,372,cs),
+(75,118,o),
+(293,-147,o),
+(748,-147,cs),
+(1037,-147,o),
+(1664,-7,o),
+(1664,303,cs),
+(1664,423,o),
+(1557,488,o),
+(1450,488,cs),
+(1395,488,o),
+(1323,471,o),
+(1269,444,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(1264,435,l),
+(1268,410,o),
+(1271,387,o),
+(1271,366,cs),
+(1271,295,o),
+(1236,228,o),
+(1170,228,cs),
+(1128,228,o),
+(1112,255,o),
+(1112,294,cs),
+(1112,334,o),
+(1127,399,o),
+(1127,427,cs),
+(1127,516,o),
+(1067,563,o),
+(969,563,cs),
+(820,563,o),
+(711,453,o),
+(711,317,cs),
+(711,283,o),
+(718,243,o),
+(734,202,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(749,229,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(705,249,o),
+(654,258,o),
+(598,258,cs),
+(497,258,o),
+(388,228,o),
+(313,174,c),
+(355,114,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(407,157,o),
+(496,200,o),
+(593,200,cs),
+(661,200,o),
+(733,181,o),
+(794,126,c),
+(880,150,l),
+(883,161,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(838,211,o),
+(814,282,o),
+(814,344,cs),
+(814,442,o),
+(875,501,o),
+(939,501,cs),
+(990,501,o),
+(1016,463,o),
+(1016,415,cs),
+(1016,363,o),
+(1000,317,o),
+(1000,277,cs),
+(1000,207,o),
+(1047,165,o),
+(1136,165,cs),
+(1269,165,o),
+(1385,258,o),
+(1385,391,cs),
+(1385,416,o),
+(1381,436,o),
+(1375,456,c),
+(1366,431,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(1383,435,o),
+(1399,437,o),
+(1414,437,cs),
+(1500,437,o),
+(1546,370,o),
+(1546,293,cs),
+(1546,20,o),
+(1016,-88,o),
+(771,-88,cs)
+);
+}
+);
+};
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_125.jpg";
+locked = 1;
+pos = (282,-695);
+scale = (70,70);
+};
+layerId = "D0FC2202-03E2-4020-9464-F593B8237054";
+name = "Jul 28, 24 at 14:50";
+shapes = (
+{
+closed = 1;
+nodes = (
+(762,-345,o),
+(984,-313,o),
+(1180,-265,cs),
+(1620,-158,o),
+(1982,73,o),
+(1982,350,cs),
+(1982,523,o),
+(1826,675,o),
+(1543,675,cs),
+(1512,675,o),
+(1480,674,o),
+(1447,670,c),
+(1449,625,l),
+(1464,626,o),
+(1480,626,o),
+(1494,626,cs),
+(1741,626,o),
+(1865,494,o),
+(1865,343,cs),
+(1865,85,o),
+(1549,-116,o),
+(1180,-206,cs),
+(987,-253,o),
+(782,-286,o),
+(637,-286,cs),
+(493,-286,o),
+(450,-251,o),
+(450,-211,cs),
+(450,-183,o),
+(487,-154,o),
+(562,-136,c),
+(534,-111,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99997";
+};
+}),
+(402,-138,o),
+(335,-182,o),
+(335,-237,cs),
+(335,-307,o),
+(437,-345,o),
+(610,-345,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(328,-88,o),
+(183,167,o),
+(183,395,cs),
+(183,678,o),
+(408,881,o),
+(541,885,cs),
+(598,887,o),
+(620,850,o),
+(620,812,cs),
+(620,755,o),
+(580,695,o),
+(501,637,c),
+(522,601,l),
+(643,660,o),
+(724,757,o),
+(724,832,cs),
+(724,896,o),
+(668,945,o),
+(578,945,cs),
+(337,944,o),
+(75,668,o),
+(75,372,cs),
+(75,118,o),
+(293,-147,o),
+(748,-147,cs),
+(1037,-147,o),
+(1664,-7,o),
+(1664,303,cs),
+(1664,423,o),
+(1557,488,o),
+(1450,488,cs),
+(1395,488,o),
+(1323,471,o),
+(1269,444,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(1264,435,l),
+(1268,410,o),
+(1271,387,o),
+(1271,366,cs),
+(1271,295,o),
+(1236,228,o),
+(1170,228,cs),
+(1128,228,o),
+(1112,255,o),
+(1112,294,cs),
+(1112,334,o),
+(1127,399,o),
+(1127,427,cs),
+(1127,516,o),
+(1067,563,o),
+(969,563,cs),
+(820,563,o),
+(711,453,o),
+(711,317,cs),
+(711,283,o),
+(718,243,o),
+(734,202,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(749,229,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(705,249,o),
+(654,258,o),
+(598,258,cs),
+(497,258,o),
+(388,228,o),
+(313,174,c),
+(355,114,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(407,157,o),
+(496,200,o),
+(593,200,cs),
+(661,200,o),
+(733,181,o),
+(794,126,c),
+(880,150,l),
+(883,161,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(838,211,o),
+(814,282,o),
+(814,344,cs),
+(814,442,o),
+(875,501,o),
+(939,501,cs),
+(990,501,o),
+(1016,463,o),
+(1016,415,cs),
+(1016,363,o),
+(1000,317,o),
+(1000,277,cs),
+(1000,207,o),
+(1047,165,o),
+(1136,165,cs),
+(1269,165,o),
+(1385,258,o),
+(1385,391,cs),
+(1385,416,o),
+(1381,436,o),
+(1375,456,c),
+(1366,431,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(1383,435,o),
+(1399,437,o),
+(1414,437,cs),
+(1500,437,o),
+(1546,370,o),
+(1546,293,cs),
+(1546,20,o),
+(1016,-88,o),
+(771,-88,cs)
+);
+}
+);
+width = 2057;
 }
 );
 },
@@ -174339,7 +176721,7 @@ shapes = (
 ref = "na-divesakuru";
 }
 );
-width = 1021;
+width = 1022;
 }
 );
 subCategory = Nonspacing;
@@ -178342,47 +180724,1081 @@ width = 651;
 );
 },
 {
-glyphname = "na_ra.medi-divesakuru";
-lastChange = "2024-07-19 15:19:43 +0000";
+glyphname = ba_ya;
+lastChange = "2024-07-28 20:29:23 +0000";
 layers = (
 {
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 39/Conjunct_D39_26.jpg";
+pos = (-95,-174);
+scale = (56,56);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2000;
+}
+);
+},
+{
+glyphname = ba_ya_iVowel;
+lastChange = "2024-07-28 20:52:55 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_25.jpg";
+pos = (57,-389);
+scale = (70,70);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2500;
+}
+);
+},
+{
+glyphname = dda_ya;
+lastChange = "2024-07-28 20:33:20 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 02/Conjunct_D02_90.jpg";
+pos = (5,-157);
+scale = (48.6418,48.6418);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2500;
+}
+);
+},
+{
+glyphname = ddha_ya;
+lastChange = "2024-07-28 20:31:49 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 36/Conjunct_D36_22.jpg";
+pos = (-66,-54);
+scale = (51.6506,51.6506);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2000;
+}
+);
+},
+{
+glyphname = dha_ya;
+lastChange = "2024-07-28 20:34:09 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_16.jpg";
+pos = (0,-210);
+scale = (70,70);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2800;
+}
+);
+},
+{
+glyphname = ka_ya;
+lastChange = "2024-07-28 20:35:27 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 02/Conjunct_D02_101.jpg";
+pos = (13,-222);
+scale = (60.7147,60.7147);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2800;
+}
+);
+},
+{
+glyphname = la_ya;
+lastChange = "2024-07-28 20:36:11 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_147.jpg";
+pos = (2,-155);
+scale = (70,70);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 1800;
+}
+);
+},
+{
+glyphname = lla_ya_iVowel;
+lastChange = "2024-07-28 20:36:45 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 39/Conjunct_D39_18.jpg";
+pos = (0,-400);
+scale = (56,56);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2300;
+}
+);
+},
+{
+glyphname = ma_ya;
+lastChange = "2024-07-28 20:38:12 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 39/Conjunct_D39_67.jpg";
+pos = (0,-290);
+scale = (56,56);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2200;
+}
+);
+},
+{
+glyphname = ma_ya_eVowel;
+lastChange = "2024-07-28 20:39:23 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_101.jpg";
+pos = (-23,-437);
+scale = (70,70);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 3000;
+}
+);
+},
+{
+color = 1;
+glyphname = "na_ra.medi-divesakuru";
+lastChange = "2024-07-28 20:26:05 +0000";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(903,-144,o),
+(1262,-26,o),
+(1262,228,cs),
+(1262,384,o),
+(1126,510,o),
+(974,510,cs),
+(841,510,o),
+(721,413,o),
+(721,284,cs),
+(721,257,o),
+(726,243,o),
+(735,220,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(745,240,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(709,260,o),
+(663,269,o),
+(612,269,cs),
+(516,269,o),
+(416,238,o),
+(346,185,c),
+(385,125,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(433,168,o),
+(514,211,o),
+(604,211,cs),
+(666,211,o),
+(731,191,o),
+(787,135,c),
+(871,159,l),
+(874,170,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(844,206,o),
+(828,257,o),
+(828,307,cs),
+(828,389,o),
+(871,449,o),
+(949,449,cs),
+(1068,449,o),
+(1144,307,o),
+(1144,203,cs),
+(1144,9,o),
+(885,-86,o),
+(695,-86,cs),
+(593,-86,o),
+(547,-59,o),
+(547,-17,cs),
+(547,26,o),
+(595,54,o),
+(668,74,c),
+(659,111,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(511,82,o),
+(433,27,o),
+(433,-35,cs),
+(433,-89,o),
+(489,-144,o),
+(658,-144,cs)
+);
+}
+);
+};
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 39/Conjunct_D39_57.jpg";
+pos = (15,-397);
+scale = (56,56);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(315,-85,o),
+(183,165,o),
+(183,388,cs),
+(183,677,o),
+(408,884,o),
+(541,888,cs),
+(598,890,o),
+(620,853,o),
+(620,815,cs),
+(620,758,o),
+(580,698,o),
+(501,640,c),
+(522,604,l),
+(643,663,o),
+(724,760,o),
+(724,835,cs),
+(724,899,o),
+(668,948,o),
+(578,948,cs),
+(337,947,o),
+(75,666,o),
+(75,365,cs),
+(75,116,o),
+(275,-144,o),
+(658,-144,cs),
+(903,-144,o),
+(1262,-26,o),
+(1262,228,cs),
+(1262,384,o),
+(1126,510,o),
+(974,510,cs),
+(841,510,o),
+(721,413,o),
+(721,284,cs),
+(721,257,o),
+(726,243,o),
+(735,220,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(745,240,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(709,260,o),
+(663,269,o),
+(612,269,cs),
+(516,269,o),
+(416,238,o),
+(346,185,c),
+(385,125,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(433,168,o),
+(514,211,o),
+(604,211,cs),
+(666,211,o),
+(731,191,o),
+(787,135,c),
+(871,159,l),
+(874,170,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(844,206,o),
+(828,257,o),
+(828,307,cs),
+(828,389,o),
+(871,449,o),
+(949,449,cs),
+(1068,449,o),
+(1144,307,o),
+(1144,203,cs),
+(1144,10,o),
+(885,-85,o),
+(678,-85,cs)
+);
+}
+);
+width = 1337;
+},
+{
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
 backgroundImage = {
 imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 39/Conjunct_D39_57.jpg";
 pos = (0,-397);
 scale = (56,56);
 };
-layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+layerId = "3E2097C5-05A3-4E29-93A2-BD84303B6371";
+name = "Jul 28, 24 at 16:59";
 width = 1824;
 }
 );
 },
 {
-glyphname = "pa_ra.medi-divesakuru";
-lastChange = "2024-07-19 15:22:29 +0000";
+glyphname = na_ya_iVowel;
+lastChange = "2024-07-28 20:40:35 +0000";
 layers = (
 {
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 39/Conjunct_D39_16.jpg";
+pos = (0,-350);
+scale = (56,56);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2300;
+}
+);
+},
+{
+color = 1;
+glyphname = "pa_ra.medi-divesakuru";
+lastChange = "2024-07-28 20:26:05 +0000";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1774,248,o),
+(1679,159,o),
+(1451,106,cs),
+(1259,61,o),
+(1048,53,o),
+(971,53,cs),
+(897,53,o),
+(871,70,o),
+(871,97,cs),
+(871,117,o),
+(889,134,o),
+(915,157,cs),
+(953,190,o),
+(1012,236,o),
+(1012,319,cs),
+(1012,427,o),
+(911,509,o),
+(764,509,cs),
+(575,509,o),
+(385,375,o),
+(385,254,cs),
+(385,193,o),
+(434,150,o),
+(501,150,cs),
+(578,150,o),
+(643,206,o),
+(643,267,cs),
+(643,312,o),
+(608,357,o),
+(545,357,cs),
+(525,357,o),
+(503,353,o),
+(479,343,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(511,317,l),
+(541,402,o),
+(639,448,o),
+(719,448,cs),
+(812,448,o),
+(894,387,o),
+(894,298,cs),
+(894,227,o),
+(841,187,o),
+(796,148,cs),
+(771,126,o),
+(748,104,o),
+(748,73,cs),
+(748,26,o),
+(811,-9,o),
+(909,-9,cs),
+(1030,-9,o),
+(1249,2,o),
+(1439,42,cs),
+(1744,106,o),
+(1886,238,o),
+(1886,358,cs),
+(1886,404,o),
+(1856,446,o),
+(1822,460,c),
+(1725,453,l),
+(1722,441,l),
+(1752,418,o),
+(1774,380,o),
+(1774,343,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1083,-190,o),
+(1299,-173,o),
+(1502,-132,cs),
+(1923,-46,o),
+(2216,130,o),
+(2216,310,cs),
+(2216,398,o),
+(2134,498,o),
+(1961,498,cs),
+(1885,498,o),
+(1782,476,o),
+(1726,453,c),
+(1845,430,l),
+(1876,439,o),
+(1908,443,o),
+(1932,443,cs),
+(2030,443,o),
+(2099,376,o),
+(2099,296,cs),
+(2099,140,o),
+(1868,4,o),
+(1489,-73,cs),
+(1300,-112,o),
+(1098,-131,o),
+(952,-131,cs),
+(794,-131,o),
+(724,-105,o),
+(724,-56,cs),
+(724,-21,o),
+(768,2,o),
+(820,15,c),
+(786,45,l),
+(662,18,o),
+(602,-26,o),
+(602,-81,cs),
+(602,-149,o),
+(694,-190,o),
+(908,-190,cs)
+);
+}
+);
+};
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_60.jpg";
+pos = (310,-300);
+scale = (70,70);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1774,248,o),
+(1679,159,o),
+(1451,106,cs),
+(1259,61,o),
+(1048,53,o),
+(971,53,cs),
+(897,53,o),
+(871,70,o),
+(871,97,cs),
+(871,117,o),
+(889,134,o),
+(915,157,cs),
+(953,190,o),
+(1012,236,o),
+(1012,319,cs),
+(1012,427,o),
+(911,509,o),
+(764,509,cs),
+(575,509,o),
+(385,375,o),
+(385,254,cs),
+(385,193,o),
+(434,150,o),
+(501,150,cs),
+(578,150,o),
+(643,206,o),
+(643,267,cs),
+(643,312,o),
+(608,357,o),
+(545,357,cs),
+(525,357,o),
+(503,353,o),
+(479,343,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(511,317,l),
+(541,402,o),
+(639,448,o),
+(719,448,cs),
+(812,448,o),
+(894,387,o),
+(894,298,cs),
+(894,227,o),
+(841,187,o),
+(796,148,cs),
+(771,126,o),
+(748,104,o),
+(748,73,cs),
+(748,26,o),
+(811,-9,o),
+(909,-9,cs),
+(1030,-9,o),
+(1249,2,o),
+(1439,42,cs),
+(1744,106,o),
+(1886,238,o),
+(1886,358,cs),
+(1886,404,o),
+(1856,446,o),
+(1822,460,c),
+(1725,453,l),
+(1722,441,l),
+(1752,418,o),
+(1774,380,o),
+(1774,343,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(1057,-200,o),
+(1292,-173,o),
+(1502,-130,cs),
+(1928,-44,o),
+(2216,131,o),
+(2216,310,cs),
+(2216,398,o),
+(2134,498,o),
+(1961,498,cs),
+(1885,498,o),
+(1782,476,o),
+(1726,453,c),
+(1845,430,l),
+(1876,439,o),
+(1908,443,o),
+(1932,443,cs),
+(2030,443,o),
+(2099,376,o),
+(2099,296,cs),
+(2099,141,o),
+(1872,6,o),
+(1491,-72,cs),
+(1292,-113,o),
+(1073,-141,o),
+(896,-141,cs),
+(328,-141,o),
+(183,147,o),
+(183,380,cs),
+(183,674,o),
+(414,881,o),
+(551,885,cs),
+(608,887,o),
+(630,850,o),
+(630,812,cs),
+(630,755,o),
+(590,695,o),
+(511,637,c),
+(532,601,l),
+(653,660,o),
+(734,757,o),
+(734,832,cs),
+(734,896,o),
+(678,945,o),
+(588,945,cs),
+(342,944,o),
+(75,663,o),
+(75,361,cs),
+(75,88,o),
+(293,-200,o),
+(878,-200,cs)
+);
+}
+);
+width = 2291;
+},
+{
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
 backgroundImage = {
 imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_60.jpg";
 pos = (0,-300);
 scale = (70,70);
 };
-layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+layerId = "74BD3FF1-D3FC-42D5-BAD5-83A0B3337913";
+name = "Jul 28, 24 at 17:06";
 width = 2232;
 }
 );
 },
 {
-glyphname = "ya_ra.medi-divesakuru";
-lastChange = "2024-07-19 15:22:25 +0000";
+glyphname = sa_ya;
+lastChange = "2024-07-28 20:41:23 +0000";
 layers = (
 {
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 02/Conjunct_D02_82.jpg";
+pos = (17,-260);
+scale = (59.3917,59.3917);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2600;
+}
+);
+},
+{
+glyphname = ta_ya;
+lastChange = "2024-07-28 20:42:21 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 02/Conjunct_D02_2.jpg";
+pos = (-43,-310);
+scale = (60,60);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2000;
+}
+);
+},
+{
+glyphname = ta_ya_halanda;
+lastChange = "2024-07-28 20:43:53 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_121.jpg";
+pos = (0,-280);
+scale = (56,56);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2500;
+}
+);
+},
+{
+glyphname = va_ya;
+lastChange = "2024-07-28 20:46:24 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_58.jpg";
+pos = (-111,-243);
+scale = (70,70);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 1800;
+}
+);
+},
+{
+glyphname = va_ya_iVowel;
+lastChange = "2024-07-28 20:47:16 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_12.jpg";
+pos = (-324,-492);
+scale = (70,70);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2000;
+}
+);
+},
+{
+glyphname = va_ya_uVowel;
+lastChange = "2024-07-28 20:49:24 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/didi/Untitled-30 copy.jpg";
+pos = (-87,-390);
+scale = (51.9208,51.9208);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2000;
+}
+);
+},
+{
+color = 1;
+glyphname = "ya_ra.medi-divesakuru";
+lastChange = "2024-07-28 20:26:05 +0000";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1477,46,o),
+(1673,222,o),
+(1673,357,cs),
+(1673,402,o),
+(1649,448,o),
+(1620,474,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(1512,464,l),
+(1509,452,l),
+(1541,422,o),
+(1564,375,o),
+(1564,328,cs),
+(1564,225,o),
+(1444,113,o),
+(1314,113,cs),
+(1229,113,o),
+(1181,162,o),
+(1125,212,cs),
+(1057,273,o),
+(984,341,o),
+(861,341,cs),
+(726,341,o),
+(584,258,o),
+(584,145,cs),
+(584,58,o),
+(671,-15,o),
+(812,-15,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(924,-15,o),
+(1048,37,o),
+(1134,96,c),
+(1184,130,ls),
+(1285,198,o),
+(1351,274,o),
+(1351,349,cs),
+(1351,457,o),
+(1231,509,o),
+(1023,509,cs),
+(713,509,o),
+(375,408,o),
+(375,255,cs),
+(375,159,o),
+(510,133,o),
+(595,133,cs),
+(600,133,o),
+(610,133,o),
+(618,134,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(635,160,l),
+(528,182,o),
+(493,227,o),
+(493,275,cs),
+(493,388,o),
+(762,447,o),
+(988,447,cs),
+(1175,447,o),
+(1238,398,o),
+(1238,317,cs),
+(1238,265,o),
+(1207,221,o),
+(1155,177,c),
+(1088,135,l),
+(1039,96,o),
+(934,46,o),
+(851,46,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(748,46,o),
+(697,107,o),
+(697,166,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(697,226,o),
+(749,277,o),
+(822,277,cs),
+(895,277,o),
+(948,225,o),
+(1008,173,cs),
+(1084,107,o),
+(1146,46,o),
+(1269,46,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(387,-137,o),
+(233,103,o),
+(233,335,cs),
+(233,624,o),
+(458,831,o),
+(591,835,cs),
+(648,837,o),
+(670,800,o),
+(670,762,cs),
+(670,705,o),
+(630,645,o),
+(551,587,c),
+(572,551,l),
+(693,610,o),
+(774,707,o),
+(774,782,cs),
+(774,846,o),
+(718,895,o),
+(628,895,cs),
+(387,894,o),
+(125,613,o),
+(125,312,cs),
+(125,53,o),
+(353,-199,o),
+(841,-218,cs),
+(1348,-238,o),
+(1982,64,o),
+(1982,332,cs),
+(1982,417,o),
+(1899,509,o),
+(1736,509,cs),
+(1655,509,o),
+(1562,486,o),
+(1512,464,c),
+(1594,426,l),
+(1629,445,o),
+(1668,454,o),
+(1703,454,cs),
+(1797,454,o),
+(1865,391,o),
+(1865,306,cs),
+(1865,84,o),
+(1310,-178,o),
+(859,-158,cs)
+);
+}
+);
+};
 backgroundImage = {
 imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 02/Conjunct_D02_55.jpg";
 pos = (0,-424);
 scale = (50,70);
 };
 layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1477,46,o),
+(1673,222,o),
+(1673,357,cs),
+(1673,402,o),
+(1649,448,o),
+(1620,474,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(1512,464,l),
+(1509,452,l),
+(1541,422,o),
+(1564,375,o),
+(1564,328,cs),
+(1564,225,o),
+(1444,113,o),
+(1314,113,cs),
+(1229,113,o),
+(1181,162,o),
+(1125,212,cs),
+(1057,273,o),
+(984,341,o),
+(861,341,cs),
+(726,341,o),
+(584,258,o),
+(584,145,cs),
+(584,58,o),
+(671,-15,o),
+(812,-15,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(924,-15,o),
+(1048,37,o),
+(1134,96,c),
+(1184,130,ls),
+(1285,198,o),
+(1351,274,o),
+(1351,349,cs),
+(1351,457,o),
+(1231,509,o),
+(1023,509,cs),
+(713,509,o),
+(375,408,o),
+(375,255,cs),
+(375,159,o),
+(510,133,o),
+(595,133,cs),
+(600,133,o),
+(610,133,o),
+(618,134,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(635,160,l),
+(528,182,o),
+(493,227,o),
+(493,275,cs),
+(493,388,o),
+(762,447,o),
+(988,447,cs),
+(1175,447,o),
+(1238,398,o),
+(1238,317,cs),
+(1238,265,o),
+(1207,221,o),
+(1155,177,c),
+(1088,135,l),
+(1039,96,o),
+(934,46,o),
+(851,46,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(748,46,o),
+(697,107,o),
+(697,166,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(697,226,o),
+(749,277,o),
+(822,277,cs),
+(895,277,o),
+(948,225,o),
+(1008,173,cs),
+(1084,107,o),
+(1146,46,o),
+(1269,46,cs,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+})
+);
+},
+{
+closed = 1;
+nodes = (
+(395,-137,o),
+(233,103,o),
+(233,342,cs),
+(233,624,o),
+(458,831,o),
+(591,835,cs),
+(648,837,o),
+(670,800,o),
+(670,762,cs),
+(670,705,o),
+(630,645,o),
+(551,587,c),
+(572,551,l),
+(693,610,o),
+(774,707,o),
+(774,782,cs),
+(774,846,o),
+(718,895,o),
+(628,895,cs),
+(387,894,o),
+(125,613,o),
+(125,323,cs),
+(125,53,o),
+(353,-199,o),
+(822,-217,cs),
+(1368,-237,o),
+(1982,69,o),
+(1982,327,cs),
+(1982,422,o),
+(1899,509,o),
+(1736,509,cs),
+(1655,509,o),
+(1562,486,o),
+(1512,464,c),
+(1594,426,l),
+(1629,445,o),
+(1668,454,o),
+(1703,454,cs),
+(1797,454,o),
+(1865,388,o),
+(1865,308,cs),
+(1865,81,o),
+(1318,-178,o),
+(834,-156,cs)
+);
+}
+);
 width = 2246;
+},
+{
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 02/Conjunct_D02_55.jpg";
+pos = (0,-424);
+scale = (50,70);
+};
+layerId = "F31E5421-FD94-4938-940E-CB77F52F7D84";
+name = "Jul 28, 24 at 15:52";
+width = 2246;
+}
+);
+},
+{
+glyphname = ya_ya;
+lastChange = "2024-07-28 20:50:03 +0000";
+layers = (
+{
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_89.jpg";
+pos = (87,-224);
+scale = (70,70);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 2800;
 }
 );
 }
@@ -178523,8 +181939,13 @@ unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
 "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1" = {
-nV = "100";
-oH = "58";
+HH = "60";
+HV = "118";
+OH = "60";
+OV = "118";
+nV = "118";
+nd = "60";
+oH = "60";
 oV = "118";
 };
 UUID0 = {
