@@ -8,15 +8,7 @@ layers = (
 {
 anchors = (
 {
-name = undera_1;
-pos = (1889.994,0);
-},
-{
-name = undera_2;
-pos = (2596.988,0);
-},
-{
-name = undera_3;
+name = undera;
 pos = (2253.991,0);
 }
 );
@@ -2747,7 +2739,7 @@ width = 2974;
 {
 anchors = (
 {
-name = undera_3;
+name = undera;
 pos = (1655,0);
 }
 );
@@ -3253,5 +3245,5 @@ width = 2827;
 }
 );
 metricLeft = "dha-divesakuru";
-subCategory = Ligature;
+subCategory = Other;
 }

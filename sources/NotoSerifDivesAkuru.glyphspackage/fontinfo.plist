@@ -3,7 +3,8 @@
 .formatVersion = 3;
 classes = (
 {
-code = "a-divesakuru a-divesakuru.0001 a-divesakuru.0002 a-divesakuru.0003 a-divesakuru.0004 a-divesakuru.0005 a-divesakuru.0006 a-divesakuru.0007 a-divesakuru.0008 a-divesakuru.0009 a-divesakuru.0010 a-divesakuru.0011 a-divesakuru.0012 a-divesakuru.0013 a-divesakuru.0014 a-divesakuru.0015 a-divesakuru.0016 a-divesakuru.0017 a-divesakuru.0018 a-divesakuru.0019 a-divesakuru.0020 a-divesakuru.0021 a-divesakuru.0022 a-divesakuru.0023 a-divesakuru.0024 a-divesakuru.0025 a-divesakuru.0026 a-divesakuru.0027 a-divesakuru.0028 a-divesakuru.0029 a-divesakuru.0030 a-divesakuru.0031 a-divesakuru.0032 ";
+code = "a-divesakuru a-divesakuru.0001 a-divesakuru.0002 a-divesakuru.0003 a-divesakuru.0004 a-divesakuru.0005 a-divesakuru.0006 a-divesakuru.0007 a-divesakuru.0008 a-divesakuru.0009 a-divesakuru.0010 a-divesakuru.0011 a-divesakuru.0012 a-divesakuru.0013 a-divesakuru.0014 a-divesakuru.0015 a-divesakuru.0016 a-divesakuru.0017 a-divesakuru.0018 a-divesakuru.0019 a-divesakuru.0020 a-divesakuru.0021 a-divesakuru.0022 a-divesakuru.0023 a-divesakuru.0024 a-divesakuru.0025 a-divesakuru.0026 a-divesakuru.0027 a-divesakuru.0028 a-divesakuru.0029 a-divesakuru.0030 a-divesakuru.0031 a-divesakuru.0032 
+";
 name = a;
 },
 {
@@ -891,7 +892,9 @@ code = "lookup ConvertToUnderAMark {
 sub @Letters by @Undera;
 } ConvertToUnderAMark;
 
-
+lookup AddNullMark {
+sub @Undera by @Undera nullmark;
+} AddNullMark;
 ";
 name = ConvertToUnderAMark;
 },
@@ -909,6 +912,7 @@ lookup toA10 {  sub a-divesakuru by a-divesakuru.0010; } toA10;
 lookup toA11 {  sub a-divesakuru by a-divesakuru.0011; } toA11;
 lookup toA12 {  sub a-divesakuru by a-divesakuru.0012; } toA12;
 lookup toA13 {  sub a-divesakuru by a-divesakuru.0013; } toA13;
+lookup toA13_2 {  sub a-divesakuru by a-divesakuru.0013.two; } toA13_2;
 lookup toA14 {  sub a-divesakuru by a-divesakuru.0014; } toA14;
 lookup toA15 {  sub a-divesakuru by a-divesakuru.0015; } toA15;
 lookup toA16 {  sub a-divesakuru by a-divesakuru.0016; } toA16;
@@ -1625,6 +1629,7 @@ sub @na-halanta' @short @short by na_halanta-divesakuru.0009;
 
 #-i calligraphic feature
 
+
 lookup rclt_1 {
 sub @a i-divesakuru' by i-divesakuru.0004;
 sub doubleDanda-divesakuru i-divesakuru' by i-divesakuru.0003;
@@ -1951,6 +1956,43 @@ sub za-divesakuru i-divesakuru' by i-divesakuru.0006;
 
 #bridge form -a feature for one character
 
+
+# For the two character -a, we need to do a bit of OpenType magic.
+# We will be positioning the \"undera\" glyphs on ligature anchors _1 and _2
+# but to do this, we need to ligate the -a from two glyphs into one so
+# that the \"undera\" marks are associated with the correct anchors.
+# The way that marks are associated with ligature anchors is like this:
+# the ligature is formed by ligating multiple base glyphs together, and
+# the mark after each base glyph gets attached to the appropriate anchor
+# in the sequence. For example 
+#    lam-ar kasra-ar alef-ar damma-ar
+#    BASE1  MARK1    BASE2   MARK2 
+# becomes
+#    lam_alef-ar kasra-ar damma-ar
+#                ^ I used to belong to base 1 so I am on anchor _1
+#                         ^ I used to belong to base two so I am on anchor_2
+#
+# In other words, for Dives Akuru we first need
+#   a-divesakuru LETTER1 LETTER2
+# to become
+#   a-divesakuru LETTER1 some_base_glyph LETTER2
+# because that allows us to ligate
+#   a-divesakuru some_base_glyph -> a-divesakuru.0019
+# (skipping marks) such that LETTER1 ends up associated with _undera_1
+# and LETTER2 ends up associated with _undera_2.
+lookup doubleAToMarks {
+    	sub a-divesakuru' lookup toA13 da-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
+} doubleAToMarks;
+
+lookup doubleASplit {
+   sub a-divesakuru.0013 @Undera' @Undera by @Undera double_a;
+} doubleASplit;
+lookup doubleACombine {
+	lookupflag IgnoreMarks;
+	sub a-divesakuru.0013 double_a by a-divesakuru.0013.two;
+} doubleACombine;
+
+
 lookup rclt_2 {
 sub a-divesakuru' lookup toA1 ra-divesakuru' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA1 ra_halanta-divesakuru' lookup ConvertToUnderAMark;
@@ -2268,37 +2310,37 @@ sub a-divesakuru' lookup toA29 pa_ooVowel-divesakuru' lookup ConvertToUnderAMark
 sub a-divesakuru' lookup toA29 bha_ooVowel-divesakuru' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA32 pha_ooVowel-divesakuru' lookup ConvertToUnderAMark;
 } rclt_2;
-
-#gapFiller feature
-
-lookup gapfiller_isol {
-   ignore sub gapFiller-divesakuru' @gapFiller, @gapFiller gapFiller-divesakuru';
-   sub gapFiller-divesakuru' by gapFiller-divesakuru.isol;
-} gapfiller_isol;
-
-lookup gapfiller_init {
-   ignore sub @gapFiller gapFiller-divesakuru';
-   sub gapFiller-divesakuru' by gapFiller-divesakuru.init;
-} gapfiller_init;
-
-lookup gapfiller_fina {
-   ignore sub gapFiller-divesakuru' @gapFiller;
-   sub gapFiller-divesakuru' by gapFiller-divesakuru.fina;
-} gapfiller_fina;
-
-lookup gapfiller_liga {
-sub gapFiller-divesakuru endofTextMark-divesakuru by gapFiller-divesakuru_endofTextMark-divesakuru;
-sub gapFiller-divesakuru.init endofTextMark-divesakuru by gapFiller-divesakuru_endofTextMark-divesakuru.init;
-} gapfiller_liga;
-
-
-#yya accent
-
-lookup rclt_4 {
-
-sub @yya prefixedNasalSign-divesakuru' by prefixedNasalSign-divesakuru.alt;
-
-} rclt_4;
+#
+##gapFiller feature
+#
+#lookup gapfiller_isol {
+#   ignore sub gapFiller-divesakuru' @gapFiller, @gapFiller gapFiller-divesakuru';
+#   sub gapFiller-divesakuru' by gapFiller-divesakuru.isol;
+#} gapfiller_isol;
+#
+#lookup gapfiller_init {
+#   ignore sub @gapFiller gapFiller-divesakuru';
+#   sub gapFiller-divesakuru' by gapFiller-divesakuru.init;
+#} gapfiller_init;
+#
+#lookup gapfiller_fina {
+#   ignore sub gapFiller-divesakuru' @gapFiller;
+#   sub gapFiller-divesakuru' by gapFiller-divesakuru.fina;
+#} gapfiller_fina;
+#
+#lookup gapfiller_liga {
+#sub gapFiller-divesakuru endofTextMark-divesakuru by gapFiller-divesakuru_endofTextMark-divesakuru;
+#sub gapFiller-divesakuru.init endofTextMark-divesakuru by gapFiller-divesakuru_endofTextMark-divesakuru.init;
+#} gapfiller_liga;
+#
+#
+##yya accent
+#
+#lookup rclt_4 {
+#
+#sub @yya prefixedNasalSign-divesakuru' by prefixedNasalSign-divesakuru.alt;
+#
+#} rclt_4;
 ";
 labels = (
 {

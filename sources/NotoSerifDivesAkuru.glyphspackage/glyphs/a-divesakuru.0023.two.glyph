@@ -1,0 +1,26 @@
+{
+category = Letter;
+glyphname = "a-divesakuru.0023.two";
+layers = (
+{
+anchors = (
+{
+name = undera_1;
+pos = (2018.815,0);
+},
+{
+name = undera_2;
+pos = (2854.631,0);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "a-divesakuru.0023";
+}
+);
+width = 4567;
+}
+);
+subCategory = Ligature;
+}
