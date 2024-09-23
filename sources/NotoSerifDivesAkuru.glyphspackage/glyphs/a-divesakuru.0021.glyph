@@ -1,5 +1,6 @@
 {
-color = 10;
+category = Letter;
+color = 2;
 glyphname = "a-divesakuru.0021";
 kernLeft = dha;
 kernRight = a;
@@ -7,7 +8,7 @@ layers = (
 {
 anchors = (
 {
-name = undera;
+name = undera_1;
 pos = (2369.93,0);
 }
 );
@@ -123,7 +124,7 @@ AngleInDegrees = "360";
 );
 }
 );
-width = 4453;
+width = 4412.86042;
 },
 {
 associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
@@ -2738,7 +2739,7 @@ width = 2974;
 {
 anchors = (
 {
-name = undera;
+name = undera_1;
 pos = (1655,0);
 }
 );
@@ -3244,4 +3245,5 @@ width = 2827;
 }
 );
 metricLeft = "dha-divesakuru";
+subCategory = Ligature;
 }
