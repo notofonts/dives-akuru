@@ -1,0 +1,41 @@
+{
+category = Mark;
+color = 11;
+glyphname = "na_medya_iVowel-divesakuru.undera";
+kernLeft = na;
+kernRight = ga;
+layers = (
+{
+anchors = (
+{
+name = _undera;
+pos = (1025,0);
+},
+{
+name = bottom;
+pos = (906,-252);
+},
+{
+name = caret_1;
+pos = (1022,0);
+},
+{
+name = caret_2;
+pos = (1711,0);
+},
+{
+name = top;
+pos = (175,237);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "na_medya_iVowel-divesakuru";
+}
+);
+width = 2050;
+}
+);
+subCategory = Nonspacing;
+}

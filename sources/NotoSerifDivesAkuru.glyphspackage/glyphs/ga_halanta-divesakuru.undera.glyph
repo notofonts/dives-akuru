@@ -1,0 +1,41 @@
+{
+category = Mark;
+color = 11;
+glyphname = "ga_halanta-divesakuru.undera";
+kernLeft = ga;
+kernRight = ga_halanta;
+layers = (
+{
+anchors = (
+{
+name = _undera;
+pos = (582,0);
+},
+{
+name = bottom;
+pos = (625,-289);
+},
+{
+name = caret_1;
+pos = (994,0);
+},
+{
+name = top;
+pos = (321,753);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "ga-divesakuru";
+},
+{
+pos = (453,-154);
+ref = "halanta-divesakuru.undera";
+}
+);
+width = 1094;
+}
+);
+subCategory = Nonspacing;
+}

@@ -1,0 +1,222 @@
+{
+color = 0;
+glyphname = "na_medra-divesakuru";
+kernLeft = medra;
+kernRight = na;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (605,-244);
+},
+{
+name = caret_1;
+pos = (1022,0);
+},
+{
+name = top;
+pos = (565,932);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(353,947,o),
+(75,656,o),
+(75,356,cs),
+(75,106,o),
+(268,-144,o),
+(626,-144,cs),
+(875,-144,o),
+(1222,-23,o),
+(1222,231,cs),
+(1222,382,o),
+(1086,510,o),
+(930,510,cs),
+(791,510,o),
+(681,413,o),
+(681,284,cs),
+(681,257,o),
+(686,243,o),
+(695,220,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(705,240,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(669,260,o),
+(623,269,o),
+(572,269,cs),
+(476,269,o),
+(376,238,o),
+(306,185,c),
+(345,125,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(393,168,o),
+(474,211,o),
+(564,211,cs),
+(626,211,o),
+(691,191,o),
+(747,135,c),
+(831,159,l),
+(834,170,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(804,209,o),
+(788,263,o),
+(788,312,cs),
+(788,393,o),
+(831,449,o),
+(908,449,cs),
+(1028,449,o),
+(1104,304,o),
+(1104,208,cs),
+(1104,13,o),
+(851,-85,o),
+(634,-85,cs),
+(308,-85,o),
+(183,155,o),
+(183,369,cs),
+(183,669,o),
+(431,886,o),
+(568,886,cs),
+(618,886,o),
+(645,857,o),
+(645,811,cs),
+(645,745,o),
+(589,681,o),
+(521,639,c),
+(542,603,l),
+(655,653,o),
+(744,757,o),
+(744,837,cs),
+(744,897,o),
+(694,947,o),
+(593,947,cs)
+);
+}
+);
+};
+backgroundImage = {
+angle = 180;
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 39/Conjunct_D39_57.jpg";
+pos = (1322,1200);
+scale = (56,56);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(353,947,o),
+(75,656,o),
+(75,356,cs),
+(75,106,o),
+(268,-144,o),
+(626,-144,cs),
+(875,-144,o),
+(1222,-20,o),
+(1222,241,cs),
+(1222,387,o),
+(1086,510,o),
+(930,510,cs),
+(791,510,o),
+(681,413,o),
+(681,284,cs),
+(681,257,o),
+(686,243,o),
+(695,220,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(705,240,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(669,260,o),
+(623,269,o),
+(572,269,cs),
+(476,269,o),
+(376,238,o),
+(306,185,c),
+(345,125,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(393,168,o),
+(474,211,o),
+(564,211,cs),
+(626,211,o),
+(691,191,o),
+(747,135,c),
+(831,159,l),
+(834,170,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(804,209,o),
+(788,263,o),
+(788,312,cs),
+(788,393,o),
+(831,449,o),
+(908,449,cs),
+(1028,449,o),
+(1104,310,o),
+(1104,218,cs),
+(1104,16,o),
+(851,-85,o),
+(634,-85,cs),
+(308,-85,o),
+(183,155,o),
+(183,369,cs),
+(183,669,o),
+(431,886,o),
+(568,886,cs),
+(618,886,o),
+(645,857,o),
+(645,811,cs),
+(645,745,o),
+(589,681,o),
+(521,639,c),
+(542,603,l),
+(655,653,o),
+(744,757,o),
+(744,837,cs),
+(744,897,o),
+(694,947,o),
+(593,947,cs)
+);
+}
+);
+width = 1297;
+},
+{
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 39/Conjunct_D39_57.jpg";
+pos = (0,-397);
+scale = (56,56);
+};
+layerId = "3E2097C5-05A3-4E29-93A2-BD84303B6371";
+name = "Jul 28, 24 at 16:59";
+width = 1824;
+}
+);
+subCategory = Conjunct;
+}

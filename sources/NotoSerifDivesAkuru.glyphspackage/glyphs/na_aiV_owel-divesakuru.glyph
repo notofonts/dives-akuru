@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "na_aiVowel-divesakuru";
+kernLeft = ka_eVowel;
+kernRight = na;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (1485,-244);
+},
+{
+name = caret_1;
+pos = (996,0);
+},
+{
+name = top;
+pos = (1171,237);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "aiVowel-divesakuru";
+},
+{
+pos = (996,0);
+ref = "na-divesakuru";
+}
+);
+width = 2018;
+}
+);
+}

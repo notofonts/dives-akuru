@@ -1,0 +1,37 @@
+{
+category = Mark;
+color = 11;
+glyphname = "ma_medya-divesakuru.undera";
+kernLeft = ma;
+kernRight = ya;
+layers = (
+{
+anchors = (
+{
+name = _undera;
+pos = (867.5,0);
+},
+{
+name = bottom;
+pos = (867.5,-140);
+},
+{
+name = caret_1;
+pos = (1052,0);
+},
+{
+name = top;
+pos = (307,471);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "ma_medya-divesakuru";
+}
+);
+width = 1735;
+}
+);
+subCategory = Nonspacing;
+}

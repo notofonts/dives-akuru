@@ -1,0 +1,68 @@
+{
+color = 0;
+glyphname = "ha_halanta-divesakuru";
+kernLeft = na;
+kernRight = ga_halanta;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (864,-217);
+},
+{
+name = caret_1;
+pos = (1357,0);
+},
+{
+name = halanta;
+pos = (751,494);
+},
+{
+name = top;
+pos = (192,230);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(743,484,l),
+(1118,776,o),
+(1573,978,o),
+(1710,978,cs),
+(1752,978,o),
+(1774,953,o),
+(1774,925,cs),
+(1774,875,o),
+(1704,828,o),
+(1653,801,c),
+(1672,768,l),
+(1767,811,o),
+(1880,882,o),
+(1880,960,cs),
+(1880,1012,o),
+(1836,1047,o),
+(1764,1047,cs),
+(1566,1047,o),
+(1107,843,o),
+(670,506,c)
+);
+}
+);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "ha-divesakuru";
+},
+{
+pos = (461,0);
+ref = "halanta-divesakuru";
+}
+);
+width = 1457;
+}
+);
+}

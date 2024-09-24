@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "dda_uuVowel-divesakuru";
+kernLeft = va;
+kernRight = u;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (768,-353);
+},
+{
+name = caret_1;
+pos = (1326,0);
+},
+{
+name = top;
+pos = (586,509);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "dda_uVowel-divesakuru";
+},
+{
+pos = (986,-119);
+ref = "_uuVowel-divesakuru";
+}
+);
+width = 1604;
+}
+);
+}

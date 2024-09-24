@@ -1,0 +1,37 @@
+{
+category = Mark;
+color = 11;
+glyphname = "ra_iiVowel-divesakuru.undera";
+kernLeft = ra;
+kernRight = i;
+layers = (
+{
+anchors = (
+{
+name = _undera;
+pos = (586.5,0);
+},
+{
+name = bottom;
+pos = (562,-308);
+},
+{
+name = caret_1;
+pos = (742,0);
+},
+{
+name = top;
+pos = (240,562);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "ra_iiVowel-divesakuru";
+}
+);
+width = 1173;
+}
+);
+subCategory = Nonspacing;
+}

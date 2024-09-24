@@ -1,0 +1,25 @@
+{
+category = Mark;
+color = 11;
+glyphname = "o-divesakuru.undera";
+kernLeft = va;
+kernRight = ka;
+layers = (
+{
+anchors = (
+{
+name = _undera;
+pos = (915,0);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "o-divesakuru";
+}
+);
+width = 1830;
+}
+);
+subCategory = Nonspacing;
+}

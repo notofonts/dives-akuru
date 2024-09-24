@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "da_halanta-divesakuru";
+kernLeft = da;
+kernRight = ga_halanta;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (546,-390);
+},
+{
+name = caret_1;
+pos = (824,0);
+},
+{
+name = top;
+pos = (253,886);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "da-divesakuru";
+},
+{
+pos = (438,-60);
+ref = "halanta-divesakuru";
+}
+);
+width = 981;
+}
+);
+}

@@ -1,0 +1,37 @@
+{
+category = Mark;
+color = 11;
+glyphname = "ta_aiVowel-divesakuru.undera";
+kernLeft = ka_eVowel;
+kernRight = ga;
+layers = (
+{
+anchors = (
+{
+name = _undera;
+pos = (1055,0);
+},
+{
+name = bottom;
+pos = (1583,-296);
+},
+{
+name = caret_1;
+pos = (1065,0);
+},
+{
+name = top;
+pos = (1357,492);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "ta_aiVowel-divesakuru";
+}
+);
+width = 2051;
+}
+);
+subCategory = Nonspacing;
+}

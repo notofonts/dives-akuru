@@ -1,0 +1,37 @@
+{
+category = Mark;
+color = 11;
+glyphname = "va_oVowel-divesakuru.undera";
+kernLeft = ka_eVowel;
+kernRight = ka;
+layers = (
+{
+anchors = (
+{
+name = _undera;
+pos = (1096.5,0);
+},
+{
+name = bottom;
+pos = (1419.5,-266);
+},
+{
+name = caret_1;
+pos = (646,0);
+},
+{
+name = top;
+pos = (1227,510);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "va_oVowel-divesakuru";
+}
+);
+width = 2193;
+}
+);
+subCategory = Nonspacing;
+}

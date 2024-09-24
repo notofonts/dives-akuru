@@ -1,0 +1,37 @@
+{
+category = Mark;
+color = 11;
+glyphname = "sa_halanta-divesakuru.undera";
+kernLeft = sa;
+kernRight = dha_halanta;
+layers = (
+{
+anchors = (
+{
+name = _undera;
+pos = (773.5,0);
+},
+{
+name = bottom;
+pos = (888,-94);
+},
+{
+name = caret_1;
+pos = (1448,0);
+},
+{
+name = top;
+pos = (247,614);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "sa_halanta-divesakuru";
+}
+);
+width = 1547;
+}
+);
+subCategory = Nonspacing;
+}

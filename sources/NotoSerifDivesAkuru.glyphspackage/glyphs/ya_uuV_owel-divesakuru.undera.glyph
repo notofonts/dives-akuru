@@ -1,0 +1,37 @@
+{
+category = Mark;
+color = 11;
+glyphname = "ya_uuVowel-divesakuru.undera";
+kernLeft = ya;
+kernRight = u;
+layers = (
+{
+anchors = (
+{
+name = _undera;
+pos = (891.5,0);
+},
+{
+name = bottom;
+pos = (741,-95);
+},
+{
+name = caret_1;
+pos = (1506,0);
+},
+{
+name = top;
+pos = (350,446);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "ya_uuVowel-divesakuru";
+}
+);
+width = 1783;
+}
+);
+subCategory = Nonspacing;
+}

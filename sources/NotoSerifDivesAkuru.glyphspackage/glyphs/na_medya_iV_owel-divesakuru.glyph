@@ -1,0 +1,290 @@
+{
+color = 0;
+glyphname = "na_medya_iVowel-divesakuru";
+kernLeft = na;
+kernRight = ga;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (906,-252);
+},
+{
+name = caret_1;
+pos = (1022,0);
+},
+{
+name = caret_2;
+pos = (1711,0);
+},
+{
+name = top;
+pos = (175,237);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(588,-145,o),
+(947,-27,o),
+(947,228,cs),
+(947,384,o),
+(811,510,o),
+(654,510,cs),
+(516,510,o),
+(406,413,o),
+(406,284,cs),
+(406,257,o),
+(411,243,o),
+(420,220,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(430,240,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(394,260,o),
+(348,269,o),
+(297,269,cs),
+(201,269,o),
+(101,238,o),
+(31,185,c),
+(70,125,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(118,168,o),
+(199,211,o),
+(289,211,cs),
+(351,211,o),
+(416,191,o),
+(472,135,c),
+(556,159,l),
+(559,170,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(529,209,o),
+(513,263,o),
+(513,312,cs),
+(513,393,o),
+(556,449,o),
+(632,449,cs),
+(753,449,o),
+(829,307,o),
+(829,202,cs),
+(829,10,o),
+(564,-84,o),
+(370,-84,cs),
+(275,-84,o),
+(232,-58,o),
+(232,-17,cs),
+(232,26,o),
+(280,54,o),
+(353,74,c),
+(344,111,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(196,82,o),
+(118,27,o),
+(118,-36,cs),
+(118,-89,o),
+(174,-145,o),
+(342,-145,cs)
+);
+}
+);
+};
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 39/Conjunct_D39_16.jpg";
+pos = (0,-350);
+scale = (56,56);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1098,-152,o),
+(1307,37,o),
+(1307,289,cs),
+(1307,534,o),
+(1110,713,o),
+(850,713,cs),
+(788,713,o),
+(712,701,o),
+(643,676,c),
+(651,639,l),
+(700,653,o),
+(751,660,o),
+(798,660,cs),
+(1045,660,o),
+(1192,497,o),
+(1192,270,cs),
+(1192,60,o),
+(1066,-92,o),
+(930,-92,cs),
+(871,-92,o),
+(841,-61,o),
+(841,-16,cs),
+(841,48,o),
+(918,98,o),
+(1027,98,cs),
+(1101,98,o),
+(1201,74,o),
+(1288,74,cs),
+(1491,74,o),
+(1686,203,o),
+(1686,330,cs),
+(1686,370,o),
+(1667,400,o),
+(1643,426,c),
+(1641,400,l),
+(1682,407,o),
+(1694,409,o),
+(1711,409,cs),
+(1800,409,o),
+(1857,357,o),
+(1857,286,cs),
+(1857,131,o),
+(1578,-35,o),
+(1112,-36,c),
+(1042,-93,l),
+(1605,-108,o),
+(1975,99,o),
+(1975,299,cs),
+(1975,404,o),
+(1874,461,o),
+(1752,461,cs),
+(1692,461,o),
+(1615,447,o),
+(1534,413,c),
+(1531,401,l),
+(1556,382,o),
+(1575,347,o),
+(1575,306,cs),
+(1575,204,o),
+(1454,137,o),
+(1326,137,cs),
+(1249,137,o),
+(1144,161,o),
+(1063,161,cs),
+(895,161,o),
+(743,58,o),
+(743,-35,cs),
+(743,-94,o),
+(805,-152,o),
+(909,-152,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(479,-145,o),
+(654,-106,o),
+(780,-25,c),
+(905,122,l),
+(928,160,o),
+(943,200,o),
+(943,248,cs),
+(943,387,o),
+(809,510,o),
+(655,510,cs),
+(516,510,o),
+(406,413,o),
+(406,284,cs),
+(406,257,o),
+(411,243,o),
+(420,220,c,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(430,240,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(394,260,o),
+(348,269,o),
+(297,269,cs),
+(201,269,o),
+(101,238,o),
+(31,185,c),
+(70,125,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(118,168,o),
+(199,211,o),
+(289,211,cs),
+(351,211,o),
+(416,191,o),
+(472,135,c),
+(556,159,l),
+(559,170,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(529,209,o),
+(513,263,o),
+(513,312,cs),
+(513,393,o),
+(556,449,o),
+(632,449,cs),
+(753,449,o),
+(829,307,o),
+(829,202,cs),
+(829,10,o),
+(564,-84,o),
+(370,-84,cs),
+(275,-84,o),
+(232,-58,o),
+(232,-17,cs),
+(232,26,o),
+(280,54,o),
+(353,74,c),
+(344,111,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "360";
+};
+}),
+(196,82,o),
+(118,27,o),
+(118,-36,cs),
+(118,-89,o),
+(174,-145,o),
+(338,-145,cs)
+);
+}
+);
+width = 2050;
+},
+{
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 39/Conjunct_D39_16.jpg";
+pos = (0,-350);
+scale = (56,56);
+};
+layerId = "31463FC2-E2FB-4C1A-9A49-9DD0A8DD84AC";
+name = "Aug 12, 24 at 12:56";
+width = 2300;
+}
+);
+metricLeft = "na-divesakuru";
+metricRight = "ha_medya_iVowel-divesakuru";
+subCategory = Conjunct;
+}

@@ -1,0 +1,59 @@
+{
+category = Mark;
+color = 10;
+glyphname = "nukta-divesakuru";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (-3,-2);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(78,-17,o),
+(44,5,o),
+(5,5,cs),
+(-43,5,o),
+(-78,-29,o),
+(-78,-67,cs),
+(-78,-106,o),
+(-44,-128,o),
+(-5,-128,cs),
+(42,-128,o),
+(78,-94,o),
+(78,-56,cs)
+);
+}
+);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(42,-128,o),
+(78,-94,o),
+(78,-56,cs),
+(78,-17,o),
+(44,5,o),
+(5,5,cs),
+(-42,5,o),
+(-78,-29,o),
+(-78,-67,cs),
+(-78,-106,o),
+(-44,-128,o),
+(-5,-128,cs)
+);
+}
+);
+width = 300;
+}
+);
+subCategory = Nonspacing;
+unicode = 72003;
+}

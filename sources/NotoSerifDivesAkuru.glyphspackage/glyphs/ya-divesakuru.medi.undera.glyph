@@ -1,0 +1,23 @@
+{
+category = Mark;
+color = 10;
+glyphname = "ya-divesakuru.medi.undera";
+layers = (
+{
+anchors = (
+{
+name = _undera;
+pos = (457.5,0);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "ya-divesakuru.medi";
+}
+);
+width = 915;
+}
+);
+subCategory = Nonspacing;
+}

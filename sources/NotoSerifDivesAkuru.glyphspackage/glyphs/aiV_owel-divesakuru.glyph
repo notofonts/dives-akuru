@@ -1,0 +1,22 @@
+{
+category = Mark;
+color = 10;
+glyphname = "aiVowel-divesakuru";
+kernLeft = ka_eVowel;
+layers = (
+{
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+alignment = -1;
+ref = "eVowel-divesakuru";
+}
+);
+width = 996;
+}
+);
+metricLeft = "=eVowel-divesakuru";
+metricRight = "=eVowel-divesakuru+350";
+subCategory = Spacing;
+unicode = 71991;
+}

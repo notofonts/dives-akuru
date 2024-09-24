@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "ta_uuVowel-divesakuru";
+kernLeft = ta_uVowel;
+kernRight = u;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (239,-135);
+},
+{
+name = caret_1;
+pos = (976,0);
+},
+{
+name = top;
+pos = (248,492);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "ta_uVowel-divesakuru";
+},
+{
+pos = (312,-115);
+ref = "_uuVowel-divesakuru";
+}
+);
+width = 973;
+}
+);
+}

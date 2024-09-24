@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "va_aiVowel-divesakuru";
+kernLeft = ka_eVowel;
+kernRight = va;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (1595.5,-451);
+},
+{
+name = caret_1;
+pos = (996,0);
+},
+{
+name = top;
+pos = (1582,509);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "aiVowel-divesakuru";
+},
+{
+pos = (996,0);
+ref = "va-divesakuru";
+}
+);
+width = 2150;
+}
+);
+}

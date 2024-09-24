@@ -1,0 +1,78 @@
+{
+category = Mark;
+color = 11;
+glyphname = "da_aaVowel-divesakuru.undera";
+kernLeft = da;
+kernRight = da_iVowel;
+layers = (
+{
+anchors = (
+{
+name = _undera;
+pos = (652.5,0);
+},
+{
+name = bottom;
+pos = (547,-610);
+},
+{
+name = caret_1;
+pos = (924,0);
+},
+{
+name = top;
+pos = (243,756);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(503,-508,o),
+(1230,-294,o),
+(1230,26,cs),
+(1230,133,o),
+(1130,217,o),
+(945,217,cs),
+(937,217,o),
+(928,217,o),
+(919,217,c),
+(919,172,l),
+(922,172,o),
+(925,172,o),
+(928,172,cs),
+(1046,172,o),
+(1114,100,o),
+(1114,9,cs),
+(1114,-273,o),
+(479,-446,o),
+(205,-446,cs),
+(101,-446,o),
+(39,-428,o),
+(39,-388,cs),
+(39,-347,o),
+(90,-309,o),
+(168,-294,c),
+(144,-267,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99997";
+};
+}),
+(9,-300,o),
+(-76,-341,o),
+(-76,-409,cs),
+(-76,-475,o),
+(28,-508,o),
+(189,-508,cs)
+);
+},
+{
+ref = "da-divesakuru.undera";
+}
+);
+width = 1305;
+}
+);
+subCategory = Nonspacing;
+}

@@ -1,0 +1,33 @@
+{
+category = Mark;
+color = 11;
+glyphname = "va-divesakuru.alt2.undera";
+kernLeft = va;
+kernRight = ya;
+layers = (
+{
+anchors = (
+{
+name = _undera;
+pos = (621.5,0);
+},
+{
+name = bottom;
+pos = (649,-100);
+},
+{
+name = top;
+pos = (585,512);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "_va-divesakuru.alt2";
+}
+);
+width = 1243;
+}
+);
+subCategory = Nonspacing;
+}
