@@ -9,11 +9,11 @@ layers = (
 anchors = (
 {
 name = undera_1;
-pos = (2740.217,0);
+pos = (2351,0);
 },
 {
 name = undera_2;
-pos = (4297.434,0);
+pos = (4687,0);
 }
 );
 layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
