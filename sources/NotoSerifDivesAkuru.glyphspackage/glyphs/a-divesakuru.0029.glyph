@@ -1,5 +1,6 @@
 {
-color = 10;
+category = Letter;
+color = 2;
 glyphname = "a-divesakuru.0029";
 kernLeft = dha;
 kernRight = a;
@@ -123,7 +124,7 @@ AngleInDegrees = "360";
 );
 }
 );
-width = 5071;
+width = 5031.20459;
 },
 {
 associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
@@ -3244,4 +3245,5 @@ width = 2827;
 }
 );
 metricLeft = "dha-divesakuru";
+subCategory = Other;
 }
