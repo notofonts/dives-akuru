@@ -355,7 +355,7 @@ AngleInDegrees = "360";
 );
 }
 );
-width = 1832;
+width = 1836;
 },
 {
 associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
@@ -697,6 +697,6 @@ nodes = (
 width = 1866;
 }
 );
-metricRight = "=u-divesakuru-145";
+metricRight = "=u-divesakuru-141";
 subCategory = Conjunct;
 }

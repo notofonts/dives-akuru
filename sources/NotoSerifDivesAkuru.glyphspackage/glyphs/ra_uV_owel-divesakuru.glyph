@@ -380,7 +380,7 @@ locked = 1;
 ref = "ra-divesakuru";
 }
 );
-width = 1082;
+width = 1090;
 },
 {
 associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
@@ -554,5 +554,5 @@ width = 1199;
 }
 );
 metricLeft = "=ra-divesakuru";
-metricRight = "=u-divesakuru";
+metricRight = "=u-divesakuru+8";
 }

@@ -66,9 +66,9 @@ nodes = (
 ref = "da-divesakuru";
 }
 );
-width = 1326;
+width = 1330;
 }
 );
 metricLeft = "da-divesakuru";
-metricRight = "=u-divesakuru-128";
+metricRight = "=u-divesakuru-124";
 }

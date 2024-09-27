@@ -30,7 +30,7 @@ shapes = (
 ref = "bha_uuVowel-divesakuru";
 }
 );
-width = 2020;
+width = 2030;
 }
 );
 subCategory = Nonspacing;

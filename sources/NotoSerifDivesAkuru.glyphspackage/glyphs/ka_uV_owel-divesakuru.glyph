@@ -258,7 +258,7 @@ nodes = (
 );
 }
 );
-width = 1307;
+width = 1301;
 },
 {
 associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
@@ -1382,5 +1382,5 @@ nodes = (
 width = 1347;
 }
 );
-metricRight = "=u-divesakuru";
+metricRight = "=u-divesakuru-6";
 }

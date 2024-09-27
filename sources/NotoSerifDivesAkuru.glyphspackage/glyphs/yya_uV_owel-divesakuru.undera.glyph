@@ -34,7 +34,7 @@ shapes = (
 ref = "yya_uVowel-divesakuru";
 }
 );
-width = 1578;
+width = 1574;
 }
 );
 subCategory = Nonspacing;

@@ -210,9 +210,9 @@ AngleInDegrees = "360";
 );
 }
 );
-width = 1544;
+width = 1549;
 }
 );
 metricLeft = "tta-divesakuru";
-metricRight = "=u-divesakuru-25";
+metricRight = "=u-divesakuru-20";
 }

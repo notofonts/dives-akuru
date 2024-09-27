@@ -276,9 +276,9 @@ nodes = (
 );
 }
 );
-width = 1850;
+width = 1855;
 }
 );
 metricLeft = "sa-divesakuru";
-metricRight = "=u-divesakuru-27";
+metricRight = "=u-divesakuru-22";
 }

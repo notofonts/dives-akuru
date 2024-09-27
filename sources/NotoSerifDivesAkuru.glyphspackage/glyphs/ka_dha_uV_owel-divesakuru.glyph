@@ -472,7 +472,7 @@ AngleInDegrees = "360";
 );
 }
 );
-width = 2410;
+width = 2404;
 },
 {
 associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
@@ -487,6 +487,6 @@ width = 3226;
 }
 );
 metricLeft = "ka_uVowel-divesakuru";
-metricRight = "=u-divesakuru";
+metricRight = "=u-divesakuru-6";
 subCategory = Conjunct;
 }

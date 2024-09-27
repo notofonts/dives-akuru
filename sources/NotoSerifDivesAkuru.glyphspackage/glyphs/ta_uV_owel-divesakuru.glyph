@@ -190,9 +190,9 @@ nodes = (
 );
 }
 );
-width = 973;
+width = 954;
 }
 );
 metricLeft = "=eVowel-divesakuru";
-metricRight = "=u-divesakuru-150";
+metricRight = "=u-divesakuru-169";
 }

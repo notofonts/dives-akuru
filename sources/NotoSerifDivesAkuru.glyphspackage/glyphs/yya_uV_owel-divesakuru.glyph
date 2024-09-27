@@ -246,9 +246,9 @@ AngleInDegrees = "360";
 );
 }
 );
-width = 1578;
+width = 1574;
 }
 );
 metricLeft = "=yya-divesakuru";
-metricRight = "=u-divesakuru";
+metricRight = "=u-divesakuru-4";
 }

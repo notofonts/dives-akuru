@@ -19,7 +19,7 @@ shapes = (
 ref = "a-divesakuru.0022";
 }
 );
-width = 4490;
+width = 4530;
 }
 );
 subCategory = Ligature;

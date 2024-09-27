@@ -187,7 +187,7 @@ AngleInDegrees = "360";
 );
 }
 );
-width = 1442;
+width = 1421;
 },
 {
 anchors = (
@@ -621,5 +621,5 @@ width = 1442;
 }
 );
 metricLeft = "ma-divesakuru";
-metricRight = "=u-divesakuru+2";
+metricRight = "=u-divesakuru-19";
 }

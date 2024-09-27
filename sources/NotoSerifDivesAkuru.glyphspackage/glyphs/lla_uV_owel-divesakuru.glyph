@@ -322,9 +322,9 @@ AngleInDegrees = "360";
 );
 }
 );
-width = 1483;
+width = 1487;
 }
 );
 metricLeft = "lla_aaVowel-divesakuru";
-metricRight = "=u-divesakuru-23";
+metricRight = "=u-divesakuru-19";
 }
