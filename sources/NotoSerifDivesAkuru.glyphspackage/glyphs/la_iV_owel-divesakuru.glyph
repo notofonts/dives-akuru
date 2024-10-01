@@ -7,8 +7,16 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (622,-272);
+},
+{
 name = caret_1;
 pos = (1123,0);
+},
+{
+name = top;
+pos = (341,472);
 }
 );
 background = {
