@@ -2253,6 +2253,12 @@ lookup SwapNuktaHalanta {
 	sub nukta-divesakuru' lookup nukta_halanta halanta-divesakuru' lookup halanta_nukta;
 } SwapNuktaHalanta;
 
+lookup MoreConjuncts {
+        lookupflag UseMarkFilteringSet [halanta-divesakuru];
+        sub ta-divesakuru ya-divesakuru.medi halanta-divesakuru by
+ta_medya_halanta-divesakuru;
+} MoreConjuncts;
+
 lookup VowelLigatures {
 	sub ka-divesakuru aaVowel-divesakuru by ka_aaVowel-divesakuru;
 	sub ka-divesakuru iVowel-divesakuru by ka_iVowel-divesakuru;
@@ -2490,6 +2496,36 @@ lookup VowelLigatures {
 	sub za-divesakuru ooVowel-divesakuru by za_ooVowel-divesakuru;
 
 } VowelLigatures;
+
+lookup MedialForms {
+	sub ka-divesakuru ra-divesakuru.medi uVowel-divesakuru by ka_medra_uVowel-divesakuru;
+	sub ka-divesakuru ya-divesakuru.medi iVowel-divesakuru by ka_medya_iVowel-divesakuru;
+	sub dda-divesakuru ya-divesakuru.medi iVowel-divesakuru by dda_medya_iVowel-divesakuru;
+	sub ddha-divesakuru ya-divesakuru.medi by ddha_medya-divesakuru;
+	sub ta-divesakuru ra-divesakuru.medi uVowel-divesakuru by ta_medra_uVowel-divesakuru;
+	sub ta-divesakuru ya-divesakuru.medi iVowel-divesakuru by ta_medya_iVowel-divesakuru;
+	sub dha-divesakuru ya-divesakuru.medi by dha_medya-divesakuru;
+	sub na-divesakuru ra-divesakuru.medi by na_medra-divesakuru;
+	sub na-divesakuru ra-divesakuru.medi aaVowel-divesakuru by na_medra_aaVowel-divesakuru;
+	sub na-divesakuru ya-divesakuru.medi iVowel-divesakuru by na_medya_iVowel-divesakuru;
+	sub pa-divesakuru ra-divesakuru.medi by pa_medra-divesakuru;
+	sub ma-divesakuru ya-divesakuru.medi by ma_medya-divesakuru;
+	sub ha-divesakuru ya-divesakuru.medi by ha_medra-divesakuru;
+	sub ma-divesakuru ya-divesakuru.medi iVowel-divesakuru by ma_medya_iVowel-divesakuru;
+	sub ma-divesakuru ya-divesakuru.medi iiVowel-divesakuru by ma_medya_iiVowel-divesakuru;
+	sub ma-divesakuru ya-divesakuru.medi eVowel-divesakuru by ma_medya_eVowel-divesakuru;
+	sub ya-divesakuru ra-divesakuru.medi by ya_medra-divesakuru;
+	sub ya-divesakuru ya-divesakuru.medi iVowel-divesakuru by ya_medya_iVowel-divesakuru;
+	sub la-divesakuru ya-divesakuru.medi by la_medya-divesakuru;
+	sub va-divesakuru ya-divesakuru.medi by va_medya-divesakuru;
+	sub va-divesakuru ya-divesakuru.medi iVowel-divesakuru by va_medya_iVowel-divesakuru;
+	sub va-divesakuru ya-divesakuru.medi uVowel-divesakuru by va_medya_uVowel-divesakuru;
+	sub sa-divesakuru ra-divesakuru.medi iiVowel-divesakuru by sa_medra_iiVowel-divesakuru;
+	sub sa-divesakuru ya-divesakuru.medi by sa_medya-divesakuru;
+	sub ha-divesakuru ra-divesakuru.medi aaVowel-divesakuru by ha_medra_aaVowel-divesakuru;
+	sub ha-divesakuru ya-divesakuru.medi iVowel-divesakuru by ha_medya_iVowel-divesakuru;
+	sub lla-divesakuru ya-divesakuru.medi iVowel-divesakuru by lla_medya_iVowel-divesakuru;
+} MedialForms;
 ";
 tag = psts;
 },
