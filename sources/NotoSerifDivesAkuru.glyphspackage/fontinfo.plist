@@ -890,6 +890,9 @@ name = Languagesystems;
 {
 code = "lookup ConvertToUnderAMark {
 sub @Letters by @Undera;
+sub @ta-halanta by ta_halanta-divesakuru.undera;
+sub @na-halanta by na_halanta-divesakuru.undera;
+sub @ka-halanta by ka_halanta-divesakuru.undera;
 } ConvertToUnderAMark;
 
 lookup AddNullMark {
@@ -3221,10 +3224,10 @@ sub za-divesakuru i-divesakuru' by i-divesakuru.0006;
 lookup BridgedA {
 sub a-divesakuru' lookup toA1 ra-divesakuru' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA1 ra_halanta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA3 na_halanta-divesakuru' lookup ConvertToUnderAMark;
+sub a-divesakuru' lookup toA3 @na-halanta' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA3 da-divesakuru' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA3 da_halanta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA3 ta_halanta-divesakuru' lookup ConvertToUnderAMark;
+sub a-divesakuru' lookup toA3 @ta-halanta' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA4 u-divesakuru' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA4 ta_uVowel-divesakuru' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA4 ta_uuVowel-divesakuru' lookup ConvertToUnderAMark;
@@ -3268,7 +3271,7 @@ sub a-divesakuru' lookup toA8 ta_aaVowel-divesakuru' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA8 yya-divesakuru' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA8 ha_uVowel-divesakuru' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA8 ha_uuVowel-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA8 ka_halanta-divesakuru' lookup ConvertToUnderAMark;
+sub a-divesakuru' lookup toA8 @ka-halanta' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA8 na_medra-divesakuru' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA8 ga_iVowel-divesakuru' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA8 da_aaVowel-divesakuru' lookup ConvertToUnderAMark;
