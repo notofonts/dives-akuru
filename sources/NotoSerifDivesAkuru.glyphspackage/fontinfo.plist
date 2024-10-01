@@ -2187,7 +2187,7 @@ code = "lookupflag UseMarkFilteringSet [halanta-divesakuru];
 	sub ta-divesakuru virama-divesakuru tha-divesakuru ra-divesakuru.medi iVowel-divesakuru by ta_tha_medra_iVowel-divesakuru;
 	sub ta-divesakuru ra-divesakuru.medi uVowel-divesakuru by ta_medra_uVowel-divesakuru;
 	sub ta-divesakuru ya-divesakuru.medi iVowel-divesakuru by ta_medya_iVowel-divesakuru;
-	sub ta-divesakuru ya-divesakuru.medi halanta-divesakuru by ta_medya_halanta-divesakuru;
+#	sub ta-divesakuru ya-divesakuru.medi halanta-divesakuru by ta_medya_halanta-divesakuru;
 	sub dha-divesakuru ya-divesakuru.medi by dha_medya-divesakuru;
 	sub na-divesakuru virama-divesakuru tha-divesakuru by na_tha-divesakuru;
 	sub na-divesakuru ra-divesakuru.medi by na_medra-divesakuru;
@@ -2451,6 +2451,12 @@ code = "	sub ka-divesakuru aaVowel-divesakuru by ka_aaVowel-divesakuru;
 	sub eVowel-divesakuru za-divesakuru aaVowel-divesakuru by za_oVowel-divesakuru;
 	sub za-divesakuru ooVowel-divesakuru by za_ooVowel-divesakuru;
 	sub za-divesakuru halanta-divesakuru by za_halanta-divesakuru;
+
+
+	lookup MoreConjuncts {
+	        lookupflag UseMarkFilteringSet [halanta-divesakuru];
+	        sub ta-divesakuru ya-divesakuru.medi halanta-divesakuru by ta_medya_halanta-divesakuru;
+	} MoreConjuncts;
 ";
 tag = psts;
 },
