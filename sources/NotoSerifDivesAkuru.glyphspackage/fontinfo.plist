@@ -2157,6 +2157,38 @@ lookup doubleACombine {
 
 ";
 name = DoubleA;
+},
+{
+code = "lookup toIVowel {
+	sub [prefixedNasalSign-divesakuru prefixedNasalSign-divesakuru.alt] by iVowel-divesakuru;
+} toIVowel;
+
+lookup toAAVowel {
+	sub [prefixedNasalSign-divesakuru prefixedNasalSign-divesakuru.alt] by aaVowel-divesakuru;
+} toAAVowel;
+
+lookup toIIVowel {
+	sub [prefixedNasalSign-divesakuru prefixedNasalSign-divesakuru.alt] by iiVowel-divesakuru;
+} toIIVowel;
+
+lookup toUVowel {
+	sub [prefixedNasalSign-divesakuru prefixedNasalSign-divesakuru.alt] by uVowel-divesakuru;
+} toUVowel;
+
+lookup toUUVowel {
+	sub [prefixedNasalSign-divesakuru prefixedNasalSign-divesakuru.alt] by uuVowel-divesakuru;
+} toUUVowel;
+
+lookup toPrefixedNasalSign {
+	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru] by prefixedNasalSign-divesakuru;
+} toPrefixedNasalSign;
+
+
+lookup toPrefixedNasalSign.alt {
+	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru] by prefixedNasalSign-divesakuru.alt;
+} toPrefixedNasalSign.alt;
+";
+name = Swaps;
 }
 );
 features = (
@@ -2216,8 +2248,27 @@ code = "lookupflag UseMarkFilteringSet [halanta-divesakuru];
 tag = cjct;
 },
 {
-code = "lookup VowelLigatures {
-	lookupflag IgnoreMarks;
+code = "# We need to swap here because if we ligate i.e. ka|PNS|iVowel to ka_iVowel|PNS and then
+# ka_iVowel later becomes ka_iVowel.undera, we will discover that we cannot anchor the PNS
+# onto it. But if we do the exact same with ka|iVowel|PNS -> ka_iVowel|PNS -> ka_iVowel.undera|PNS
+# all is well. This is one of those completely undocumented rules that make no sense and you
+# just have to know them; search the Harfbuzz sources(!) for \"trickiest part of OpenType\"
+# for more details.
+lookup VowelAboveMarkSwaps {
+	sub prefixedNasalSign-divesakuru' lookup toIVowel iVowel-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toIVowel iVowel-divesakuru' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toAAVowel aaVowel-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toAAVowel aaVowel-divesakuru' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toIIVowel iiVowel-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toIIVowel iiVowel-divesakuru' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toUVowel uVowel-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toUVowel uVowel-divesakuru' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toUUVowel uuVowel-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toUUVowel uuVowel-divesakuru' lookup toPrefixedNasalSign.alt;
+
+} VowelAboveMarkSwaps;
+
+lookup VowelLigatures {
 	sub ka-divesakuru aaVowel-divesakuru by ka_aaVowel-divesakuru;
 	sub ka-divesakuru iVowel-divesakuru by ka_iVowel-divesakuru;
 	sub ka-divesakuru iiVowel-divesakuru by ka_iiVowel-divesakuru;
@@ -2458,7 +2509,8 @@ code = "lookup VowelLigatures {
 lookup HalantaLigatures {
 	lookupflag UseMarkFilteringSet [halanta-divesakuru];
 	sub za-divesakuru halanta-divesakuru by za_halanta-divesakuru;
-} HalantaLigatures;";
+} HalantaLigatures;
+";
 tag = psts;
 },
 {
