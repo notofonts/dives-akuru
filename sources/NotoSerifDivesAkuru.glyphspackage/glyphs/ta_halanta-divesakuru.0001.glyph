@@ -2,7 +2,7 @@
 color = 10;
 glyphname = "ta_halanta-divesakuru.0001";
 kernLeft = ta_uVowel;
-kernRight = ka_halanta.first;
+kernRight = ta_halanta;
 layers = (
 {
 associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";

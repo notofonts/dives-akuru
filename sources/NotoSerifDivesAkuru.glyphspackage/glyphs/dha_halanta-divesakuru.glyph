@@ -278,9 +278,8 @@ AngleInDegrees = "360";
 );
 }
 );
-width = 1705;
+width = 1645;
 }
 );
 metricLeft = "dha-divesakuru";
-metricRight = "dha_halanta-divesakuru";
 }

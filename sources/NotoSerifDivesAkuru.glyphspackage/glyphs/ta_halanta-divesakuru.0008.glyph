@@ -2,7 +2,7 @@
 color = 10;
 glyphname = "ta_halanta-divesakuru.0008";
 kernLeft = ta_uVowel;
-kernRight = ka_halanta;
+kernRight = ta_halanta;
 layers = (
 {
 anchors = (

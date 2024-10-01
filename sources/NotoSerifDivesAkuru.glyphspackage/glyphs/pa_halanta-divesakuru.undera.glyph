@@ -30,7 +30,7 @@ shapes = (
 ref = "pa_halanta-divesakuru";
 }
 );
-width = 1735;
+width = 1675;
 }
 );
 subCategory = Nonspacing;

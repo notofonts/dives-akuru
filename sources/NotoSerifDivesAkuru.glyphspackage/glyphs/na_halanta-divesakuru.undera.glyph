@@ -3,7 +3,7 @@ category = Mark;
 color = 11;
 glyphname = "na_halanta-divesakuru.undera";
 kernLeft = na_halanta;
-kernRight = ka_halanta;
+kernRight = na_halanta;
 layers = (
 {
 anchors = (
