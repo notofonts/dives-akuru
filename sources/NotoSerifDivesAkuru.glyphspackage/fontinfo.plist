@@ -2216,7 +2216,9 @@ code = "lookupflag UseMarkFilteringSet [halanta-divesakuru];
 tag = cjct;
 },
 {
-code = "	sub ka-divesakuru aaVowel-divesakuru by ka_aaVowel-divesakuru;
+code = "lookup VowelLigatures {
+	lookupflag IgnoreMarks;
+	sub ka-divesakuru aaVowel-divesakuru by ka_aaVowel-divesakuru;
 	sub ka-divesakuru iVowel-divesakuru by ka_iVowel-divesakuru;
 	sub ka-divesakuru iiVowel-divesakuru by ka_iiVowel-divesakuru;
 	sub ka-divesakuru uVowel-divesakuru by ka_uVowel-divesakuru;
@@ -2450,8 +2452,13 @@ code = "	sub ka-divesakuru aaVowel-divesakuru by ka_aaVowel-divesakuru;
 	sub aiVowel-divesakuru za-divesakuru by za_aiVowel-divesakuru;
 	sub eVowel-divesakuru za-divesakuru aaVowel-divesakuru by za_oVowel-divesakuru;
 	sub za-divesakuru ooVowel-divesakuru by za_ooVowel-divesakuru;
+
+} VowelLigatures;
+
+lookup HalantaLigatures {
+	lookupflag UseMarkFilteringSet [halanta-divesakuru];
 	sub za-divesakuru halanta-divesakuru by za_halanta-divesakuru;
-";
+} HalantaLigatures;";
 tag = psts;
 },
 {
