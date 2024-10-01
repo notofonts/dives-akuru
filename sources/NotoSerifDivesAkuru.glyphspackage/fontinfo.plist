@@ -2179,15 +2179,21 @@ lookup toUUVowel {
 	sub [prefixedNasalSign-divesakuru prefixedNasalSign-divesakuru.alt] by uuVowel-divesakuru;
 } toUUVowel;
 
+lookup toOOVowel {
+	sub [prefixedNasalSign-divesakuru prefixedNasalSign-divesakuru.alt] by ooVowel-divesakuru;
+} toOOVowel;
+
 lookup toPrefixedNasalSign {
-	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru] by prefixedNasalSign-divesakuru;
+	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru ooVowel-divesakuru] by prefixedNasalSign-divesakuru;
 } toPrefixedNasalSign;
 
 
 lookup toPrefixedNasalSign.alt {
-	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru] by prefixedNasalSign-divesakuru.alt;
+	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru ooVowel-divesakuru] by prefixedNasalSign-divesakuru.alt;
 } toPrefixedNasalSign.alt;
-";
+
+lookup nukta_halanta { sub nukta-divesakuru by halanta-divesakuru; } nukta_halanta;
+lookup halanta_nukta { sub halanta-divesakuru by nukta-divesakuru; } halanta_nukta;";
 name = Swaps;
 }
 );
@@ -2265,8 +2271,14 @@ lookup VowelAboveMarkSwaps {
 	sub prefixedNasalSign-divesakuru.alt' lookup toUVowel uVowel-divesakuru' lookup toPrefixedNasalSign.alt;
 	sub prefixedNasalSign-divesakuru' lookup toUUVowel uuVowel-divesakuru' lookup toPrefixedNasalSign;
 	sub prefixedNasalSign-divesakuru.alt' lookup toUUVowel uuVowel-divesakuru' lookup toPrefixedNasalSign.alt;
-
+	sub prefixedNasalSign-divesakuru' lookup toOOVowel ooVowel-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toOOVowel ooVowel-divesakuru' lookup toPrefixedNasalSign.alt;
 } VowelAboveMarkSwaps;
+
+# Swap nukta-halanta for the same reason
+lookup SwapNuktaHalanta {
+	sub nukta-divesakuru' lookup nukta_halanta halanta-divesakuru' lookup halanta_nukta;
+} SwapNuktaHalanta;
 
 lookup VowelLigatures {
 	sub ka-divesakuru aaVowel-divesakuru by ka_aaVowel-divesakuru;
@@ -2505,11 +2517,6 @@ lookup VowelLigatures {
 	sub za-divesakuru ooVowel-divesakuru by za_ooVowel-divesakuru;
 
 } VowelLigatures;
-
-lookup HalantaLigatures {
-	lookupflag UseMarkFilteringSet [halanta-divesakuru];
-	sub za-divesakuru halanta-divesakuru by za_halanta-divesakuru;
-} HalantaLigatures;
 ";
 tag = psts;
 },
