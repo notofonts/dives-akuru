@@ -1,7 +1,6 @@
 {
-color = 0;
 glyphname = "ma_medya_iiVowel-divesakuru";
-kernLeft = ma;
+kernLeft = dha;
 kernRight = i;
 layers = (
 {

@@ -227,7 +227,7 @@ AngleInDegrees = "360";
 );
 }
 );
-width = 1487;
+width = 1417;
 },
 {
 anchors = (
@@ -441,5 +441,5 @@ width = 1558;
 }
 );
 metricLeft = "sa-divesakuru";
-metricRight = "dha_halanta-divesakuru";
+metricRight = "=dha_halanta-divesakuru-70";
 }

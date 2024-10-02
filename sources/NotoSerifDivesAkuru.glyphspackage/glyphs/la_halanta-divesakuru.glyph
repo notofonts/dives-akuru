@@ -170,9 +170,9 @@ nodes = (
 );
 }
 );
-width = 1133;
+width = 1128;
 }
 );
 metricLeft = "la-divesakuru";
-metricRight = "dha_halanta-divesakuru";
+metricRight = "=dha_halanta-divesakuru-5";
 }

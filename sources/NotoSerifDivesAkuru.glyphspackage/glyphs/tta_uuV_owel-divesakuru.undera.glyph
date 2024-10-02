@@ -1,6 +1,5 @@
 {
 category = Mark;
-color = 11;
 glyphname = "tta_uuVowel-divesakuru.undera";
 kernLeft = tta_iVowel;
 kernRight = u;

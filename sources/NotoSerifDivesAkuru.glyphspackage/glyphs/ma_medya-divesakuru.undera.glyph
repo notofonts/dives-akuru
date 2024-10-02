@@ -1,8 +1,7 @@
 {
 category = Mark;
-color = 11;
 glyphname = "ma_medya-divesakuru.undera";
-kernLeft = ma;
+kernLeft = dha;
 kernRight = ya;
 layers = (
 {

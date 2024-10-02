@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 5;
 glyphname = "nga_ga-divesakuru";
 kernLeft = ga;
 kernRight = ga;

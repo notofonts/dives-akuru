@@ -1,8 +1,7 @@
 {
 category = Mark;
-color = 11;
 glyphname = "ma_halanta-divesakuru.undera";
-kernLeft = ma;
+kernLeft = dha;
 kernRight = tta_halanta;
 layers = (
 {

@@ -1,6 +1,5 @@
 {
 category = Mark;
-color = 11;
 glyphname = "la_aiVowel-divesakuru.undera";
 kernLeft = ka_eVowel;
 kernRight = ya;

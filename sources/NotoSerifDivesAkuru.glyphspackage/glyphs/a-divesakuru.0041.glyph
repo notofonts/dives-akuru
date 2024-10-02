@@ -1,6 +1,5 @@
 {
 category = Letter;
-color = 1;
 glyphname = "a-divesakuru.0041";
 kernLeft = dha;
 kernRight = a;

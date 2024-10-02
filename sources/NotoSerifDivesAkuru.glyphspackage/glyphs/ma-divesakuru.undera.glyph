@@ -1,6 +1,5 @@
 {
 category = Mark;
-color = 11;
 glyphname = "ma-divesakuru.undera";
 kernLeft = ma;
 kernRight = va;

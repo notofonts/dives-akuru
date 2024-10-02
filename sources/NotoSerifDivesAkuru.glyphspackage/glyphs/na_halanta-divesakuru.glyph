@@ -1,8 +1,7 @@
 {
-color = 10;
 glyphname = "na_halanta-divesakuru";
 kernLeft = na_halanta;
-kernRight = ka_halanta.first;
+kernRight = na_halanta.first;
 layers = (
 {
 associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";

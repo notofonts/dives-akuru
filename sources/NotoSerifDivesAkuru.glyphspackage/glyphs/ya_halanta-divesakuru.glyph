@@ -238,7 +238,7 @@ AngleInDegrees = "360";
 );
 }
 );
-width = 1497;
+width = 1513;
 },
 {
 associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
@@ -472,5 +472,5 @@ width = 1617;
 }
 );
 metricLeft = "=ya-divesakuru";
-metricRight = "dha_halanta-divesakuru";
+metricRight = "=dha_halanta-divesakuru+16";
 }

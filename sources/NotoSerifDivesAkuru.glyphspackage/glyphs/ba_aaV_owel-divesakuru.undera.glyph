@@ -1,6 +1,5 @@
 {
 category = Mark;
-color = 11;
 glyphname = "ba_aaVowel-divesakuru.undera";
 kernLeft = ba;
 kernRight = ka;

@@ -1,6 +1,5 @@
 {
 category = Mark;
-color = 11;
 glyphname = "ya_halanta-divesakuru.undera";
 kernLeft = ya;
 kernRight = dha_halanta;
@@ -30,7 +29,7 @@ shapes = (
 ref = "ya_halanta-divesakuru";
 }
 );
-width = 1497;
+width = 1513;
 }
 );
 subCategory = Nonspacing;

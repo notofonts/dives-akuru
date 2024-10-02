@@ -1,6 +1,5 @@
 {
 category = Mark;
-color = 11;
 glyphname = "va-divesakuru.alt.undera";
 kernLeft = va;
 kernRight = va.alt;

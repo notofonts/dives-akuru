@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 5;
 glyphname = "na_iiVowel-divesakuru";
 kernLeft = na;
 kernRight = i;

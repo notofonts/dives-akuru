@@ -1,6 +1,5 @@
 {
 category = Mark;
-color = 11;
 glyphname = "za_halanta-divesakuru.undera";
 kernLeft = za;
 kernRight = dha_halanta;

@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "o-divesakuru.alt";
 kernLeft = o.alt;
 kernRight = o.alt;

@@ -1,7 +1,7 @@
 {
 color = 0;
 glyphname = "ma_halanta-divesakuru";
-kernLeft = ma;
+kernLeft = dha;
 kernRight = tta_halanta;
 layers = (
 {

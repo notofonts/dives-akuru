@@ -1,6 +1,5 @@
 {
 category = Mark;
-color = 10;
 glyphname = "eVowel-divesakuru";
 kernLeft = ka_eVowel;
 layers = (

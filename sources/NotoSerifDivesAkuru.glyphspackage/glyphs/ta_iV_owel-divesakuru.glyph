@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 5;
 glyphname = "ta_iVowel-divesakuru";
 kernLeft = ta;
 kernRight = ga;

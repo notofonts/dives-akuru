@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "va-divesakuru.alt";
 kernLeft = va;
 kernRight = va.alt;

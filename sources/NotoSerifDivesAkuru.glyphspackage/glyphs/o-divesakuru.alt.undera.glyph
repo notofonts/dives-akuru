@@ -1,6 +1,5 @@
 {
 category = Mark;
-color = 11;
 glyphname = "o-divesakuru.alt.undera";
 kernLeft = o.alt;
 kernRight = o.alt;
