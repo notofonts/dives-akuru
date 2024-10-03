@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = "yya_aaVowel-divesakuru";
-kernLeft = yya;
+kernLeft = yya_aaVowel;
 kernRight = la_aaVowel;
 layers = (
 {
