@@ -2,7 +2,7 @@
 color = 0;
 glyphname = "ha_halanta-divesakuru";
 kernLeft = na;
-kernRight = ga_halanta;
+kernRight = ka;
 layers = (
 {
 anchors = (
