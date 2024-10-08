@@ -5,6 +5,16 @@ kernLeft = dha;
 kernRight = pa;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (1165,-270);
+},
+{
+name = top;
+pos = (316,468);
+}
+);
 background = {
 shapes = (
 {

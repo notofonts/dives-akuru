@@ -118,6 +118,25 @@ name = "halanta-glyphs";
 {
 code = "yya-divesakuru yya_aaVowel-divesakuru yya_iVowel-divesakuru yya_iiVowel-divesakuru yya_uVowel-divesakuru yya_uuVowel-divesakuru yya_eVowel-divesakuru yya_aiVowel-divesakuru yya_oVowel-divesakuru yya_ooVowel-divesakuru yya_halanta-divesakuru yya-divesakuru.undera yya_aaVowel-divesakuru.undera yya_iVowel-divesakuru.undera yya_iiVowel-divesakuru.undera yya_uVowel-divesakuru.undera yya_uuVowel-divesakuru.undera yya_eVowel-divesakuru.undera yya_aiVowel-divesakuru.undera yya_ooVowel-divesakuru.undera yya_oVowel-divesakuru.undera yya_halanta-divesakuru.undera ";
 name = yya;
+},
+{
+code = "ha-divesakuru na-divesakuru va-divesakuru dda-divesakuru
+";
+name = "contextual-kerning-1";
+},
+{
+code = "dda-divesakuru tta-divesakuru";
+name = "contextual-kerning-2";
+},
+{
+code = "ka-divesakuru nna-divesakuru ta-divesakuru dha-divesakuru pa-divesakuru pha-divesakuru ba-divesakuru bha-divesakuru ma-divesakuru ya-divesakuru yya-divesakuru la-divesakuru ssa-divesakuru lla-divesakuru 
+";
+name = "contextual-kerning-3";
+},
+{
+code = "ga-divesakuru sa-divesakuru lla-divesakuru da-divesakuru ddha-divesakuru ra-divesakuru
+";
+name = "contextual-kerning-4";
 }
 );
 customParameters = (
@@ -2575,7 +2594,11 @@ tag = haln;
 {
 code = "#-na_halanda calligraphic feature
 
+
+
+
 lookup rclt_0 {
+ignore sub @halanta0000' prefixedNasalSign-divesakuru;
 sub @halanta0000' @a by @halanta0003;
 sub @halanta0000' ba_aaVowel-divesakuru by @halanta0008;
 sub @halanta0000' ba_aiVowel-divesakuru by @halanta0011;
@@ -2896,12 +2919,30 @@ sub @halanta0000' za-divesakuru by @halanta0001;
 } rclt_0;
 
 
+
 lookup rclt_00 {
 ignore sub @all-halanta' ra-divesakuru ra-divesakuru, @all-halanta' @halanta-glyphs;
 sub @ta-halanta' @short @short by ta_halanta-divesakuru.0009;
 sub @ka-halanta' @short @short by ka_halanta-divesakuru.0009;
 sub @na-halanta' @short @short by na_halanta-divesakuru.0009;
 } rclt_00;
+
+lookup rclt_000 {
+lookupflag IgnoreBaseGlyphs IgnoreMarks;;
+sub @halanta0000' prefixedNasalSign-divesakuru by @halanta0001;
+sub @halanta0001' prefixedNasalSign-divesakuru by @halanta0001;
+sub @halanta0002' prefixedNasalSign-divesakuru by @halanta0003;
+sub @halanta0003' prefixedNasalSign-divesakuru by @halanta0004;
+sub @halanta0004' prefixedNasalSign-divesakuru by @halanta0005;
+sub @halanta0005' prefixedNasalSign-divesakuru by @halanta0006;
+sub @halanta0006' prefixedNasalSign-divesakuru by @halanta0007;
+sub @halanta0007' prefixedNasalSign-divesakuru by @halanta0008;
+sub @halanta0008' prefixedNasalSign-divesakuru by @halanta0009;
+sub @halanta0009' prefixedNasalSign-divesakuru by @halanta0010;
+sub @halanta0010' prefixedNasalSign-divesakuru by @halanta0011;
+} rclt_000;
+
+
 
 
 #-i calligraphic feature
@@ -3636,6 +3677,16 @@ value = "Two character bridged -a";
 }
 );
 tag = ss03;
+},
+{
+code = "# Automatic Code
+
+pos dha_halanta-divesakuru' 160 @contextual-kerning-1 prefixedNasalSign-divesakuru;
+pos dha_halanta-divesakuru' 280 @contextual-kerning-2 prefixedNasalSign-divesakuru;
+pos dha_halanta-divesakuru' 300 @contextual-kerning-3 prefixedNasalSign-divesakuru;
+pos dha_halanta-divesakuru' 420 @contextual-kerning-4 prefixedNasalSign-divesakuru;
+";
+tag = kern;
 }
 );
 fontMaster = (
@@ -5057,8 +5108,6 @@ space = 0;
 "@MMK_R_ta_uVowel" = -70;
 "@MMK_R_tta_iVowel" = -160;
 "@MMK_R_va" = -60;
-"@MMK_R_yya" = -40;
-"@MMK_R_za" = -5;
 };
 "tta_halanta-divesakuru" = {
 "@MMK_R_ba" = -35;
