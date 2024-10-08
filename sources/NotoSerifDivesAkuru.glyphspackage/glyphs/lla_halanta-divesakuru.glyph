@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "lla_halanta-divesakuru";
 kernLeft = lla;
 kernRight = tta_halanta;

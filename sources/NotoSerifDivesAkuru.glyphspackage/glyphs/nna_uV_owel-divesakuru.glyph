@@ -1,6 +1,6 @@
 {
 glyphname = "nna_uVowel-divesakuru";
-kernLeft = nna;
+kernLeft = dha;
 kernRight = u;
 layers = (
 {

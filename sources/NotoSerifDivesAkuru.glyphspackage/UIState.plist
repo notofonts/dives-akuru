@@ -1,6 +1,104 @@
 {
 displayStrings = (
-"𑤿𑤘𑤿/dda-divesakuru.undera",
-"/prefixedNasalSign-divesakuru.undera.tall2"
+"𑤝/va_medya_uVowel-divesakuru/ra_iiVowel-divesakuru/va_medya_uVowel-divesakuru 𑤞𑤞
+𑤝/ra_iiVowel-divesakuru 𑤞𑤞
+𑤝𑤦/ra_iiVowel-divesakuru 𑤦𑤞𑤞
+𑤝𑤯/ra_iiVowel-divesakuru 𑤯𑤞𑤞
+𑤝𑤢/la_iiVowel-divesakuru 𑤢𑤞𑤞
+𑤝𑤝/la_iiVowel-divesakuru 𑤝𑤞𑤞
+𑤝𑤙/la_iiVowel-divesakuru 𑤙𑤞𑤞
+𑤝𑤞/la_iiVowel-divesakuru 𑤞𑤞𑤞
+𑤝𑤎/la_iiVowel-divesakuru 𑤎𑤞𑤞
+𑤝𑤂/la_iiVowel-divesakuru 𑤂𑤞𑤞
+𑤝𑤂/la_iiVowel-divesakuru 𑤂𑤞𑤞
+𑤝𑤌/la_iiVowel-divesakuru 𑤌𑤞𑤞
+𑤝/ka_eVowel-divesakuru/la_iiVowel-divesakuru/ka_eVowel-divesakuru 𑤞𑤞
+𑤝/ka_uVowel-divesakuru/la_iiVowel-divesakuru/ka_uVowel-divesakuru 𑤞𑤞
+𑤝𑤨/la_iiVowel-divesakuru 𑤨𑤞𑤞
+𑤝/lla_iVowel-divesakuru/la_iiVowel-divesakuru/lla_iVowel-divesakuru 𑤞𑤞
+𑤝𑤤/la_iiVowel-divesakuru 𑤤𑤞𑤞
+𑤝/ka_medra_uVowel-divesakuru/la_iiVowel-divesakuru/ka_medra_uVowel-divesakuru 𑤞𑤞
+𑤝𑤟/la_iiVowel-divesakuru 𑤟𑤞𑤞
+𑤝/na_halanta-divesakuru/la_iiVowel-divesakuru/na_halanta-divesakuru 𑤞𑤞
+𑤝𑤚/la_iiVowel-divesakuru 𑤚𑤞𑤞
+𑤝/o-divesakuru.alt/la_iiVowel-divesakuru/o-divesakuru.alt 𑤞𑤞
+𑤝𑤧/la_iiVowel-divesakuru 𑤧𑤞𑤞
+𑤝𑤬/la_iiVowel-divesakuru 𑤬𑤞𑤞
+𑤝𑤛/la_iiVowel-divesakuru 𑤛𑤞𑤞
+𑤝/ta_uVowel-divesakuru/la_iiVowel-divesakuru/ta_uVowel-divesakuru 𑤞𑤞
+𑤝𑤖/la_iiVowel-divesakuru 𑤖𑤞𑤞
+𑤝/tta_iVowel-divesakuru/la_iiVowel-divesakuru/tta_iVowel-divesakuru 𑤞𑤞
+𑤝/va_medya_uVowel-divesakuru/la_iiVowel-divesakuru/va_medya_uVowel-divesakuru 𑤞𑤞
+𑤝/la_iiVowel-divesakuru 𑤞𑤞
+𑤝𑤦/la_iiVowel-divesakuru 𑤦𑤞𑤞
+𑤝𑤯/la_iiVowel-divesakuru 𑤯𑤞𑤞
+𑤝𑤢/va_iiVowel-divesakuru 𑤢𑤞𑤞
+𑤝𑤝/va_iiVowel-divesakuru 𑤝𑤞𑤞
+𑤝𑤙/va_iiVowel-divesakuru 𑤙𑤞𑤞
+𑤝𑤞/va_iiVowel-divesakuru 𑤞𑤞𑤞
+𑤝𑤎/va_iiVowel-divesakuru 𑤎𑤞𑤞
+𑤝𑤂/va_iiVowel-divesakuru 𑤂𑤞𑤞
+𑤝𑤂/va_iiVowel-divesakuru 𑤂𑤞𑤞
+𑤝𑤌/va_iiVowel-divesakuru 𑤌𑤞𑤞
+𑤝/ka_eVowel-divesakuru/va_iiVowel-divesakuru/ka_eVowel-divesakuru 𑤞𑤞
+𑤝/ka_uVowel-divesakuru/va_iiVowel-divesakuru/ka_uVowel-divesakuru 𑤞𑤞
+𑤝𑤨/va_iiVowel-divesakuru 𑤨𑤞𑤞
+𑤝/lla_iVowel-divesakuru/va_iiVowel-divesakuru/lla_iVowel-divesakuru 𑤞𑤞
+𑤝𑤤/va_iiVowel-divesakuru 𑤤𑤞𑤞
+𑤝/ka_medra_uVowel-divesakuru/va_iiVowel-divesakuru/ka_medra_uVowel-divesakuru 𑤞𑤞
+𑤝𑤟/va_iiVowel-divesakuru 𑤟𑤞𑤞
+𑤝/na_halanta-divesakuru/va_iiVowel-divesakuru/na_halanta-divesakuru 𑤞𑤞
+𑤝𑤚/va_iiVowel-divesakuru 𑤚𑤞𑤞
+𑤝/o-divesakuru.alt/va_iiVowel-divesakuru/o-divesakuru.alt 𑤞𑤞
+𑤝𑤧/va_iiVowel-divesakuru 𑤧𑤞𑤞
+𑤝𑤬/va_iiVowel-divesakuru 𑤬𑤞𑤞
+𑤝𑤛/va_iiVowel-divesakuru 𑤛𑤞𑤞
+𑤝/ta_uVowel-divesakuru/va_iiVowel-divesakuru/ta_uVowel-divesakuru 𑤞𑤞
+𑤝𑤖/va_iiVowel-divesakuru 𑤖𑤞𑤞
+𑤝/tta_iVowel-divesakuru/va_iiVowel-divesakuru/tta_iVowel-divesakuru 𑤞𑤞
+𑤝/va_medya_uVowel-divesakuru/va_iiVowel-divesakuru/va_medya_uVowel-divesakuru 𑤞𑤞
+𑤝/va_iiVowel-divesakuru 𑤞𑤞
+𑤝𑤦/va_iiVowel-divesakuru 𑤦𑤞𑤞
+𑤝𑤯/va_iiVowel-divesakuru 𑤯𑤞𑤞
+𑤝𑤢/sa_iiVowel-divesakuru 𑤢𑤞𑤞
+𑤝𑤝/sa_iiVowel-divesakuru 𑤝𑤞𑤞
+𑤝𑤙/sa_iiVowel-divesakuru 𑤙𑤞𑤞
+𑤝𑤞/sa_iiVowel-divesakuru 𑤞𑤞𑤞
+𑤝𑤎/sa_iiVowel-divesakuru 𑤎𑤞𑤞
+𑤝𑤂/sa_iiVowel-divesakuru 𑤂𑤞𑤞
+𑤝𑤂/sa_iiVowel-divesakuru 𑤂𑤞𑤞
+𑤝𑤌/sa_iiVowel-divesakuru 𑤌𑤞𑤞
+𑤝/ka_eVowel-divesakuru/sa_iiVowel-divesakuru/ka_eVowel-divesakuru 𑤞𑤞
+𑤝/ka_uVowel-divesakuru/sa_iiVowel-divesakuru/ka_uVowel-divesakuru 𑤞𑤞
+𑤝𑤨/sa_iiVowel-divesakuru 𑤨𑤞𑤞
+𑤝/lla_iVowel-divesakuru/sa_iiVowel-divesakuru/lla_iVowel-divesakuru 𑤞𑤞
+𑤝𑤤/sa_iiVowel-divesakuru 𑤤𑤞𑤞
+𑤝/ka_medra_uVowel-divesakuru/sa_iiVowel-divesakuru/ka_medra_uVowel-divesakuru 𑤞𑤞
+𑤝𑤟/sa_iiVowel-divesakuru 𑤟𑤞𑤞
+𑤝/na_halanta-divesakuru/sa_iiVowel-divesakuru/na_halanta-divesakuru 𑤞𑤞
+𑤝𑤚/sa_iiVowel-divesakuru 𑤚𑤞𑤞
+𑤝/o-divesakuru.alt/sa_iiVowel-divesakuru/o-divesakuru.alt 𑤞𑤞
+𑤝𑤧/sa_iiVowel-divesakuru 𑤧𑤞𑤞
+𑤝𑤬/sa_iiVowel-divesakuru 𑤬𑤞𑤞
+𑤝𑤛/sa_iiVowel-divesakuru 𑤛𑤞𑤞
+𑤝/ta_uVowel-divesakuru/sa_iiVowel-divesakuru/ta_uVowel-divesakuru 𑤞𑤞
+𑤝𑤖/sa_iiVowel-divesakuru 𑤖𑤞𑤞
+𑤝/tta_iVowel-divesakuru/sa_iiVowel-divesakuru/tta_iVowel-divesakuru 𑤞𑤞
+𑤝/va_medya_uVowel-divesakuru/sa_iiVowel-divesakuru/va_medya_uVowel-divesakuru 𑤞𑤞
+𑤝/sa_iiVowel-divesakuru 𑤞𑤞
+𑤝𑤦/sa_iiVowel-divesakuru 𑤦𑤞𑤞
+𑤝𑤯/sa_iiVowel-divesakuru 𑤯𑤞𑤞
+𑤝𑤢/ha_iiVowel-divesakuru 𑤢𑤞𑤞
+𑤝𑤝/ha_iiVowel-divesakuru 𑤝𑤞𑤞
+𑤝𑤙/ha_iiVowel-divesakuru 𑤙𑤞𑤞
+𑤝𑤞/ha_iiVowel-divesakuru 𑤞𑤞𑤞
+𑤝𑤎/ha_iiVowel-divesakuru 𑤎𑤞𑤞
+𑤝𑤂/ha_iiVowel-divesakuru 𑤂𑤞𑤞
+𑤝𑤂/ha_iiVowel-divesakuru 𑤂𑤞𑤞
+𑤝𑤌/ha_iiVowel-divesakuru 𑤌𑤞𑤞
+𑤝/ka_eVowel-divesakuru/ha_iiVowel-divesakuru/ka_eVowel-divesakuru 𑤞𑤞
+𑤝/ka_uVowel-divesakuru/ha_iiVowel-divesakuru/ka_uVowel-divesakuru 𑤞𑤞
+𑤝𑤨/ha_iiVowel-divesakuru 𑤨𑤞𑤞
+𑤝/lla_iVowel-divesakuru/ha_iiVowel-divesakuru/lla_iVowel-divesakuru 𑤞𑤞"
 );
 }

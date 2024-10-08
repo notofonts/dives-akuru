@@ -1,5 +1,4 @@
 {
-color = 5;
 glyphname = "yya_iVowel-divesakuru";
 kernLeft = yya_aaVowel;
 kernRight = ka;

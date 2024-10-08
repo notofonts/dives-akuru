@@ -1,6 +1,6 @@
 {
 glyphname = "ya_medya_iVowel-divesakuru";
-kernLeft = medra;
+kernLeft = ya;
 kernRight = ga;
 layers = (
 {

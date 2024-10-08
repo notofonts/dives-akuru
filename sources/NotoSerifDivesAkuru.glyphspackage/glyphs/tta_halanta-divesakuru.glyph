@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "tta_halanta-divesakuru";
 kernLeft = tta_iVowel;
 kernRight = tta_halanta;
