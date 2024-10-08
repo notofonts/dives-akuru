@@ -3823,7 +3823,7 @@ kerningLTR = {
 "@MMK_R_o.alt" = -10;
 "@MMK_R_sa" = -10;
 "@MMK_R_ta" = -20;
-"@MMK_R_tta" = -140;
+"@MMK_R_tta" = -240;
 "@MMK_R_tta_iVowel" = -95;
 "@MMK_R_ya" = -10;
 "@MMK_R_za" = 15;
@@ -3942,8 +3942,8 @@ space = 0;
 "@MMK_R_ba" = -40;
 "@MMK_R_da" = -30;
 "@MMK_R_ddha" = -105;
-"@MMK_R_dha" = -65;
-"@MMK_R_ga" = -20;
+"@MMK_R_dha" = -35;
+"@MMK_R_ga" = -40;
 "@MMK_R_i" = 160;
 "@MMK_R_i.first" = -90;
 "@MMK_R_ka" = -55;
@@ -3959,16 +3959,23 @@ space = 0;
 "@MMK_R_o.alt" = -20;
 "@MMK_R_ra" = -25;
 "@MMK_R_sa" = 0;
-"@MMK_R_ta" = -5;
+"@MMK_R_ta" = -25;
 "@MMK_R_ta_uVowel" = -40;
-"@MMK_R_tta" = -105;
+"@MMK_R_tta" = -115;
 "@MMK_R_tta_iVowel" = -80;
 "@MMK_R_va" = -60;
 "@MMK_R_ya" = -50;
 "@MMK_R_yya" = -40;
 "@MMK_R_yya_aaVowel" = 55;
 "@MMK_R_za" = 20;
+"da-divesakuru" = -80;
+"ddha-divesakuru" = -75;
+"i-divesakuru.0002" = -20;
+"i-divesakuru.0003" = -40;
 "nga_ga-divesakuru" = -20;
+"ra_iiVowel-divesakuru" = -5;
+"va_medya_uVowel-divesakuru" = -20;
+"yya-divesakuru" = -20;
 };
 "@MMK_L_ka" = {
 "@MMK_R_ba" = -20;
@@ -4223,8 +4230,8 @@ space = 0;
 "@MMK_R_nna" = 0;
 "@MMK_R_o.alt" = -60;
 "@MMK_R_ta" = -80;
-"@MMK_R_tta" = -20;
-"@MMK_R_tta_iVowel" = -20;
+"@MMK_R_tta" = -90;
+"@MMK_R_tta_iVowel" = -30;
 "@MMK_R_va" = -15;
 "@MMK_R_yya_aaVowel" = 15;
 "@MMK_R_za" = -50;
@@ -4698,6 +4705,11 @@ space = 0;
 "ha_halanta-divesakuru" = {
 "nga_ga-divesakuru" = 250;
 };
+"ha_iiVowel-divesakuru" = {
+"@MMK_R_ga" = -70;
+"@MMK_R_i.first" = -145;
+"ddha-divesakuru" = -55;
+};
 "ha_uVowel-divesakuru" = {
 "@MMK_R_ba" = -40;
 "@MMK_R_ddha" = -70;
@@ -4801,6 +4813,12 @@ space = 0;
 "sa_medra_iiVowel-divesakuru" = 580;
 "ta_medra_uVowel-divesakuru" = 480;
 };
+"lla_iiVowel-divesakuru" = {
+"@MMK_R_ga" = -60;
+"@MMK_R_ma" = -20;
+"@MMK_R_tta" = -100;
+"ta-divesakuru" = -85;
+};
 "ma_halanta-divesakuru" = {
 "@MMK_R_ba" = -35;
 "@MMK_R_ddha" = 40;
@@ -4834,6 +4852,13 @@ space = 0;
 "@MMK_R_ta" = -45;
 "@MMK_R_va" = -20;
 "@MMK_R_yya" = -5;
+};
+"ma_medya_iiVowel-divesakuru" = {
+"@MMK_R_ga" = -60;
+"@MMK_R_i" = -40;
+"@MMK_R_ma" = -20;
+"@MMK_R_ta" = -45;
+"@MMK_R_tta" = -95;
 };
 "na-divesakuru" = {
 "@MMK_R_dha" = 0;
@@ -4946,6 +4971,7 @@ space = 0;
 "@MMK_R_nna" = -40;
 "@MMK_R_sa" = -20;
 "@MMK_R_ta" = -55;
+"@MMK_R_za" = 25;
 };
 "sa_halanta-divesakuru" = {
 "@MMK_R_da" = 60;
@@ -4956,6 +4982,14 @@ space = 0;
 "@MMK_R_na" = -55;
 "nga_ga-divesakuru" = 400;
 "sa_medra_iiVowel-divesakuru" = 175;
+};
+"sa_iiVowel-divesakuru" = {
+"@MMK_R_i" = -40;
+"@MMK_R_na" = 15;
+"ta-divesakuru" = -65;
+};
+"sa_medra_iiVowel-divesakuru" = {
+"@MMK_R_ba" = -40;
 };
 "ssa_halanta-divesakuru" = {
 "@MMK_R_i" = -40;
@@ -5001,7 +5035,30 @@ space = 0;
 "ta_medra_uVowel-divesakuru" = 480;
 };
 "ta_tha_medra_iVowel-divesakuru" = {
+"@MMK_R_ba" = -45;
+"@MMK_R_da" = -60;
+"@MMK_R_ddha" = -160;
 "@MMK_R_dha" = -60;
+"@MMK_R_ga" = -35;
+"@MMK_R_ka" = -75;
+"@MMK_R_ka_eVowel" = -70;
+"@MMK_R_ka_uVowel" = -110;
+"@MMK_R_la" = -40;
+"@MMK_R_lla" = -100;
+"@MMK_R_ma" = -35;
+"@MMK_R_medra" = -30;
+"@MMK_R_na" = -30;
+"@MMK_R_na_halanta" = -35;
+"@MMK_R_nna" = -30;
+"@MMK_R_o.alt" = -30;
+"@MMK_R_ra" = -40;
+"@MMK_R_sa" = -30;
+"@MMK_R_ta" = -40;
+"@MMK_R_ta_uVowel" = -70;
+"@MMK_R_tta_iVowel" = -160;
+"@MMK_R_va" = -60;
+"@MMK_R_yya" = -40;
+"@MMK_R_za" = -5;
 };
 "tta_halanta-divesakuru" = {
 "@MMK_R_ba" = -35;
@@ -5088,6 +5145,18 @@ space = 0;
 };
 "za_halanta-divesakuru" = {
 "nga_ga-divesakuru" = 280;
+};
+"za_iiVowel-divesakuru" = {
+"@MMK_R_ga" = -100;
+"@MMK_R_i" = -40;
+"@MMK_R_ka_uVowel" = -40;
+"@MMK_R_ma" = -20;
+"@MMK_R_na_halanta" = -25;
+"@MMK_R_ta" = -65;
+"@MMK_R_tta" = -95;
+"@MMK_R_tta_iVowel" = -60;
+"@MMK_R_za" = 0;
+"lla_iVowel-divesakuru" = -30;
 };
 };
 };
