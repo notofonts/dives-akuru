@@ -3277,6 +3277,7 @@ sub za-divesakuru i-divesakuru' by i-divesakuru.0006;
 
 
 lookup BridgedA {
+lookupflag IgnoreMarks;
 sub a-divesakuru' lookup toA1 ra-divesakuru' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA1 ra_halanta-divesakuru' lookup ConvertToUnderAMark;
 sub a-divesakuru' lookup toA3 @na-halanta' lookup ConvertToUnderAMark;
