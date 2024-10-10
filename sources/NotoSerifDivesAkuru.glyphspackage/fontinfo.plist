@@ -120,28 +120,52 @@ code = "yya-divesakuru yya_aaVowel-divesakuru yya_iVowel-divesakuru yya_iiVowel-
 name = yya;
 },
 {
-code = "";
+code = "ha-divesakuru na-divesakuru na_aaVowel-divesakuru na_iVowel-divesakuru na_iiVowel-divesakuru na_uVowel-divesakuru na_uuVowel-divesakuru na_halanta-divesakuru ha_medra-divesakuru ha_medra_aaVowel-divesakuru ha_medya_iVowel-divesakuru ha_aaVowel-divesakuru ha_halanta-divesakuru ha_iiVowel-divesakuru ha_iVowel-divesakuru ha_uuVowel-divesakuru ha_uVowel-divesakuru na_medra_aaVowel-divesakuru na_medra-divesakuru
+";
 name = "contextual-kerning-0";
 },
 {
-code = "ha-divesakuru na-divesakuru va-divesakuru dda-divesakuru na_aaVowel-divesakuru na_iVowel-divesakuru na_iiVowel-divesakuru na_uVowel-divesakuru na_uuVowel-divesakuru na_halanta-divesakuru va_aaVowel-divesakuru va_iVowel-divesakuru va_iiVowel-divesakuru va_uVowel-divesakuru va_uuVowel-divesakuru va_halanta-divesakuru dda_aaVowel-divesakuru dda_iVowel-divesakuru dda_iiVowel-divesakuru dda_uVowel-divesakuru dda_uuVowel-divesakuru dda_halanta-divesakuru dda_medya_iVowel-divesakuru ha_medra-divesakuru ha_medra_aaVowel-divesakuru ha_medya_iVowel-divesakuru ha_aaVowel-divesakuru ha_halanta-divesakuru ha_iiVowel-divesakuru ha_iVowel-divesakuru ha_uuVowel-divesakuru ha_uVowel-divesakuru va_medya_iVowel-divesakuru va_medya_uVowel-divesakuru va_medya-divesakuru va-divesakuru.alt za_aaVowel-divesakuru za_halanta-divesakuru za_iiVowel-divesakuru za_iVowel-divesakuru za_uuVowel-divesakuru za_uVowel-divesakuru za-divesakuru ya_medra-divesakuru pa_medra-divesakuru na_medra_aaVowel-divesakuru na_medra-divesakuru ka_medra_uVowel-divesakuru sa_medra_iiVowel-divesakuru ya-divesakuru ya_aaVowel-divesakuru ya_iVowel-divesakuru ya_iiVowel-divesakuru ya_uVowel-divesakuru ya_uuVowel-divesakuru ya_halanta-divesakuru
+code = "va-divesakuru dda-divesakuru va_aaVowel-divesakuru va_iVowel-divesakuru va_iiVowel-divesakuru va_uVowel-divesakuru va_uuVowel-divesakuru va_halanta-divesakuru dda_aaVowel-divesakuru dda_iVowel-divesakuru dda_iiVowel-divesakuru dda_uVowel-divesakuru dda_uuVowel-divesakuru dda_halanta-divesakuru dda_medya_iVowel-divesakuru va_medya_iVowel-divesakuru va_medya_uVowel-divesakuru va_medya-divesakuru va-divesakuru.alt za_aaVowel-divesakuru za_halanta-divesakuru za_iiVowel-divesakuru za_iVowel-divesakuru za_uuVowel-divesakuru za_uVowel-divesakuru za-divesakuru ya_medra-divesakuru pa_medra-divesakuru ka_medra_uVowel-divesakuru sa_medra_iiVowel-divesakuru ya-divesakuru ya_aaVowel-divesakuru ya_iVowel-divesakuru ya_iiVowel-divesakuru ya_uVowel-divesakuru ya_uuVowel-divesakuru ya_halanta-divesakuru
 ";
 name = "contextual-kerning-1";
 },
 {
-code = "dda-divesakuru tta-divesakuru tta_aaVowel-divesakuru tta_iVowel-divesakuru tta_iiVowel-divesakuru tta_uVowel-divesakuru tta_uuVowel-divesakuru tta_halanta-divesakuru ta_ta-divesakuru ta_tha-divesakuru ta_medya_iVowel-divesakuru ta_medya_halanta-divesakuru ta_halanta-divesakuru.0001 ta_halanta-divesakuru.0002 ta_halanta-divesakuru.0003 ta_halanta-divesakuru.0004 ta_halanta-divesakuru.0005 ta_halanta-divesakuru.0006 ta_halanta-divesakuru.0007 ta_halanta-divesakuru.0008 ta_halanta-divesakuru.0009 ta_halanta-divesakuru.0010 ta_halanta-divesakuru.0011 
+code = "tta-divesakuru tta_aaVowel-divesakuru tta_iVowel-divesakuru tta_iiVowel-divesakuru tta_uVowel-divesakuru tta_uuVowel-divesakuru tta_halanta-divesakuru ta_ta-divesakuru ta_tha-divesakuru ta_medya_iVowel-divesakuru ta_medya_halanta-divesakuru ta_halanta-divesakuru.0001 ta_halanta-divesakuru.0002 ta_halanta-divesakuru.0003 ta_halanta-divesakuru.0004 ta_halanta-divesakuru.0005 ta_halanta-divesakuru.0006 ta_halanta-divesakuru.0007 ta_halanta-divesakuru.0008 ta_halanta-divesakuru.0009 ta_halanta-divesakuru.0010 ta_halanta-divesakuru.0011 
 ";
 name = "contextual-kerning-2";
 },
 {
-code = "ka-divesakuru nna-divesakuru ta-divesakuru dha-divesakuru pa-divesakuru pha-divesakuru ba-divesakuru bha-divesakuru ma-divesakuru  yya-divesakuru la-divesakuru ssa-divesakuru lla-divesakuru ka_aaVowel-divesakuru ka_iVowel-divesakuru ka_iiVowel-divesakuru ka_uVowel-divesakuru ka_uuVowel-divesakuru ka_halanta-divesakuru ka_medya_iVowel-divesakuru nna_aaVowel-divesakuru nna_iVowel-divesakuru nna_iiVowel-divesakuru nna_uVowel-divesakuru nna_uuVowel-divesakuru nna_halanta-divesakuru ta_aaVowel-divesakuru ta_iVowel-divesakuru ta_iiVowel-divesakuru ta_uVowel-divesakuru ta_uuVowel-divesakuru ta_halanta-divesakuru dha_aaVowel-divesakuru dha_iVowel-divesakuru dha_iiVowel-divesakuru dha_uVowel-divesakuru dha_uuVowel-divesakuru dha_halanta-divesakuru dha_medya-divesakuru pa_aaVowel-divesakuru pa_iVowel-divesakuru pa_iiVowel-divesakuru pa_uVowel-divesakuru pa_uuVowel-divesakuru pa_halanta-divesakuru pha_aaVowel-divesakuru pha_iVowel-divesakuru pha_iiVowel-divesakuru pha_uVowel-divesakuru pha_uuVowel-divesakuru pha_halanta-divesakuru ba_aaVowel-divesakuru ba_iVowel-divesakuru ba_iiVowel-divesakuru ba_uVowel-divesakuru ba_uuVowel-divesakuru ba_halanta-divesakuru bha_aaVowel-divesakuru bha_iVowel-divesakuru bha_iiVowel-divesakuru bha_uVowel-divesakuru bha_uuVowel-divesakuru bha_halanta-divesakuru ma_aaVowel-divesakuru ma_iVowel-divesakuru ma_iiVowel-divesakuru ma_uVowel-divesakuru ma_uuVowel-divesakuru ma_halanta-divesakuru yya_aaVowel-divesakuru yya_iVowel-divesakuru yya_iiVowel-divesakuru yya_uVowel-divesakuru yya_uuVowel-divesakuru yya_halanta-divesakuru la_aaVowel-divesakuru la_iVowel-divesakuru la_iiVowel-divesakuru la_uVowel-divesakuru la_uuVowel-divesakuru la_halanta-divesakuru ssa_halanta-divesakuru ba_va-divesakuru ka_dha_uVowel-divesakuru ka_halanta-divesakuru.0001 ka_halanta-divesakuru.0002 ka_halanta-divesakuru.0003 ka_halanta-divesakuru.0004 ka_halanta-divesakuru.0005 ka_halanta-divesakuru.0006 ka_halanta-divesakuru.0007 ka_halanta-divesakuru.0008 ka_halanta-divesakuru.0009 ka_halanta-divesakuru.0010 ka_halanta-divesakuru.0011  ka_ssa_halanta-divesakuru ka_tha-divesakuru la_medya-divesakuru ma_medya_iiVowel-divesakuru ma_medya_iVowel-divesakuru ma_medya-divesakuru ma-divesakuru.alt na_halanta-divesakuru.0001 na_halanta-divesakuru.0002 na_halanta-divesakuru.0003 na_halanta-divesakuru.0004 na_halanta-divesakuru.0005 na_halanta-divesakuru.0006 na_halanta-divesakuru.0007 na_halanta-divesakuru.0008 na_halanta-divesakuru.0009 na_halanta-divesakuru.0010 na_halanta-divesakuru.0011 na_medya_iVowel-divesakuru na_tha-divesakuru nna-divesakuru.alt   ya_medya_iVowel-divesakuru
+code = "ka-divesakuru nna-divesakuru ta-divesakuru dha-divesakuru pa-divesakuru pha-divesakuru ma-divesakuru ssa-divesakuru ka_aaVowel-divesakuru ka_iVowel-divesakuru ka_iiVowel-divesakuru ka_uVowel-divesakuru ka_uuVowel-divesakuru ka_halanta-divesakuru ka_medya_iVowel-divesakuru nna_aaVowel-divesakuru nna_iVowel-divesakuru nna_iiVowel-divesakuru nna_uVowel-divesakuru nna_uuVowel-divesakuru nna_halanta-divesakuru ta_aaVowel-divesakuru ta_iVowel-divesakuru ta_iiVowel-divesakuru ta_uVowel-divesakuru ta_uuVowel-divesakuru ta_halanta-divesakuru dha_aaVowel-divesakuru dha_iVowel-divesakuru dha_iiVowel-divesakuru dha_uVowel-divesakuru dha_uuVowel-divesakuru dha_halanta-divesakuru dha_medya-divesakuru pa_aaVowel-divesakuru pa_iVowel-divesakuru pa_iiVowel-divesakuru pa_uVowel-divesakuru pa_uuVowel-divesakuru pa_halanta-divesakuru pha_aaVowel-divesakuru pha_iVowel-divesakuru pha_iiVowel-divesakuru pha_uVowel-divesakuru pha_uuVowel-divesakuru pha_halanta-divesakuru ma_aaVowel-divesakuru ma_iVowel-divesakuru ma_iiVowel-divesakuru ma_uVowel-divesakuru ma_uuVowel-divesakuru ma_halanta-divesakuru la_aaVowel-divesakuru la_iVowel-divesakuru la_iiVowel-divesakuru la_uVowel-divesakuru la_uuVowel-divesakuru la_halanta-divesakuru ssa_halanta-divesakuru ba_va-divesakuru ka_dha_uVowel-divesakuru ka_halanta-divesakuru.0001 ka_halanta-divesakuru.0002 ka_halanta-divesakuru.0003 ka_halanta-divesakuru.0004 ka_halanta-divesakuru.0005 ka_halanta-divesakuru.0006 ka_halanta-divesakuru.0007 ka_halanta-divesakuru.0008 ka_halanta-divesakuru.0009 ka_halanta-divesakuru.0010 ka_halanta-divesakuru.0011  ka_ssa_halanta-divesakuru ka_tha-divesakuru la_medya-divesakuru ma_medya_iiVowel-divesakuru ma_medya_iVowel-divesakuru ma_medya-divesakuru ma-divesakuru.alt na_halanta-divesakuru.0001 na_halanta-divesakuru.0002 na_halanta-divesakuru.0003 na_halanta-divesakuru.0004 na_halanta-divesakuru.0005 na_halanta-divesakuru.0006 na_halanta-divesakuru.0007 na_halanta-divesakuru.0008 na_halanta-divesakuru.0009 na_halanta-divesakuru.0010 na_halanta-divesakuru.0011 na_medya_iVowel-divesakuru na_tha-divesakuru nna-divesakuru.alt   ya_medya_iVowel-divesakuru lla-divesakuru lla_medya_iVowel-divesakuru lla-divesakuru.alt lla_iVowel-divesakuru lla_iiVowel-divesakuru lla_uVowel-divesakuru lla_uuVowel-divesakuru lla_halanta-divesakuru la-divesakuru
 ";
 name = "contextual-kerning-3";
 },
 {
-code = "ga-divesakuru sa-divesakuru lla-divesakuru da-divesakuru ddha-divesakuru ra-divesakuru ga_aaVowel-divesakuru ga_iVowel-divesakuru ga_iiVowel-divesakuru ga_uVowel-divesakuru ga_uuVowel-divesakuru ga_halanta-divesakuru sa_aaVowel-divesakuru sa_iVowel-divesakuru sa_iiVowel-divesakuru sa_uVowel-divesakuru sa_uuVowel-divesakuru sa_halanta-divesakuru lla_aaVowel-divesakuru lla_iVowel-divesakuru lla_iiVowel-divesakuru lla_uVowel-divesakuru lla_uuVowel-divesakuru lla_halanta-divesakuru da_aaVowel-divesakuru da_iVowel-divesakuru da_iiVowel-divesakuru da_uVowel-divesakuru da_uuVowel-divesakuru da_halanta-divesakuru ddha_aaVowel-divesakuru ddha_iVowel-divesakuru ddha_iiVowel-divesakuru ddha_uVowel-divesakuru ddha_uuVowel-divesakuru ddha_halanta-divesakuru ddha_medya-divesakuru ra_aaVowel-divesakuru ra_iVowel-divesakuru ra_iiVowel-divesakuru ra_uVowel-divesakuru ra_uuVowel-divesakuru ra_halanta-divesakuru lla_medya_iVowel-divesakuru lla-divesakuru.alt sa_va-divesakuru sa_medya-divesakuru
+code = "ba-divesakuru bha-divesakuru ba_aaVowel-divesakuru ba_iVowel-divesakuru ba_iiVowel-divesakuru ba_uVowel-divesakuru ba_uuVowel-divesakuru ba_halanta-divesakuru bha_aaVowel-divesakuru bha_iVowel-divesakuru bha_iiVowel-divesakuru bha_uVowel-divesakuru bha_uuVowel-divesakuru bha_halanta-divesakuru yya-divesakuru yya_aaVowel-divesakuru yya_iVowel-divesakuru yya_iiVowel-divesakuru yya_uVowel-divesakuru yya_uuVowel-divesakuru yya_halanta-divesakuru
+";
+name = "contextual-kerning-3-2";
+},
+{
+code = "ga-divesakuru sa-divesakuru  da-divesakuru ddha-divesakuru ra-divesakuru ga_aaVowel-divesakuru ga_iVowel-divesakuru ga_iiVowel-divesakuru ga_uVowel-divesakuru ga_uuVowel-divesakuru ga_halanta-divesakuru sa_aaVowel-divesakuru sa_iVowel-divesakuru sa_iiVowel-divesakuru sa_uVowel-divesakuru sa_uuVowel-divesakuru sa_halanta-divesakuru lla_aaVowel-divesakuru da_aaVowel-divesakuru da_iVowel-divesakuru da_iiVowel-divesakuru da_uVowel-divesakuru da_uuVowel-divesakuru da_halanta-divesakuru ddha_aaVowel-divesakuru ddha_iVowel-divesakuru ddha_iiVowel-divesakuru ddha_uVowel-divesakuru ddha_uuVowel-divesakuru ddha_halanta-divesakuru ddha_medya-divesakuru ra_aaVowel-divesakuru ra_iVowel-divesakuru ra_iiVowel-divesakuru ra_uVowel-divesakuru ra_uuVowel-divesakuru ra_halanta-divesakuru sa_va-divesakuru sa_medya-divesakuru
 ";
 name = "contextual-kerning-4";
+},
+{
+code = "dda_halanta-divesakuru ddha_halanta-divesakuru dha_halanta-divesakuru pa_halanta-divesakuru ya_halanta-divesakuru yya_halanta-divesakuru la_halanta-divesakuru ssa_halanta-divesakuru sa_halanta-divesakuru za_halanta-divesakuru ka_ssa_halanta-divesakuru ";
+name = "contextual-kerning-halanta-1";
+},
+{
+code = "ba_halanta-divesakuru ma_halanta-divesakuru va_halanta-divesakuru lla_halanta-divesakuru ta_medya_halanta-divesakuru ";
+name = "contextual-kerning-halanta-2";
+},
+{
+code = "ga_halanta-divesakuru da_halanta-divesakuru pha_halanta-divesakuru bha_halanta-divesakuru ra_halanta-divesakuru  
+";
+name = "contextual-kerning-halanta-3";
+},
+{
+code = "ha_halanta-divesakuru nna_halanta-divesakuru
+";
+name = "contextual-kerning-halanta-4";
 }
 );
 customParameters = (
@@ -3687,10 +3711,51 @@ tag = ss03;
 {
 code = "# Automatic Code
 
-pos dha_halanta-divesakuru' 160 @contextual-kerning-1 prefixedNasalSign-divesakuru;
-pos dha_halanta-divesakuru' 280 @contextual-kerning-2 prefixedNasalSign-divesakuru;
-pos dha_halanta-divesakuru' 300 @contextual-kerning-3 prefixedNasalSign-divesakuru;
-pos dha_halanta-divesakuru' 420 @contextual-kerning-4 prefixedNasalSign-divesakuru;
+#contextual kerning 
+
+lookup contextual-kerning-1 {
+
+pos @contextual-kerning-halanta-1' 160 @contextual-kerning-0 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-1' 80 @contextual-kerning-1 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-1' 280 @contextual-kerning-2 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-1' 300 @contextual-kerning-3 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-1' 260 @contextual-kerning-3-2 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-1' 420 @contextual-kerning-4 prefixedNasalSign-divesakuru;
+
+pos @contextual-kerning-halanta-2' 80 @contextual-kerning-0 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-2' 520 @contextual-kerning-1 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-2' 740 @contextual-kerning-2 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-2' 780 @contextual-kerning-3 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-2' 680 @contextual-kerning-3-2 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-2' 850 @contextual-kerning-4 prefixedNasalSign-divesakuru;
+
+pos @contextual-kerning-halanta-3' 200 @contextual-kerning-0 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-3' 490 @contextual-kerning-1 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-3' 530 @contextual-kerning-2 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-3' 750 @contextual-kerning-3 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-3' 650 @contextual-kerning-3-2 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-3' 800 @contextual-kerning-4 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-3' 800 @contextual-kerning-4 prefixedNasalSign-divesakuru;
+
+
+pos @contextual-kerning-halanta-4' 40 @contextual-kerning-0 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-4' 50 @contextual-kerning-1 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-4' 300 @contextual-kerning-2 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-4' 260 @contextual-kerning-3 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-4' 140 @contextual-kerning-3-2 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-4' 500 @contextual-kerning-4 prefixedNasalSign-divesakuru;
+
+} contextual-kerning-1;
+
+lookup contextual-kerning-2 {
+pos @contextual-kerning-halanta-1' 140 [za-divesakuru za_aaVowel-divesakuru za_iVowel-divesakuru za_iiVowel-divesakuru za_uVowel-divesakuru za_uuVowel-divesakuru za_halanta-divesakuru ] prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-2' 200 [ya-divesakuru ya_aaVowel-divesakuru ya_iVowel-divesakuru ya_iiVowel-divesakuru ya_uVowel-divesakuru ya_uuVowel-divesakuru ya_medya_iVowel-divesakuru] prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-3' 200 [ya-divesakuru ya_aaVowel-divesakuru ya_iVowel-divesakuru ya_iiVowel-divesakuru ya_uVowel-divesakuru ya_uuVowel-divesakuru ya_medya_iVowel-divesakuru] prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-2' -100 [ddha-divesakuru ddha_aaVowel-divesakuru ddha_iVowel-divesakuru ddha_iiVowel-divesakuru ddha_uVowel-divesakuru ddha_uuVowel-divesakuru ddha_halanta-divesakuru ddha_medya-divesakuru] prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-3' -100 [ddha-divesakuru ddha_aaVowel-divesakuru ddha_iVowel-divesakuru ddha_iiVowel-divesakuru ddha_uVowel-divesakuru ddha_uuVowel-divesakuru ddha_halanta-divesakuru ddha_medya-divesakuru] prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-4' 140 [za-divesakuru za_aaVowel-divesakuru za_iVowel-divesakuru za_iiVowel-divesakuru za_uVowel-divesakuru za_uuVowel-divesakuru za_halanta-divesakuru] prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-4' -100 [ra-divesakuru ra_aaVowel-divesakuru ra_iVowel-divesakuru ra_iiVowel-divesakuru ra_uVowel-divesakuru ra_uuVowel-divesakuru ra_halanta-divesakuru] prefixedNasalSign-divesakuru;
+} contextual-kerning-2;
 ";
 tag = kern;
 }
@@ -4637,13 +4702,16 @@ space = 0;
 "@MMK_R_na" = -45;
 "@MMK_R_na_halanta" = -20;
 "@MMK_R_nna" = -20;
-"ha_medra-divesakuru" = 460;
-"ha_medra_aaVowel-divesakuru" = 480;
+"ha_medra-divesakuru" = 500;
+"ha_medra_aaVowel-divesakuru" = 520;
 "ka_medra_uVowel-divesakuru" = 500;
+"na_medra-divesakuru" = 520;
+"na_medra_aaVowel-divesakuru" = 520;
 "nga_ga-divesakuru" = 700;
-"pa_medra-divesakuru" = 480;
-"sa_medra_iiVowel-divesakuru" = 560;
-"ta_medra_uVowel-divesakuru" = 460;
+"pa_medra-divesakuru" = 520;
+"sa_medra_iiVowel-divesakuru" = 600;
+"ta_medra_uVowel-divesakuru" = 500;
+"ya_medra-divesakuru" = 460;
 };
 "ba_iiVowel-divesakuru" = {
 "@MMK_R_ba" = -5;
@@ -4672,14 +4740,18 @@ space = 0;
 "@MMK_R_ra" = 240;
 "@MMK_R_sa" = 100;
 "@MMK_R_yya_aaVowel" = 15;
-"ha_medra-divesakuru" = 560;
-"ha_medra_aaVowel-divesakuru" = 560;
-"ka_medra_uVowel-divesakuru" = 580;
+"ha_medra-divesakuru" = 600;
+"ha_medra_aaVowel-divesakuru" = 600;
+"ka_medra_uVowel-divesakuru" = 620;
+"na_medra-divesakuru" = 580;
+"na_medra_aaVowel-divesakuru" = 580;
 "nga_ga-divesakuru" = 820;
-"pa_medra-divesakuru" = 560;
-"sa_medra_iiVowel-divesakuru" = 680;
-"ta_medra_uVowel-divesakuru" = 560;
-"ta_tha_medra_iVowel-divesakuru" = 460;
+"pa_medra-divesakuru" = 600;
+"sa_medra_iiVowel-divesakuru" = 700;
+"ta_medra_uVowel-divesakuru" = 600;
+"ta_ta_medra_iVowel-divesakuru" = 480;
+"ta_tha_medra_iVowel-divesakuru" = 500;
+"ya_medra-divesakuru" = 520;
 };
 "bha_iiVowel-divesakuru" = {
 "@MMK_R_da" = -50;
@@ -4709,7 +4781,7 @@ space = 0;
 "da_halanta-divesakuru" = {
 "@MMK_R_da" = -10;
 "@MMK_R_ddha" = 115;
-"@MMK_R_medra" = 445;
+"@MMK_R_medra" = 345;
 "@MMK_R_ra" = 15;
 "@MMK_R_tta" = -65;
 "ha_medra-divesakuru" = 425;
@@ -4847,15 +4919,16 @@ space = 0;
 };
 "ga_halanta-divesakuru" = {
 "@MMK_R_medra" = 360;
-"ha_medra-divesakuru" = 480;
-"ha_medra_aaVowel-divesakuru" = 460;
+"ha_medra-divesakuru" = 500;
+"ha_medra_aaVowel-divesakuru" = 500;
 "ka_medra_uVowel-divesakuru" = 500;
-"na_medra-divesakuru" = 480;
+"na_medra-divesakuru" = 500;
 "na_medra_aaVowel-divesakuru" = 480;
 "nga_ga-divesakuru" = 680;
-"pa_medra-divesakuru" = 480;
-"sa_medra_iiVowel-divesakuru" = 540;
-"ta_medra_uVowel-divesakuru" = 440;
+"pa_medra-divesakuru" = 500;
+"sa_medra_iiVowel-divesakuru" = 580;
+"ta_medra_uVowel-divesakuru" = 480;
+"ta_tha_medra_iVowel-divesakuru" = 400;
 "ya_medra-divesakuru" = 440;
 };
 "ga_iiVowel-divesakuru" = {
@@ -4866,6 +4939,7 @@ space = 0;
 };
 "ha_halanta-divesakuru" = {
 "nga_ga-divesakuru" = 250;
+"sa_medra_iiVowel-divesakuru" = 45;
 };
 "ha_iiVowel-divesakuru" = {
 "@MMK_R_da" = -50;
@@ -5005,10 +5079,13 @@ space = 0;
 "ha_medra-divesakuru" = 480;
 "ha_medra_aaVowel-divesakuru" = 480;
 "ka_medra_uVowel-divesakuru" = 500;
+"na_medra-divesakuru" = 500;
+"na_medra_aaVowel-divesakuru" = 500;
 "nga_ga-divesakuru" = 700;
-"pa_medra-divesakuru" = 500;
+"pa_medra-divesakuru" = 520;
 "sa_medra_iiVowel-divesakuru" = 580;
 "ta_medra_uVowel-divesakuru" = 480;
+"ya_medra-divesakuru" = 420;
 };
 "lla_iiVowel-divesakuru" = {
 "@MMK_R_da" = -70;
@@ -5052,13 +5129,16 @@ space = 0;
 "@MMK_R_na_halanta" = -35;
 "@MMK_R_nna" = -40;
 "@MMK_R_o.alt" = -60;
-"ha_medra-divesakuru" = 440;
-"ha_medra_aaVowel-divesakuru" = 460;
+"ha_medra-divesakuru" = 500;
+"ha_medra_aaVowel-divesakuru" = 520;
 "ka_medra_uVowel-divesakuru" = 500;
+"na_medra-divesakuru" = 480;
+"na_medra_aaVowel-divesakuru" = 500;
 "nga_ga-divesakuru" = 700;
-"pa_medra-divesakuru" = 480;
-"sa_medra_iiVowel-divesakuru" = 560;
-"ta_medra_uVowel-divesakuru" = 460;
+"pa_medra-divesakuru" = 520;
+"sa_medra_iiVowel-divesakuru" = 600;
+"ta_medra_uVowel-divesakuru" = 500;
+"ya_medra-divesakuru" = 460;
 };
 "ma_iiVowel-divesakuru" = {
 "@MMK_R_ba" = -10;
@@ -5192,13 +5272,18 @@ space = 0;
 "@MMK_R_medra" = 320;
 "@MMK_R_na_halanta" = 0;
 "@MMK_R_ta" = -55;
-"ha_medra-divesakuru" = 400;
-"ha_medra_aaVowel-divesakuru" = 380;
-"ka_medra_uVowel-divesakuru" = 420;
+"ha_medra-divesakuru" = 460;
+"ha_medra_aaVowel-divesakuru" = 480;
+"ka_medra_uVowel-divesakuru" = 460;
+"na_medra-divesakuru" = 440;
+"na_medra_aaVowel-divesakuru" = 440;
 "nga_ga-divesakuru" = 760;
-"pa_medra-divesakuru" = 400;
-"sa_medra_iiVowel-divesakuru" = 560;
-"ta_medra_uVowel-divesakuru" = 380;
+"pa_medra-divesakuru" = 460;
+"sa_medra_iiVowel-divesakuru" = 600;
+"ta_medra_uVowel-divesakuru" = 440;
+"ta_ta_medra_iVowel-divesakuru" = 300;
+"ta_tha_medra_iVowel-divesakuru" = 360;
+"ya_medra-divesakuru" = 360;
 };
 "pha_iiVowel-divesakuru" = {
 "@MMK_R_ba" = -20;
@@ -5217,14 +5302,19 @@ space = 0;
 "@MMK_R_medra" = 360;
 "@MMK_R_ra" = 0;
 "@MMK_R_ta" = -65;
-"ha_medra-divesakuru" = 460;
-"ha_medra_aaVowel-divesakuru" = 460;
-"ka_medra_uVowel-divesakuru" = 480;
+"ha_medra-divesakuru" = 500;
+"ha_medra_aaVowel-divesakuru" = 480;
+"ka_medra_uVowel-divesakuru" = 520;
+"na_medra-divesakuru" = 480;
+"na_medra_aaVowel-divesakuru" = 480;
 "nga_ga-divesakuru" = 640;
 "pa_medra-divesakuru" = 480;
 "ra_halanta-divesakuru" = 120;
-"sa_medra_iiVowel-divesakuru" = 520;
-"ta_medra_uVowel-divesakuru" = 440;
+"sa_medra_iiVowel-divesakuru" = 560;
+"ta_medra_uVowel-divesakuru" = 480;
+"ta_ta_medra_iVowel-divesakuru" = 400;
+"ta_tha_medra_iVowel-divesakuru" = 400;
+"ya_medra-divesakuru" = 440;
 };
 "ra_iiVowel-divesakuru" = {
 "@MMK_R_ba" = -15;
@@ -5302,13 +5392,16 @@ space = 0;
 "@MMK_R_va" = -55;
 "@MMK_R_yya_aaVowel" = -80;
 "@MMK_R_za" = -70;
-"ha_medra-divesakuru" = 460;
+"ha_medra-divesakuru" = 520;
 "ha_medra_aaVowel-divesakuru" = 520;
 "ka_medra_uVowel-divesakuru" = 520;
+"na_medra-divesakuru" = 500;
+"na_medra_aaVowel-divesakuru" = 500;
 "nga_ga-divesakuru" = 720;
 "pa_medra-divesakuru" = 500;
-"sa_medra_iiVowel-divesakuru" = 560;
+"sa_medra_iiVowel-divesakuru" = 600;
 "ta_medra_uVowel-divesakuru" = 480;
+"ya_medra-divesakuru" = 440;
 };
 "ta_medya_iVowel-divesakuru" = {
 "@MMK_R_da" = -75;
@@ -5363,18 +5456,18 @@ space = 0;
 "@MMK_R_ddha" = 60;
 "@MMK_R_ga" = 700;
 "@MMK_R_ka" = -60;
-"@MMK_R_medra" = 500;
+"@MMK_R_medra" = 520;
 "@MMK_R_na" = -40;
 "@MMK_R_nna" = -20;
 "ga-divesakuru" = -80;
-"ha_medra-divesakuru" = 460;
-"ha_medra_aaVowel-divesakuru" = 480;
-"pa_medra-divesakuru" = 460;
-"sa_medra_iiVowel-divesakuru" = 570;
-"ta_medra_uVowel-divesakuru" = 440;
-"ta_ta_medra_iVowel-divesakuru" = 340;
-"ta_tha_medra_iVowel-divesakuru" = 360;
-"ya_medra-divesakuru" = 395;
+"ha_medra-divesakuru" = 500;
+"ha_medra_aaVowel-divesakuru" = 500;
+"pa_medra-divesakuru" = 500;
+"sa_medra_iiVowel-divesakuru" = 610;
+"ta_medra_uVowel-divesakuru" = 480;
+"ta_ta_medra_iVowel-divesakuru" = 380;
+"ta_tha_medra_iVowel-divesakuru" = 400;
+"ya_medra-divesakuru" = 435;
 };
 "tta_iiVowel-divesakuru" = {
 "@MMK_R_ddha" = -30;
@@ -5398,13 +5491,16 @@ space = 0;
 "@MMK_R_na_halanta" = -40;
 "@MMK_R_nna" = -20;
 "@MMK_R_o.alt" = -60;
-"ha_medra-divesakuru" = 480;
-"ha_medra_aaVowel-divesakuru" = 480;
+"ha_medra-divesakuru" = 520;
+"ha_medra_aaVowel-divesakuru" = 520;
 "ka_medra_uVowel-divesakuru" = 500;
+"na_medra-divesakuru" = 500;
+"na_medra_aaVowel-divesakuru" = 500;
 "nga_ga-divesakuru" = 700;
-"pa_medra-divesakuru" = 480;
-"sa_medra_iiVowel-divesakuru" = 560;
+"pa_medra-divesakuru" = 520;
+"sa_medra_iiVowel-divesakuru" = 580;
 "ta_medra_uVowel-divesakuru" = 460;
+"ya_medra-divesakuru" = 420;
 };
 "va_iiVowel-divesakuru" = {
 "@MMK_R_da" = -70;
