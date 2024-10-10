@@ -1,0 +1,206 @@
+{
+category = Letter;
+color = 10;
+glyphname = Nobliquestroke;
+layers = (
+{
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(673,445,l),
+(682,470,l),
+(24,329,l),
+(16,303,l)
+);
+},
+{
+alignment = -1;
+pos = (-2,0);
+ref = N;
+}
+);
+width = 674;
+},
+{
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(722,399,l),
+(735,461,l),
+(32,335,l),
+(19,273,l)
+);
+},
+{
+alignment = -1;
+ref = N;
+}
+);
+width = 707;
+},
+{
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(763.46,393.08,l),
+(782.07,480.69,l),
+(21.53,337.9,l),
+(2.92,250.29,l)
+);
+}
+);
+};
+layerId = "322c29bc-8f7f-494f-9451-9f3d9287329d";
+name = "SemiBold Italic (intermediate)";
+shapes = (
+{
+closed = 1;
+nodes = (
+(767,370,l),
+(786,460,l),
+(24,348,l),
+(5,259,l)
+);
+},
+{
+alignment = -1;
+ref = N;
+}
+);
+width = 755;
+},
+{
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+closed = 1;
+nodes = (
+(803,382,l),
+(827,493,l),
+(16,342,l),
+(-8,231,l)
+);
+},
+{
+alignment = -1;
+ref = N;
+}
+);
+width = 790;
+},
+{
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(481,455,l),
+(487,483,l),
+(10,330,l),
+(5,302,l)
+);
+},
+{
+alignment = -1;
+ref = N;
+}
+);
+width = 461;
+},
+{
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(534,427,l),
+(546,485,l),
+(12,341,l),
+(0,283,l)
+);
+},
+{
+alignment = -1;
+ref = N;
+}
+);
+width = 513;
+},
+{
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(591.95,399.55,l),
+(610.05,486.83,l),
+(18.71,351.37,l),
+(0.61,264.09,l)
+);
+}
+);
+};
+layerId = "9f7b78c0-6dd0-497a-a934-8a04787f912f";
+name = "SemiBold Condensed Italic (intermediate)";
+shapes = (
+{
+closed = 1;
+nodes = (
+(584,404,l),
+(601,487,l),
+(18,350,l),
+(1,267,l)
+);
+},
+{
+alignment = -1;
+ref = N;
+}
+);
+width = 561;
+},
+{
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(629,382,l),
+(651,488,l),
+(23,358,l),
+(1,252,l)
+);
+},
+{
+alignment = -1;
+ref = N;
+}
+);
+width = 605;
+}
+);
+metricWidth = N;
+script = latin;
+subCategory = Uppercase;
+unicode = 42916;
+}

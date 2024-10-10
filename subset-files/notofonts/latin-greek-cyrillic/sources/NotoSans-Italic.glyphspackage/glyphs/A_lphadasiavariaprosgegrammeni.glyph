@@ -1,0 +1,165 @@
+{
+color = 10;
+glyphname = Alphadasiavariaprosgegrammeni;
+kernLeft = GRK_Alpha;
+kernRight = GRK_Alpha;
+layers = (
+{
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+pos = (115,0);
+ref = Alpha;
+},
+{
+alignment = -1;
+pos = (-51,0);
+ref = dasiavaria.case;
+},
+{
+alignment = -1;
+pos = (302,0);
+ref = ypogegrammeni;
+}
+);
+width = 662;
+},
+{
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+alignment = -1;
+pos = (220,0);
+ref = Alpha;
+},
+{
+alignment = -1;
+pos = (-55,0);
+ref = dasiavaria.case;
+},
+{
+alignment = -1;
+pos = (396,0);
+ref = ypogegrammeni;
+}
+);
+width = 782;
+},
+{
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "2272e7d0-7987-4561-a560-b6a28859ff04";
+name = "SemiBold Italic (intermediate)";
+shapes = (
+{
+alignment = -1;
+pos = (319,0);
+ref = Alpha;
+},
+{
+alignment = -1;
+pos = (-51,0);
+ref = dasiavaria.case;
+},
+{
+alignment = -1;
+pos = (499,0);
+ref = ypogegrammeni;
+}
+);
+width = 947;
+},
+{
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+alignment = -1;
+pos = (360,0);
+ref = Alpha;
+},
+{
+alignment = -1;
+pos = (-45,0);
+ref = dasiavaria.case;
+},
+{
+alignment = -1;
+pos = (565,0);
+ref = ypogegrammeni;
+}
+);
+width = 1036;
+},
+{
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+alignment = -1;
+pos = (218,0);
+ref = Alpha;
+},
+{
+alignment = -1;
+pos = (-27,0);
+ref = dasiavaria.case;
+},
+{
+alignment = -1;
+pos = (312,0);
+ref = ypogegrammeni;
+}
+);
+width = 544;
+},
+{
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+alignment = -1;
+pos = (310,0);
+ref = Alpha;
+},
+{
+alignment = -1;
+pos = (-27,0);
+ref = dasiavaria.case;
+},
+{
+alignment = -1;
+pos = (421,0);
+ref = ypogegrammeni;
+}
+);
+width = 714;
+},
+{
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+alignment = -1;
+pos = (401,0);
+ref = Alpha;
+},
+{
+alignment = -1;
+pos = (-28,0);
+ref = dasiavaria.case;
+},
+{
+alignment = -1;
+pos = (555,0);
+ref = ypogegrammeni;
+}
+);
+width = 933;
+}
+);
+metricRight = "=A";
+unicode = 8075;
+}

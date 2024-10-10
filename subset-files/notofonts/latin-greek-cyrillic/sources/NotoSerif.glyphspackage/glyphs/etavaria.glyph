@@ -1,0 +1,108 @@
+{
+color = 10;
+glyphname = etavaria;
+kernLeft = GRK_eta;
+kernRight = GRK_eta;
+layers = (
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+ref = eta;
+},
+{
+pos = (104,0);
+ref = varia;
+}
+);
+width = 541;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = eta;
+},
+{
+pos = (120,0);
+ref = varia;
+}
+);
+width = 614;
+},
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = eta;
+},
+{
+pos = (125,0);
+ref = varia;
+}
+);
+width = 694;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = eta;
+},
+{
+pos = (70,0);
+ref = varia;
+}
+);
+width = 457;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = eta;
+},
+{
+pos = (66,0);
+ref = varia;
+}
+);
+width = 513;
+},
+{
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "f7e86034-d16d-4cc7-9dd7-977f047f3c28";
+name = "SemiBold Condensed (intermediate)";
+shapes = (
+{
+ref = eta;
+},
+{
+pos = (100,0);
+ref = varia;
+}
+);
+width = 550;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = eta;
+},
+{
+pos = (88,0);
+ref = varia;
+}
+);
+width = 601;
+}
+);
+unicode = 8052;
+}

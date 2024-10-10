@@ -1,0 +1,102 @@
+{
+category = Letter;
+color = 10;
+glyphname = Gturnedinsular;
+layers = (
+{
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (565,714);
+ref = Ginsular;
+}
+);
+width = 525;
+},
+{
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (593,714);
+ref = Ginsular;
+}
+);
+width = 555;
+},
+{
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "f93c8db0-e1df-40ea-904e-3700a75a8b82";
+name = "SemiBold Italic (intermediate)";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (624,714);
+ref = Ginsular;
+}
+);
+width = 588;
+},
+{
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (601,714);
+ref = Ginsular;
+}
+);
+width = 567;
+},
+{
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (438,714);
+ref = Ginsular;
+}
+);
+width = 398;
+},
+{
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (461,714);
+ref = Ginsular;
+}
+);
+width = 438;
+},
+{
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (544,714);
+ref = Ginsular;
+}
+);
+width = 502;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 42878;
+}

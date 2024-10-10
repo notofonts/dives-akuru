@@ -1,0 +1,164 @@
+{
+category = Number;
+color = 10;
+glyphname = zerothird;
+layers = (
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (400,0);
+ref = fraction;
+},
+{
+pos = (470,0);
+ref = three.dnom;
+}
+);
+width = 870;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (377,0);
+ref = fraction;
+},
+{
+pos = (441,0);
+ref = three.dnom;
+}
+);
+width = 841;
+},
+{
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "3d50871d-1d6c-49b0-b3ba-b6e3092507d5";
+name = "SemiBold (intermediate)";
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (378,0);
+ref = fraction;
+},
+{
+pos = (444,0);
+ref = three.dnom;
+}
+);
+width = 844;
+},
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (421,0);
+ref = fraction;
+},
+{
+pos = (522,0);
+ref = three.dnom;
+}
+);
+width = 922;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (284,0);
+ref = fraction;
+},
+{
+pos = (332,0);
+ref = three.dnom;
+}
+);
+width = 635;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (302,0);
+ref = fraction;
+},
+{
+pos = (356,0);
+ref = three.dnom;
+}
+);
+width = 669;
+},
+{
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "451d2aca-1f98-4559-a13f-53f9dddcf41c";
+name = "SemiBold Condensed (intermediate)";
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (324,0);
+ref = fraction;
+},
+{
+pos = (391,0);
+ref = three.dnom;
+}
+);
+width = 717;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (330,0);
+ref = fraction;
+},
+{
+pos = (393,0);
+ref = three.dnom;
+}
+);
+width = 726;
+}
+);
+metricLeft = zero.numr;
+metricRight = three.dnom;
+script = "";
+subCategory = Fraction;
+unicode = 8585;
+}

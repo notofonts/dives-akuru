@@ -1,0 +1,162 @@
+{
+category = Letter;
+color = 10;
+glyphname = "yureversed-cy";
+kernLeft = "o-cy";
+kernRight = "en-cy";
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(28,113,o),
+(88,-10,o),
+(235,-10,cs),
+(375,-10,o),
+(437,106,o),
+(438,265,c),
+(629,265,l),
+(629,0,l),
+(655,0,l),
+(655,528,l),
+(629,528,l),
+(629,290,l),
+(438,290,l),
+(433,416,o),
+(375,538,o),
+(232,538,cs),
+(78,538,o),
+(28,408,o),
+(28,264,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(411,132,o),
+(362,15,o),
+(234,15,cs),
+(109,15,o),
+(55,125,o),
+(55,264,cs),
+(55,400,o),
+(106,513,o),
+(233,513,cs),
+(359,513,o),
+(411,399,o),
+(411,264,cs)
+);
+}
+);
+};
+layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+shapes = (
+{
+pos = (754,0);
+ref = "iu-cy";
+scale = (-1,1);
+}
+);
+width = 754;
+},
+{
+layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+shapes = (
+{
+pos = (806,0);
+ref = "iu-cy";
+scale = (-1,1);
+}
+);
+width = 806;
+},
+{
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "3d3dbd83-7f3a-49bb-a175-567a7e7799f7";
+name = "SemiBold (intermediate)";
+shapes = (
+{
+pos = (853,0);
+ref = "iu-cy";
+scale = (-1,1);
+}
+);
+width = 853;
+},
+{
+layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
+shapes = (
+{
+pos = (880,0);
+ref = "iu-cy";
+scale = (-1,1);
+}
+);
+width = 880;
+},
+{
+layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
+shapes = (
+{
+pos = (505,0);
+ref = "iu-cy";
+scale = (-1,1);
+}
+);
+width = 505;
+},
+{
+layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+shapes = (
+{
+pos = (588,0);
+ref = "iu-cy";
+scale = (-1,1);
+}
+);
+width = 588;
+},
+{
+associatedMasterId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "08ef3360-ca1d-4546-9e0d-c5eda0f8405c";
+name = "SemiBold Condensed (intermediate)";
+shapes = (
+{
+pos = (664,0);
+ref = "iu-cy";
+scale = (-1,1);
+}
+);
+width = 664;
+},
+{
+layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
+shapes = (
+{
+pos = (730,0);
+ref = "iu-cy";
+scale = (-1,1);
+}
+);
+width = 730;
+}
+);
+metricRight = "en-cy";
+script = cyrillic;
+subCategory = Lowercase;
+unicode = 42581;
+}

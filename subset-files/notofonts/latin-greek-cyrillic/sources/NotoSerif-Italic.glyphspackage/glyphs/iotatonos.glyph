@@ -1,0 +1,132 @@
+{
+category = Letter;
+color = 10;
+glyphname = iotatonos;
+kernLeft = GRK_iota;
+kernRight = GRK_iota;
+layers = (
+{
+layerId = UUID0;
+shapes = (
+{
+ref = iota;
+},
+{
+pos = (50,0);
+ref = tonos;
+}
+);
+width = 281;
+},
+{
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "1c3f3c0d-0dd5-46dc-9552-7e87951191e7";
+name = "SemiBold Italic (intermediate)";
+shapes = (
+{
+ref = iota;
+},
+{
+pos = (40,0);
+ref = tonos;
+}
+);
+width = 338;
+},
+{
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+ref = iota;
+},
+{
+pos = (40,0);
+ref = tonos;
+}
+);
+width = 380;
+},
+{
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+ref = iota;
+},
+{
+pos = (59,0);
+ref = tonos;
+}
+);
+width = 356;
+},
+{
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+ref = iota;
+},
+{
+pos = (19,0);
+ref = tonos;
+}
+);
+width = 209;
+},
+{
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+ref = iota;
+},
+{
+pos = (21,0);
+ref = tonos;
+}
+);
+width = 224;
+},
+{
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+ref = iota;
+},
+{
+pos = (65,0);
+ref = tonos;
+}
+);
+width = 281;
+},
+{
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "f382d946-9b8d-415b-b9ed-0635da2b8a4d";
+name = "SemiBold Condensed Italic (intermediate)";
+shapes = (
+{
+ref = iota;
+},
+{
+pos = (76,0);
+ref = tonos;
+}
+);
+width = 333;
+}
+);
+script = greek;
+subCategory = Lowercase;
+unicode = 943;
+}

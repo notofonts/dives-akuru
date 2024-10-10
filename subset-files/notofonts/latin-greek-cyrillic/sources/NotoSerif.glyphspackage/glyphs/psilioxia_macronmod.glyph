@@ -1,0 +1,145 @@
+{
+category = Mark;
+color = 10;
+glyphname = psilioxia_macronmod;
+layers = (
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+ref = macronmod;
+},
+{
+alignment = -1;
+pos = (32,92);
+ref = psilioxia;
+}
+);
+width = 360;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = macronmod;
+},
+{
+alignment = -1;
+pos = (32,94);
+ref = psilioxia;
+}
+);
+width = 389;
+},
+{
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "851a1d36-6598-4fa4-ab91-6edf4f8706d6";
+name = "SemiBold (intermediate)";
+shapes = (
+{
+ref = macronmod;
+},
+{
+alignment = -1;
+pos = (20,133);
+ref = psilioxia;
+}
+);
+width = 438;
+},
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+alignment = -1;
+pos = (16,0);
+ref = macronmod;
+},
+{
+alignment = -1;
+pos = (1,147);
+ref = psilioxia;
+}
+);
+width = 457;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+alignment = -1;
+pos = (-20,0);
+ref = macronmod;
+},
+{
+alignment = -1;
+pos = (27,95);
+ref = psilioxia;
+}
+);
+width = 294;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = macronmod;
+},
+{
+alignment = -1;
+pos = (0,93);
+ref = psilioxia;
+}
+);
+width = 348;
+},
+{
+associatedMasterId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "38b2b2f6-d821-4669-b9ba-8a2219b10de5";
+name = "SemiBold Condensed (intermediate)";
+shapes = (
+{
+ref = macronmod;
+},
+{
+alignment = -1;
+pos = (5,117);
+ref = psilioxia;
+}
+);
+width = 382;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+alignment = -1;
+pos = (29,0);
+ref = macronmod;
+},
+{
+alignment = -1;
+pos = (0,132);
+ref = psilioxia;
+}
+);
+width = 436;
+}
+);
+metricLeft = "=psilioxia";
+metricRight = "=psilioxia";
+script = greek;
+subCategory = Spacing;
+}

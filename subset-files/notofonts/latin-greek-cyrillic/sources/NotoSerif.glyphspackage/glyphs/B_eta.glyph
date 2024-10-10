@@ -1,0 +1,83 @@
+{
+category = Letter;
+color = 10;
+glyphname = Beta;
+kernLeft = GRK_Beta;
+kernRight = GRK_Beta;
+layers = (
+{
+layerId = "E17BEC9D-CAAD-449F-91D9-03766E30097E";
+shapes = (
+{
+ref = B;
+}
+);
+width = 720;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = B;
+}
+);
+width = 654;
+},
+{
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "b95579f4-238e-4e8f-b0d4-bf7cdb859e8f";
+name = "SemiBold (intermediate)";
+shapes = (
+{
+ref = B;
+}
+);
+width = 672;
+},
+{
+layerId = "75A83886-EED5-4C31-9670-660514D8A4F6";
+shapes = (
+{
+ref = B;
+}
+);
+width = 600;
+},
+{
+layerId = "C91144B6-58F5-45F2-9CE4-7ED6CE127FD4";
+shapes = (
+{
+ref = B;
+}
+);
+width = 474;
+},
+{
+layerId = "1D4F67F9-897D-45AD-B7F0-CA61A6862C03";
+shapes = (
+{
+ref = B;
+}
+);
+width = 622;
+},
+{
+layerId = "A0CCC833-A561-4F2A-AF73-A35187C9FE5B";
+shapes = (
+{
+ref = B;
+}
+);
+width = 529;
+}
+);
+script = greek;
+subCategory = Uppercase;
+unicode = 914;
+}

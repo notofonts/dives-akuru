@@ -1,0 +1,14 @@
+# ninja log v5
+0	1093	1728567390321470495	instance_ufos/NotoSerifDivesAkuru-Regular.ufo.json	bf20bd5868e1da2d
+1093	7850	1728567397058212577	../fonts/NotoSerifDivesAkuru/unhinted/ttf/NotoSerifDivesAkuru-Regular.ttf	ae5ab43ffb41da85
+1093	13048	1728567402243664019	../fonts/NotoSerifDivesAkuru/unhinted/otf/NotoSerifDivesAkuru-Regular.otf	12bebe0e68cc3b9f
+1	1056	1728567559224394069	instance_ufos/NotoSerifDivesAkuru-Regular.ufo.json	bf20bd5868e1da2d
+1056	8476	1728567566640971661	../fonts/NotoSerifDivesAkuru/unhinted/ttf/NotoSerifDivesAkuru-Regular.ttf	ae5ab43ffb41da85
+8476	10149	1728567568277260931	../fonts/NotoSerifDivesAkuru/hinted/ttf/NotoSerifDivesAkuru-Regular.ttf	14d4d099ef1e8422
+1057	13141	1728567571277937794	../fonts/NotoSerifDivesAkuru/unhinted/otf/NotoSerifDivesAkuru-Regular.otf	12bebe0e68cc3b9f
+1	17767	1728567575242460511	full-designspace/NotoSerifDivesAkuru.designspace	9ca34e5d26f44963
+17767	18813	1728567576998619682	full-designspace/instance_ufos/NotoSerifDivesAkuru-Regular.ufo.json	6bdd569bd24918a5
+18813	26952	1728567585104598141	/var/folders/vw/f5w2tmys16q9dc_tq16mv_040000gn/T/tmpnxq6aoa3	25ac3e990983976b
+26952	28094	1728567586222964456	../fonts/NotoSerifDivesAkuru/full/ttf/NotoSerifDivesAkuru-Regular.ttf	729edd8aaf090e39
+28094	29403	1728567587549066399	../fonts/NotoSerifDivesAkuru/googlefonts/ttf/NotoSerifDivesAkuru-Regular.ttf	4ab5bb9c6b04cb3a
+18814	32533	1728567590647031517	../fonts/NotoSerifDivesAkuru/full/otf/NotoSerifDivesAkuru-Regular.otf	591a83b53cb06cb5

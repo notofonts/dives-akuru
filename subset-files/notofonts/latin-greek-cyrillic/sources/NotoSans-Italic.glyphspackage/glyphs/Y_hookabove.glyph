@@ -1,0 +1,228 @@
+{
+category = Letter;
+color = 10;
+glyphname = Yhookabove;
+kernLeft = Y.right;
+kernRight = Y.left;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (187,0);
+},
+{
+name = top;
+pos = (395,976);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+alignment = -1;
+ref = Y;
+},
+{
+alignment = -1;
+pos = (583,165);
+ref = hook;
+}
+);
+width = 485;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (198,0);
+},
+{
+name = top;
+pos = (408,985);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+alignment = -1;
+ref = Y;
+},
+{
+alignment = -1;
+pos = (583,165);
+ref = hook;
+}
+);
+width = 509;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (224,0);
+},
+{
+name = top;
+pos = (426,995);
+}
+);
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "18c058f6-d860-42a5-90e4-da2f8215c18e";
+name = "SemiBold Italic (intermediate)";
+shapes = (
+{
+alignment = -1;
+ref = Y;
+},
+{
+alignment = -1;
+pos = (585,165);
+ref = hook;
+}
+);
+width = 564;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (243,0);
+},
+{
+name = top;
+pos = (432,1002);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+alignment = -1;
+ref = Y;
+},
+{
+alignment = -1;
+pos = (586,165);
+ref = hook;
+}
+);
+width = 604;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (89,0);
+},
+{
+name = top;
+pos = (298,980);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+alignment = -1;
+ref = Y;
+},
+{
+alignment = -1;
+pos = (482,165);
+ref = hook;
+}
+);
+width = 289;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (123,0);
+},
+{
+name = top;
+pos = (332,988);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+alignment = -1;
+ref = Y;
+},
+{
+alignment = -1;
+pos = (487,165);
+ref = hook;
+}
+);
+width = 356;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (157,0);
+},
+{
+name = top;
+pos = (368,995);
+}
+);
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "b7a8fc05-f770-48fa-b2d1-ba5c0ca2c281";
+name = "SemiBold Condensed Italic (intermediate)";
+shapes = (
+{
+alignment = -1;
+ref = Y;
+},
+{
+alignment = -1;
+pos = (491,165);
+ref = hook;
+}
+);
+width = 425;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (189,0);
+},
+{
+name = top;
+pos = (401,1001);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+alignment = -1;
+ref = Y;
+},
+{
+alignment = -1;
+pos = (495,165);
+ref = hook;
+}
+);
+width = 489;
+}
+);
+script = latin;
+subCategory = Uppercase;
+unicode = 7926;
+}

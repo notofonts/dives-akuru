@@ -1,0 +1,160 @@
+{
+category = Mark;
+color = 10;
+glyphname = dasiavaria_brevecomb;
+layers = (
+{
+layerId = "A783126C-D342-49FA-8B69-0453AD03268C";
+shapes = (
+{
+alignment = -1;
+pos = (39,0);
+ref = breve;
+},
+{
+alignment = -1;
+pos = (28,132);
+ref = dasiavaria;
+}
+);
+width = 350;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+alignment = -1;
+pos = (35,-10);
+ref = breve;
+},
+{
+alignment = -1;
+pos = (32,147);
+ref = dasiavaria;
+}
+);
+width = 404;
+},
+{
+associatedMasterId = UUID0;
+attr = {
+coordinates = (
+152,
+100
+);
+};
+layerId = "3ec84eda-9373-4342-921e-3157b7779351";
+name = "SemiBold Italic (intermediate)";
+shapes = (
+{
+alignment = -1;
+pos = (30,100);
+ref = breve;
+scale = (1,0.832);
+},
+{
+alignment = -1;
+pos = (36,169);
+ref = dasiavaria;
+}
+);
+width = 447;
+},
+{
+layerId = "EFE4222C-09E4-4728-8E05-7459D7542305";
+shapes = (
+{
+alignment = -1;
+pos = (87,132);
+ref = breve;
+scale = (1,0.775);
+},
+{
+alignment = -1;
+pos = (38,176);
+ref = dasiavaria;
+}
+);
+width = 515;
+},
+{
+layerId = "9563C917-11DF-412F-BB09-FC0C1CFFA48C";
+shapes = (
+{
+alignment = -1;
+pos = (27,-10);
+ref = breve;
+},
+{
+alignment = -1;
+pos = (25,119);
+ref = dasiavaria;
+}
+);
+width = 307;
+},
+{
+layerId = "44BFC83C-08F8-422F-A73E-536514612562";
+shapes = (
+{
+alignment = -1;
+pos = (28,69);
+ref = breve;
+scale = (1,0.877);
+},
+{
+alignment = -1;
+pos = (27,127);
+ref = dasiavaria;
+}
+);
+width = 349;
+},
+{
+associatedMasterId = "44BFC83C-08F8-422F-A73E-536514612562";
+attr = {
+coordinates = (
+152,
+70
+);
+};
+layerId = "ba346ded-6555-412d-85e7-aec1838b5020";
+name = "SemiBold Condensed Italic (intermediate)";
+shapes = (
+{
+alignment = -1;
+pos = (37,121);
+ref = breve;
+scale = (1,0.807);
+},
+{
+alignment = -1;
+pos = (37,174);
+ref = dasiavaria;
+}
+);
+width = 383;
+},
+{
+layerId = "081AFB27-5722-432A-9779-C9794386CEF1";
+shapes = (
+{
+alignment = -1;
+pos = (39,121);
+ref = breve;
+scale = (1,0.808);
+},
+{
+alignment = -1;
+pos = (38,179);
+ref = dasiavaria;
+}
+);
+width = 430;
+}
+);
+metricLeft = "=dasiavaria";
+metricRight = "=dasiavaria";
+script = greek;
+subCategory = Spacing;
+}

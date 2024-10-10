@@ -1,0 +1,128 @@
+{
+color = 10;
+glyphname = iotamacron.sc.ss06;
+kernLeft = GRK_epsilon.sc;
+kernRight = GRK_eta.sc;
+layers = (
+{
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+ref = iota.sc;
+},
+{
+pos = (-90,31);
+ref = macroncomb.sc;
+}
+);
+width = 200;
+},
+{
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+ref = iota.sc;
+},
+{
+pos = (-126,0);
+ref = macroncomb.sc;
+}
+);
+width = 281;
+},
+{
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "d63dff9b-2c0d-49ad-94c9-0fe0a65b2d42";
+name = "SemiBold Italic (intermediate)";
+shapes = (
+{
+ref = iota.sc;
+},
+{
+pos = (-59,0);
+ref = macroncomb.sc;
+}
+);
+width = 348;
+},
+{
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+ref = iota.sc;
+},
+{
+pos = (-81,0);
+ref = macroncomb.sc;
+}
+);
+width = 396;
+},
+{
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+ref = iota.sc;
+},
+{
+pos = (-106,0);
+ref = macroncomb.sc;
+}
+);
+width = 144;
+},
+{
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+ref = iota.sc;
+},
+{
+pos = (-87,18);
+ref = macroncomb.sc;
+}
+);
+width = 235;
+},
+{
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "98b6e1f2-58d2-4c0e-97fd-3e8b03e8509e";
+name = "SemiBold Condensed Italic (intermediate)";
+shapes = (
+{
+ref = iota.sc;
+},
+{
+pos = (-79,39);
+ref = macroncomb.sc;
+}
+);
+width = 290;
+},
+{
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+ref = iota.sc;
+},
+{
+pos = (-71,59);
+ref = macroncomb.sc;
+}
+);
+width = 344;
+}
+);
+}

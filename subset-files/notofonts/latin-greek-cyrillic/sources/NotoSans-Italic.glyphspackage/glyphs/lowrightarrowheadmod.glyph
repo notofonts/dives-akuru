@@ -1,0 +1,162 @@
+{
+category = Symbol;
+color = 10;
+glyphname = lowrightarrowheadmod;
+layers = (
+{
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(133,-133,l),
+(137,-115,l),
+(-20,-24,l),
+(-25,-52,l),
+(100,-122,l),
+(-56,-192,l),
+(-64,-223,l)
+);
+}
+);
+width = 258;
+},
+{
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(205,-133,l),
+(215,-84,l),
+(-12,23,l),
+(-26,-43,l),
+(123,-104,l),
+(-52,-168,l),
+(-68,-240,l)
+);
+}
+);
+width = 330;
+},
+{
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(186.09,-133,l),
+(196.09,-84,l),
+(-13.22,23,l),
+(-27.83,-44.83,l),
+(110.19,-107.05,l),
+(-53.83,-169.83,l),
+(-69.22,-240,l)
+);
+}
+);
+};
+layerId = "1be5c1e0-5faa-4f83-a170-cfac77a126b9";
+name = "SemiBold Italic (intermediate)";
+shapes = (
+{
+closed = 1;
+nodes = (
+(204,-133,l),
+(214,-84,l),
+(-13,23,l),
+(-27,-43,l),
+(122,-104,l),
+(-53,-168,l),
+(-69,-240,l)
+);
+}
+);
+width = 330;
+},
+{
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+closed = 1;
+nodes = (
+(174,-133,l),
+(184,-84,l),
+(-14,23,l),
+(-29,-46,l),
+(102,-109,l),
+(-55,-171,l),
+(-70,-240,l)
+);
+}
+);
+width = 301;
+},
+{
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,-121,l),
+(105,-96,l),
+(-15,-3,l),
+(-22,-37,l),
+(67,-106,l),
+(-51,-174,l),
+(-61,-214,l)
+);
+}
+);
+width = 222;
+},
+{
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(123,-125,l),
+(130,-92,l),
+(-14,6,l),
+(-24,-39,l),
+(77,-105,l),
+(-51,-171,l),
+(-64,-223,l)
+);
+}
+);
+width = 247;
+},
+{
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(158,-132,l),
+(168,-85,l),
+(-13,21,l),
+(-27,-41,l),
+(91,-104,l),
+(-53,-166,l),
+(-69,-238,l)
+);
+}
+);
+width = 285;
+}
+);
+metricLeft = lowdownarrowheadmod;
+metricRight = lowdownarrowheadmod;
+script = "";
+subCategory = Modifier;
+unicode = 754;
+}

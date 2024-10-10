@@ -1,0 +1,190 @@
+{
+category = Letter;
+color = 10;
+glyphname = "Iishort-cy";
+kernLeft = "En-cy";
+kernRight = "En-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (359,0);
+},
+{
+name = top;
+pos = (365,893);
+}
+);
+layerId = "AB666A95-3AF9-4DE8-B258-097FFCFE8A59";
+shapes = (
+{
+alignment = -1;
+ref = "Ii-cy";
+},
+{
+pos = (240,0);
+ref = cyrillicbreve.cap;
+}
+);
+width = 712;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (379,0);
+},
+{
+name = top;
+pos = (380,902);
+}
+);
+layerId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+shapes = (
+{
+alignment = -1;
+ref = "Ii-cy";
+},
+{
+pos = (223,0);
+ref = cyrillicbreve.cap;
+}
+);
+width = 756;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (396,0);
+},
+{
+name = top;
+pos = (394,935);
+}
+);
+associatedMasterId = "9FF96064-8718-4A86-A5C8-73C592101F67";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "23cf710d-1169-405f-924a-c50dde30cd03";
+name = "SemiBold (intermediate)";
+shapes = (
+{
+alignment = -1;
+ref = "Ii-cy";
+},
+{
+pos = (194,0);
+ref = cyrillicbreve.cap;
+}
+);
+width = 791;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (391,0);
+},
+{
+name = top;
+pos = (395,940);
+}
+);
+layerId = "0A718E2F-231D-484E-9433-16A5230D2CE8";
+shapes = (
+{
+alignment = -1;
+ref = "Ii-cy";
+},
+{
+pos = (185,0);
+ref = cyrillicbreve.cap;
+}
+);
+width = 783;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (247,0);
+},
+{
+name = top;
+pos = (247,884);
+}
+);
+layerId = "029FEF0C-5FA4-4A3E-AC23-838A1147A554";
+shapes = (
+{
+alignment = -1;
+ref = "Ii-cy";
+},
+{
+pos = (148,-2);
+ref = cyrillicbreve.cap;
+}
+);
+width = 496;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (277,0);
+},
+{
+name = top;
+pos = (280,894);
+}
+);
+layerId = "36F3C8CB-53EE-4548-BFDE-2C03212BACAA";
+shapes = (
+{
+alignment = -1;
+ref = "Ii-cy";
+},
+{
+pos = (149,0);
+ref = cyrillicbreve.cap;
+}
+);
+width = 551;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (313,0);
+},
+{
+name = top;
+pos = (313,934);
+}
+);
+layerId = "98E204A9-1C79-49C7-AB3E-40A925F56409";
+shapes = (
+{
+alignment = -1;
+ref = "Ii-cy";
+},
+{
+pos = (139,0);
+ref = cyrillicbreve.cap;
+}
+);
+width = 622;
+}
+);
+metricLeft = "Ii-cy";
+metricWidth = "Ii-cy";
+script = cyrillic;
+subCategory = Uppercase;
+unicode = 1049;
+}

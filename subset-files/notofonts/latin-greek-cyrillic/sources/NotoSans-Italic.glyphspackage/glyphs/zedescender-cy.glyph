@@ -1,0 +1,190 @@
+{
+category = Letter;
+color = 10;
+glyphname = "zedescender-cy";
+kernLeft = "ze-cy";
+kernRight = "ve-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (106,-217);
+},
+{
+name = top;
+pos = (246,528);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (135,0);
+ref = cyrillichookleft;
+}
+);
+width = 423;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (107,-217);
+},
+{
+name = top;
+pos = (262,536);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (137,0);
+ref = cyrillichookleft;
+}
+);
+width = 446;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (164,-240);
+},
+{
+name = top;
+pos = (288,546);
+}
+);
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "684cc7cd-62cd-4649-917f-9c5bd0ce4250";
+name = "SemiBold Italic (intermediate)";
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (180,0);
+ref = cyrillichookleft;
+}
+);
+width = 497;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (193,-256);
+},
+{
+name = top;
+pos = (299,553);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (210,0);
+ref = cyrillichookleft;
+}
+);
+width = 510;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (13,-214);
+},
+{
+name = top;
+pos = (170,526);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (23,0);
+ref = cyrillichookleft;
+}
+);
+width = 269;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (55,-224);
+},
+{
+name = top;
+pos = (214,536);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (62,0);
+ref = cyrillichookleft;
+}
+);
+width = 337;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (107,-240);
+},
+{
+name = top;
+pos = (260,553);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+alignment = -1;
+pos = (134,0);
+ref = cyrillichookleft;
+}
+);
+width = 415;
+}
+);
+metricLeft = "ze-cy";
+metricWidth = "ze-cy";
+script = cyrillic;
+subCategory = Lowercase;
+unicode = 1177;
+}

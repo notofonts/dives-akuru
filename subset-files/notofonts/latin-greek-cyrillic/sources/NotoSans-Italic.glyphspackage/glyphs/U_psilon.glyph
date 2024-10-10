@@ -1,0 +1,145 @@
+{
+color = 10;
+glyphname = Upsilon;
+kernLeft = GRK_Upsilon;
+kernRight = GRK_Upsilon;
+layers = (
+{
+anchors = (
+{
+name = topleft;
+pos = (53,714);
+}
+);
+layerId = "891911EE-97A3-4583-AC34-B57874F49FBA";
+shapes = (
+{
+ref = Y;
+}
+);
+width = 289;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (53,714);
+}
+);
+layerId = "4ABFEEF6-B0FE-443E-B48D-B4A70A3A2C9A";
+shapes = (
+{
+ref = Y;
+}
+);
+width = 485;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (53,714);
+}
+);
+associatedMasterId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+attr = {
+coordinates = (
+151,
+100
+);
+};
+layerId = "c659336c-b249-4455-8575-dfc6ff9c2d22";
+name = "SemiBold Italic (intermediate)";
+shapes = (
+{
+ref = Y;
+}
+);
+width = 564;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (53,714);
+}
+);
+associatedMasterId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+attr = {
+coordinates = (
+151,
+70
+);
+};
+layerId = "07c527e7-fb40-4f83-9d46-6510883ddcf1";
+name = "SemiBold Condensed Italic (intermediate)";
+shapes = (
+{
+ref = Y;
+}
+);
+width = 425;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (53,714);
+}
+);
+layerId = "9733853B-DD8E-49B4-939D-1F0D465E8B6E";
+shapes = (
+{
+ref = Y;
+}
+);
+width = 509;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (53,714);
+}
+);
+layerId = "A849C433-1DA2-4174-AEA9-F403839AA1E5";
+shapes = (
+{
+ref = Y;
+}
+);
+width = 356;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (53,714);
+}
+);
+layerId = "1C9FFC3E-B033-49C1-8526-F3CD51FE3A6C";
+shapes = (
+{
+ref = Y;
+}
+);
+width = 489;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (53,714);
+}
+);
+layerId = "84606D06-D269-45BD-896C-8402F9D7AD38";
+shapes = (
+{
+ref = Y;
+}
+);
+width = 604;
+}
+);
+unicode = 933;
+}
