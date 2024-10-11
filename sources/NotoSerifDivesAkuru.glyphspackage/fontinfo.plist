@@ -120,34 +120,45 @@ code = "yya-divesakuru yya_aaVowel-divesakuru yya_iVowel-divesakuru yya_iiVowel-
 name = yya;
 },
 {
-code = "ha-divesakuru na-divesakuru na_aaVowel-divesakuru na_iVowel-divesakuru na_iiVowel-divesakuru na_uVowel-divesakuru na_uuVowel-divesakuru na_halanta-divesakuru ha_medra-divesakuru ha_medra_aaVowel-divesakuru ha_medya_iVowel-divesakuru ha_aaVowel-divesakuru ha_halanta-divesakuru ha_iiVowel-divesakuru ha_iVowel-divesakuru ha_uuVowel-divesakuru ha_uVowel-divesakuru na_medra_aaVowel-divesakuru na_medra-divesakuru
+code = "ha-divesakuru na-divesakuru na_aaVowel-divesakuru na_iVowel-divesakuru na_iiVowel-divesakuru na_uVowel-divesakuru na_uuVowel-divesakuru na_halanta-divesakuru ha_medya_iVowel-divesakuru ha_aaVowel-divesakuru ha_halanta-divesakuru ha_iiVowel-divesakuru ha_iVowel-divesakuru ha_uuVowel-divesakuru ha_uVowel-divesakuru na_medya_iVowel-divesakuru na_tha-divesakuru
 ";
 name = "contextual-kerning-0";
 },
 {
-code = "va-divesakuru dda-divesakuru va_aaVowel-divesakuru va_iVowel-divesakuru va_iiVowel-divesakuru va_uVowel-divesakuru va_uuVowel-divesakuru va_halanta-divesakuru dda_aaVowel-divesakuru dda_iVowel-divesakuru dda_iiVowel-divesakuru dda_uVowel-divesakuru dda_uuVowel-divesakuru dda_halanta-divesakuru dda_medya_iVowel-divesakuru va_medya_iVowel-divesakuru va_medya_uVowel-divesakuru va_medya-divesakuru va-divesakuru.alt za_aaVowel-divesakuru za_halanta-divesakuru za_iiVowel-divesakuru za_iVowel-divesakuru za_uuVowel-divesakuru za_uVowel-divesakuru za-divesakuru ya_medra-divesakuru pa_medra-divesakuru ka_medra_uVowel-divesakuru sa_medra_iiVowel-divesakuru ya-divesakuru ya_aaVowel-divesakuru ya_iVowel-divesakuru ya_iiVowel-divesakuru ya_uVowel-divesakuru ya_uuVowel-divesakuru ya_halanta-divesakuru
+code = "va-divesakuru dda-divesakuru va_aaVowel-divesakuru va_iVowel-divesakuru va_iiVowel-divesakuru va_uVowel-divesakuru va_uuVowel-divesakuru va_halanta-divesakuru dda_aaVowel-divesakuru dda_iVowel-divesakuru dda_iiVowel-divesakuru dda_uVowel-divesakuru dda_uuVowel-divesakuru dda_halanta-divesakuru dda_medya_iVowel-divesakuru va_medya_iVowel-divesakuru va_medya_uVowel-divesakuru va_medya-divesakuru va-divesakuru.alt za_aaVowel-divesakuru za_halanta-divesakuru za_iiVowel-divesakuru za_iVowel-divesakuru za_uuVowel-divesakuru za_uVowel-divesakuru za-divesakuru ya-divesakuru ya_aaVowel-divesakuru ya_iVowel-divesakuru ya_iiVowel-divesakuru ya_uVowel-divesakuru ya_uuVowel-divesakuru ya_halanta-divesakuru ya_medya_iVowel-divesakuru
 ";
 name = "contextual-kerning-1";
 },
 {
-code = "tta-divesakuru tta_aaVowel-divesakuru tta_iVowel-divesakuru tta_iiVowel-divesakuru tta_uVowel-divesakuru tta_uuVowel-divesakuru tta_halanta-divesakuru ta_ta-divesakuru ta_tha-divesakuru ta_medya_iVowel-divesakuru ta_medya_halanta-divesakuru ta_halanta-divesakuru.0001 ta_halanta-divesakuru.0002 ta_halanta-divesakuru.0003 ta_halanta-divesakuru.0004 ta_halanta-divesakuru.0005 ta_halanta-divesakuru.0006 ta_halanta-divesakuru.0007 ta_halanta-divesakuru.0008 ta_halanta-divesakuru.0009 ta_halanta-divesakuru.0010 ta_halanta-divesakuru.0011 
-";
+code = "tta-divesakuru tta_aaVowel-divesakuru tta_iVowel-divesakuru tta_iiVowel-divesakuru tta_uVowel-divesakuru tta_uuVowel-divesakuru tta_halanta-divesakuru ";
 name = "contextual-kerning-2";
 },
 {
-code = "ka-divesakuru nna-divesakuru ta-divesakuru dha-divesakuru pa-divesakuru pha-divesakuru ma-divesakuru ssa-divesakuru ka_aaVowel-divesakuru ka_iVowel-divesakuru ka_iiVowel-divesakuru ka_uVowel-divesakuru ka_uuVowel-divesakuru ka_halanta-divesakuru ka_medya_iVowel-divesakuru nna_aaVowel-divesakuru nna_iVowel-divesakuru nna_iiVowel-divesakuru nna_uVowel-divesakuru nna_uuVowel-divesakuru nna_halanta-divesakuru ta_aaVowel-divesakuru ta_iVowel-divesakuru ta_iiVowel-divesakuru ta_uVowel-divesakuru ta_uuVowel-divesakuru ta_halanta-divesakuru dha_aaVowel-divesakuru dha_iVowel-divesakuru dha_iiVowel-divesakuru dha_uVowel-divesakuru dha_uuVowel-divesakuru dha_halanta-divesakuru dha_medya-divesakuru pa_aaVowel-divesakuru pa_iVowel-divesakuru pa_iiVowel-divesakuru pa_uVowel-divesakuru pa_uuVowel-divesakuru pa_halanta-divesakuru pha_aaVowel-divesakuru pha_iVowel-divesakuru pha_iiVowel-divesakuru pha_uVowel-divesakuru pha_uuVowel-divesakuru pha_halanta-divesakuru ma_aaVowel-divesakuru ma_iVowel-divesakuru ma_iiVowel-divesakuru ma_uVowel-divesakuru ma_uuVowel-divesakuru ma_halanta-divesakuru la_aaVowel-divesakuru la_iVowel-divesakuru la_iiVowel-divesakuru la_uVowel-divesakuru la_uuVowel-divesakuru la_halanta-divesakuru ssa_halanta-divesakuru ba_va-divesakuru ka_dha_uVowel-divesakuru ka_halanta-divesakuru.0001 ka_halanta-divesakuru.0002 ka_halanta-divesakuru.0003 ka_halanta-divesakuru.0004 ka_halanta-divesakuru.0005 ka_halanta-divesakuru.0006 ka_halanta-divesakuru.0007 ka_halanta-divesakuru.0008 ka_halanta-divesakuru.0009 ka_halanta-divesakuru.0010 ka_halanta-divesakuru.0011  ka_ssa_halanta-divesakuru ka_tha-divesakuru la_medya-divesakuru ma_medya_iiVowel-divesakuru ma_medya_iVowel-divesakuru ma_medya-divesakuru ma-divesakuru.alt na_halanta-divesakuru.0001 na_halanta-divesakuru.0002 na_halanta-divesakuru.0003 na_halanta-divesakuru.0004 na_halanta-divesakuru.0005 na_halanta-divesakuru.0006 na_halanta-divesakuru.0007 na_halanta-divesakuru.0008 na_halanta-divesakuru.0009 na_halanta-divesakuru.0010 na_halanta-divesakuru.0011 na_medya_iVowel-divesakuru na_tha-divesakuru nna-divesakuru.alt   ya_medya_iVowel-divesakuru lla-divesakuru lla_medya_iVowel-divesakuru lla-divesakuru.alt lla_iVowel-divesakuru lla_iiVowel-divesakuru lla_uVowel-divesakuru lla_uuVowel-divesakuru lla_halanta-divesakuru la-divesakuru
+code = "ka-divesakuru nna-divesakuru ta-divesakuru dha-divesakuru pa-divesakuru pha-divesakuru ma-divesakuru ssa-divesakuru ka_aaVowel-divesakuru ka_iVowel-divesakuru ka_iiVowel-divesakuru ka_uVowel-divesakuru ka_uuVowel-divesakuru ka_halanta-divesakuru ka_medya_iVowel-divesakuru nna_aaVowel-divesakuru nna_iVowel-divesakuru nna_iiVowel-divesakuru nna_uVowel-divesakuru nna_uuVowel-divesakuru nna_halanta-divesakuru ta_aaVowel-divesakuru ta_iVowel-divesakuru ta_iiVowel-divesakuru ta_uVowel-divesakuru ta_uuVowel-divesakuru ta_halanta-divesakuru dha_aaVowel-divesakuru dha_iVowel-divesakuru dha_iiVowel-divesakuru dha_uVowel-divesakuru dha_uuVowel-divesakuru dha_halanta-divesakuru dha_medya-divesakuru pa_aaVowel-divesakuru pa_iVowel-divesakuru pa_iiVowel-divesakuru pa_uVowel-divesakuru pa_uuVowel-divesakuru pa_halanta-divesakuru pha_aaVowel-divesakuru pha_iVowel-divesakuru pha_iiVowel-divesakuru pha_uVowel-divesakuru pha_uuVowel-divesakuru pha_halanta-divesakuru ma_aaVowel-divesakuru ma_iVowel-divesakuru ma_iiVowel-divesakuru ma_uVowel-divesakuru ma_uuVowel-divesakuru ma_halanta-divesakuru la_aaVowel-divesakuru la_iVowel-divesakuru la_iiVowel-divesakuru la_uVowel-divesakuru la_uuVowel-divesakuru la_halanta-divesakuru ssa_halanta-divesakuru ka_dha_uVowel-divesakuru ka_halanta-divesakuru.0001 ka_halanta-divesakuru.0002 ka_halanta-divesakuru.0003 ka_halanta-divesakuru.0004 ka_halanta-divesakuru.0005 ka_halanta-divesakuru.0006 ka_halanta-divesakuru.0007 ka_halanta-divesakuru.0008 ka_halanta-divesakuru.0009 ka_halanta-divesakuru.0010 ka_halanta-divesakuru.0011  ka_ssa_halanta-divesakuru ka_tha-divesakuru la_medya-divesakuru ma_medya_iiVowel-divesakuru ma_medya_iVowel-divesakuru ma_medya-divesakuru ma-divesakuru.alt na_halanta-divesakuru.0001 na_halanta-divesakuru.0002 na_halanta-divesakuru.0003 na_halanta-divesakuru.0004 na_halanta-divesakuru.0005 na_halanta-divesakuru.0006 na_halanta-divesakuru.0007 na_halanta-divesakuru.0008 na_halanta-divesakuru.0009 na_halanta-divesakuru.0010 na_halanta-divesakuru.0011 nna-divesakuru.alt lla-divesakuru lla_medya_iVowel-divesakuru lla-divesakuru.alt lla_iVowel-divesakuru lla_iiVowel-divesakuru lla_uVowel-divesakuru lla_uuVowel-divesakuru lla_halanta-divesakuru la-divesakuru ta_halanta-divesakuru.0001 ta_halanta-divesakuru.0002 ta_halanta-divesakuru.0003 ta_halanta-divesakuru.0004 ta_halanta-divesakuru.0005 ta_halanta-divesakuru.0006 ta_halanta-divesakuru.0007 ta_halanta-divesakuru.0008 ta_halanta-divesakuru.0009 ta_halanta-divesakuru.0010 ta_halanta-divesakuru.0011 ta_ta-divesakuru ta_tha-divesakuru ta_medya_iVowel-divesakuru ta_medya_halanta-divesakuru 
+
 ";
 name = "contextual-kerning-3";
 },
 {
-code = "ba-divesakuru bha-divesakuru ba_aaVowel-divesakuru ba_iVowel-divesakuru ba_iiVowel-divesakuru ba_uVowel-divesakuru ba_uuVowel-divesakuru ba_halanta-divesakuru bha_aaVowel-divesakuru bha_iVowel-divesakuru bha_iiVowel-divesakuru bha_uVowel-divesakuru bha_uuVowel-divesakuru bha_halanta-divesakuru yya-divesakuru yya_aaVowel-divesakuru yya_iVowel-divesakuru yya_iiVowel-divesakuru yya_uVowel-divesakuru yya_uuVowel-divesakuru yya_halanta-divesakuru
+code = "ba-divesakuru bha-divesakuru ba_aaVowel-divesakuru ba_iVowel-divesakuru ba_iiVowel-divesakuru ba_uVowel-divesakuru ba_uuVowel-divesakuru ba_halanta-divesakuru bha_aaVowel-divesakuru bha_iVowel-divesakuru bha_iiVowel-divesakuru bha_uVowel-divesakuru bha_uuVowel-divesakuru bha_halanta-divesakuru yya-divesakuru yya_aaVowel-divesakuru yya_iVowel-divesakuru yya_iiVowel-divesakuru yya_uVowel-divesakuru yya_uuVowel-divesakuru yya_halanta-divesakuru ba_va-divesakuru
 ";
 name = "contextual-kerning-3-2";
 },
 {
-code = "ga-divesakuru sa-divesakuru  da-divesakuru ddha-divesakuru ra-divesakuru ga_aaVowel-divesakuru ga_iVowel-divesakuru ga_iiVowel-divesakuru ga_uVowel-divesakuru ga_uuVowel-divesakuru ga_halanta-divesakuru sa_aaVowel-divesakuru sa_iVowel-divesakuru sa_iiVowel-divesakuru sa_uVowel-divesakuru sa_uuVowel-divesakuru sa_halanta-divesakuru lla_aaVowel-divesakuru da_aaVowel-divesakuru da_iVowel-divesakuru da_iiVowel-divesakuru da_uVowel-divesakuru da_uuVowel-divesakuru da_halanta-divesakuru ddha_aaVowel-divesakuru ddha_iVowel-divesakuru ddha_iiVowel-divesakuru ddha_uVowel-divesakuru ddha_uuVowel-divesakuru ddha_halanta-divesakuru ddha_medya-divesakuru ra_aaVowel-divesakuru ra_iVowel-divesakuru ra_iiVowel-divesakuru ra_uVowel-divesakuru ra_uuVowel-divesakuru ra_halanta-divesakuru sa_va-divesakuru sa_medya-divesakuru
+code = "ga-divesakuru sa-divesakuru  da-divesakuru ddha-divesakuru ra-divesakuru ga_aaVowel-divesakuru ga_iVowel-divesakuru ga_iiVowel-divesakuru ga_uVowel-divesakuru ga_uuVowel-divesakuru ga_halanta-divesakuru sa_aaVowel-divesakuru sa_iVowel-divesakuru sa_iiVowel-divesakuru sa_uVowel-divesakuru sa_uuVowel-divesakuru sa_halanta-divesakuru lla_aaVowel-divesakuru da_aaVowel-divesakuru da_iVowel-divesakuru da_iiVowel-divesakuru da_uVowel-divesakuru da_uuVowel-divesakuru da_halanta-divesakuru ddha_aaVowel-divesakuru ddha_iVowel-divesakuru ddha_iiVowel-divesakuru ddha_uVowel-divesakuru ddha_uuVowel-divesakuru ddha_halanta-divesakuru ddha_medya-divesakuru ra_aaVowel-divesakuru ra_iVowel-divesakuru ra_iiVowel-divesakuru ra_uVowel-divesakuru ra_uuVowel-divesakuru ra_halanta-divesakuru sa_medya-divesakuru sa_va-divesakuru
 ";
 name = "contextual-kerning-4";
+},
+{
+code = "ka_oVowel-divesakuru ga_oVowel-divesakuru ddha_oVowel-divesakuru nna_oVowel-divesakuru ta_oVowel-divesakuru da_oVowel-divesakuru dha_oVowel-divesakuru pa_oVowel-divesakuru pha_oVowel-divesakuru ma_oVowel-divesakuru yya_oVowel-divesakuru ra_oVowel-divesakuru la_oVowel-divesakuru sa_oVowel-divesakuru lla_oVowel-divesakuru ka_eVowel-divesakuru ga_eVowel-divesakuru ddha_eVowel-divesakuru nna_eVowel-divesakuru ta_eVowel-divesakuru da_eVowel-divesakuru dha_eVowel-divesakuru pa_eVowel-divesakuru pha_eVowel-divesakuru ma_eVowel-divesakuru yya_eVowel-divesakuru ra_eVowel-divesakuru la_eVowel-divesakuru sa_eVowel-divesakuru lla_eVowel-divesakuru ta_ta_eVowel-divesakuru ma_medya_eVowel-divesakuru
+";
+name = "contextual-kerning-5";
+},
+{
+code = "ya_medra-divesakuru pa_medra-divesakuru ka_medra_uVowel-divesakuru ha_medra-divesakuru ha_medra_aaVowel-divesakuru na_medra_aaVowel-divesakuru na_medra-divesakuru ta_medra_uVowel-divesakuru
+
+";
+name = "contextual-kerning-6";
 },
 {
 code = "dda_halanta-divesakuru ddha_halanta-divesakuru dha_halanta-divesakuru pa_halanta-divesakuru ya_halanta-divesakuru yya_halanta-divesakuru la_halanta-divesakuru ssa_halanta-divesakuru sa_halanta-divesakuru za_halanta-divesakuru ka_ssa_halanta-divesakuru ";
@@ -2573,7 +2584,7 @@ lookup MedialForms {
 	sub ha-divesakuru ya-divesakuru.medi by ha_medra-divesakuru;
 	sub ma-divesakuru ya-divesakuru.medi iVowel-divesakuru by ma_medya_iVowel-divesakuru;
 	sub ma-divesakuru ya-divesakuru.medi iiVowel-divesakuru by ma_medya_iiVowel-divesakuru;
-	sub ma-divesakuru ya-divesakuru.medi eVowel-divesakuru by ma_medya_eVowel-divesakuru;
+	sub ma_eVowel-divesakuru ya-divesakuru.medi by ma_medya_eVowel-divesakuru;
 	sub ya-divesakuru ra-divesakuru.medi by ya_medra-divesakuru;
 	sub ya-divesakuru ya-divesakuru.medi iVowel-divesakuru by ya_medya_iVowel-divesakuru;
 	sub la-divesakuru ya-divesakuru.medi by la_medya-divesakuru;
@@ -3721,6 +3732,7 @@ pos @contextual-kerning-halanta-1' 280 @contextual-kerning-2 prefixedNasalSign-d
 pos @contextual-kerning-halanta-1' 300 @contextual-kerning-3 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-1' 260 @contextual-kerning-3-2 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-1' 420 @contextual-kerning-4 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-1' 120 @contextual-kerning-6 prefixedNasalSign-divesakuru;
 
 pos @contextual-kerning-halanta-2' 80 @contextual-kerning-0 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-2' 520 @contextual-kerning-1 prefixedNasalSign-divesakuru;
@@ -3728,6 +3740,7 @@ pos @contextual-kerning-halanta-2' 740 @contextual-kerning-2 prefixedNasalSign-d
 pos @contextual-kerning-halanta-2' 780 @contextual-kerning-3 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-2' 680 @contextual-kerning-3-2 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-2' 850 @contextual-kerning-4 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-2' 160 @contextual-kerning-5 prefixedNasalSign-divesakuru;
 
 pos @contextual-kerning-halanta-3' 200 @contextual-kerning-0 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-3' 490 @contextual-kerning-1 prefixedNasalSign-divesakuru;
@@ -3735,8 +3748,7 @@ pos @contextual-kerning-halanta-3' 530 @contextual-kerning-2 prefixedNasalSign-d
 pos @contextual-kerning-halanta-3' 750 @contextual-kerning-3 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-3' 650 @contextual-kerning-3-2 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-3' 800 @contextual-kerning-4 prefixedNasalSign-divesakuru;
-pos @contextual-kerning-halanta-3' 800 @contextual-kerning-4 prefixedNasalSign-divesakuru;
-
+pos @contextual-kerning-halanta-3' 160 @contextual-kerning-5 prefixedNasalSign-divesakuru;
 
 pos @contextual-kerning-halanta-4' 40 @contextual-kerning-0 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-4' 50 @contextual-kerning-1 prefixedNasalSign-divesakuru;
@@ -3744,17 +3756,19 @@ pos @contextual-kerning-halanta-4' 300 @contextual-kerning-2 prefixedNasalSign-d
 pos @contextual-kerning-halanta-4' 260 @contextual-kerning-3 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-4' 140 @contextual-kerning-3-2 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-4' 500 @contextual-kerning-4 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-4' 150 @contextual-kerning-6 prefixedNasalSign-divesakuru;
 
 } contextual-kerning-1;
 
 lookup contextual-kerning-2 {
 pos @contextual-kerning-halanta-1' 140 [za-divesakuru za_aaVowel-divesakuru za_iVowel-divesakuru za_iiVowel-divesakuru za_uVowel-divesakuru za_uuVowel-divesakuru za_halanta-divesakuru ] prefixedNasalSign-divesakuru;
-pos @contextual-kerning-halanta-2' 200 [ya-divesakuru ya_aaVowel-divesakuru ya_iVowel-divesakuru ya_iiVowel-divesakuru ya_uVowel-divesakuru ya_uuVowel-divesakuru ya_medya_iVowel-divesakuru] prefixedNasalSign-divesakuru;
-pos @contextual-kerning-halanta-3' 200 [ya-divesakuru ya_aaVowel-divesakuru ya_iVowel-divesakuru ya_iiVowel-divesakuru ya_uVowel-divesakuru ya_uuVowel-divesakuru ya_medya_iVowel-divesakuru] prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-2' 200 [ya-divesakuru ya_aaVowel-divesakuru ya_iVowel-divesakuru ya_iiVowel-divesakuru ya_uVowel-divesakuru ya_uuVowel-divesakuru ya_medya_iVowel-divesakuru ya_halanta-divesakuru] prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-3' 200 [ya-divesakuru ya_aaVowel-divesakuru ya_iVowel-divesakuru ya_iiVowel-divesakuru ya_uVowel-divesakuru ya_uuVowel-divesakuru ya_medya_iVowel-divesakuru ya_halanta-divesakuru] prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-2' -100 [ddha-divesakuru ddha_aaVowel-divesakuru ddha_iVowel-divesakuru ddha_iiVowel-divesakuru ddha_uVowel-divesakuru ddha_uuVowel-divesakuru ddha_halanta-divesakuru ddha_medya-divesakuru] prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-3' -100 [ddha-divesakuru ddha_aaVowel-divesakuru ddha_iVowel-divesakuru ddha_iiVowel-divesakuru ddha_uVowel-divesakuru ddha_uuVowel-divesakuru ddha_halanta-divesakuru ddha_medya-divesakuru] prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-4' 140 [za-divesakuru za_aaVowel-divesakuru za_iVowel-divesakuru za_iiVowel-divesakuru za_uVowel-divesakuru za_uuVowel-divesakuru za_halanta-divesakuru] prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-4' -100 [ra-divesakuru ra_aaVowel-divesakuru ra_iVowel-divesakuru ra_iiVowel-divesakuru ra_uVowel-divesakuru ra_uuVowel-divesakuru ra_halanta-divesakuru] prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-2' 100 ya_medra-divesakuru prefixedNasalSign-divesakuru;
 } contextual-kerning-2;
 ";
 tag = kern;
