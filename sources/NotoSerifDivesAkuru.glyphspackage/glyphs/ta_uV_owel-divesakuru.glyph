@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "ta_uVowel-divesakuru";
 kernLeft = ta_uVowel;
 kernRight = u;

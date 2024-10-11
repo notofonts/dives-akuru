@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "ka_ssa_halanta-divesakuru";
 kernLeft = ka_uVowel;
 kernRight = dha_halanta;
