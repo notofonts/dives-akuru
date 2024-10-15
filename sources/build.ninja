@@ -62,7 +62,7 @@ build instance_ufos/NotoSerifDivesAkuru-Regular.ufo.json: instantiateUfo $
 # Generating full-designspace/NotoSerifDivesAkuru.designspace
 build full-designspace/NotoSerifDivesAkuru.designspace: addSubset $
     NotoSerifDivesAkuru.designspace
-  yaml = /var/folders/vw/f5w2tmys16q9dc_tq16mv_040000gn/T/tmpzkphhc7r
+  yaml = /var/folders/vw/f5w2tmys16q9dc_tq16mv_040000gn/T/tmpxcbp0yjm
 # Generating
 # ../fonts/NotoSerifDivesAkuru/hinted/ttf/NotoSerifDivesAkuru-Regular.ttf
 build $
@@ -108,8 +108,8 @@ build full-designspace/instance_ufos/NotoSerifDivesAkuru-Regular.ufo.json: $
   fontmake_type = -m
   fontmake_args =  --verbose WARNING 
   args =  --ufo-structure=json --output-dir full-designspace/instance_ufos
-# Generating /var/folders/vw/f5w2tmys16q9dc_tq16mv_040000gn/T/tmpnxq6aoa3
-build /var/folders/vw/f5w2tmys16q9dc_tq16mv_040000gn/T/tmpnxq6aoa3: $
+# Generating /var/folders/vw/f5w2tmys16q9dc_tq16mv_040000gn/T/tmpoxutbofs
+build /var/folders/vw/f5w2tmys16q9dc_tq16mv_040000gn/T/tmpoxutbofs: $
     buildTTF $
     full-designspace/instance_ufos/NotoSerifDivesAkuru-Regular.ufo.json
   operation = buildTTF
@@ -132,7 +132,7 @@ build $
 # ../fonts/NotoSerifDivesAkuru/full/ttf/NotoSerifDivesAkuru-Regular.ttf
 build $
     ../fonts/NotoSerifDivesAkuru/full/ttf/NotoSerifDivesAkuru-Regular.ttf: $
-    autohint /var/folders/vw/f5w2tmys16q9dc_tq16mv_040000gn/T/tmpnxq6aoa3
+    autohint /var/folders/vw/f5w2tmys16q9dc_tq16mv_040000gn/T/tmpoxutbofs
   operation = autohint
   args = --fail-ok --auto-script --discount-latin
 default $
