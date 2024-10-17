@@ -48,8 +48,9 @@ nodes = (
 );
 }
 );
-width = 500;
+width = 777;
 }
 );
+metricRight = "u-divesakuru";
 unicode = 71987;
 }

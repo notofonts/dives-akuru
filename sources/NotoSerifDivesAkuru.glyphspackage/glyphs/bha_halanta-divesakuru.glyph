@@ -24,7 +24,7 @@ shapes = (
 ref = "bha-divesakuru";
 },
 {
-pos = (1247,-119);
+pos = (1442,-119);
 ref = "halanta-divesakuru";
 }
 );

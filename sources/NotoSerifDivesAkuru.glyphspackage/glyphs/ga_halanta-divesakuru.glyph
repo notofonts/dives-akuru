@@ -25,7 +25,7 @@ alignment = -1;
 ref = "ga-divesakuru";
 },
 {
-pos = (453,-154);
+pos = (648,-154);
 ref = "halanta-divesakuru";
 }
 );
