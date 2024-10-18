@@ -1481,17 +1481,27 @@ lookup toOOVowel {
 	sub [prefixedNasalSign-divesakuru prefixedNasalSign-divesakuru.alt] by ooVowel-divesakuru;
 } toOOVowel;
 
+lookup toHalanta {
+	sub [prefixedNasalSign-divesakuru prefixedNasalSign-divesakuru.alt] by halanta-divesakuru;
+} toHalanta;
+
+lookup toMedYa {
+	sub [prefixedNasalSign-divesakuru prefixedNasalSign-divesakuru.alt] by ya-divesakuru.medi;
+} toMedYa;
+
+
 lookup toPrefixedNasalSign {
-	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru ooVowel-divesakuru] by prefixedNasalSign-divesakuru;
+	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru ooVowel-divesakuru halanta-divesakuru ya-divesakuru.medi] by prefixedNasalSign-divesakuru;
 } toPrefixedNasalSign;
 
 
 lookup toPrefixedNasalSign.alt {
-	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru ooVowel-divesakuru] by prefixedNasalSign-divesakuru.alt;
+	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru ooVowel-divesakuru halanta-divesakuru ya-divesakuru.medi] by prefixedNasalSign-divesakuru.alt;
 } toPrefixedNasalSign.alt;
 
 lookup nukta_halanta { sub nukta-divesakuru by halanta-divesakuru; } nukta_halanta;
-lookup halanta_nukta { sub halanta-divesakuru by nukta-divesakuru; } halanta_nukta;";
+lookup halanta_nukta { sub halanta-divesakuru by nukta-divesakuru; } halanta_nukta;
+";
 name = Swaps;
 }
 );
@@ -1544,6 +1554,11 @@ lookup VowelAboveMarkSwaps {
 	sub prefixedNasalSign-divesakuru.alt' lookup toUUVowel uuVowel-divesakuru' lookup toPrefixedNasalSign.alt;
 	sub prefixedNasalSign-divesakuru' lookup toOOVowel ooVowel-divesakuru' lookup toPrefixedNasalSign;
 	sub prefixedNasalSign-divesakuru.alt' lookup toOOVowel ooVowel-divesakuru' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toHalanta halanta-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toHalanta halanta-divesakuru' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toMedYa ya-divesakuru.medi' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toMedYa ya-divesakuru.medi' lookup toPrefixedNasalSign.alt;
+
 } VowelAboveMarkSwaps;
 
 # Swap nukta-halanta for the same reason
@@ -3067,8 +3082,8 @@ sub a-divesakuru' lookup toA32 pha_ooVowel-divesakuru' lookup ConvertToUnderAMar
 } BridgedA;
 
 lookup BridgedA-mark {
-sub prefixedNasalSign-divesakuru' @Undera-tall1 by prefixedNasalSign-divesakuru.undera.tall1;
-sub prefixedNasalSign-divesakuru' @Undera-tall2 by prefixedNasalSign-divesakuru.undera.tall2;
+sub @Undera-tall1 prefixedNasalSign-divesakuru' by prefixedNasalSign-divesakuru.undera.tall1;
+sub @Undera-tall2 prefixedNasalSign-divesakuru' by prefixedNasalSign-divesakuru.undera.tall2;
 } BridgedA-mark;
 
 
