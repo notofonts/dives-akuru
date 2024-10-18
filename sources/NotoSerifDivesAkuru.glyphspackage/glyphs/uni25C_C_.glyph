@@ -2,6 +2,16 @@
 glyphname = uni25CC;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (345,-200);
+},
+{
+name = top;
+pos = (345,490);
+}
+);
 background = {
 shapes = (
 {

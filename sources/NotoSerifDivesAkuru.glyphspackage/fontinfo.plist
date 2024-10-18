@@ -1,5 +1,5 @@
 {
-.appVersion = "3217";
+.appVersion = "3306";
 .formatVersion = 3;
 classes = (
 {
@@ -1823,7 +1823,7 @@ lookup MedialForms {
 	sub na-divesakuru ya-divesakuru.medi iVowel-divesakuru by na_medya_iVowel-divesakuru;
 	sub pa-divesakuru ra-divesakuru.medi by pa_medra-divesakuru;
 	sub ma-divesakuru ya-divesakuru.medi by ma_medya-divesakuru;
-	sub ha-divesakuru ya-divesakuru.medi by ha_medra-divesakuru;
+	sub ha-divesakuru ra-divesakuru.medi by ha_medra-divesakuru;
 	sub ma-divesakuru ya-divesakuru.medi iVowel-divesakuru by ma_medya_iVowel-divesakuru;
 	sub ma-divesakuru ya-divesakuru.medi iiVowel-divesakuru by ma_medya_iiVowel-divesakuru;
 	sub ma_eVowel-divesakuru ya-divesakuru.medi by ma_medya_eVowel-divesakuru;

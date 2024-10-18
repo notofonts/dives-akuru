@@ -1,0 +1,21 @@
+# ninja log v5
+0	1017	1729249175601432052	instance_ufos/NotoSerifDivesAkuru-Regular.ufo.json	bf20bd5868e1da2d
+0	2730	1729249177255573479	full-designspace/NotoSerifDivesAkuru.designspace	57daf1e7a72cfa53
+2730	3787	1729249178367958704	full-designspace/instance_ufos/NotoSerifDivesAkuru-Regular.ufo.json	6bdd569bd24918a5
+1017	7503	1729249182043557305	../fonts/NotoSerifDivesAkuru/unhinted/ttf/NotoSerifDivesAkuru-Regular.ttf	ae5ab43ffb41da85
+7503	8588	1729249183132563099	../fonts/NotoSerifDivesAkuru/hinted/ttf/NotoSerifDivesAkuru-Regular.ttf	14d4d099ef1e8422
+3787	11569	1729249186130114340	/var/folders/vw/f5w2tmys16q9dc_tq16mv_040000gn/T/tmpau3tll89	d621c0ed3a0aa02c
+11569	12715	1729249187235493131	../fonts/NotoSerifDivesAkuru/full/ttf/NotoSerifDivesAkuru-Regular.ttf	a24c8e16fa1ab57c
+1017	12786	1729249187309127306	../fonts/NotoSerifDivesAkuru/unhinted/otf/NotoSerifDivesAkuru-Regular.otf	12bebe0e68cc3b9f
+12715	13825	1729249188373185415	../fonts/NotoSerifDivesAkuru/googlefonts/ttf/NotoSerifDivesAkuru-Regular.ttf	4ab5bb9c6b04cb3a
+3787	17129	1729249191661618139	../fonts/NotoSerifDivesAkuru/full/otf/NotoSerifDivesAkuru-Regular.otf	591a83b53cb06cb5
+1	1005	1729261565612942729	instance_ufos/NotoSerifDivesAkuru-Regular.ufo.json	bf20bd5868e1da2d
+1	2780	1729261567325610173	full-designspace/NotoSerifDivesAkuru.designspace	871dcc7f4f0ddd7e
+2780	3844	1729261568440037580	full-designspace/instance_ufos/NotoSerifDivesAkuru-Regular.ufo.json	6bdd569bd24918a5
+1005	7736	1729261572327199085	../fonts/NotoSerifDivesAkuru/unhinted/ttf/NotoSerifDivesAkuru-Regular.ttf	ae5ab43ffb41da85
+7736	8784	1729261573354741744	../fonts/NotoSerifDivesAkuru/hinted/ttf/NotoSerifDivesAkuru-Regular.ttf	14d4d099ef1e8422
+3844	11744	1729261576338491039	/var/folders/vw/f5w2tmys16q9dc_tq16mv_040000gn/T/tmpkwr_lg5s	18d654e6243c3797
+1005	12900	1729261577433627498	../fonts/NotoSerifDivesAkuru/unhinted/otf/NotoSerifDivesAkuru-Regular.otf	12bebe0e68cc3b9f
+11744	12919	1729261577436335973	../fonts/NotoSerifDivesAkuru/full/ttf/NotoSerifDivesAkuru-Regular.ttf	2197ddc88062af8b
+12919	13966	1729261578558405393	../fonts/NotoSerifDivesAkuru/googlefonts/ttf/NotoSerifDivesAkuru-Regular.ttf	4ab5bb9c6b04cb3a
+3845	17216	1729261581791645911	../fonts/NotoSerifDivesAkuru/full/otf/NotoSerifDivesAkuru-Regular.otf	591a83b53cb06cb5

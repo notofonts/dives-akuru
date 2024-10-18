@@ -1,4 +1,5 @@
 {
+color = 2;
 glyphname = "ba_va-divesakuru";
 kernLeft = ba;
 kernRight = va;
