@@ -1,5 +1,5 @@
 {
-.appVersion = "3306";
+.appVersion = "3217";
 .formatVersion = 3;
 classes = (
 {
@@ -182,6 +182,415 @@ name = "contextual-kerning-halanta-4";
 automatic = 1;
 code = "a-divesakuru a-divesakuru.0001 a-divesakuru.0002 a-divesakuru.0003 a-divesakuru.0004 a-divesakuru.0005 a-divesakuru.0006 a-divesakuru.0007 a-divesakuru.0008 a-divesakuru.0009 a-divesakuru.0010 i-divesakuru i-divesakuru.0001 i-divesakuru.0002 i-divesakuru.0003 i-divesakuru.0004 i-divesakuru.0005 i-divesakuru.0006 i-divesakuru.0007 i-divesakuru.0008 i-divesakuru.0009 i-divesakuru.0010 i-divesakuru.0011 u-divesakuru e-divesakuru o-divesakuru o-divesakuru.alt ka-divesakuru ga-divesakuru nga-divesakuru tta-divesakuru dda-divesakuru ddha-divesakuru nna-divesakuru nna-divesakuru.alt ta-divesakuru tha-divesakuru da-divesakuru dha-divesakuru na-divesakuru pa-divesakuru pha-divesakuru ba-divesakuru bha-divesakuru ma-divesakuru ma-divesakuru.alt ya-divesakuru ya-divesakuru.medi yya-divesakuru ra-divesakuru ra-divesakuru.medi la-divesakuru va-divesakuru va-divesakuru.alt ssa-divesakuru sa-divesakuru ha-divesakuru lla-divesakuru lla-divesakuru.alt za-divesakuru ka_aaVowel-divesakuru ka_iVowel-divesakuru ka_iiVowel-divesakuru ka_uVowel-divesakuru ka_uuVowel-divesakuru ka_eVowel-divesakuru ka_aiVowel-divesakuru ka_oVowel-divesakuru ka_ooVowel-divesakuru ka_halanta-divesakuru ka_halanta-divesakuru.0001 ka_halanta-divesakuru.0002 ka_halanta-divesakuru.0003 ka_halanta-divesakuru.0004 ka_halanta-divesakuru.0005 ka_halanta-divesakuru.0006 ka_halanta-divesakuru.0007 ka_halanta-divesakuru.0008 ka_halanta-divesakuru.0009 ka_halanta-divesakuru.0010 ka_halanta-divesakuru.0011 ga_aaVowel-divesakuru ga_iVowel-divesakuru ga_iiVowel-divesakuru ga_uVowel-divesakuru ga_uuVowel-divesakuru ga_eVowel-divesakuru ga_aiVowel-divesakuru ga_oVowel-divesakuru ga_ooVowel-divesakuru ga_halanta-divesakuru tta_aaVowel-divesakuru tta_iVowel-divesakuru tta_iiVowel-divesakuru tta_uVowel-divesakuru tta_uuVowel-divesakuru tta_eVowel-divesakuru tta_aiVowel-divesakuru tta_oVowel-divesakuru tta_ooVowel-divesakuru tta_halanta-divesakuru dda_aaVowel-divesakuru dda_iVowel-divesakuru dda_iiVowel-divesakuru dda_uVowel-divesakuru dda_uuVowel-divesakuru dda_eVowel-divesakuru dda_aiVowel-divesakuru dda_oVowel-divesakuru dda_ooVowel-divesakuru dda_halanta-divesakuru ddha_aaVowel-divesakuru ddha_iVowel-divesakuru ddha_iiVowel-divesakuru ddha_uVowel-divesakuru ddha_uuVowel-divesakuru ddha_eVowel-divesakuru ddha_aiVowel-divesakuru ddha_oVowel-divesakuru ddha_ooVowel-divesakuru ddha_halanta-divesakuru nna_aaVowel-divesakuru nna_iVowel-divesakuru nna_iiVowel-divesakuru nna_uVowel-divesakuru nna_uuVowel-divesakuru nna_eVowel-divesakuru nna_aiVowel-divesakuru nna_oVowel-divesakuru nna_ooVowel-divesakuru nna_halanta-divesakuru ta_aaVowel-divesakuru ta_iVowel-divesakuru ta_iiVowel-divesakuru ta_uVowel-divesakuru ta_uuVowel-divesakuru ta_eVowel-divesakuru ta_aiVowel-divesakuru ta_oVowel-divesakuru ta_ooVowel-divesakuru ta_halanta-divesakuru ta_halanta-divesakuru.0001 ta_halanta-divesakuru.0002 ta_halanta-divesakuru.0003 ta_halanta-divesakuru.0004 ta_halanta-divesakuru.0005 ta_halanta-divesakuru.0006 ta_halanta-divesakuru.0007 ta_halanta-divesakuru.0008 ta_halanta-divesakuru.0009 ta_halanta-divesakuru.0010 ta_halanta-divesakuru.0011 da_aaVowel-divesakuru da_iVowel-divesakuru da_iiVowel-divesakuru da_uVowel-divesakuru da_uuVowel-divesakuru da_eVowel-divesakuru da_aiVowel-divesakuru da_oVowel-divesakuru da_ooVowel-divesakuru da_halanta-divesakuru dha_aaVowel-divesakuru dha_iVowel-divesakuru dha_iiVowel-divesakuru dha_uVowel-divesakuru dha_uuVowel-divesakuru dha_eVowel-divesakuru dha_aiVowel-divesakuru dha_oVowel-divesakuru dha_ooVowel-divesakuru dha_halanta-divesakuru na_aaVowel-divesakuru na_iVowel-divesakuru na_iiVowel-divesakuru na_uVowel-divesakuru na_uuVowel-divesakuru na_eVowel-divesakuru na_aiVowel-divesakuru na_oVowel-divesakuru na_ooVowel-divesakuru na_halanta-divesakuru na_halanta-divesakuru.0001 na_halanta-divesakuru.0002 na_halanta-divesakuru.0003 na_halanta-divesakuru.0004 na_halanta-divesakuru.0005 na_halanta-divesakuru.0006 na_halanta-divesakuru.0007 na_halanta-divesakuru.0008 na_halanta-divesakuru.0009 na_halanta-divesakuru.0010 na_halanta-divesakuru.0011 pa_aaVowel-divesakuru pa_iVowel-divesakuru pa_iiVowel-divesakuru pa_uVowel-divesakuru pa_uuVowel-divesakuru pa_eVowel-divesakuru pa_aiVowel-divesakuru pa_oVowel-divesakuru pa_ooVowel-divesakuru pa_halanta-divesakuru pha_aaVowel-divesakuru pha_iVowel-divesakuru pha_iiVowel-divesakuru pha_uVowel-divesakuru pha_uuVowel-divesakuru pha_eVowel-divesakuru pha_aiVowel-divesakuru pha_oVowel-divesakuru pha_ooVowel-divesakuru pha_halanta-divesakuru ba_aaVowel-divesakuru ba_iVowel-divesakuru ba_iiVowel-divesakuru ba_uVowel-divesakuru ba_uuVowel-divesakuru ba_eVowel-divesakuru ba_aiVowel-divesakuru ba_oVowel-divesakuru ba_ooVowel-divesakuru ba_halanta-divesakuru bha_aaVowel-divesakuru bha_iVowel-divesakuru bha_iiVowel-divesakuru bha_uVowel-divesakuru bha_uuVowel-divesakuru bha_eVowel-divesakuru bha_aiVowel-divesakuru bha_oVowel-divesakuru bha_ooVowel-divesakuru bha_halanta-divesakuru ma_aaVowel-divesakuru ma_iVowel-divesakuru ma_iiVowel-divesakuru ma_uVowel-divesakuru ma_uuVowel-divesakuru ma_eVowel-divesakuru ma_aiVowel-divesakuru ma_oVowel-divesakuru ma_ooVowel-divesakuru ma_halanta-divesakuru ya_aaVowel-divesakuru ya_iVowel-divesakuru ya_iiVowel-divesakuru ya_uVowel-divesakuru ya_uuVowel-divesakuru ya_eVowel-divesakuru ya_aiVowel-divesakuru ya_oVowel-divesakuru ya_ooVowel-divesakuru ya_halanta-divesakuru yya_aaVowel-divesakuru yya_iVowel-divesakuru yya_iiVowel-divesakuru yya_uVowel-divesakuru yya_uuVowel-divesakuru yya_eVowel-divesakuru yya_aiVowel-divesakuru yya_oVowel-divesakuru yya_ooVowel-divesakuru yya_halanta-divesakuru ra_aaVowel-divesakuru ra_iVowel-divesakuru ra_iiVowel-divesakuru ra_uVowel-divesakuru ra_uuVowel-divesakuru ra_eVowel-divesakuru ra_aiVowel-divesakuru ra_oVowel-divesakuru ra_ooVowel-divesakuru ra_halanta-divesakuru la_aaVowel-divesakuru la_iVowel-divesakuru la_iiVowel-divesakuru la_uVowel-divesakuru la_uuVowel-divesakuru la_eVowel-divesakuru la_aiVowel-divesakuru la_oVowel-divesakuru la_ooVowel-divesakuru la_halanta-divesakuru va_aaVowel-divesakuru va_iVowel-divesakuru va_iiVowel-divesakuru va_uVowel-divesakuru va_uuVowel-divesakuru va_eVowel-divesakuru va_aiVowel-divesakuru va_oVowel-divesakuru va_ooVowel-divesakuru va_halanta-divesakuru ssa_halanta-divesakuru sa_aaVowel-divesakuru sa_iVowel-divesakuru sa_iiVowel-divesakuru sa_uVowel-divesakuru sa_uuVowel-divesakuru sa_eVowel-divesakuru sa_aiVowel-divesakuru sa_oVowel-divesakuru sa_ooVowel-divesakuru sa_halanta-divesakuru ha_aaVowel-divesakuru ha_iVowel-divesakuru ha_iiVowel-divesakuru ha_uVowel-divesakuru ha_uuVowel-divesakuru ha_eVowel-divesakuru ha_aiVowel-divesakuru ha_oVowel-divesakuru ha_ooVowel-divesakuru ha_halanta-divesakuru lla_aaVowel-divesakuru lla_iVowel-divesakuru lla_iiVowel-divesakuru lla_uVowel-divesakuru lla_uuVowel-divesakuru lla_eVowel-divesakuru lla_aiVowel-divesakuru lla_oVowel-divesakuru lla_ooVowel-divesakuru lla_halanta-divesakuru za_aaVowel-divesakuru za_iVowel-divesakuru za_iiVowel-divesakuru za_uVowel-divesakuru za_uuVowel-divesakuru za_eVowel-divesakuru za_aiVowel-divesakuru za_oVowel-divesakuru za_ooVowel-divesakuru za_halanta-divesakuru ka_tha-divesakuru ka_dha_uVowel-divesakuru ka_ssa_halanta-divesakuru ka_medra_uVowel-divesakuru ka_medya_iVowel-divesakuru nga_ga-divesakuru dda_medya_iVowel-divesakuru ddha_medya-divesakuru ta_ta-divesakuru ta_ta_eVowel-divesakuru ta_ta_medra_iVowel-divesakuru ta_tha-divesakuru ta_tha_medra_iVowel-divesakuru ta_medra_uVowel-divesakuru ta_medya_iVowel-divesakuru ta_medya_halanta-divesakuru dha_medya-divesakuru na_tha-divesakuru na_medra-divesakuru na_medra_aaVowel-divesakuru na_medya_iVowel-divesakuru pa_medra-divesakuru ba_va-divesakuru ma_medya-divesakuru ma_medya_iVowel-divesakuru ma_medya_iiVowel-divesakuru ma_medya_eVowel-divesakuru ya_medra-divesakuru ya_medya_iVowel-divesakuru la_medya-divesakuru va_medya-divesakuru va_medya_iVowel-divesakuru va_medya_uVowel-divesakuru sa_va-divesakuru sa_medra_iiVowel-divesakuru sa_medya-divesakuru ha_medra-divesakuru ha_medra_aaVowel-divesakuru ha_medya_iVowel-divesakuru lla_medya_iVowel-divesakuru a-divesakuru.0011 a-divesakuru.0012 a-divesakuru.0013 a-divesakuru.0014 a-divesakuru.0015 a-divesakuru.0016 a-divesakuru.0017 a-divesakuru.0018 a-divesakuru.0019 a-divesakuru.0020 a-divesakuru.0021 a-divesakuru.0022 a-divesakuru.0023 a-divesakuru.0024 a-divesakuru.0025 a-divesakuru.0026 a-divesakuru.0027 a-divesakuru.0028 a-divesakuru.0029 a-divesakuru.0030 a-divesakuru.0031 a-divesakuru.0032 a-divesakuru.0011.two a-divesakuru.0012.two a-divesakuru.0013.two a-divesakuru.0014.two a-divesakuru.0015.two a-divesakuru.0016.two a-divesakuru.0017.two a-divesakuru.0018.two a-divesakuru.0019.two a-divesakuru.0020.two a-divesakuru.0021.two a-divesakuru.0022.two a-divesakuru.0023.two a-divesakuru.0024.two a-divesakuru.0025.two a-divesakuru.0026.two a-divesakuru.0027.two a-divesakuru.0028.two a-divesakuru.0029.two a-divesakuru.0030.two a-divesakuru.0031.two a-divesakuru.0032.two a-divesakuru.0033 a-divesakuru.0034 a-divesakuru.0035 a-divesakuru.0036 a-divesakuru.0037 a-divesakuru.0038 a-divesakuru.0039 a-divesakuru.0040 a-divesakuru.0041 a-divesakuru.0042 a-divesakuru.0043 a-divesakuru.0044 a-divesakuru.0045 a-divesakuru.0046 a-divesakuru.0047 a-divesakuru.0048 a-divesakuru.0049 a-divesakuru.0050 a-divesakuru.0051 a-divesakuru.0052 a-divesakuru.0053 a-divesakuru.0054 a-divesakuru.0055 a-divesakuru.0056 a-divesakuru.0057 a-divesakuru.0058 a-divesakuru.0059 a-divesakuru.0060 a-divesakuru.0061 a-divesakuru.0062 a-divesakuru.0063 space gapFiller-divesakuru_endofTextMark-divesakuru gapFiller-divesakuru_endofTextMark-divesakuru.init doubleDanda-divesakuru gapFiller-divesakuru gapFiller-divesakuru.fina gapFiller-divesakuru.init gapFiller-divesakuru.isol endofTextMark-divesakuru i-divesakuru.undera u-divesakuru.undera e-divesakuru.undera o-divesakuru.alt.undera o-divesakuru.undera ka-divesakuru.undera ka_tha-divesakuru.undera ka_dha_uVowel-divesakuru.undera ka_ssa_halanta-divesakuru.undera ka_aaVowel-divesakuru.undera ka_iVowel-divesakuru.undera ka_iiVowel-divesakuru.undera ka_uVowel-divesakuru.undera ka_uuVowel-divesakuru.undera ka_eVowel-divesakuru.undera ka_aiVowel-divesakuru.undera ka_oVowel-divesakuru.undera ka_ooVowel-divesakuru.undera ka_halanta-divesakuru.undera ka_medra_uVowel-divesakuru.undera ka_medya_iVowel-divesakuru.undera ga-divesakuru.undera ga_aaVowel-divesakuru.undera ga_iVowel-divesakuru.undera ga_iiVowel-divesakuru.undera ga_uVowel-divesakuru.undera ga_uuVowel-divesakuru.undera ga_eVowel-divesakuru.undera ga_aiVowel-divesakuru.undera ga_oVowel-divesakuru.undera ga_ooVowel-divesakuru.undera ga_halanta-divesakuru.undera nga-divesakuru.undera nga_ga-divesakuru.undera tta-divesakuru.undera tta_aaVowel-divesakuru.undera tta_iVowel-divesakuru.undera tta_iiVowel-divesakuru.undera tta_uVowel-divesakuru.undera tta_uuVowel-divesakuru.undera tta_eVowel-divesakuru.undera tta_aiVowel-divesakuru.undera tta_oVowel-divesakuru.undera tta_ooVowel-divesakuru.undera tta_halanta-divesakuru.undera dda-divesakuru.undera dda_aaVowel-divesakuru.undera dda_iVowel-divesakuru.undera dda_iiVowel-divesakuru.undera dda_uVowel-divesakuru.undera dda_uuVowel-divesakuru.undera dda_eVowel-divesakuru.undera dda_aiVowel-divesakuru.undera dda_oVowel-divesakuru.undera dda_ooVowel-divesakuru.undera dda_halanta-divesakuru.undera dda_medya_iVowel-divesakuru.undera ddha-divesakuru.undera ddha_aaVowel-divesakuru.undera ddha_iVowel-divesakuru.undera ddha_iiVowel-divesakuru.undera ddha_uVowel-divesakuru.undera ddha_uuVowel-divesakuru.undera ddha_eVowel-divesakuru.undera ddha_aiVowel-divesakuru.undera ddha_oVowel-divesakuru.undera ddha_ooVowel-divesakuru.undera ddha_halanta-divesakuru.undera ddha_medya-divesakuru.undera nna-divesakuru.alt.undera nna-divesakuru.undera nna_aaVowel-divesakuru.undera nna_iVowel-divesakuru.undera nna_iiVowel-divesakuru.undera nna_uVowel-divesakuru.undera nna_uuVowel-divesakuru.undera nna_eVowel-divesakuru.undera nna_aiVowel-divesakuru.undera nna_oVowel-divesakuru.undera nna_ooVowel-divesakuru.undera nna_halanta-divesakuru.undera ta-divesakuru.undera ta_ta-divesakuru.undera ta_ta_eVowel-divesakuru.undera ta_ta_medra_iVowel-divesakuru.undera ta_tha-divesakuru.undera ta_tha_medra_iVowel-divesakuru.undera ta_aaVowel-divesakuru.undera ta_iVowel-divesakuru.undera ta_iiVowel-divesakuru.undera ta_uVowel-divesakuru.undera ta_uuVowel-divesakuru.undera ta_eVowel-divesakuru.undera ta_aiVowel-divesakuru.undera ta_oVowel-divesakuru.undera ta_ooVowel-divesakuru.undera ta_halanta-divesakuru.undera ta_medra_uVowel-divesakuru.undera ta_medya_iVowel-divesakuru.undera ta_medya_halanta-divesakuru.undera tha-divesakuru.undera da-divesakuru.undera da_aaVowel-divesakuru.undera da_iVowel-divesakuru.undera da_iiVowel-divesakuru.undera da_uVowel-divesakuru.undera da_uuVowel-divesakuru.undera da_eVowel-divesakuru.undera da_aiVowel-divesakuru.undera da_oVowel-divesakuru.undera da_ooVowel-divesakuru.undera da_halanta-divesakuru.undera dha-divesakuru.undera dha_aaVowel-divesakuru.undera dha_iVowel-divesakuru.undera dha_iiVowel-divesakuru.undera dha_uVowel-divesakuru.undera dha_uuVowel-divesakuru.undera dha_eVowel-divesakuru.undera dha_aiVowel-divesakuru.undera dha_oVowel-divesakuru.undera dha_ooVowel-divesakuru.undera dha_halanta-divesakuru.undera dha_medya-divesakuru.undera na-divesakuru.undera na_tha-divesakuru.undera na_aaVowel-divesakuru.undera na_iVowel-divesakuru.undera na_iiVowel-divesakuru.undera na_uVowel-divesakuru.undera na_uuVowel-divesakuru.undera na_eVowel-divesakuru.undera na_aiVowel-divesakuru.undera na_oVowel-divesakuru.undera na_ooVowel-divesakuru.undera na_halanta-divesakuru.undera na_medra-divesakuru.undera na_medra_aaVowel-divesakuru.undera na_medya_iVowel-divesakuru.undera pa-divesakuru.undera pa_aaVowel-divesakuru.undera pa_iVowel-divesakuru.undera pa_iiVowel-divesakuru.undera pa_uVowel-divesakuru.undera pa_uuVowel-divesakuru.undera pa_eVowel-divesakuru.undera pa_aiVowel-divesakuru.undera pa_oVowel-divesakuru.undera pa_ooVowel-divesakuru.undera pa_halanta-divesakuru.undera pa_medra-divesakuru.undera pha-divesakuru.undera pha_aaVowel-divesakuru.undera pha_iVowel-divesakuru.undera pha_iiVowel-divesakuru.undera pha_uVowel-divesakuru.undera pha_uuVowel-divesakuru.undera pha_eVowel-divesakuru.undera pha_aiVowel-divesakuru.undera pha_oVowel-divesakuru.undera pha_ooVowel-divesakuru.undera pha_halanta-divesakuru.undera ba-divesakuru.undera ba_va-divesakuru.undera ba_aaVowel-divesakuru.undera ba_iVowel-divesakuru.undera ba_iiVowel-divesakuru.undera ba_uVowel-divesakuru.undera ba_uuVowel-divesakuru.undera ba_eVowel-divesakuru.undera ba_aiVowel-divesakuru.undera ba_oVowel-divesakuru.undera ba_ooVowel-divesakuru.undera ba_halanta-divesakuru.undera bha-divesakuru.undera bha_aaVowel-divesakuru.undera bha_iVowel-divesakuru.undera bha_iiVowel-divesakuru.undera bha_uVowel-divesakuru.undera bha_uuVowel-divesakuru.undera bha_eVowel-divesakuru.undera bha_aiVowel-divesakuru.undera bha_oVowel-divesakuru.undera bha_ooVowel-divesakuru.undera bha_halanta-divesakuru.undera ma-divesakuru.alt.undera ma-divesakuru.undera ma_aaVowel-divesakuru.undera ma_iVowel-divesakuru.undera ma_iiVowel-divesakuru.undera ma_uVowel-divesakuru.undera ma_uuVowel-divesakuru.undera ma_eVowel-divesakuru.undera ma_aiVowel-divesakuru.undera ma_oVowel-divesakuru.undera ma_ooVowel-divesakuru.undera ma_halanta-divesakuru.undera ma_medya-divesakuru.undera ma_medya_iVowel-divesakuru.undera ma_medya_iiVowel-divesakuru.undera ma_medya_eVowel-divesakuru.undera ya-divesakuru.undera ya_aaVowel-divesakuru.undera ya_iVowel-divesakuru.undera ya_iiVowel-divesakuru.undera ya_uVowel-divesakuru.undera ya_uuVowel-divesakuru.undera ya_eVowel-divesakuru.undera ya_aiVowel-divesakuru.undera ya_oVowel-divesakuru.undera ya_ooVowel-divesakuru.undera ya_halanta-divesakuru.undera ya_medra-divesakuru.undera ya_medya_iVowel-divesakuru.undera ya-divesakuru.medi.undera yya-divesakuru.undera yya_aaVowel-divesakuru.undera yya_iVowel-divesakuru.undera yya_iiVowel-divesakuru.undera yya_uVowel-divesakuru.undera yya_uuVowel-divesakuru.undera yya_eVowel-divesakuru.undera yya_aiVowel-divesakuru.undera yya_oVowel-divesakuru.undera yya_ooVowel-divesakuru.undera yya_halanta-divesakuru.undera ra-divesakuru.undera ra_aaVowel-divesakuru.undera ra_iVowel-divesakuru.undera ra_iiVowel-divesakuru.undera ra_uVowel-divesakuru.undera ra_uuVowel-divesakuru.undera ra_eVowel-divesakuru.undera ra_aiVowel-divesakuru.undera ra_oVowel-divesakuru.undera ra_ooVowel-divesakuru.undera ra_halanta-divesakuru.undera ra-divesakuru.medi.undera la-divesakuru.undera la_aaVowel-divesakuru.undera la_iVowel-divesakuru.undera la_iiVowel-divesakuru.undera la_uVowel-divesakuru.undera la_uuVowel-divesakuru.undera la_eVowel-divesakuru.undera la_aiVowel-divesakuru.undera la_oVowel-divesakuru.undera la_ooVowel-divesakuru.undera la_halanta-divesakuru.undera la_medya-divesakuru.undera va-divesakuru.alt.undera va-divesakuru.alt2.undera va-divesakuru.undera va_aaVowel-divesakuru.undera va_iVowel-divesakuru.undera va_iiVowel-divesakuru.undera va_uVowel-divesakuru.undera va_uuVowel-divesakuru.undera va_eVowel-divesakuru.undera va_aiVowel-divesakuru.undera va_oVowel-divesakuru.undera va_ooVowel-divesakuru.undera va_halanta-divesakuru.undera va_medya-divesakuru.undera va_medya_iVowel-divesakuru.undera va_medya_uVowel-divesakuru.undera ssa-divesakuru.undera ssa_halanta-divesakuru.undera sa-divesakuru.undera sa_va-divesakuru.undera sa_aaVowel-divesakuru.undera sa_iVowel-divesakuru.undera sa_iiVowel-divesakuru.undera sa_uVowel-divesakuru.undera sa_uuVowel-divesakuru.undera sa_eVowel-divesakuru.undera sa_aiVowel-divesakuru.undera sa_oVowel-divesakuru.undera sa_ooVowel-divesakuru.undera sa_halanta-divesakuru.undera sa_medra_iiVowel-divesakuru.undera sa_medya-divesakuru.undera ha-divesakuru.undera ha_aaVowel-divesakuru.undera ha_iVowel-divesakuru.undera ha_iiVowel-divesakuru.undera ha_uVowel-divesakuru.undera ha_uuVowel-divesakuru.undera ha_eVowel-divesakuru.undera ha_aiVowel-divesakuru.undera ha_oVowel-divesakuru.undera ha_ooVowel-divesakuru.undera ha_halanta-divesakuru.undera ha_medra-divesakuru.undera ha_medra_aaVowel-divesakuru.undera ha_medya_iVowel-divesakuru.undera lla-divesakuru.alt.undera lla-divesakuru.undera lla_aaVowel-divesakuru.undera lla_iVowel-divesakuru.undera lla_iiVowel-divesakuru.undera lla_uVowel-divesakuru.undera lla_uuVowel-divesakuru.undera lla_eVowel-divesakuru.undera lla_aiVowel-divesakuru.undera lla_oVowel-divesakuru.undera lla_ooVowel-divesakuru.undera lla_halanta-divesakuru.undera lla_medya_iVowel-divesakuru.undera za-divesakuru.undera za_aaVowel-divesakuru.undera za_iVowel-divesakuru.undera za_iiVowel-divesakuru.undera za_uVowel-divesakuru.undera za_uuVowel-divesakuru.undera za_eVowel-divesakuru.undera za_aiVowel-divesakuru.undera za_oVowel-divesakuru.undera za_ooVowel-divesakuru.undera za_halanta-divesakuru.undera eVowel-divesakuru.undera aiVowel-divesakuru.undera prefixedNasalSign-divesakuru prefixedNasalSign-divesakuru.alt prefixedNasalSign-divesakuru.undera.tall1 prefixedNasalSign-divesakuru.undera.tall2 nukta-divesakuru eVowel-divesakuru aiVowel-divesakuru aaVowel-divesakuru iVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru oVowel-divesakuru ooVowel-divesakuru halanta-divesakuru halanta-divesakuru.undera virama-divesakuru nullmark double_a";
 name = All;
+},
+{
+code = "nga-divesakuru
+ra-divesakuru
+ra_halanta-divesakuru";
+name = undera_width1;
+},
+{
+code = "u-divesakuru
+ta_uVowel-divesakuru
+ta_uuVowel-divesakuru
+ta_halanta-divesakuru
+na_halanta-divesakuru
+ya-divesakuru.medi";
+name = undera_width2;
+},
+{
+code = "i-divesakuru
+da-divesakuru
+da_halanta-divesakuru
+na-divesakuru
+na_uVowel-divesakuru
+na_uuVowel-divesakuru";
+name = undera_width3;
+},
+{
+code = "ga-divesakuru
+ga_halanta-divesakuru
+nga_ga-divesakuru
+ta-divesakuru
+tha-divesakuru
+na_tha-divesakuru
+ma-divesakuru
+ra_aaVowel-divesakuru
+ra_iVowel-divesakuru
+ra_uVowel-divesakuru
+ra_uuVowel-divesakuru";
+name = undera_width4;
+},
+{
+code = "nna-divesakuru.alt
+nna_uVowel-divesakuru
+nna_uuVowel-divesakuru
+ma-divesakuru.alt
+ma_halanta-divesakuru
+ra_iiVowel-divesakuru
+la-divesakuru
+la_halanta-divesakuru
+va-divesakuru
+lla-divesakuru";
+name = undera_width5;
+},
+{
+code = "o-divesakuru.alt
+ka_halanta-divesakuru
+tta-divesakuru
+tta_halanta-divesakuru
+nna-divesakuru
+nna_halanta-divesakuru
+ta_tha-divesakuru
+da_iVowel-divesakuru
+va-divesakuru.alt
+va_halanta-divesakuru
+lla-divesakuru.alt
+lla_halanta-divesakuru";
+name = undera_width6;
+},
+{
+code = "ka_uVowel-divesakuru
+ka_uuVowel-divesakuru
+dda-divesakuru
+da_aaVowel-divesakuru
+na_medra-divesakuru
+yya-divesakuru
+yya_halanta-divesakuru
+ha_uVowel-divesakuru
+ha_uuVowel-divesakuru";
+name = undera_width7;
+},
+{
+code = "ka-divesakuru
+ga_iVowel-divesakuru
+ta_aaVowel-divesakuru
+ta_iVowel-divesakuru
+da_uVowel-divesakuru
+da_uuVowel-divesakuru
+na_aaVowel-divesakuru
+na_iVowel-divesakuru
+ssa-divesakuru
+za-divesakuru
+za_halanta-divesakuru";
+name = undera_width8;
+},
+{
+code = "ga_aaVowel-divesakuru
+ga_uVowel-divesakuru
+ga_uuVowel-divesakuru
+dda_halanta-divesakuru
+da_iiVowel-divesakuru
+ba-divesakuru
+ba_halanta-divesakuru
+ma_iVowel-divesakuru
+ma_uVowel-divesakuru
+ma_uuVowel-divesakuru
+ra_eVowel-divesakuru
+la_iVowel-divesakuru
+la_uVowel-divesakuru
+la_uuVowel-divesakuru
+sa_halanta-divesakuru";
+name = undera_width9;
+},
+{
+code = "ka_tha-divesakuru
+nna_iVowel-divesakuru
+ta_medra_uVowel-divesakuru
+na_iiVowel-divesakuru
+ma_aaVowel-divesakuru
+ya-divesakuru
+ya_halanta-divesakuru
+la_aaVowel-divesakuru
+la_iiVowel-divesakuru
+ha-divesakuru
+ha_halanta-divesakuru
+lla_iVowel-divesakuru
+lla_uVowel-divesakuru
+lla_uuVowel-divesakuru";
+name = undera_width10;
+},
+{
+code = "e-divesakuru
+ga_iiVowel-divesakuru
+tta_iVowel-divesakuru
+tta_uVowel-divesakuru
+tta_uuVowel-divesakuru
+ddha-divesakuru
+ddha_halanta-divesakuru
+nna_aaVowel-divesakuru
+ta_iiVowel-divesakuru
+ma_iiVowel-divesakuru
+yya_iVowel-divesakuru
+yya_uVowel-divesakuru
+yya_uuVowel-divesakuru
+ra-divesakuru.medi
+va_aaVowel-divesakuru
+va_iVowel-divesakuru
+va_uVowel-divesakuru
+va_uuVowel-divesakuru
+sa-divesakuru
+lla_aaVowel-divesakuru";
+name = undera_width11;
+},
+{
+code = "ka_aaVowel-divesakuru
+ka_iVowel-divesakuru
+tta_aaVowel-divesakuru
+dda_aaVowel-divesakuru
+dda_iVowel-divesakuru
+dda_uVowel-divesakuru
+dda_uuVowel-divesakuru
+da_eVowel-divesakuru
+dha-divesakuru
+dha_halanta-divesakuru
+na_medra_aaVowel-divesakuru
+yya_aaVowel-divesakuru
+yya_iiVowel-divesakuru
+va_iiVowel-divesakuru
+lla_iiVowel-divesakuru
+za_iVowel-divesakuru";
+name = undera_width12;
+},
+{
+code = "tta_iiVowel-divesakuru
+nna_iiVowel-divesakuru
+ta_eVowel-divesakuru
+na_eVowel-divesakuru
+pa-divesakuru
+pa_halanta-divesakuru
+ba_aaVowel-divesakuru
+ba_iVowel-divesakuru
+ba_uVowel-divesakuru
+ba_uuVowel-divesakuru
+ma_eVowel-divesakuru
+ra_oVowel-divesakuru
+la_medya-divesakuru
+ssa_halanta-divesakuru
+za_aaVowel-divesakuru
+za_uVowel-divesakuru
+za_uuVowel-divesakuru";
+name = undera_width13;
+},
+{
+code = "ka_iiVowel-divesakuru
+ga_eVowel-divesakuru
+dda_iiVowel-divesakuru
+ddha_iVowel-divesakuru
+ta_medya_halanta-divesakuru
+bha-divesakuru
+bha_halanta-divesakuru
+ma_medya-divesakuru
+ya_iVowel-divesakuru
+ya_uVowel-divesakuru
+ya_uuVowel-divesakuru
+ra_aiVowel-divesakuru
+la_eVowel-divesakuru
+ha_aaVowel-divesakuru
+ha_iVowel-divesakuru
+ha_medra-divesakuru
+lla_eVowel-divesakuru
+za_iiVowel-divesakuru";
+name = undera_width14;
+},
+{
+code = "o-divesakuru
+ka_medra_uVowel-divesakuru
+ddha_aaVowel-divesakuru
+ddha_uVowel-divesakuru
+ddha_uuVowel-divesakuru
+ba_iiVowel-divesakuru
+ya_aaVowel-divesakuru
+ya_iiVowel-divesakuru
+va_eVowel-divesakuru
+va_medya-divesakuru";
+name = undera_width15;
+},
+{
+code = "tta_eVowel-divesakuru
+ddha_iiVowel-divesakuru
+nna_eVowel-divesakuru
+ta_ta-divesakuru
+ta_tha_medra_iVowel-divesakuru
+da_oVowel-divesakuru
+dha_iVowel-divesakuru
+dha_uVowel-divesakuru
+dha_uuVowel-divesakuru
+sa_va-divesakuru
+sa_aaVowel-divesakuru
+sa_iVowel-divesakuru
+sa_uVowel-divesakuru
+sa_uuVowel-divesakuru
+ha_iiVowel-divesakuru";
+name = undera_width16;
+},
+{
+code = "ka_eVowel-divesakuru
+dda_eVowel-divesakuru
+ta_oVowel-divesakuru
+da_aiVowel-divesakuru
+dha_aaVowel-divesakuru
+dha_iiVowel-divesakuru
+na_oVowel-divesakuru
+pa_aaVowel-divesakuru
+pa_iVowel-divesakuru
+pa_uVowel-divesakuru
+pa_uuVowel-divesakuru
+pha-divesakuru
+pha_halanta-divesakuru
+ba_va-divesakuru
+bha_iVowel-divesakuru
+yya_eVowel-divesakuru
+sa_iiVowel-divesakuru
+za_eVowel-divesakuru";
+name = undera_width17;
+},
+{
+code = "ga_oVowel-divesakuru
+ta_aiVowel-divesakuru
+na_aiVowel-divesakuru
+na_medya_iVowel-divesakuru
+ba_eVowel-divesakuru
+bha_aaVowel-divesakuru
+bha_uVowel-divesakuru
+bha_uuVowel-divesakuru
+ma_aiVowel-divesakuru
+ma_oVowel-divesakuru
+ma_medya_iVowel-divesakuru
+ya_medra-divesakuru
+ra_ooVowel-divesakuru
+la_oVowel-divesakuru
+sa_medya-divesakuru";
+name = undera_width18;
+},
+{
+code = "ga_aiVowel-divesakuru
+ddha_medya-divesakuru
+nna_oVowel-divesakuru
+ta_medya_iVowel-divesakuru
+pa_iiVowel-divesakuru
+ma_medya_iiVowel-divesakuru
+la_aiVowel-divesakuru
+va_medya_iVowel-divesakuru
+va_medya_uVowel-divesakuru
+ha_eVowel-divesakuru
+ha_medra_aaVowel-divesakuru
+lla_aiVowel-divesakuru
+lla_oVowel-divesakuru";
+name = undera_width19;
+},
+{
+code = "ka_ssa_halanta-divesakuru
+tta_oVowel-divesakuru
+ddha_eVowel-divesakuru
+nna_aiVowel-divesakuru
+dha_medya-divesakuru
+bha_iiVowel-divesakuru
+ya_eVowel-divesakuru
+yya_oVowel-divesakuru
+va_aiVowel-divesakuru
+va_oVowel-divesakuru
+sa_eVowel-divesakuru
+lla_medya_iVowel-divesakuru";
+name = undera_width20;
+},
+{
+code = "ka_oVowel-divesakuru
+ka_medya_iVowel-divesakuru
+tta_aiVowel-divesakuru
+dda_oVowel-divesakuru
+da_ooVowel-divesakuru
+dha_eVowel-divesakuru
+pa_medra-divesakuru
+pha_aaVowel-divesakuru
+pha_iVowel-divesakuru
+pha_uVowel-divesakuru
+pha_uuVowel-divesakuru
+yya_aiVowel-divesakuru
+za_oVowel-divesakuru";
+name = undera_width21;
+},
+{
+code = "ka_aiVowel-divesakuru
+dda_aiVowel-divesakuru
+dda_medya_iVowel-divesakuru
+ta_ooVowel-divesakuru
+na_ooVowel-divesakuru
+pa_eVowel-divesakuru
+ba_oVowel-divesakuru
+za_aiVowel-divesakuru";
+name = undera_width22;
+},
+{
+code = "ka_dha_uVowel-divesakuru
+ga_ooVowel-divesakuru
+ddha_oVowel-divesakuru
+pha_iiVowel-divesakuru
+ba_aiVowel-divesakuru
+bha_eVowel-divesakuru
+ma_ooVowel-divesakuru
+ma_medya_eVowel-divesakuru
+ya_oVowel-divesakuru
+la_ooVowel-divesakuru
+ha_oVowel-divesakuru";
+name = undera_width23;
+},
+{
+code = "nna_ooVowel-divesakuru
+ta_ta_medra_iVowel-divesakuru
+ya_aiVowel-divesakuru
+ya_medya_iVowel-divesakuru
+sa_medra_iiVowel-divesakuru
+ha_aiVowel-divesakuru
+ha_medya_iVowel-divesakuru
+lla_ooVowel-divesakuru";
+name = undera_width24;
+},
+{
+code = "tta_ooVowel-divesakuru
+ddha_aiVowel-divesakuru
+ta_ta_eVowel-divesakuru
+dha_oVowel-divesakuru
+yya_ooVowel-divesakuru
+va_ooVowel-divesakuru
+sa_aiVowel-divesakuru
+sa_oVowel-divesakuru";
+name = undera_width25;
+},
+{
+code = "ka_ooVowel-divesakuru
+dda_ooVowel-divesakuru
+dha_aiVowel-divesakuru
+pa_aiVowel-divesakuru
+pa_oVowel-divesakuru
+pha_eVowel-divesakuru
+ba_ooVowel-divesakuru
+bha_oVowel-divesakuru
+za_ooVowel-divesakuru";
+name = undera_width26;
+},
+{
+code = "ddha_ooVowel-divesakuru
+bha_aiVowel-divesakuru
+ya_ooVowel-divesakuru
+ha_ooVowel-divesakuru";
+name = undera_width27;
+},
+{
+code = "dha_ooVowel-divesakuru
+pha_oVowel-divesakuru
+sa_ooVowel-divesakuru";
+name = undera_width28;
+},
+{
+code = "pa_ooVowel-divesakuru
+pha_aiVowel-divesakuru
+bha_ooVowel-divesakuru";
+name = undera_width29;
+},
+{
+code = "pha_ooVowel-divesakuru";
+name = undera_width30;
 }
 );
 customParameters = (
@@ -962,12 +1371,13 @@ name = Languagesystems;
 },
 {
 code = "lookup ConvertToUnderAMark {
-sub @Letters by @Undera;
 sub @ta-halanta by ta_halanta-divesakuru.undera;
 sub @na-halanta by na_halanta-divesakuru.undera;
 sub @ka-halanta by ka_halanta-divesakuru.undera;
+sub @Letters by @Undera;
 } ConvertToUnderAMark;
 
+# To block kerning
 lookup AddNullMark {
 sub @Undera by @Undera nullmark;
 } AddNullMark;
@@ -1043,1195 +1453,7 @@ lookup toA63 {  sub a-divesakuru by a-divesakuru.0063; } toA63;
 name = AWidths;
 },
 {
-code = "
-# For the two character -a, we need to do a bit of OpenType magic.
-# We will be positioning the \"undera\" glyphs on ligature anchors _1 and _2
-# but to do this, we need to ligate the -a from two glyphs into one so
-# that the \"undera\" marks are associated with the correct anchors.
-# The way that marks are associated with ligature anchors is like this:
-# the ligature is formed by ligating multiple base glyphs together, and
-# the mark after each base glyph gets attached to the appropriate anchor
-# in the sequence. For example 
-#    lam-ar kasra-ar alef-ar damma-ar
-#    BASE1  MARK1    BASE2   MARK2 
-# becomes
-#    lam_alef-ar kasra-ar damma-ar
-#                ^ I used to belong to base 1 so I am on anchor _1
-#                         ^ I used to belong to base two so I am on anchor_2
-#
-# In other words, for Dives Akuru we first need
-#   a-divesakuru LETTER1 LETTER2
-# to become
-#   a-divesakuru LETTER1 some_base_glyph LETTER2
-# because that allows us to ligate
-#   a-divesakuru some_base_glyph -> a-divesakuru.0019
-# (skipping marks) such that LETTER1 ends up associated with _undera_1
-# and LETTER2 ends up associated with _undera_2.
-
-# First, code which both allocates the correct width of stem, and
-# converts each letter to a mark glyph
-lookup doubleAToMarks {
-# from Foundation import NSMaxY
-# import re
-# letters= [Glyphs.font.glyphs[g] for g in list(Glyphs.font.classes[\"Letters\"].code.split())]
-# max_height = 680
-# # Slim down to a sane set of combinations
-# letters = [g for g in letters if NSMaxY(g.layers[0].bounds) < max_height and \"Vowel\" not in g.name and \"halanta\" not in g.name]
-# branches = [g for g in Glyphs.font.glyphs if g.name.endswith(\".two\")]
-# branch_width = {glyph.name: glyph.layers[0].width-(1183+877) for glyph in branches}
-# branches = sorted(branches, key=lambda g: branch_width[g.name])
-# widths = {g.name: g.layers[0].bounds.size.width for g in letters}
-
-# def first_fit(left, right):
-# 	lwidth = widths[left.name]
-# 	rwidth = widths[right.name]
-# 	for branch in branches:
-# 		bw = branch_width[branch.name]
-# 		if lwidth + 40 > bw/2 or rwidth + 40 > bw/2:
-# 			continue
-# 		return branch
-# combo= \"\"
-# for left in letters:	
-# 	if \"vowel\" in left.name:
-# 		continue
-# 	for right in letters:
-# 		if \"vowel\" in right.name:
-# 			continue
-# 		count += 1
-# 		branch = first_fit(left, right)
-# 		if not branch:
-# 			continue
-# 		accepted += 1
-		
-# 		m = re.search(\"00(\\d+).two\", branch.name)
-# 		branch_int = int(m[1])
-# 		combo += (f\"sub a-divesakuru' lookup toA{branch_int} {left.name}' lookup ConvertToUnderAMark {right.name}' lookup ConvertToUnderAMark;\\n\")
-# print(combo)
-
-sub a-divesakuru' lookup toA15 i-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 i-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 i-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 i-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 i-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 i-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 i-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 i-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 i-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 i-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 i-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 i-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 i-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 i-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 i-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 i-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 i-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 i-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 i-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 i-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 i-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA15 i-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 i-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA15 i-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 i-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 i-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 i-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 i-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 i-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 i-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 i-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 i-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 i-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 u-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 u-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 u-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 u-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 u-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 u-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 u-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 u-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 u-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 u-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 e-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 e-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 e-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 e-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 e-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 o-divesakuru.alt' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 o-divesakuru.alt' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 o-divesakuru.alt' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 o-divesakuru.alt' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 o-divesakuru.alt' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 o-divesakuru.alt' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 o-divesakuru.alt' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 o-divesakuru.alt' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 o-divesakuru.alt' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 o-divesakuru.alt' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 o-divesakuru.alt' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 o-divesakuru.alt' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 o-divesakuru.alt' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 o-divesakuru.alt' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 o-divesakuru.alt' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 o-divesakuru.alt' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ka-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 ka-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ka-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ka-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ka-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 ka-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ka-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 ka-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ka-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 ka_tha-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ka_tha-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ka_tha-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 ka_tha-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 ka_tha-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ka_tha-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 tta-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 tta-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 tta-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 tta-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 tta-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 tta-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 tta-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 tta-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 tta-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 tta-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 tta-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 tta-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 tta-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 tta-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 tta-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tta-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 dda-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 dda-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 dda-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dda-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dda-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 dda-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 dda-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 dda-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 dda-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 dda-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 dda-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 dda-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 nna-divesakuru.alt' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 nna-divesakuru.alt' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 nna-divesakuru.alt' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 nna-divesakuru.alt' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 nna-divesakuru.alt' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 nna-divesakuru.alt' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 nna-divesakuru.alt' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 nna-divesakuru.alt' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 nna-divesakuru.alt' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru.alt' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 nna-divesakuru.alt' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 nna-divesakuru.alt' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 nna-divesakuru.alt' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 nna-divesakuru.alt' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 nna-divesakuru.alt' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru.alt' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 nna-divesakuru.alt' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 nna-divesakuru.alt' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 nna-divesakuru.alt' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 nna-divesakuru.alt' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 nna-divesakuru.alt' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 nna-divesakuru.alt' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 nna-divesakuru.alt' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 nna-divesakuru.alt' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 nna-divesakuru.alt' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 nna-divesakuru.alt' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 nna-divesakuru.alt' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru.alt' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 nna-divesakuru.alt' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 nna-divesakuru.alt' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 nna-divesakuru.alt' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru.alt' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 nna-divesakuru.alt' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 nna-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 nna-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 nna-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 nna-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 nna-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 nna-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 nna-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 nna-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 nna-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 nna-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 nna-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 nna-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 nna-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 nna-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 nna-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 nna-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 nna-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 nna-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 nna-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 ta-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ta-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 ta-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ta-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ta-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ta-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ta-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ta-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 ta-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 ta-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ta-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 ta-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ta-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ta-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ta-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ta-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ta-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ta-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 ta-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 ta-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 ta-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ta-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 ta-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 ta-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ta-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ta-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 ta-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ta-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ta-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ta-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ta_tha-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 ta_tha-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ta_tha-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ta_tha-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ta_tha-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ta_tha-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ta_tha-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ta_tha-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ta_tha-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 ta_tha-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 ta_tha-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 ta_tha-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ta_tha-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 ta_tha-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ta_tha-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ta_tha-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 tha-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 tha-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 tha-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tha-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 tha-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 tha-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tha-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 tha-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 tha-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 tha-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 tha-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 tha-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 tha-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 tha-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 tha-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 tha-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 tha-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 tha-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 tha-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 tha-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 tha-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 tha-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 tha-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 tha-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 tha-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 tha-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 tha-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 tha-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 tha-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 tha-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 tha-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 tha-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 tha-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 dha-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 dha-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 na-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 na-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 na-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 na-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 na-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 na-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 na-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 na-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 na-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 na-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 na-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 na-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 na-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 na-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 na-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 na-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 na-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 na-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 na-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 na-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 na-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 na-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 na-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 na-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 na-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 na-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 na-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 na-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 na-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 na_tha-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 na_tha-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 na_tha-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 na_tha-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 na_tha-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 na_tha-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 na_tha-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 na_tha-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 na_tha-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 na_tha-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 na_tha-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 na_tha-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 na_tha-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 na_tha-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 na_tha-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 na_tha-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 na_tha-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 na_tha-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 na_tha-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 pa-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 pa-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 ba-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ba-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ba-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ba-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ba-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 ba-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 ba-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ba-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ba-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru.alt' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ma-divesakuru.alt' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 ma-divesakuru.alt' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ma-divesakuru.alt' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ma-divesakuru.alt' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ma-divesakuru.alt' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ma-divesakuru.alt' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ma-divesakuru.alt' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru.alt' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ma-divesakuru.alt' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru.alt' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ma-divesakuru.alt' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru.alt' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ma-divesakuru.alt' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru.alt' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ma-divesakuru.alt' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ma-divesakuru.alt' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ma-divesakuru.alt' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru.alt' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru.alt' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ma-divesakuru.alt' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru.alt' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 ma-divesakuru.alt' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru.alt' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru.alt' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 ma-divesakuru.alt' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 ma-divesakuru.alt' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ma-divesakuru.alt' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ma-divesakuru.alt' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 ma-divesakuru.alt' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ma-divesakuru.alt' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ma-divesakuru.alt' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru.alt' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ma-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ma-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 ma-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ma-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ma-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ma-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ma-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ma-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ma-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ma-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ma-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ma-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ma-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ma-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ma-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ma-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ma-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ma-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ma-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ma-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 ma-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ma-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ma-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 ma-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 ma-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ma-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ma-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 ma-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ma-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ma-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ma-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 ya-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ya-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ya-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 ya-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 ya-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA15 ya-divesakuru.medi' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ya-divesakuru.medi' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 ya-divesakuru.medi' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ya-divesakuru.medi' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ya-divesakuru.medi' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru.medi' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ya-divesakuru.medi' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ya-divesakuru.medi' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ya-divesakuru.medi' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ya-divesakuru.medi' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 ya-divesakuru.medi' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ya-divesakuru.medi' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 ya-divesakuru.medi' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ya-divesakuru.medi' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 ya-divesakuru.medi' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ya-divesakuru.medi' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ya-divesakuru.medi' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ya-divesakuru.medi' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ya-divesakuru.medi' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ya-divesakuru.medi' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru.medi' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA12 ya-divesakuru.medi' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 ya-divesakuru.medi' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA12 ya-divesakuru.medi' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ya-divesakuru.medi' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 ya-divesakuru.medi' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 ya-divesakuru.medi' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ya-divesakuru.medi' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ya-divesakuru.medi' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 ya-divesakuru.medi' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ya-divesakuru.medi' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ya-divesakuru.medi' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ya-divesakuru.medi' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 yya-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 yya-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 yya-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 yya-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 yya-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 yya-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 yya-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 yya-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 yya-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 yya-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 yya-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 yya-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 yya-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 yya-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA15 ra-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ra-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 ra-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ra-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ra-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ra-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ra-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 ra-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ra-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ra-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 ra-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 ra-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 ra-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ra-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA16 ra-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ra-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ra-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ra-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ra-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ra-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ra-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA12 ra-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 ra-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA11 ra-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 ra-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 ra-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 ra-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ra-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ra-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 ra-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ra-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 ra-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 ra-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 la-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 la-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 la-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 la-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 la-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 la-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 la-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 la-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 la-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 la-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 la-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 la-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 la-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 la-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 la-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 la-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 la-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 la-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 la-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 la-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 la-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 la-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 la-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 la-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA17 la-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 la-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 la-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 la-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 la-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 la-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 la-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 la-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 la_medya-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 va-divesakuru.alt' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 va-divesakuru.alt' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 va-divesakuru.alt' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 va-divesakuru.alt' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 va-divesakuru.alt' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 va-divesakuru.alt' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 va-divesakuru.alt' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 va-divesakuru.alt' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 va-divesakuru.alt' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 va-divesakuru.alt' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 va-divesakuru.alt' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 va-divesakuru.alt' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 va-divesakuru.alt' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru.alt' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 va-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 va-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 va-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 va-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 va-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 va-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 va-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 va-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 va-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 va-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 va-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 va-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 va-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 va-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 va-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 va-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 va-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 va-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 ssa-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ssa-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ssa-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ssa-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 ssa-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ssa-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 ssa-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 ssa-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ssa-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 ssa-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 sa-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 sa-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 sa-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 sa-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 ha-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ha-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 ha-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 ha-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 ha-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 ha-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 lla-divesakuru.alt' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 lla-divesakuru.alt' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 lla-divesakuru.alt' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 lla-divesakuru.alt' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 lla-divesakuru.alt' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 lla-divesakuru.alt' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 lla-divesakuru.alt' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 lla-divesakuru.alt' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 lla-divesakuru.alt' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 lla-divesakuru.alt' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 lla-divesakuru.alt' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 lla-divesakuru.alt' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 lla-divesakuru.alt' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 lla-divesakuru.alt' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 lla-divesakuru.alt' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 lla-divesakuru.alt' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 lla-divesakuru.alt' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 lla-divesakuru.alt' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru.alt' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 lla-divesakuru' lookup ConvertToUnderAMark i-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 lla-divesakuru' lookup ConvertToUnderAMark u-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA28 lla-divesakuru' lookup ConvertToUnderAMark e-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 lla-divesakuru' lookup ConvertToUnderAMark o-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 lla-divesakuru' lookup ConvertToUnderAMark ka-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 lla-divesakuru' lookup ConvertToUnderAMark ka_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 lla-divesakuru' lookup ConvertToUnderAMark tta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA22 lla-divesakuru' lookup ConvertToUnderAMark dda-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 lla-divesakuru' lookup ConvertToUnderAMark nna-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru' lookup ConvertToUnderAMark nna-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 lla-divesakuru' lookup ConvertToUnderAMark ta-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA20 lla-divesakuru' lookup ConvertToUnderAMark ta_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 lla-divesakuru' lookup ConvertToUnderAMark tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 lla-divesakuru' lookup ConvertToUnderAMark dha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 lla-divesakuru' lookup ConvertToUnderAMark na-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru' lookup ConvertToUnderAMark na_tha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA31 lla-divesakuru' lookup ConvertToUnderAMark pa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA25 lla-divesakuru' lookup ConvertToUnderAMark ba-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 lla-divesakuru' lookup ConvertToUnderAMark ma-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 lla-divesakuru' lookup ConvertToUnderAMark ma-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 lla-divesakuru' lookup ConvertToUnderAMark ya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 lla-divesakuru' lookup ConvertToUnderAMark ya-divesakuru.medi' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 lla-divesakuru' lookup ConvertToUnderAMark yya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 lla-divesakuru' lookup ConvertToUnderAMark ra-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 lla-divesakuru' lookup ConvertToUnderAMark la-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA32 lla-divesakuru' lookup ConvertToUnderAMark la_medya-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA21 lla-divesakuru' lookup ConvertToUnderAMark va-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru' lookup ConvertToUnderAMark va-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA23 lla-divesakuru' lookup ConvertToUnderAMark ssa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA29 lla-divesakuru' lookup ConvertToUnderAMark sa-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA27 lla-divesakuru' lookup ConvertToUnderAMark ha-divesakuru' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA19 lla-divesakuru' lookup ConvertToUnderAMark lla-divesakuru.alt' lookup ConvertToUnderAMark;
-sub a-divesakuru' lookup toA18 lla-divesakuru' lookup ConvertToUnderAMark lla-divesakuru' lookup ConvertToUnderAMark;
-
-
-} doubleAToMarks;
-
-lookup doubleASplit {
-   sub @a @Undera' @Undera by @Undera double_a;
-} doubleASplit;
-
-lookup doubleACombine {
-	lookupflag IgnoreMarks;
-	sub a-divesakuru.0011 double_a by a-divesakuru.0011.two;
-	sub a-divesakuru.0012 double_a by a-divesakuru.0012.two;
-	sub a-divesakuru.0013 double_a by a-divesakuru.0013.two;
-	sub a-divesakuru.0014 double_a by a-divesakuru.0014.two;
-	sub a-divesakuru.0015 double_a by a-divesakuru.0015.two;
-	sub a-divesakuru.0016 double_a by a-divesakuru.0016.two;
-	sub a-divesakuru.0017 double_a by a-divesakuru.0017.two;
-	sub a-divesakuru.0018 double_a by a-divesakuru.0018.two;
-	sub a-divesakuru.0019 double_a by a-divesakuru.0019.two;
-	sub a-divesakuru.0020 double_a by a-divesakuru.0020.two;
-	sub a-divesakuru.0021 double_a by a-divesakuru.0021.two;
-	sub a-divesakuru.0022 double_a by a-divesakuru.0022.two;
-	sub a-divesakuru.0023 double_a by a-divesakuru.0023.two;
-	sub a-divesakuru.0024 double_a by a-divesakuru.0024.two;
-	sub a-divesakuru.0025 double_a by a-divesakuru.0025.two;
-	sub a-divesakuru.0026 double_a by a-divesakuru.0026.two;
-	sub a-divesakuru.0027 double_a by a-divesakuru.0027.two;
-	sub a-divesakuru.0028 double_a by a-divesakuru.0028.two;
-	sub a-divesakuru.0029 double_a by a-divesakuru.0029.two;
-	sub a-divesakuru.0030 double_a by a-divesakuru.0030.two;
-	sub a-divesakuru.0031 double_a by a-divesakuru.0031.two;
-	sub a-divesakuru.0032 double_a by a-divesakuru.0032.two;
-} doubleACombine;
-
-";
+code = "";
 name = DoubleA;
 },
 {
@@ -2635,6 +1857,228 @@ code = "lookupflag UseMarkFilteringSet [halanta-divesakuru];
 	sub za-divesakuru halanta-divesakuru by za_halanta-divesakuru;
 ";
 tag = haln;
+},
+{
+code = "
+
+# For the two character -a, we need to do a bit of OpenType magic.
+# We will be positioning the \"undera\" glyphs on ligature anchors _1 and _2
+# but to do this, we need to ligate the -a from two glyphs into one so
+# that the \"undera\" marks are associated with the correct anchors.
+# The way that marks are associated with ligature anchors is like this:
+# the ligature is formed by ligating multiple base glyphs together, and
+# the mark after each base glyph gets attached to the appropriate anchor
+# in the sequence. For example 
+#    lam-ar kasra-ar alef-ar damma-ar
+#    BASE1  MARK1    BASE2   MARK2 
+# becomes
+#    lam_alef-ar kasra-ar damma-ar
+#                ^ I used to belong to base 1 so I am on anchor _1
+#                         ^ I used to belong to base two so I am on anchor_2
+#
+# In other words, for Dives Akuru we first need
+#   a-divesakuru LETTER1 LETTER2
+# to become
+#   a-divesakuru LETTER1 some_base_glyph LETTER2
+# because that allows us to ligate
+#   a-divesakuru some_base_glyph -> a-divesakuru.0019
+# (skipping marks) such that LETTER1 ends up associated with _undera_1
+# and LETTER2 ends up associated with _undera_2.
+
+# First, code which both allocates the correct width of stem, and
+# converts each letter to a mark glyph
+lookup doubleAToMarks {
+# from Foundation import NSMaxY
+# import re
+# def average(l): return sum(l)/len(l)
+
+# classes = [c for c in Glyphs.font.classes if \"undera_width\" in c.name]
+# class_widths = {c.name: average([Glyphs.font.glyphs[g].layers[0].width for g in c.code.split(\"\\n\")]) for c in classes}
+
+# branches = [g for g in Glyphs.font.glyphs if g.name.endswith(\".two\")]
+# branch_width = {glyph.name: glyph.layers[0].width-(1183+877) for glyph in branches}
+# branches = sorted(branches, key=lambda g: branch_width[g.name])
+
+# def first_fit(left, right):
+#   lwidth = class_widths[left.name]
+#   rwidth = class_widths[right.name]
+#   for branch in branches:
+#     bw = branch_width[branch.name]
+#     if lwidth + 40 > bw/2 or rwidth + 60 > bw/2:
+#       continue
+#     return branch
+# combo= \"\"
+# for left in classes:
+#   for right in classes:
+#     branch = first_fit(left, right)
+#     if not branch:
+#       continue
+    
+#     m = re.search(\"00(\\d+).two\", branch.name)
+#     branch_int = int(m[1])
+#     combo += (f\"sub a-divesakuru' lookup toA{branch_int} @{left.name}' lookup ConvertToUnderAMark @{right.name}' lookup ConvertToUnderAMark lookup AddNullMark;\\n\")
+# print(combo)
+sub a-divesakuru' lookup toA11 @undera_width1' lookup ConvertToUnderAMark @undera_width1' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA16 @undera_width1' lookup ConvertToUnderAMark @undera_width2' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA18 @undera_width1' lookup ConvertToUnderAMark @undera_width3' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA20 @undera_width1' lookup ConvertToUnderAMark @undera_width4' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA22 @undera_width1' lookup ConvertToUnderAMark @undera_width5' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA24 @undera_width1' lookup ConvertToUnderAMark @undera_width6' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width1' lookup ConvertToUnderAMark @undera_width7' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA27 @undera_width1' lookup ConvertToUnderAMark @undera_width8' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA29 @undera_width1' lookup ConvertToUnderAMark @undera_width9' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width1' lookup ConvertToUnderAMark @undera_width10' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width1' lookup ConvertToUnderAMark @undera_width11' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA16 @undera_width2' lookup ConvertToUnderAMark @undera_width1' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA16 @undera_width2' lookup ConvertToUnderAMark @undera_width2' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA18 @undera_width2' lookup ConvertToUnderAMark @undera_width3' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA20 @undera_width2' lookup ConvertToUnderAMark @undera_width4' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA22 @undera_width2' lookup ConvertToUnderAMark @undera_width5' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA24 @undera_width2' lookup ConvertToUnderAMark @undera_width6' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width2' lookup ConvertToUnderAMark @undera_width7' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA27 @undera_width2' lookup ConvertToUnderAMark @undera_width8' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA29 @undera_width2' lookup ConvertToUnderAMark @undera_width9' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width2' lookup ConvertToUnderAMark @undera_width10' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width2' lookup ConvertToUnderAMark @undera_width11' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA18 @undera_width3' lookup ConvertToUnderAMark @undera_width1' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA18 @undera_width3' lookup ConvertToUnderAMark @undera_width2' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA18 @undera_width3' lookup ConvertToUnderAMark @undera_width3' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA20 @undera_width3' lookup ConvertToUnderAMark @undera_width4' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA22 @undera_width3' lookup ConvertToUnderAMark @undera_width5' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA24 @undera_width3' lookup ConvertToUnderAMark @undera_width6' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width3' lookup ConvertToUnderAMark @undera_width7' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA27 @undera_width3' lookup ConvertToUnderAMark @undera_width8' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA29 @undera_width3' lookup ConvertToUnderAMark @undera_width9' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width3' lookup ConvertToUnderAMark @undera_width10' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width3' lookup ConvertToUnderAMark @undera_width11' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA19 @undera_width4' lookup ConvertToUnderAMark @undera_width1' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA19 @undera_width4' lookup ConvertToUnderAMark @undera_width2' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA19 @undera_width4' lookup ConvertToUnderAMark @undera_width3' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA20 @undera_width4' lookup ConvertToUnderAMark @undera_width4' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA22 @undera_width4' lookup ConvertToUnderAMark @undera_width5' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA24 @undera_width4' lookup ConvertToUnderAMark @undera_width6' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width4' lookup ConvertToUnderAMark @undera_width7' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA27 @undera_width4' lookup ConvertToUnderAMark @undera_width8' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA29 @undera_width4' lookup ConvertToUnderAMark @undera_width9' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width4' lookup ConvertToUnderAMark @undera_width10' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width4' lookup ConvertToUnderAMark @undera_width11' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA21 @undera_width5' lookup ConvertToUnderAMark @undera_width1' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA21 @undera_width5' lookup ConvertToUnderAMark @undera_width2' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA21 @undera_width5' lookup ConvertToUnderAMark @undera_width3' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA21 @undera_width5' lookup ConvertToUnderAMark @undera_width4' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA22 @undera_width5' lookup ConvertToUnderAMark @undera_width5' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA24 @undera_width5' lookup ConvertToUnderAMark @undera_width6' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width5' lookup ConvertToUnderAMark @undera_width7' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA27 @undera_width5' lookup ConvertToUnderAMark @undera_width8' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA29 @undera_width5' lookup ConvertToUnderAMark @undera_width9' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width5' lookup ConvertToUnderAMark @undera_width10' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width5' lookup ConvertToUnderAMark @undera_width11' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA23 @undera_width6' lookup ConvertToUnderAMark @undera_width1' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA23 @undera_width6' lookup ConvertToUnderAMark @undera_width2' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA23 @undera_width6' lookup ConvertToUnderAMark @undera_width3' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA23 @undera_width6' lookup ConvertToUnderAMark @undera_width4' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA23 @undera_width6' lookup ConvertToUnderAMark @undera_width5' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA24 @undera_width6' lookup ConvertToUnderAMark @undera_width6' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width6' lookup ConvertToUnderAMark @undera_width7' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA27 @undera_width6' lookup ConvertToUnderAMark @undera_width8' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA29 @undera_width6' lookup ConvertToUnderAMark @undera_width9' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width6' lookup ConvertToUnderAMark @undera_width10' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width6' lookup ConvertToUnderAMark @undera_width11' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA25 @undera_width7' lookup ConvertToUnderAMark @undera_width1' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA25 @undera_width7' lookup ConvertToUnderAMark @undera_width2' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA25 @undera_width7' lookup ConvertToUnderAMark @undera_width3' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA25 @undera_width7' lookup ConvertToUnderAMark @undera_width4' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA25 @undera_width7' lookup ConvertToUnderAMark @undera_width5' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA25 @undera_width7' lookup ConvertToUnderAMark @undera_width6' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width7' lookup ConvertToUnderAMark @undera_width7' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA27 @undera_width7' lookup ConvertToUnderAMark @undera_width8' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA29 @undera_width7' lookup ConvertToUnderAMark @undera_width9' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width7' lookup ConvertToUnderAMark @undera_width10' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width7' lookup ConvertToUnderAMark @undera_width11' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width8' lookup ConvertToUnderAMark @undera_width1' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width8' lookup ConvertToUnderAMark @undera_width2' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width8' lookup ConvertToUnderAMark @undera_width3' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width8' lookup ConvertToUnderAMark @undera_width4' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width8' lookup ConvertToUnderAMark @undera_width5' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width8' lookup ConvertToUnderAMark @undera_width6' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA26 @undera_width8' lookup ConvertToUnderAMark @undera_width7' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA27 @undera_width8' lookup ConvertToUnderAMark @undera_width8' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA29 @undera_width8' lookup ConvertToUnderAMark @undera_width9' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width8' lookup ConvertToUnderAMark @undera_width10' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width8' lookup ConvertToUnderAMark @undera_width11' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA28 @undera_width9' lookup ConvertToUnderAMark @undera_width1' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA28 @undera_width9' lookup ConvertToUnderAMark @undera_width2' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA28 @undera_width9' lookup ConvertToUnderAMark @undera_width3' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA28 @undera_width9' lookup ConvertToUnderAMark @undera_width4' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA28 @undera_width9' lookup ConvertToUnderAMark @undera_width5' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA28 @undera_width9' lookup ConvertToUnderAMark @undera_width6' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA28 @undera_width9' lookup ConvertToUnderAMark @undera_width7' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA28 @undera_width9' lookup ConvertToUnderAMark @undera_width8' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA29 @undera_width9' lookup ConvertToUnderAMark @undera_width9' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width9' lookup ConvertToUnderAMark @undera_width10' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width9' lookup ConvertToUnderAMark @undera_width11' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width10' lookup ConvertToUnderAMark @undera_width1' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width10' lookup ConvertToUnderAMark @undera_width2' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width10' lookup ConvertToUnderAMark @undera_width3' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width10' lookup ConvertToUnderAMark @undera_width4' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width10' lookup ConvertToUnderAMark @undera_width5' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width10' lookup ConvertToUnderAMark @undera_width6' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width10' lookup ConvertToUnderAMark @undera_width7' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width10' lookup ConvertToUnderAMark @undera_width8' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width10' lookup ConvertToUnderAMark @undera_width9' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA30 @undera_width10' lookup ConvertToUnderAMark @undera_width10' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width10' lookup ConvertToUnderAMark @undera_width11' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width11' lookup ConvertToUnderAMark @undera_width1' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width11' lookup ConvertToUnderAMark @undera_width2' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width11' lookup ConvertToUnderAMark @undera_width3' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width11' lookup ConvertToUnderAMark @undera_width4' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width11' lookup ConvertToUnderAMark @undera_width5' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width11' lookup ConvertToUnderAMark @undera_width6' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width11' lookup ConvertToUnderAMark @undera_width7' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width11' lookup ConvertToUnderAMark @undera_width8' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width11' lookup ConvertToUnderAMark @undera_width9' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width11' lookup ConvertToUnderAMark @undera_width10' lookup ConvertToUnderAMark lookup AddNullMark;
+sub a-divesakuru' lookup toA32 @undera_width11' lookup ConvertToUnderAMark @undera_width11' lookup ConvertToUnderAMark lookup AddNullMark;
+} doubleAToMarks;
+
+lookup doubleASplit {
+   sub @a @Undera' @Undera by @Undera double_a;
+} doubleASplit;
+
+lookup doubleACombine {
+	lookupflag IgnoreMarks;
+	sub a-divesakuru.0011 double_a by a-divesakuru.0011.two;
+	sub a-divesakuru.0012 double_a by a-divesakuru.0012.two;
+	sub a-divesakuru.0013 double_a by a-divesakuru.0013.two;
+	sub a-divesakuru.0014 double_a by a-divesakuru.0014.two;
+	sub a-divesakuru.0015 double_a by a-divesakuru.0015.two;
+	sub a-divesakuru.0016 double_a by a-divesakuru.0016.two;
+	sub a-divesakuru.0017 double_a by a-divesakuru.0017.two;
+	sub a-divesakuru.0018 double_a by a-divesakuru.0018.two;
+	sub a-divesakuru.0019 double_a by a-divesakuru.0019.two;
+	sub a-divesakuru.0020 double_a by a-divesakuru.0020.two;
+	sub a-divesakuru.0021 double_a by a-divesakuru.0021.two;
+	sub a-divesakuru.0022 double_a by a-divesakuru.0022.two;
+	sub a-divesakuru.0023 double_a by a-divesakuru.0023.two;
+	sub a-divesakuru.0024 double_a by a-divesakuru.0024.two;
+	sub a-divesakuru.0025 double_a by a-divesakuru.0025.two;
+	sub a-divesakuru.0026 double_a by a-divesakuru.0026.two;
+	sub a-divesakuru.0027 double_a by a-divesakuru.0027.two;
+	sub a-divesakuru.0028 double_a by a-divesakuru.0028.two;
+	sub a-divesakuru.0029 double_a by a-divesakuru.0029.two;
+	sub a-divesakuru.0030 double_a by a-divesakuru.0030.two;
+	sub a-divesakuru.0031 double_a by a-divesakuru.0031.two;
+	sub a-divesakuru.0032 double_a by a-divesakuru.0032.two;
+} doubleACombine;
+
+";
+labels = (
+{
+language = dflt;
+value = "Two character bridged -a";
+}
+);
+tag = ss03;
 },
 {
 code = "#-na_halanda calligraphic feature
@@ -3695,21 +3139,6 @@ value = "alternate nna";
 }
 );
 tag = ss02;
-},
-{
-code = "# Two character bridge a
-lookup doubleAToMarks;
-lookup doubleASplit;
-lookup doubleACombine;
-
-";
-labels = (
-{
-language = dflt;
-value = "Two character bridged -a";
-}
-);
-tag = ss03;
 },
 {
 code = "# Automatic Code

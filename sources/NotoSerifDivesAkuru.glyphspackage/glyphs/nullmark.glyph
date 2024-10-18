@@ -3,23 +3,7 @@ category = Mark;
 glyphname = nullmark;
 layers = (
 {
-anchors = (
-{
-name = _undera;
-}
-);
 layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
-shapes = (
-{
-closed = 1;
-nodes = (
-(-64,-70,l),
-(80,-70,l),
-(80,74,l),
-(-64,74,l)
-);
-}
-);
 width = 600;
 }
 );
