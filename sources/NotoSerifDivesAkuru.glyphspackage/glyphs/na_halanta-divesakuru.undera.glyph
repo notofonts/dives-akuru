@@ -5,6 +5,24 @@ kernLeft = na_halanta;
 kernRight = na_halanta;
 layers = (
 {
+anchors = (
+{
+name = _undera;
+pos = (450.5,0);
+},
+{
+name = bottom;
+pos = (438.8,-64);
+},
+{
+name = caret_1;
+pos = (802.8,0);
+},
+{
+name = top;
+pos = (261.8,323);
+}
+);
 background = {
 anchors = (
 {

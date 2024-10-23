@@ -2109,6 +2109,7 @@ lookup doubleACombine {
 } doubleACombine;
 
 ";
+disabled = 1;
 labels = (
 {
 language = dflt;
@@ -2166,7 +2167,7 @@ sub @halanta0000' dda_eVowel-divesakuru by @halanta0009;
 sub @halanta0000' dda_halanta-divesakuru by @halanta0004;
 sub @halanta0000' dda_iiVowel-divesakuru by @halanta0008;
 sub @halanta0000' dda_iVowel-divesakuru by @halanta0006;
-sub @halanta0000' dda_medya_iVowel-divesakuru by @halanta0011;
+sub @halanta0000' dda_medya_iVowel-divesakuru by @halanta0010;
 sub @halanta0000' dda_ooVowel-divesakuru by @halanta0011;
 sub @halanta0000' dda_oVowel-divesakuru by @halanta0010;
 sub @halanta0000' dda_uuVowel-divesakuru by @halanta0007;
@@ -2232,7 +2233,7 @@ sub @halanta0000' @ka-halanta by @halanta0003;
 sub @halanta0000' ka_iiVowel-divesakuru by @halanta0008;
 sub @halanta0000' ka_iVowel-divesakuru by @halanta0007;
 sub @halanta0000' ka_medra_uVowel-divesakuru by @halanta0001;
-sub @halanta0000' ka_medya_iVowel-divesakuru by @halanta0011;
+sub @halanta0000' ka_medya_iVowel-divesakuru by @halanta0010;
 sub @halanta0000' ka_ooVowel-divesakuru by @halanta0011;
 sub @halanta0000' ka_oVowel-divesakuru by @halanta0010;
 sub @halanta0000' ka_ssa_halanta-divesakuru by @halanta0008;
@@ -2246,7 +2247,7 @@ sub @halanta0000' la_eVowel-divesakuru by @halanta0008;
 sub @halanta0000' la_halanta-divesakuru by @halanta0003;
 sub @halanta0000' la_iiVowel-divesakuru by @halanta0006;
 sub @halanta0000' la_iVowel-divesakuru by @halanta0006;
-sub @halanta0000' la_medya-divesakuru by @halanta0008;
+sub @halanta0000' la_medya-divesakuru by @halanta0007;
 sub @halanta0000' la_ooVowel-divesakuru by @halanta0011;
 sub @halanta0000' la_oVowel-divesakuru by @halanta0008;
 sub @halanta0000' la_uuVowel-divesakuru by @halanta0006;
@@ -2258,7 +2259,7 @@ sub @halanta0000' lla_eVowel-divesakuru by @halanta0008;
 sub @halanta0000' lla_halanta-divesakuru by @halanta0003;
 sub @halanta0000' lla_iiVowel-divesakuru by @halanta0006;
 sub @halanta0000' lla_iVowel-divesakuru by @halanta0006;
-sub @halanta0000' lla_medya_iVowel-divesakuru by @halanta0010;
+sub @halanta0000' lla_medya_iVowel-divesakuru by @halanta0009;
 sub @halanta0000' lla_ooVowel-divesakuru by @halanta0011;
 sub @halanta0000' lla_oVowel-divesakuru by @halanta0010;
 sub @halanta0000' lla_uuVowel-divesakuru by @halanta0006;
@@ -2274,7 +2275,7 @@ sub @halanta0000' ma_iVowel-divesakuru by @halanta0006;
 sub @halanta0000' ma_medya_eVowel-divesakuru by @halanta0011;
 sub @halanta0000' ma_medya_iiVowel-divesakuru by @halanta0010;
 sub @halanta0000' ma_medya_iVowel-divesakuru by @halanta0009;
-sub @halanta0000' ma_medya-divesakuru by @halanta0008;
+sub @halanta0000' ma_medya-divesakuru by @halanta0007;
 sub @halanta0000' ma_ooVowel-divesakuru by @halanta0011;
 sub @halanta0000' ma_oVowel-divesakuru by @halanta0010;
 sub @halanta0000' ma_uuVowel-divesakuru by @halanta0006;
@@ -2398,8 +2399,8 @@ sub @halanta0000' va_eVowel-divesakuru by @halanta0008;
 sub @halanta0000' va_halanta-divesakuru by @halanta0003;
 sub @halanta0000' va_iiVowel-divesakuru by @halanta0007;
 sub @halanta0000' va_iVowel-divesakuru by @halanta0006;
-sub @halanta0000' va_medya_iVowel-divesakuru by @halanta0010;
-sub @halanta0000' va_medya_uVowel-divesakuru by @halanta0010;
+sub @halanta0000' va_medya_iVowel-divesakuru by @halanta0009;
+sub @halanta0000' va_medya_uVowel-divesakuru by @halanta0009;
 sub @halanta0000' va_medya-divesakuru by @halanta0008;
 sub @halanta0000' va_ooVowel-divesakuru by @halanta0011;
 sub @halanta0000' va_oVowel-divesakuru by @halanta0010;
@@ -5959,7 +5960,7 @@ key = manufacturers;
 values = (
 {
 language = dflt;
-value = "";
+value = "Fernando Caro";
 }
 );
 },
