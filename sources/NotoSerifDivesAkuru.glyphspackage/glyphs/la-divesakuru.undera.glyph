@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = _undera;
-pos = (561.5,0);
+pos = (552,0);
 },
 {
 name = bottom;
