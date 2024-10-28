@@ -2109,7 +2109,6 @@ lookup doubleACombine {
 } doubleACombine;
 
 ";
-disabled = 1;
 labels = (
 {
 language = dflt;
@@ -3231,14 +3230,15 @@ pos @contextual-kerning-halanta-2' 100 ya_medra-divesakuru prefixedNasalSign-div
 } contextual-kerning-2;
 
 lookup contextual-kerning-3 {
-pos da_halanta-divesakuru' 70 doubleDanda-divesakuru' 70 nga_ga-divesakuru;
-pos pha_halanta-divesakuru' 50 doubleDanda-divesakuru' 50 nga_ga-divesakuru;
-pos ba_halanta-divesakuru' 25 doubleDanda-divesakuru' 25 nga_ga-divesakuru;
-pos bha_halanta-divesakuru' 70 doubleDanda-divesakuru' 70 nga_ga-divesakuru;
-pos lla_halanta-divesakuru' 25 doubleDanda-divesakuru' 25 nga_ga-divesakuru;
-pos ta_medya_halanta-divesakuru' 25 doubleDanda-divesakuru' 25 nga_ga-divesakuru;
-pos tta_halanta-divesakuru' 25 doubleDanda-divesakuru' 25 nga_ga-divesakuru;
-} contextual-kerning-3;";
+pos da_halanta-divesakuru' 90 doubleDanda-divesakuru' 90 nga_ga-divesakuru;
+pos pha_halanta-divesakuru' 70 doubleDanda-divesakuru' 70 nga_ga-divesakuru;
+pos ba_halanta-divesakuru' 45 doubleDanda-divesakuru' 45 nga_ga-divesakuru;
+pos bha_halanta-divesakuru' 90 doubleDanda-divesakuru' 90 nga_ga-divesakuru;
+pos lla_halanta-divesakuru' 45 doubleDanda-divesakuru' 45 nga_ga-divesakuru;
+pos ta_medya_halanta-divesakuru' 45 doubleDanda-divesakuru' 45 nga_ga-divesakuru;
+pos tta_halanta-divesakuru' 45 doubleDanda-divesakuru' 45 nga_ga-divesakuru;
+} contextual-kerning-3;
+";
 tag = kern;
 }
 );

@@ -17,6 +17,10 @@ pos = (535,-311);
 {
 name = caret_1;
 pos = (757,0);
+},
+{
+name = top;
+pos = (487,801);
 }
 );
 background = {
