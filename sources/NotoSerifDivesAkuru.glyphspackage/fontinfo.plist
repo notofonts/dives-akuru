@@ -1604,11 +1604,11 @@ code = "lookupflag UseMarkFilteringSet [halanta-divesakuru];
 	sub na-divesakuru virama-divesakuru tha-divesakuru by na_tha-divesakuru;
 	sub ta-divesakuru virama-divesakuru tha-divesakuru by ta_tha-divesakuru;
 	sub ta-divesakuru virama-divesakuru ta-divesakuru by ta_ta-divesakuru;
-	sub ta-divesakuru virama-divesakuru ta-divesakuru eVowel-divesakuru by ta_ta_eVowel-divesakuru;
+	sub ta-divesakuru virama-divesakuru ta_eVowel-divesakuru by ta_ta_eVowel-divesakuru;
 	sub nga-divesakuru virama-divesakuru ga-divesakuru by nga_ga-divesakuru;
 	sub ka-divesakuru virama-divesakuru tha-divesakuru by ka_tha-divesakuru;
-	sub ka-divesakuru virama-divesakuru dha-divesakuru uVowel-divesakuru by ka_dha_uVowel-divesakuru;
-	sub ka-divesakuru virama-divesakuru ssa-divesakuru halanta-divesakuru by ka_ssa_halanta-divesakuru;
+	sub ka-divesakuru virama-divesakuru dha_uVowel-divesakuru by ka_dha_uVowel-divesakuru;
+	sub ka-divesakuru virama-divesakuru ssa_halanta-divesakuru by ka_ssa_halanta-divesakuru;
 	sub ta-divesakuru virama-divesakuru ta-divesakuru ra-divesakuru.medi iVowel-divesakuru by ta_ta_medra_iVowel-divesakuru;
 	sub ta-divesakuru virama-divesakuru tha-divesakuru ra-divesakuru.medi iVowel-divesakuru by ta_tha_medra_iVowel-divesakuru;
 ";
@@ -3910,6 +3910,7 @@ sub a-divesakuru' lookup toA32 pha_ooVowel-divesakuru' lookup ConvertToUnderAMar
 } BridgedA;
 
 lookup BridgedA-mark {
+lookupflag 0;
 sub @Undera-tall1 prefixedNasalSign-divesakuru' by prefixedNasalSign-divesakuru.undera.tall1;
 sub @Undera-tall2 prefixedNasalSign-divesakuru' by prefixedNasalSign-divesakuru.undera.tall2;
 } BridgedA-mark;
