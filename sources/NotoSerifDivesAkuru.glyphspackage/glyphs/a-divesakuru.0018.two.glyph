@@ -5,12 +5,8 @@ layers = (
 {
 anchors = (
 {
-name = undera_1;
-pos = (1713,0);
-},
-{
-name = undera_2;
-pos = (2774,0);
+name = underatwo;
+pos = (1183,0);
 }
 );
 layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
@@ -22,5 +18,5 @@ ref = "a-divesakuru.0018";
 width = 4221;
 }
 );
-subCategory = Ligature;
+subCategory = Other;
 }

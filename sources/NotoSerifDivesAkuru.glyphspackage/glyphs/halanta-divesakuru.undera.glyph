@@ -6,6 +6,9 @@ anchors = (
 {
 name = _halanta;
 pos = (290,494);
+},
+{
+name = _underatwo;
 }
 );
 background = {

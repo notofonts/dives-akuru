@@ -7,6 +7,9 @@ anchors = (
 {
 name = _top;
 pos = (396,862);
+},
+{
+name = _underatwo;
 }
 );
 background = {

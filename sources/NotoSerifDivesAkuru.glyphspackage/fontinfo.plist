@@ -1959,33 +1959,7 @@ code = "lookupflag UseMarkFilteringSet [halanta-divesakuru];
 tag = haln;
 },
 {
-code = "
-
-# For the two character -a, we need to do a bit of OpenType magic.
-# We will be positioning the \"undera\" glyphs on ligature anchors _1 and _2
-# but to do this, we need to ligate the -a from two glyphs into one so
-# that the \"undera\" marks are associated with the correct anchors.
-# The way that marks are associated with ligature anchors is like this:
-# the ligature is formed by ligating multiple base glyphs together, and
-# the mark after each base glyph gets attached to the appropriate anchor
-# in the sequence. For example 
-#    lam-ar kasra-ar alef-ar damma-ar
-#    BASE1  MARK1    BASE2   MARK2 
-# becomes
-#    lam_alef-ar kasra-ar damma-ar
-#                ^ I used to belong to base 1 so I am on anchor _1
-#                         ^ I used to belong to base two so I am on anchor_2
-#
-# In other words, for Dives Akuru we first need
-#   a-divesakuru LETTER1 LETTER2
-# to become
-#   a-divesakuru LETTER1 some_base_glyph LETTER2
-# because that allows us to ligate
-#   a-divesakuru some_base_glyph -> a-divesakuru.0019
-# (skipping marks) such that LETTER1 ends up associated with _undera_1
-# and LETTER2 ends up associated with _undera_2.
-
-# First, code which both allocates the correct width of stem, and
+code = "# First, code which both allocates the correct width of stem, and
 # converts each letter to a mark glyph
 lookup doubleAToMarks {
 # from Foundation import NSMaxY
@@ -2861,35 +2835,31 @@ sub a-divesakuru' lookup toA69 @undera_width29' lookup ConvertToUnderAMark @unde
 sub a-divesakuru' lookup toA69 @undera_width29' lookup ConvertToUnderAMark @undera_width29' lookup ConvertToUnderAMark lookup AddNullMark;
 } doubleAToMarks;
 
-lookup doubleASplit {
-   sub @a @Undera' @Undera by @Undera double_a;
-} doubleASplit;
-
-lookup doubleACombine {
-	lookupflag IgnoreMarks;
-	sub a-divesakuru.0011 double_a by a-divesakuru.0011.two;
-	sub a-divesakuru.0012 double_a by a-divesakuru.0012.two;
-	sub a-divesakuru.0013 double_a by a-divesakuru.0013.two;
-	sub a-divesakuru.0014 double_a by a-divesakuru.0014.two;
-	sub a-divesakuru.0015 double_a by a-divesakuru.0015.two;
-	sub a-divesakuru.0016 double_a by a-divesakuru.0016.two;
-	sub a-divesakuru.0017 double_a by a-divesakuru.0017.two;
-	sub a-divesakuru.0018 double_a by a-divesakuru.0018.two;
-	sub a-divesakuru.0019 double_a by a-divesakuru.0019.two;
-	sub a-divesakuru.0020 double_a by a-divesakuru.0020.two;
-	sub a-divesakuru.0021 double_a by a-divesakuru.0021.two;
-	sub a-divesakuru.0022 double_a by a-divesakuru.0022.two;
-	sub a-divesakuru.0023 double_a by a-divesakuru.0023.two;
-	sub a-divesakuru.0024 double_a by a-divesakuru.0024.two;
-	sub a-divesakuru.0025 double_a by a-divesakuru.0025.two;
-	sub a-divesakuru.0026 double_a by a-divesakuru.0026.two;
-	sub a-divesakuru.0027 double_a by a-divesakuru.0027.two;
-	sub a-divesakuru.0028 double_a by a-divesakuru.0028.two;
-	sub a-divesakuru.0029 double_a by a-divesakuru.0029.two;
-	sub a-divesakuru.0030 double_a by a-divesakuru.0030.two;
-	sub a-divesakuru.0031 double_a by a-divesakuru.0031.two;
-	sub a-divesakuru.0032 double_a by a-divesakuru.0032.two;
-} doubleACombine;
+lookup chooseDoubleVersion { # For correct anchor placement
+	lookupflag IgnoreMarks; 
+	sub a-divesakuru.0011 by a-divesakuru.0011.two;
+  sub a-divesakuru.0012 by a-divesakuru.0012.two;
+  sub a-divesakuru.0013 by a-divesakuru.0013.two;
+  sub a-divesakuru.0014 by a-divesakuru.0014.two;
+  sub a-divesakuru.0015 by a-divesakuru.0015.two;
+  sub a-divesakuru.0016 by a-divesakuru.0016.two;
+  sub a-divesakuru.0017 by a-divesakuru.0017.two;
+  sub a-divesakuru.0018 by a-divesakuru.0018.two;
+  sub a-divesakuru.0019 by a-divesakuru.0019.two;
+  sub a-divesakuru.0020 by a-divesakuru.0020.two;
+  sub a-divesakuru.0021 by a-divesakuru.0021.two;
+  sub a-divesakuru.0022 by a-divesakuru.0022.two;
+  sub a-divesakuru.0023 by a-divesakuru.0023.two;
+  sub a-divesakuru.0024 by a-divesakuru.0024.two;
+  sub a-divesakuru.0025 by a-divesakuru.0025.two;
+  sub a-divesakuru.0026 by a-divesakuru.0026.two;
+  sub a-divesakuru.0027 by a-divesakuru.0027.two;
+  sub a-divesakuru.0028 by a-divesakuru.0028.two;
+  sub a-divesakuru.0029 by a-divesakuru.0029.two;
+  sub a-divesakuru.0030 by a-divesakuru.0030.two;
+  sub a-divesakuru.0031 by a-divesakuru.0031.two;
+  sub a-divesakuru.0032 by a-divesakuru.0032.two;
+} chooseDoubleVersion;
 
 ";
 labels = (
@@ -4021,7 +3991,333 @@ pos lla_halanta-divesakuru' 45 doubleDanda-divesakuru' 45 nga_ga-divesakuru;
 pos ta_medya_halanta-divesakuru' 45 doubleDanda-divesakuru' 45 nga_ga-divesakuru;
 pos tta_halanta-divesakuru' 45 doubleDanda-divesakuru' 45 nga_ga-divesakuru;
 } contextual-kerning-3;
-";
+
+
+lookup bridgedAKerning {
+  lookupflag UseMarkFilteringSet @Undera;
+pos i-divesakuru.undera @Undera' <1005 0 0 0>;
+pos u-divesakuru.undera @Undera' <960 0 0 0>;
+pos e-divesakuru.undera @Undera' <1523 0 0 0>;
+pos o-divesakuru.alt.undera @Undera' <1215 0 0 0>;
+pos o-divesakuru.undera @Undera' <1830 0 0 0>;
+pos ka-divesakuru.undera @Undera' <1322 0 0 0>;
+pos ka_tha-divesakuru.undera @Undera' <1467 0 0 0>;
+pos ka_dha_uVowel-divesakuru.undera @Undera' <2404 0 0 0>;
+pos ka_ssa_halanta-divesakuru.undera @Undera' <2174 0 0 0>;
+pos ka_aaVowel-divesakuru.undera @Undera' <1641 0 0 0>;
+pos ka_iVowel-divesakuru.undera @Undera' <1611 0 0 0>;
+pos ka_iiVowel-divesakuru.undera @Undera' <1778 0 0 0>;
+pos ka_uVowel-divesakuru.undera @Undera' <1301 0 0 0>;
+pos ka_uuVowel-divesakuru.undera @Undera' <1301 0 0 0>;
+pos ka_eVowel-divesakuru.undera @Undera' <1968 0 0 0>;
+pos ka_aiVowel-divesakuru.undera @Undera' <2318 0 0 0>;
+pos ka_oVowel-divesakuru.undera @Undera' <2257 0 0 0>;
+pos ka_halanta-divesakuru.undera @Undera' <1244 0 0 0>;
+pos ka_medra_uVowel-divesakuru.undera @Undera' <1832 0 0 0>;
+pos ka_medya_iVowel-divesakuru.undera @Undera' <2291 0 0 0>;
+pos ka_ooVowel-divesakuru.undera @Undera' <2607 0 0 0>;
+pos ga-divesakuru.undera @Undera' <1094 0 0 0>;
+pos ga_aaVowel-divesakuru.undera @Undera' <1410 0 0 0>;
+pos ga_iVowel-divesakuru.undera @Undera' <1370 0 0 0>;
+pos ga_iiVowel-divesakuru.undera @Undera' <1575 0 0 0>;
+pos ga_uVowel-divesakuru.undera @Undera' <1392 0 0 0>;
+pos ga_uuVowel-divesakuru.undera @Undera' <1392 0 0 0>;
+pos ga_eVowel-divesakuru.undera @Undera' <1740 0 0 0>;
+pos ga_aiVowel-divesakuru.undera @Undera' <2090 0 0 0>;
+pos ga_oVowel-divesakuru.undera @Undera' <2016 0 0 0>;
+pos ga_halanta-divesakuru.undera @Undera' <1094 0 0 0>;
+pos ga_ooVowel-divesakuru.undera @Undera' <2366 0 0 0>;
+pos nga-divesakuru.undera @Undera' <680 0 0 0>;
+pos nga_ga-divesakuru.undera @Undera' <1050 0 0 0>;
+pos tta-divesakuru.undera @Undera' <1246 0 0 0>;
+pos tta_aaVowel-divesakuru.undera @Undera' <1590 0 0 0>;
+pos tta_iVowel-divesakuru.undera @Undera' <1560 0 0 0>;
+pos tta_iiVowel-divesakuru.undera @Undera' <1663 0 0 0>;
+pos tta_uVowel-divesakuru.undera @Undera' <1549 0 0 0>;
+pos tta_uuVowel-divesakuru.undera @Undera' <1549 0 0 0>;
+pos tta_eVowel-divesakuru.undera @Undera' <1892 0 0 0>;
+pos tta_aiVowel-divesakuru.undera @Undera' <2242 0 0 0>;
+pos tta_oVowel-divesakuru.undera @Undera' <2206 0 0 0>;
+pos tta_halanta-divesakuru.undera @Undera' <1260 0 0 0>;
+pos tta_ooVowel-divesakuru.undera @Undera' <2556 0 0 0>;
+pos dda-divesakuru.undera @Undera' <1302 0 0 0>;
+pos dda_aaVowel-divesakuru.undera @Undera' <1610 0 0 0>;
+pos dda_iVowel-divesakuru.undera @Undera' <1595 0 0 0>;
+pos dda_iiVowel-divesakuru.undera @Undera' <1733 0 0 0>;
+pos dda_uVowel-divesakuru.undera @Undera' <1606 0 0 0>;
+pos dda_uuVowel-divesakuru.undera @Undera' <1606 0 0 0>;
+pos dda_eVowel-divesakuru.undera @Undera' <1948 0 0 0>;
+pos dda_aiVowel-divesakuru.undera @Undera' <2298 0 0 0>;
+pos dda_oVowel-divesakuru.undera @Undera' <2241 0 0 0>;
+pos dda_halanta-divesakuru.undera @Undera' <1436 0 0 0>;
+pos dda_medya_iVowel-divesakuru.undera @Undera' <2316 0 0 0>;
+pos dda_ooVowel-divesakuru.undera @Undera' <2591 0 0 0>;
+pos ddha-divesakuru.undera @Undera' <1524 0 0 0>;
+pos ddha_aaVowel-divesakuru.undera @Undera' <1835 0 0 0>;
+pos ddha_iVowel-divesakuru.undera @Undera' <1784 0 0 0>;
+pos ddha_iiVowel-divesakuru.undera @Undera' <1864 0 0 0>;
+pos ddha_uVowel-divesakuru.undera @Undera' <1804 0 0 0>;
+pos ddha_uuVowel-divesakuru.undera @Undera' <1804 0 0 0>;
+pos ddha_eVowel-divesakuru.undera @Undera' <2170 0 0 0>;
+pos ddha_aiVowel-divesakuru.undera @Undera' <2520 0 0 0>;
+pos ddha_oVowel-divesakuru.undera @Undera' <2430 0 0 0>;
+pos ddha_halanta-divesakuru.undera @Undera' <1533 0 0 0>;
+pos ddha_medya-divesakuru.undera @Undera' <2106 0 0 0>;
+pos ddha_ooVowel-divesakuru.undera @Undera' <2780 0 0 0>;
+pos nna-divesakuru.alt.undera @Undera' <1165 0 0 0>;
+pos nna-divesakuru.undera @Undera' <1216 0 0 0>;
+pos nna_aaVowel-divesakuru.undera @Undera' <1535 0 0 0>;
+pos nna_iVowel-divesakuru.undera @Undera' <1494 0 0 0>;
+pos nna_iiVowel-divesakuru.undera @Undera' <1663 0 0 0>;
+pos nna_uVowel-divesakuru.undera @Undera' <1124 0 0 0>;
+pos nna_uuVowel-divesakuru.undera @Undera' <1124 0 0 0>;
+pos nna_eVowel-divesakuru.undera @Undera' <1862 0 0 0>;
+pos nna_aiVowel-divesakuru.undera @Undera' <2212 0 0 0>;
+pos nna_oVowel-divesakuru.undera @Undera' <2140 0 0 0>;
+pos nna_halanta-divesakuru.undera @Undera' <1216 0 0 0>;
+pos nna_ooVowel-divesakuru.undera @Undera' <2490 0 0 0>;
+pos ta-divesakuru.undera @Undera' <1055 0 0 0>;
+pos ta_ta-divesakuru.undera @Undera' <1872 0 0 0>;
+pos ta_ta_eVowel-divesakuru.undera @Undera' <2518 0 0 0>;
+pos ta_ta_medra_iVowel-divesakuru.undera @Undera' <2496 0 0 0>;
+pos ta_tha-divesakuru.undera @Undera' <1193 0 0 0>;
+pos ta_tha_medra_iVowel-divesakuru.undera @Undera' <1918 0 0 0>;
+pos ta_aaVowel-divesakuru.undera @Undera' <1349 0 0 0>;
+pos ta_iVowel-divesakuru.undera @Undera' <1328 0 0 0>;
+pos ta_iiVowel-divesakuru.undera @Undera' <1538 0 0 0>;
+pos ta_uVowel-divesakuru.undera @Undera' <954 0 0 0>;
+pos ta_uuVowel-divesakuru.undera @Undera' <954 0 0 0>;
+pos ta_eVowel-divesakuru.undera @Undera' <1701 0 0 0>;
+pos ta_aiVowel-divesakuru.undera @Undera' <2051 0 0 0>;
+pos ta_oVowel-divesakuru.undera @Undera' <1974 0 0 0>;
+pos ta_halanta-divesakuru.undera @Undera' <925 0 0 0>;
+pos ta_medra_uVowel-divesakuru.undera @Undera' <1478 0 0 0>;
+pos ta_medya_iVowel-divesakuru.undera @Undera' <2078 0 0 0>;
+pos ta_medya_halanta-divesakuru.undera @Undera' <1760 0 0 0>;
+pos ta_ooVowel-divesakuru.undera @Undera' <2324 0 0 0>;
+pos tha-divesakuru.undera @Undera' <1060 0 0 0>;
+pos da-divesakuru.undera @Undera' <981 0 0 0>;
+pos da_aaVowel-divesakuru.undera @Undera' <1305 0 0 0>;
+pos da_iVowel-divesakuru.undera @Undera' <1258 0 0 0>;
+pos da_iiVowel-divesakuru.undera @Undera' <1443 0 0 0>;
+pos da_uVowel-divesakuru.undera @Undera' <1326 0 0 0>;
+pos da_uuVowel-divesakuru.undera @Undera' <1326 0 0 0>;
+pos da_eVowel-divesakuru.undera @Undera' <1627 0 0 0>;
+pos da_aiVowel-divesakuru.undera @Undera' <1977 0 0 0>;
+pos da_oVowel-divesakuru.undera @Undera' <1901 0 0 0>;
+pos da_halanta-divesakuru.undera @Undera' <981 0 0 0>;
+pos da_ooVowel-divesakuru.undera @Undera' <2251 0 0 0>;
+pos dha-divesakuru.undera @Undera' <1637 0 0 0>;
+pos dha_aaVowel-divesakuru.undera @Undera' <1947 0 0 0>;
+pos dha_iVowel-divesakuru.undera @Undera' <1877 0 0 0>;
+pos dha_iiVowel-divesakuru.undera @Undera' <1979 0 0 0>;
+pos dha_uVowel-divesakuru.undera @Undera' <1897 0 0 0>;
+pos dha_uuVowel-divesakuru.undera @Undera' <1897 0 0 0>;
+pos dha_eVowel-divesakuru.undera @Undera' <2283 0 0 0>;
+pos dha_aiVowel-divesakuru.undera @Undera' <2633 0 0 0>;
+pos dha_oVowel-divesakuru.undera @Undera' <2523 0 0 0>;
+pos dha_halanta-divesakuru.undera @Undera' <1645 0 0 0>;
+pos dha_medya-divesakuru.undera @Undera' <2219 0 0 0>;
+pos dha_ooVowel-divesakuru.undera @Undera' <2873 0 0 0>;
+pos na-divesakuru.undera @Undera' <1022 0 0 0>;
+pos na_tha-divesakuru.undera @Undera' <1089 0 0 0>;
+pos na_aaVowel-divesakuru.undera @Undera' <1336 0 0 0>;
+pos na_iVowel-divesakuru.undera @Undera' <1326 0 0 0>;
+pos na_iiVowel-divesakuru.undera @Undera' <1494 0 0 0>;
+pos na_uVowel-divesakuru.undera @Undera' <1018 0 0 0>;
+pos na_uuVowel-divesakuru.undera @Undera' <1018 0 0 0>;
+pos na_eVowel-divesakuru.undera @Undera' <1668 0 0 0>;
+pos na_aiVowel-divesakuru.undera @Undera' <2018 0 0 0>;
+pos na_oVowel-divesakuru.undera @Undera' <1972 0 0 0>;
+pos na_halanta-divesakuru.undera @Undera' <901 0 0 0>;
+pos na_medra-divesakuru.undera @Undera' <1297 0 0 0>;
+pos na_medra_aaVowel-divesakuru.undera @Undera' <1616 0 0 0>;
+pos na_medya_iVowel-divesakuru.undera @Undera' <2050 0 0 0>;
+pos na_ooVowel-divesakuru.undera @Undera' <2322 0 0 0>;
+pos pa-divesakuru.undera @Undera' <1667 0 0 0>;
+pos pa_aaVowel-divesakuru.undera @Undera' <1986 0 0 0>;
+pos pa_iVowel-divesakuru.undera @Undera' <1981 0 0 0>;
+pos pa_iiVowel-divesakuru.undera @Undera' <2089 0 0 0>;
+pos pa_uVowel-divesakuru.undera @Undera' <1972 0 0 0>;
+pos pa_uuVowel-divesakuru.undera @Undera' <1972 0 0 0>;
+pos pa_eVowel-divesakuru.undera @Undera' <2313 0 0 0>;
+pos pa_aiVowel-divesakuru.undera @Undera' <2663 0 0 0>;
+pos pa_oVowel-divesakuru.undera @Undera' <2627 0 0 0>;
+pos pa_halanta-divesakuru.undera @Undera' <1680 0 0 0>;
+pos pa_medra-divesakuru.undera @Undera' <2261 0 0 0>;
+pos pa_ooVowel-divesakuru.undera @Undera' <2977 0 0 0>;
+pos pha-divesakuru.undera @Undera' <1989 0 0 0>;
+pos pha_aaVowel-divesakuru.undera @Undera' <2285 0 0 0>;
+pos pha_iVowel-divesakuru.undera @Undera' <2275 0 0 0>;
+pos pha_iiVowel-divesakuru.undera @Undera' <2433 0 0 0>;
+pos pha_uVowel-divesakuru.undera @Undera' <2275 0 0 0>;
+pos pha_uuVowel-divesakuru.undera @Undera' <2275 0 0 0>;
+pos pha_eVowel-divesakuru.undera @Undera' <2635 0 0 0>;
+pos pha_aiVowel-divesakuru.undera @Undera' <2985 0 0 0>;
+pos pha_oVowel-divesakuru.undera @Undera' <2921 0 0 0>;
+pos pha_halanta-divesakuru.undera @Undera' <1989 0 0 0>;
+pos pha_ooVowel-divesakuru.undera @Undera' <3271 0 0 0>;
+pos ba-divesakuru.undera @Undera' <1415 0 0 0>;
+pos ba_va-divesakuru.undera @Undera' <1941 0 0 0>;
+pos ba_aaVowel-divesakuru.undera @Undera' <1720 0 0 0>;
+pos ba_iVowel-divesakuru.undera @Undera' <1685 0 0 0>;
+pos ba_iiVowel-divesakuru.undera @Undera' <1829 0 0 0>;
+pos ba_uVowel-divesakuru.undera @Undera' <1702 0 0 0>;
+pos ba_uuVowel-divesakuru.undera @Undera' <1702 0 0 0>;
+pos ba_eVowel-divesakuru.undera @Undera' <2061 0 0 0>;
+pos ba_aiVowel-divesakuru.undera @Undera' <2411 0 0 0>;
+pos ba_oVowel-divesakuru.undera @Undera' <2331 0 0 0>;
+pos ba_halanta-divesakuru.undera @Undera' <1442 0 0 0>;
+pos ba_ooVowel-divesakuru.undera @Undera' <2681 0 0 0>;
+pos bha-divesakuru.undera @Undera' <1742 0 0 0>;
+pos bha_aaVowel-divesakuru.undera @Undera' <2021 0 0 0>;
+pos bha_iVowel-divesakuru.undera @Undera' <2002 0 0 0>;
+pos bha_iiVowel-divesakuru.undera @Undera' <2189 0 0 0>;
+pos bha_uVowel-divesakuru.undera @Undera' <2030 0 0 0>;
+pos bha_uuVowel-divesakuru.undera @Undera' <2030 0 0 0>;
+pos bha_eVowel-divesakuru.undera @Undera' <2388 0 0 0>;
+pos bha_aiVowel-divesakuru.undera @Undera' <2738 0 0 0>;
+pos bha_oVowel-divesakuru.undera @Undera' <2648 0 0 0>;
+pos bha_halanta-divesakuru.undera @Undera' <1742 0 0 0>;
+pos bha_ooVowel-divesakuru.undera @Undera' <2998 0 0 0>;
+pos ma-divesakuru.alt.undera @Undera' <1152 0 0 0>;
+pos ma-divesakuru.undera @Undera' <1052 0 0 0>;
+pos ma_aaVowel-divesakuru.undera @Undera' <1471 0 0 0>;
+pos ma_iVowel-divesakuru.undera @Undera' <1410 0 0 0>;
+pos ma_iiVowel-divesakuru.undera @Undera' <1526 0 0 0>;
+pos ma_uVowel-divesakuru.undera @Undera' <1421 0 0 0>;
+pos ma_uuVowel-divesakuru.undera @Undera' <1421 0 0 0>;
+pos ma_eVowel-divesakuru.undera @Undera' <1698 0 0 0>;
+pos ma_aiVowel-divesakuru.undera @Undera' <2048 0 0 0>;
+pos ma_oVowel-divesakuru.undera @Undera' <2056 0 0 0>;
+pos ma_halanta-divesakuru.undera @Undera' <1139 0 0 0>;
+pos ma_medya-divesakuru.undera @Undera' <1735 0 0 0>;
+pos ma_medya_iVowel-divesakuru.undera @Undera' <2010 0 0 0>;
+pos ma_medya_iiVowel-divesakuru.undera @Undera' <2105 0 0 0>;
+pos ma_medya_eVowel-divesakuru.undera @Undera' <2381 0 0 0>;
+pos ma_ooVowel-divesakuru.undera @Undera' <2406 0 0 0>;
+pos ya-divesakuru.undera @Undera' <1506 0 0 0>;
+pos ya_aaVowel-divesakuru.undera @Undera' <1817 0 0 0>;
+pos ya_iVowel-divesakuru.undera @Undera' <1757 0 0 0>;
+pos ya_iiVowel-divesakuru.undera @Undera' <1836 0 0 0>;
+pos ya_uVowel-divesakuru.undera @Undera' <1777 0 0 0>;
+pos ya_uuVowel-divesakuru.undera @Undera' <1777 0 0 0>;
+pos ya_eVowel-divesakuru.undera @Undera' <2152 0 0 0>;
+pos ya_aiVowel-divesakuru.undera @Undera' <2502 0 0 0>;
+pos ya_oVowel-divesakuru.undera @Undera' <2403 0 0 0>;
+pos ya_halanta-divesakuru.undera @Undera' <1513 0 0 0>;
+pos ya_medra-divesakuru.undera @Undera' <2007 0 0 0>;
+pos ya_medya_iVowel-divesakuru.undera @Undera' <2488 0 0 0>;
+pos ya_ooVowel-divesakuru.undera @Undera' <2753 0 0 0>;
+pos ya-divesakuru.medi.undera @Undera' <915 0 0 0>;
+pos yya-divesakuru.undera @Undera' <1283 0 0 0>;
+pos yya_aaVowel-divesakuru.undera @Undera' <1602 0 0 0>;
+pos yya_iVowel-divesakuru.undera @Undera' <1554 0 0 0>;
+pos yya_iiVowel-divesakuru.undera @Undera' <1636 0 0 0>;
+pos yya_uVowel-divesakuru.undera @Undera' <1574 0 0 0>;
+pos yya_uuVowel-divesakuru.undera @Undera' <1574 0 0 0>;
+pos yya_eVowel-divesakuru.undera @Undera' <1929 0 0 0>;
+pos yya_aiVowel-divesakuru.undera @Undera' <2279 0 0 0>;
+pos yya_oVowel-divesakuru.undera @Undera' <2200 0 0 0>;
+pos yya_halanta-divesakuru.undera @Undera' <1303 0 0 0>;
+pos yya_ooVowel-divesakuru.undera @Undera' <2550 0 0 0>;
+pos ra-divesakuru.undera @Undera' <767 0 0 0>;
+pos ra_aaVowel-divesakuru.undera @Undera' <1089 0 0 0>;
+pos ra_iVowel-divesakuru.undera @Undera' <1069 0 0 0>;
+pos ra_iiVowel-divesakuru.undera @Undera' <1173 0 0 0>;
+pos ra_uVowel-divesakuru.undera @Undera' <1090 0 0 0>;
+pos ra_uuVowel-divesakuru.undera @Undera' <1090 0 0 0>;
+pos ra_eVowel-divesakuru.undera @Undera' <1413 0 0 0>;
+pos ra_aiVowel-divesakuru.undera @Undera' <1763 0 0 0>;
+pos ra_oVowel-divesakuru.undera @Undera' <1715 0 0 0>;
+pos ra_halanta-divesakuru.undera @Undera' <767 0 0 0>;
+pos ra_ooVowel-divesakuru.undera @Undera' <2065 0 0 0>;
+pos ra-divesakuru.medi.undera @Undera' <1548 0 0 0>;
+pos la-divesakuru.undera @Undera' <1123 0 0 0>;
+pos la_aaVowel-divesakuru.undera @Undera' <1454 0 0 0>;
+pos la_iVowel-divesakuru.undera @Undera' <1406 0 0 0>;
+pos la_iiVowel-divesakuru.undera @Undera' <1488 0 0 0>;
+pos la_uVowel-divesakuru.undera @Undera' <1421 0 0 0>;
+pos la_uuVowel-divesakuru.undera @Undera' <1421 0 0 0>;
+pos la_eVowel-divesakuru.undera @Undera' <1769 0 0 0>;
+pos la_aiVowel-divesakuru.undera @Undera' <2119 0 0 0>;
+pos la_oVowel-divesakuru.undera @Undera' <2052 0 0 0>;
+pos la_halanta-divesakuru.undera @Undera' <1128 0 0 0>;
+pos la_medya-divesakuru.undera @Undera' <1705 0 0 0>;
+pos la_ooVowel-divesakuru.undera @Undera' <2402 0 0 0>;
+pos va-divesakuru.alt.undera @Undera' <1258 0 0 0>;
+pos va-divesakuru.undera @Undera' <1154 0 0 0>;
+pos va_aaVowel-divesakuru.undera @Undera' <1577 0 0 0>;
+pos va_iVowel-divesakuru.undera @Undera' <1547 0 0 0>;
+pos va_iiVowel-divesakuru.undera @Undera' <1631 0 0 0>;
+pos va_uVowel-divesakuru.undera @Undera' <1557 0 0 0>;
+pos va_uuVowel-divesakuru.undera @Undera' <1557 0 0 0>;
+pos va_eVowel-divesakuru.undera @Undera' <1800 0 0 0>;
+pos va_aiVowel-divesakuru.undera @Undera' <2150 0 0 0>;
+pos va_oVowel-divesakuru.undera @Undera' <2193 0 0 0>;
+pos va_halanta-divesakuru.undera @Undera' <1243 0 0 0>;
+pos va_medya-divesakuru.undera @Undera' <1793 0 0 0>;
+pos va_medya_iVowel-divesakuru.undera @Undera' <2087 0 0 0>;
+pos va_medya_uVowel-divesakuru.undera @Undera' <2098 0 0 0>;
+pos va_ooVowel-divesakuru.undera @Undera' <2543 0 0 0>;
+pos ssa-divesakuru.undera @Undera' <1358 0 0 0>;
+pos ssa_halanta-divesakuru.undera @Undera' <1678 0 0 0>;
+pos sa-divesakuru.undera @Undera' <1558 0 0 0>;
+pos sa_va-divesakuru.undera @Undera' <1861 0 0 0>;
+pos sa_aaVowel-divesakuru.undera @Undera' <1883 0 0 0>;
+pos sa_iVowel-divesakuru.undera @Undera' <1873 0 0 0>;
+pos sa_iiVowel-divesakuru.undera @Undera' <1966 0 0 0>;
+pos sa_uVowel-divesakuru.undera @Undera' <1855 0 0 0>;
+pos sa_uuVowel-divesakuru.undera @Undera' <1855 0 0 0>;
+pos sa_eVowel-divesakuru.undera @Undera' <2204 0 0 0>;
+pos sa_aiVowel-divesakuru.undera @Undera' <2554 0 0 0>;
+pos sa_oVowel-divesakuru.undera @Undera' <2519 0 0 0>;
+pos sa_halanta-divesakuru.undera @Undera' <1417 0 0 0>;
+pos sa_medra_iiVowel-divesakuru.undera @Undera' <2477 0 0 0>;
+pos sa_medya-divesakuru.undera @Undera' <2065 0 0 0>;
+pos sa_ooVowel-divesakuru.undera @Undera' <2869 0 0 0>;
+pos ha-divesakuru.undera @Undera' <1457 0 0 0>;
+pos ha_aaVowel-divesakuru.undera @Undera' <1785 0 0 0>;
+pos ha_iVowel-divesakuru.undera @Undera' <1735 0 0 0>;
+pos ha_iiVowel-divesakuru.undera @Undera' <1902 0 0 0>;
+pos ha_uVowel-divesakuru.undera @Undera' <1287 0 0 0>;
+pos ha_uuVowel-divesakuru.undera @Undera' <1287 0 0 0>;
+pos ha_eVowel-divesakuru.undera @Undera' <2103 0 0 0>;
+pos ha_aiVowel-divesakuru.undera @Undera' <2453 0 0 0>;
+pos ha_oVowel-divesakuru.undera @Undera' <2381 0 0 0>;
+pos ha_halanta-divesakuru.undera @Undera' <1457 0 0 0>;
+pos ha_medra-divesakuru.undera @Undera' <1769 0 0 0>;
+pos ha_medra_aaVowel-divesakuru.undera @Undera' <2097 0 0 0>;
+pos ha_medya_iVowel-divesakuru.undera @Undera' <2459 0 0 0>;
+pos ha_ooVowel-divesakuru.undera @Undera' <2731 0 0 0>;
+pos lla-divesakuru.alt.undera @Undera' <1202 0 0 0>;
+pos lla-divesakuru.undera @Undera' <1110 0 0 0>;
+pos lla_aaVowel-divesakuru.undera @Undera' <1521 0 0 0>;
+pos lla_iVowel-divesakuru.undera @Undera' <1476 0 0 0>;
+pos lla_iiVowel-divesakuru.undera @Undera' <1596 0 0 0>;
+pos lla_uVowel-divesakuru.undera @Undera' <1487 0 0 0>;
+pos lla_uuVowel-divesakuru.undera @Undera' <1487 0 0 0>;
+pos lla_eVowel-divesakuru.undera @Undera' <1756 0 0 0>;
+pos lla_aiVowel-divesakuru.undera @Undera' <2106 0 0 0>;
+pos lla_oVowel-divesakuru.undera @Undera' <2122 0 0 0>;
+pos lla_halanta-divesakuru.undera @Undera' <1217 0 0 0>;
+pos lla_medya_iVowel-divesakuru.undera @Undera' <2164 0 0 0>;
+pos lla_ooVowel-divesakuru.undera @Undera' <2472 0 0 0>;
+pos za-divesakuru.undera @Undera' <1338 0 0 0>;
+pos za_aaVowel-divesakuru.undera @Undera' <1669 0 0 0>;
+pos za_iVowel-divesakuru.undera @Undera' <1630 0 0 0>;
+pos za_iiVowel-divesakuru.undera @Undera' <1747 0 0 0>;
+pos za_uVowel-divesakuru.undera @Undera' <1684 0 0 0>;
+pos za_uuVowel-divesakuru.undera @Undera' <1684 0 0 0>;
+pos za_eVowel-divesakuru.undera @Undera' <1984 0 0 0>;
+pos za_aiVowel-divesakuru.undera @Undera' <2334 0 0 0>;
+pos za_oVowel-divesakuru.undera @Undera' <2276 0 0 0>;
+pos za_halanta-divesakuru.undera @Undera' <1324 0 0 0>;
+pos za_ooVowel-divesakuru.undera @Undera' <2626 0 0 0>;
+pos prefixedNasalSign-divesakuru.undera.tall1 @Undera' <396 0 0 0>;
+pos prefixedNasalSign-divesakuru.undera.tall2 @Undera' <396 0 0 0>;
+pos halanta-divesakuru.undera @Undera' <300 0 0 0>;
+} bridgedAKerning;";
 tag = kern;
 },
 {
