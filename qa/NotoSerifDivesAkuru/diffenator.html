@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Diffenator3</title>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+		crossorigin="anonymous"></script>
+	<style type="text/css">
+		@font-face {
+      font-family: "Font Before";
+      src: url();
+    }
+
+    @font-face {
+      font-family: "Font After";
+      src: url();
+    }
+
+    .font-before, .font-after {
+      font-variation-settings: "wght" 400, "wdth" 100;
+    }
+
+    .font-before {
+      font-family: "Font Before", "Adobe Notdef";
+    }
+
+    .font-after {
+      font-family: "Font After", "Adobe Notdef";
+    }
+
+	:root {
+	--node-pt-size: 40px;
+	}
+
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #b3d4f5 !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+    background-color: #ced9e4 !important;
+}
+.nav-item {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.nav-pills .nav-link{
+    background-color: #9fcaf5 !important;
+}
+h4 {
+    color: #6f7882 !important;
+}
+
+@font-face {
+    font-family: "Adobe NotDef";
+    src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+}
+
+.box-title {
+    width: 100%;
+    font-size: 8pt;
+    font-weight: 700;
+    border-top: 1px solid black;
+    padding-top: 5px;
+    margin-bottom: 10pt;
+    display: block;
+}
+
+.box {
+    margin-bottom: 20pt;
+    width: 100%;
+    float: left;
+}
+
+.box-text {}
+
+#ui-nav {
+    position: fixed;
+    right: 20px;
+    z-index: 100;
+}
+
+#font-toggle {}
+
+.ui-nav-item {
+    display: block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: block;
+    font-size: 14pt;
+    padding: 5px;
+    margin: 2px;
+}
+
+/* Stuff needed for the table differ */
+body {
+    font-family: Helvetica;
+}
+
+.node {
+    font-family: courier;
+    cursor: pointer;
+    position: relative;
+    left: 30px;
+    padding: 5px;
+    display: block;
+    border: 1px dashed grey;
+    background-color: #e9e9ee;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.attr-before {
+    color: green;
+    cursor: text;
+}
+
+.attr-after {
+    color: red;
+    cursor: text;
+}
+
+.leaf {
+    font-weight: bold;
+}
+
+.old .cell .new {
+    display: none;
+}
+
+.new .cell .old {
+    display: none;
+}
+
+.both .cell .old {
+    opacity: 0.75;
+    color: red;
+}
+
+.both .cell .new {
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    color: green;
+}
+
+.spacer {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#ot-panel {
+    max-height: 400px;
+    overflow-y: scroll;
+    background: white;
+    padding: 10px;
+    display: none;
+   }
+
+   .cell{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 5pt;
+    margin: 5pt;
+    width: 50pt;
+    font-size: var(--node-pt-size);
+    line-height: calc(var(--node-pt-size) * 1.5);
+  }
+  .cell-word{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 5pt;
+    margin: 5pt;
+    font-size: var(--node-pt-size);
+    line-height: calc(var(--node-pt-size) * 1.5);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .cell-glyph{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    border-radius: 5pt;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 5pt;
+    margin: 5pt;
+    width: calc(var(--node-pt-size) * 2);
+    min-height: calc(var(--node-pt-size) * 2);
+    font-size: var(--node-pt-size);
+  }
+  .cell-glyph.font-before, .cell-word.font-before {
+    background: #eff6f2;
+  }
+  .cell-glyph.font-after, .cell-word.font-after {
+    background: #f7f4f4;
+  }
+
+  .cell-glyph:hover {
+    box-shadow: none;
+    background: #f0f0f5;
+  }
+  .cat-strings .cell {
+    clear: both;
+    position: static;
+    float: none;
+    text-align: left;
+  }
+  .codepoint {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10pt;
+    line-height: 10pt;
+  }
+  .box-title {
+    clear: both;
+  }
+  .node.closed::before {
+    content: "+";
+    margin-right: 5pt;
+  }
+  .node.open::before {
+    content: "-";
+    margin-right: 5pt;
+  }
+
+  .tooltip pre {
+    background-color: #6f7882;
+    padding: 5px;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  .tooltip {
+    line-height: 1em;
+  }
+  .tooltip-inner {
+    max-width: 300px;
+  }
+
+  h1,h2,h3,h4,h5 {
+    clear: both;
+  }
+
+  #locationnav li {
+    white-space: wrap;
+  }
+
+  #userdefined div { width: 100%; }
+  
+/* The following rules are used in the WASM version, not in the CLI version.
+   But we keep them here so we can share them between the two versions. */
+
+   .modal-dialog {
+    max-width: 100% !important;
+    margin: 0 !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+  }
+
+  .fontdrop {
+    padding: 30px;
+    border-radius: 20px;
+    outline: 3px dashed #ffffffff;
+    outline-offset: -20px;
+  }
+
+  #fontbefore {
+    background-color: #ddffdddd;
+  }
+
+  #fontafter {
+    background-color: #ffdddddd;
+  }
+
+  .dragging {
+    background-image: linear-gradient(rgb(0 0 0/5%) 0 0);
+    outline: 5px dashed #ffffffff;
+  }
+
+  #diffkerns {
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+		</style>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+	integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+		<div id="ui-nav">
+		  <div class="ui-nav-item" id="fonttoggle">Old</div>
+		  <div class="ui-nav-item" id="fontanimate">Animate</div>
+		  <div id="axes">
+		  </div>
+		</div>
+	
+	<div class="row">
+		<div class="col-2">
+			<ul class="nav nav-pills" id="locationnav">
+			</ul>
+		</div>
+		<div class="col-9 mt-3">
+			<div id="title"></div>
+			<div id="cmapdiff"> </div>
+			<div id="main"></div>
+			<div id="userdefined">
+				<h4>User defined sample text</h4>
+				<div contenteditable="true" class="font-before cell-word">
+					You can type your own text here to see it previewed in the fonts.
+				</div>
+				<div style="clear: both"></div>
+			</div>
+			<div id="diffkerns"> </div>
+			<div id="difftable"> </div>
+		</div>
+	</div>
+	<script type="module">
+		function renderTableDiff(node, toplevel) {
+  var wrapper = $("<div> </div>");
+  if (!node) {
+    return wrapper;
+  }
+  if (Array.isArray(node) && node.length == 2) {
+    var before = $("<span/>");
+    before.addClass("attr-before");
+    before.html(" " + node[0] + " ");
+    var after = $("<span/>");
+    after.addClass("attr-after");
+    after.append(renderTableDiff(node[1], true).children());
+    wrapper.append(before);
+    wrapper.append(after);
+    return wrapper;
+  }
+  if (node.constructor != Object) {
+    var thing = $("<span/>");
+    thing.html(node);
+    wrapper.append(thing);
+    return wrapper;
+  }
+  for (const [key, value] of Object.entries(node)) {
+    var display = $("<div/>");
+    display.addClass("node");
+    if (!toplevel) {
+      display.hide();
+    }
+    display.append(key);
+    display.append(renderTableDiff(value, false).children());
+    if (display.children(".node").length > 0) {
+      display.addClass("closed");
+    }
+    wrapper.append(display);
+  }
+  return wrapper;
+}
+
+function addAGlyph(glyph, where) {
+  let title = "";
+  if (glyph.name) {
+    title = "name: " + glyph.name;
+  }
+  let cp =
+    "<br>U+" +
+    glyph.string.codePointAt(0).toString(16).padStart(4, "0").toUpperCase();
+  where.append(`
+        <div class="cell-glyph font-before">
+        <div data-toggle="tooltip" data-html="true" data-title="${glyph.differing_pixels} pixels"> ${glyph.string}
+        <div class="codepoint" data-toggle="tooltip" data-html="true" data-title="${title}">
+		${cp}
+        </div>
+        </div>
+    `);
+}
+
+function addAWord(diff, where) {
+  if (!diff.buffer_b) {
+    diff.buffer_b = diff.buffer_a;
+  }
+  where.append(`
+		<div class="cell-word font-before">
+		<span data-toggle="tooltip" data-html="true" data-title="Before: <pre>${diff.buffer_a}</pre>After: <pre>${diff.buffer_b}</pre><br>difference: ${diff.differing_pixels} pixels">
+		${diff.word}
+		</span>
+		</div>
+	`);
+}
+
+function diffTables(report) {
+  $("#difftable").empty();
+  $("#difftable").append(`<h4 class="mt-2 box-title">Table-level details</h4>`);
+  $("#difftable").append(
+    renderTableDiff({ tables: report["tables"] }, true).children()
+  );
+  $("#difftable .node").on("click", function (e) {
+    $(this).toggleClass("closed open");
+    $(this).children(".node").toggle();
+    e.stopPropagation();
+  });
+}
+function diffKerns(report) {
+  $("#diffkerns").empty();
+  $("#diffkerns").append(`<h4 class="mt-2">Modified Kerns</h4>`);
+  $("#diffkerns").append(
+    `<table class="table table-striped" id="diffkerns"><tr><th>Pair</th><th>Old</old><th>New</th></table>`
+  );
+  for (let [pair, value] of Object.entries(report["kerns"])) {
+    if (pair == "error") {
+      $("#diffkerns").append(`<p class="text-danger">Error: ${value}</p>`);
+      continue;
+    } else {
+      let row = $("<tr>");
+      row.append(`<td>${pair}</td>`);
+      row.append(`<td>${serializeKernBefore(value)}</td>`);
+      row.append(`<td>${serializeKernAfter(value)}</td>`);
+      $("#diffkerns table").append(row);
+    }
+  }
+}
+
+function serializeKernBefore(kern) {
+  if (Array.isArray(kern)) {
+    return serializeKern(kern[0], -1);
+  }
+  return serializeKern(kern, 0);
+}
+
+function serializeKernAfter(kern) {
+  if (Array.isArray(kern)) {
+    return serializeKern(kern[1], -1);
+  }
+  return serializeKern(kern, 1);
+}
+
+function serializeKern(kern, index) {
+  let string = "";
+  if (kern === null || kern === undefined) {
+    return "(null)";
+  }
+  if (kern.x) {
+    string += serializeKernValue(kern.x, index);
+  } else if (kern.y) {
+    string = "0";
+  }
+
+  if (kern.y) {
+    string += "," + serializeKernValue(kern.y, index);
+  }
+  if (!kern.x_placement && !kern.y_placement) {
+    return string;
+  }
+  string += "@";
+  if (kern.x_placement) {
+    string += serializeKernValue(kern.x_placement, index);
+  } else if (kern.y_placement) {
+    string += "0";
+  }
+  if (kern.y_placement) {
+    string += "," + serializeKernValue(kern.y_placement, index);
+  }
+  return string;
+}
+
+function serializeKernValue(kern, index) {
+  if (typeof kern == "number") {
+    return kern;
+  }
+  let string = "(";
+  let verybig = Object.entries(kern).length > 5;
+  for (let [key, value] of Object.entries(kern)) {
+    if (key == "default") {
+      string += value[index] + " ";
+    } else {
+      string += value[index] + "@" + key + " ";
+    }
+    if (verybig) {
+      string += "<br>";
+    }
+  }
+  return string.trim() + ")";
+}
+
+function cmapDiff(report) {
+  if (report.cmap_diff && (report.cmap_diff.new || report.cmap_diff.missing)) {
+    $("#cmapdiff").append(
+      `<h4 class="mt-2">Added and Removed Encoded Glyphs</h4>`
+    );
+    if (report["cmap_diff"]["new"]) {
+      $("#cmapdiff").append(`<h4 class="box-title">Added Glyphs</h4>`);
+      let added = $("<div>");
+      for (let glyph of report["cmap_diff"]["new"]) {
+        addAGlyph(glyph, added);
+      }
+      $("#cmapdiff").append(added);
+    }
+
+    if (report["cmap_diff"]["missing"]) {
+      $("#cmapdiff").append(`<h4 class="box-title">Removed Glyphs</h4>`);
+      let missing = $("<div>");
+      for (let glyph of report["cmap_diff"]["missing"]) {
+        addAGlyph(glyph, missing);
+      }
+      $("#cmapdiff").append(missing);
+    }
+  } else {
+    $("#cmapdiff").append(`<p>No changes to encoded glyphs</p>`);
+  }
+}
+
+function setupAnimation() {
+  $("#fonttoggle").click(function () {
+    if ($(this).text() == "Old") {
+      $(this).text("New");
+      $(".font-before").removeClass("font-before").addClass("font-after");
+    } else {
+      $(this).text("Old");
+      $(".font-after").removeClass("font-after").addClass("font-before");
+    }
+  });
+
+  let animationHandle;
+  function animate() {
+    $("#fonttoggle").click();
+    animationHandle = setTimeout(animate, 1000);
+  }
+  $("#fontanimate").click(function () {
+    if ($(this).text() == "Animate") {
+      $(this).text("Stop");
+      animate();
+    } else {
+      $(this).text("Animate");
+      clearTimeout(animationHandle);
+    }
+  });
+}
+
+export {
+  renderTableDiff,
+  addAGlyph,
+  addAWord,
+  cmapDiff,
+  diffTables,
+  diffKerns,
+  setupAnimation,
+};
+
+	var report = {"tables":{"GDEF":{"glyph_classes":{"ka_thadivesakuru":["Base",null],"ka_ra_vowelIdivesakuru":["Base","Ligature"],"ka_ssadivesakuru":["Base",null],"nga_gadivesakuru":["Base",null],"tta_ttadivesakuru":["Base",null],"tta_vadivesakuru":["Base",null],"nna_ddadivesakuru":["Base",null],"ta_thadivesakuru":["Base",null],"na_ta_medradivesakuru":["Base","Ligature"],"na_thadivesakuru":["Base",null],"na_dhadivesakuru":["Base",null],"na_dha_vowelIdivesakuru":["Base","Ligature"],"na_dha_vowelIIdivesakuru":["Base","Ligature"],"na_dha_vowelUdivesakuru":["Base","Ligature"],"ba_bhadivesakuru":["Base",null],"ma_badivesakuru":["Base",null],"udivesakuru.00":["Base",null],"uudivesakuru.00":["Base",null],"va_vadivesakuru":["Base",null],"sha_ra_vowelIdivesakuru":["Base","Ligature"],"ssa_ttadivesakuru":["Base",null],"sa_tadivesakuru":["Base",null],"sa_ta_medradivesakuru":["Base","Ligature"],"sa_pa_medradivesakuru":["Base","Ligature"],"sa_vadivesakuru":["Base",null],"ya_udivesakuru":["Base",null],"viramadivesakuru":["Mark",null],"uVoweldivesakuru.00":["Base",null],"uuVoweldivesakuru.00":["Base",null],"u1190C_u1191C":[null,"Ligature"],"u1190C_u1192B":[null,"Ligature"],"u11910_u1190E":[null,"Ligature"],"u11916_u11916":[null,"Ligature"],"u11916_u11929":[null,"Ligature"],"u1191A_u11918":[null,"Ligature"],"u1191B_u1191C":[null,"Ligature"],"u1191F_u1191C":[null,"Ligature"],"u1191F_u1191E":[null,"Ligature"],"u11922_u11923":[null,"Ligature"],"u11924_u11922":[null,"Ligature"],"u11904.00":[null,"Base"],"u11905.00":[null,"Base"],"u11929_u11929":[null,"Ligature"],"u1192B_u11916":[null,"Ligature"],"u1192C_u1191B":[null,"Ligature"],"u1192C_u11929":[null,"Ligature"],"u11925_u11904":[null,"Ligature"],"u1193E":[null,"Mark"],"u11933.00":[null,"Base"],"u11934.00":[null,"Base"]}},"GPOS":{"script_list":{"DFLT/dflt":{"lookups":{"3":[4,null]}},"diak/dflt":{"lookups":{"3":[4,3]}}},"feature_list":{"abvm":{"4":[null,4],"5":[null,5],"6":[null,6],"7":[null,7]},"blwm":{"0":[4,8],"1":[null,9]},"dist":{"0":[5,10]},"kern":[[5],null],"mark":{"0":[6,11],"1":[7,12],"2":[8,13],"3":[null,14],"4":[null,15]}},"lookup_list":{"0":{"0":{"marks":{"anchor_0":{"u11941":{"x":[-218,-232]},"u1193B":[null,{"x":-405,"y":673}],"u1193C":[null,{"x":-426,"y":673}]}},"bases":{"matouchdivesakuru":{"anchor_0":{"y":[589,590]}},"u11900":[null,{"anchor_0":{"x":576,"y":590}}],"u11901":[null,{"anchor_0":{"x":961,"y":536}}],"u11902":[null,{"anchor_0":{"x":472,"y":590}}],"u11903":[null,{"anchor_0":{"x":776,"y":590}}],"u11904":[null,{"anchor_0":{"x":516,"y":590}}],"u11905":[null,{"anchor_0":{"x":526,"y":590}}],"u11906":[null,{"anchor_0":{"x":566,"y":590}}],"u11909":[null,{"anchor_0":{"x":586,"y":590}}],"u1190C":[null,{"anchor_0":{"x":532,"y":653}}],"u1190D":[null,{"anchor_0":{"x":454,"y":590}}],"u1190E":[null,{"anchor_0":{"x":144,"y":714}}],"u1190F":[null,{"anchor_0":{"x":539,"y":590}}],"u11910":[null,{"anchor_0":{"x":296,"y":590}}],"u11911":[null,{"anchor_0":{"x":535,"y":590}}],"u11912":[null,{"anchor_0":{"x":515,"y":590}}],"u11913":[null,{"anchor_0":{"x":516,"y":590}}],"u11915":[null,{"anchor_0":{"x":446,"y":590}}],"u11916":[null,{"anchor_0":{"x":476,"y":590}}],"u11918":[null,{"anchor_0":{"x":556,"y":590}}],"u11919":[null,{"anchor_0":{"x":556,"y":590}}],"u1191A":[null,{"anchor_0":{"x":446,"y":590}}],"u1191B":[null,{"anchor_0":{"x":476,"y":590}}],"u1191C":[null,{"anchor_0":{"x":416,"y":590}}],"u1191D":[null,{"anchor_0":{"x":296,"y":590}}],"u1191E":[null,{"anchor_0":{"x":596,"y":590}}],"u1191F":[null,{"anchor_0":{"x":416,"y":590}}],"u11920":[null,{"anchor_0":{"x":566,"y":590}}],"u11921":[null,{"anchor_0":{"x":606,"y":590}}],"u11922":[null,{"anchor_0":{"x":496,"y":590}}],"u11923":[null,{"anchor_0":{"x":596,"y":590}}],"u11924":[null,{"anchor_0":{"x":486,"y":590}}],"u11925":[null,{"anchor_0":{"x":436,"y":590}}],"u11940":[null,{"anchor_0":{"x":276,"y":590}}],"u11926":[null,{"anchor_0":{"x":436,"y":590}}],"u11927":[null,{"anchor_0":{"x":250,"y":590}}],"u11942":[null,{"anchor_0":{"x":-58,"y":653}}],"u11928":[null,{"anchor_0":{"x":396,"y":590}}],"u11929":[null,{"anchor_0":{"x":456,"y":590}}],"u1192A":[null,{"anchor_0":{"x":556,"y":590}}],"u1192B":[null,{"anchor_0":{"x":442,"y":590}}],"u1192C":[null,{"anchor_0":{"x":466,"y":590}}],"u1192D":[null,{"anchor_0":{"x":466,"y":590}}],"u1192E":[null,{"anchor_0":{"x":326,"y":590}}],"u1192F":[null,{"anchor_0":{"x":546,"y":590}}],"ka_medradivesakuru":[null,{"anchor_0":{"x":842,"y":653}}],"ka_vowelUdivesakuru":[null,{"anchor_0":{"x":691,"y":714}}],"ka_vowelUUdivesakuru":[null,{"anchor_0":{"x":962,"y":536}}],"ta_medyadivesakuru":[null,{"anchor_0":{"x":846,"y":536}}],"da_medyadivesakuru":[null,{"anchor_0":{"x":627,"y":536}}],"da_vowelUdivesakuru":[null,{"anchor_0":{"x":672,"y":536}}],"dha_vowelIdivesakuru":[null,{"anchor_0":{"x":971,"y":714}}],"dha_vowelIIdivesakuru":[null,{"anchor_0":{"x":1071,"y":714}}],"dha_vowelUdivesakuru":[null,{"anchor_0":{"x":1092,"y":536}}],"na_vowelUdivesakuru":[null,{"anchor_0":{"x":752,"y":653}}],"pa_medradivesakuru":[null,{"anchor_0":{"x":885,"y":590}}],"pa_vowelIdivesakuru":[null,{"anchor_0":{"x":792,"y":714}}],"pa_vowelUdivesakuru":[null,{"anchor_0":{"x":977,"y":536}}],"pa_vowelUUdivesakuru":[null,{"anchor_0":{"x":1049,"y":536}}],"ma_vowelUdivesakuru":[null,{"anchor_0":{"x":742,"y":536}}],"ya_medyadivesakuru":[null,{"anchor_0":{"x":436,"y":590}}],"ya_vowelIdivesakuru":[null,{"anchor_0":{"x":746,"y":536}}],"u11904.00":[null,{"anchor_0":{"x":911,"y":590}}],"u11905.00":[null,{"anchor_0":{"x":1011,"y":590}}],"yya_medyadivesakuru":[null,{"anchor_0":{"x":958,"y":536}}],"yya_vowelIdivesakuru":[null,{"anchor_0":{"x":746,"y":536}}],"ra_vowelUdivesakuru":[null,{"anchor_0":{"x":552,"y":653}}],"sha_medradivesakuru":[null,{"anchor_0":{"x":865,"y":590}}],"sa_medyadivesakuru":[null,{"anchor_0":{"x":739,"y":590}}],"sa_vowelIdivesakuru":[null,{"anchor_0":{"x":692,"y":714}}],"sa_vowelUdivesakuru":[null,{"anchor_0":{"x":772,"y":653}}],"lla_vowelUdivesakuru":[null,{"anchor_0":{"x":326,"y":590}}],"atouchdivesakuru":[null,{"anchor_0":{"x":707,"y":366}}],"etouchdivesakuru":[null,{"anchor_0":{"x":566,"y":590}}],"katouchdivesakuru":[null,{"anchor_0":{"x":532,"y":653}}],"patouchdivesakuru":[null,{"anchor_0":{"x":566,"y":590}}],"llatouchdivesakuru":[null,{"anchor_0":{"x":326,"y":590}}],"natouchdivesakuru":[null,{"anchor_0":{"x":416,"y":590}}],"ratouchdivesakuru":[null,{"anchor_0":{"x":250,"y":590}}],"tatouchdivesakuru":[null,{"anchor_0":{"x":476,"y":590}}],"yatouchdivesakuru":[null,{"anchor_0":{"x":436,"y":590}}],"u11930":[null,{"anchor_0":{"x":82,"y":590}}],"u11931":[null,{"anchor_0":{"x":64,"y":714}}],"u11932":[null,{"anchor_0":{"x":84,"y":714}}],"u11933":[null,{"anchor_0":{"x":144,"y":540}}],"u11934":[null,{"anchor_0":{"x":264,"y":540}}]}}},"1":{"0":{"marks":{"anchor_0":{"u11941":{"x":[-232,-218]},"u1193B":[{"x":-405,"y":673},null],"u1193C":[{"x":-426,"y":673},null]}},"bases":{"u11900":[{"anchor_0":{"x":576,"y":590}},null],"u11901":[{"anchor_0":{"x":961,"y":536}},null],"u11902":[{"anchor_0":{"x":472,"y":590}},null],"u11903":[{"anchor_0":{"x":776,"y":590}},null],"u11904":[{"anchor_0":{"x":516,"y":590}},null],"u11905":[{"anchor_0":{"x":526,"y":590}},null],"u11906":[{"anchor_0":{"x":566,"y":590}},null],"u11909":[{"anchor_0":{"x":586,"y":590}},null],"u1190C":[{"anchor_0":{"x":532,"y":653}},null],"u1190D":[{"anchor_0":{"x":454,"y":590}},null],"u1190E":[{"anchor_0":{"x":144,"y":714}},null],"u1190F":[{"anchor_0":{"x":539,"y":590}},null],"u11910":[{"anchor_0":{"x":296,"y":590}},null],"u11911":[{"anchor_0":{"x":535,"y":590}},null],"u11912":[{"anchor_0":{"x":515,"y":590}},null],"u11913":[{"anchor_0":{"x":516,"y":590}},null],"u11915":[{"anchor_0":{"x":446,"y":590}},null],"u11916":[{"anchor_0":{"x":476,"y":590}},null],"u11918":[{"anchor_0":{"x":556,"y":590}},null],"u11919":[{"anchor_0":{"x":556,"y":590}},null],"u1191A":[{"anchor_0":{"x":446,"y":590}},null],"u1191B":[{"anchor_0":{"x":476,"y":590}},null],"u1191C":[{"anchor_0":{"x":416,"y":590}},null],"u1191D":[{"anchor_0":{"x":296,"y":590}},null],"u1191E":[{"anchor_0":{"x":596,"y":590}},null],"u1191F":[{"anchor_0":{"x":416,"y":590}},null],"u11920":[{"anchor_0":{"x":566,"y":590}},null],"u11921":[{"anchor_0":{"x":606,"y":590}},null],"u11922":[{"anchor_0":{"x":496,"y":590}},null],"u11923":[{"anchor_0":{"x":596,"y":590}},null],"u11924":[{"anchor_0":{"x":486,"y":590}},null],"u11925":[{"anchor_0":{"x":436,"y":590}},null],"u11940":[{"anchor_0":{"x":276,"y":590}},null],"u11926":[{"anchor_0":{"x":436,"y":590}},null],"u11927":[{"anchor_0":{"x":250,"y":590}},null],"u11942":[{"anchor_0":{"x":-58,"y":653}},null],"u11928":[{"anchor_0":{"x":396,"y":590}},null],"u11929":[{"anchor_0":{"x":456,"y":590}},null],"u1192A":[{"anchor_0":{"x":556,"y":590}},null],"u1192B":[{"anchor_0":{"x":442,"y":590}},null],"u1192C":[{"anchor_0":{"x":466,"y":590}},null],"u1192D":[{"anchor_0":{"x":466,"y":590}},null],"u1192E":[{"anchor_0":{"x":326,"y":590}},null],"u1192F":[{"anchor_0":{"x":546,"y":590}},null],"ka_thadivesakuru":[{"anchor_0":{"x":835,"y":590}},null],"ka_ra_vowelIdivesakuru":[{"anchor_0":{"x":1121,"y":714}},null],"ka_ssadivesakuru":[{"anchor_0":{"x":925,"y":590}},null],"ka_medradivesakuru":[{"anchor_0":{"x":842,"y":653}},null],"ka_vowelUdivesakuru":[{"anchor_0":{"x":691,"y":714}},null],"ka_vowelUUdivesakuru":[{"anchor_0":{"x":962,"y":536}},null],"nga_gadivesakuru":[{"anchor_0":{"x":565,"y":590}},null],"tta_ttadivesakuru":[{"anchor_0":{"x":671,"y":590}},null],"tta_vadivesakuru":[{"anchor_0":{"x":915,"y":590}},null],"nna_ddadivesakuru":[{"anchor_0":{"x":795,"y":590}},null],"ta_thadivesakuru":[{"anchor_0":{"x":695,"y":590}},null],"ta_medyadivesakuru":[{"anchor_0":{"x":846,"y":536}},null],"da_medyadivesakuru":[{"anchor_0":{"x":627,"y":536}},null],"da_vowelUdivesakuru":[{"anchor_0":{"x":672,"y":536}},null],"dha_vowelIdivesakuru":[{"anchor_0":{"x":971,"y":714}},null],"dha_vowelIIdivesakuru":[{"anchor_0":{"x":1071,"y":714}},null],"dha_vowelUdivesakuru":[{"anchor_0":{"x":1092,"y":536}},null],"na_ta_medradivesakuru":[{"anchor_0":{"x":1435,"y":590}},null],"na_thadivesakuru":[{"anchor_0":{"x":715,"y":590}},null],"na_dhadivesakuru":[{"anchor_0":{"x":825,"y":590}},null],"na_dha_vowelIdivesakuru":[{"anchor_0":{"x":1192,"y":714}},null],"na_dha_vowelIIdivesakuru":[{"anchor_0":{"x":1298,"y":714}},null],"na_dha_vowelUdivesakuru":[{"anchor_0":{"x":1319,"y":536}},null],"na_vowelUdivesakuru":[{"anchor_0":{"x":752,"y":653}},null],"pa_medradivesakuru":[{"anchor_0":{"x":885,"y":590}},null],"pa_vowelIdivesakuru":[{"anchor_0":{"x":792,"y":714}},null],"pa_vowelUdivesakuru":[{"anchor_0":{"x":977,"y":536}},null],"pa_vowelUUdivesakuru":[{"anchor_0":{"x":1049,"y":536}},null],"ba_bhadivesakuru":[{"anchor_0":{"x":1175,"y":590}},null],"ma_badivesakuru":[{"anchor_0":{"x":805,"y":590}},null],"ma_vowelUdivesakuru":[{"anchor_0":{"x":742,"y":536}},null],"ya_medyadivesakuru":[{"anchor_0":{"x":436,"y":590}},null],"ya_vowelIdivesakuru":[{"anchor_0":{"x":746,"y":536}},null],"udivesakuru.00":[{"anchor_0":{"x":911,"y":590}},null],"uudivesakuru.00":[{"anchor_0":{"x":1011,"y":590}},null],"yya_medyadivesakuru":[{"anchor_0":{"x":958,"y":536}},null],"yya_vowelIdivesakuru":[{"anchor_0":{"x":746,"y":536}},null],"ra_vowelUdivesakuru":[{"anchor_0":{"x":552,"y":653}},null],"va_vadivesakuru":[{"anchor_0":{"x":837,"y":590}},null],"sha_ra_vowelIdivesakuru":[{"anchor_0":{"x":1072,"y":536}},null],"sha_medradivesakuru":[{"anchor_0":{"x":865,"y":590}},null],"ssa_ttadivesakuru":[{"anchor_0":{"x":822,"y":590}},null],"sa_tadivesakuru":[{"anchor_0":{"x":990,"y":590}},null],"sa_ta_medradivesakuru":[{"anchor_0":{"x":1140,"y":590}},null],"sa_pa_medradivesakuru":[{"anchor_0":{"x":1406,"y":590}},null],"sa_vadivesakuru":[{"anchor_0":{"x":930,"y":590}},null],"sa_medyadivesakuru":[{"anchor_0":{"x":739,"y":590}},null],"sa_vowelIdivesakuru":[{"anchor_0":{"x":692,"y":714}},null],"sa_vowelUdivesakuru":[{"anchor_0":{"x":772,"y":653}},null],"lla_vowelUdivesakuru":[{"anchor_0":{"x":326,"y":590}},null],"chdivesakuru":[{"anchor_0":{"x":515,"y":590}},null],"ssa_ttdivesakuru":[{"anchor_0":{"x":822,"y":590}},null],"pdivesakuru":[{"anchor_0":{"x":566,"y":590}},null],"atouchdivesakuru":[{"anchor_0":{"x":576,"y":590}},null],"etouchdivesakuru":[{"anchor_0":{"x":566,"y":590}},null],"gatouchdivesakuru":{"anchor_0":{"x":[148,90],"y":[714,590]}},"itouchdivesakuru":[{"anchor_0":{"x":472,"y":590}},null],"katouchdivesakuru":[{"anchor_0":{"x":532,"y":653}},null],"patouchdivesakuru":[{"anchor_0":{"x":566,"y":590}},null],"llatouchdivesakuru":[{"anchor_0":{"x":326,"y":590}},null],"matouchdivesakuru":{"anchor_0":{"x":[486,60],"y":[590,589]}},"natouchdivesakuru":[{"anchor_0":{"x":416,"y":590}},null],"ratouchdivesakuru":[{"anchor_0":{"x":250,"y":590}},null],"tatouchdivesakuru":[{"anchor_0":{"x":476,"y":590}},null],"yatouchdivesakuru":[{"anchor_0":{"x":436,"y":590}},null],"u11930":[{"anchor_0":{"x":82,"y":653}},null],"u11931":[{"anchor_0":{"x":64,"y":714}},null],"u11932":[{"anchor_0":{"x":84,"y":714}},null],"u11933":[{"anchor_0":{"x":144,"y":540}},null],"u11934":[{"anchor_0":{"x":171,"y":540}},null],"uVoweldivesakuru.00":[{"anchor_0":{"x":144,"y":540}},null],"uuVoweldivesakuru.00":[{"anchor_0":{"x":161,"y":540}},null]}}},"2":{"0":{"marks":{"anchor_1":[{"u1193F":{"x":-207,"y":674}},null]},"bases":{"u11900":{"anchor_1":[{"x":252,"y":607},null]},"u11901":{"anchor_1":[{"x":252,"y":607},null]},"u11902":{"anchor_1":[{"x":136,"y":607},null]},"u11903":{"anchor_1":[{"x":136,"y":607},null]},"u11904":{"anchor_1":[{"x":343,"y":543},null]},"u11905":{"anchor_1":[{"x":343,"y":543},null]},"u11906":{"anchor_1":[{"x":367,"y":543},null]},"u11909":{"anchor_1":[{"x":257,"y":537},null]},"u1190C":{"anchor_1":[{"x":534,"y":551},null]},"u1190D":{"anchor_1":[{"x":312,"y":537},null]},"u1190F":{"anchor_1":[{"x":340,"y":543},null]},"u11910":{"anchor_1":[{"x":259,"y":547},null]},"u11911":{"anchor_1":[{"x":346,"y":543},null]},"u11912":{"anchor_1":[{"x":347,"y":543},null]},"u11913":{"anchor_1":[{"x":342,"y":543},null]},"u11915":{"anchor_1":[{"x":350,"y":543},null]},"u11916":{"anchor_1":[{"x":270,"y":543},null]},"u11918":{"anchor_1":[{"x":341,"y":543},null]},"u11919":{"anchor_1":[{"x":260,"y":543},null]},"u1191A":{"anchor_1":[{"x":350,"y":543},null]},"u1191B":{"anchor_1":[{"x":310,"y":543},null]},"u1191C":{"anchor_1":[{"x":292,"y":536},null]},"u1191D":{"anchor_1":[{"x":252,"y":546},null]},"u1191E":{"anchor_1":[{"x":262,"y":536},null]},"u1191F":{"anchor_1":[{"x":330,"y":543},null]},"u11920":{"anchor_1":[{"x":262,"y":536},null]},"u11921":{"anchor_1":[{"x":252,"y":536},null]},"u11922":{"anchor_1":[{"x":242,"y":536},null]},"u11923":{"anchor_1":[{"x":242,"y":537},null]},"u11924":{"anchor_1":[{"x":262,"y":537},null]},"u11925":{"anchor_1":[{"x":292,"y":537},null]},"u11940":{"anchor_1":[{"x":152,"y":495},null]},"u11926":{"anchor_1":[{"x":432,"y":316},null]},"u11927":{"anchor_1":[{"x":182,"y":467},null]},"u11942":{"anchor_1":[{"x":-52,"y":467},null]},"u11928":{"anchor_1":[{"x":228,"y":390},null]},"u11929":{"anchor_1":[{"x":348,"y":543},null]},"u1192A":{"anchor_1":[{"x":292,"y":543},null]},"u1192B":{"anchor_1":[{"x":292,"y":543},null]},"u1192C":{"anchor_1":[{"x":260,"y":541},null]},"u1192D":{"anchor_1":[{"x":382,"y":543},null]},"u1192E":{"anchor_1":[{"x":259,"y":547},null]},"u1192F":{"anchor_1":[{"x":335,"y":535},null]},"ka_thadivesakuru":[{"anchor_0":{"x":835,"y":590}},null],"ka_ra_vowelIdivesakuru":[{"anchor_0":{"x":1121,"y":714},"anchor_1":{"x":1025,"y":633}},null],"ka_ssadivesakuru":[{"anchor_0":{"x":925,"y":590}},null],"ka_medradivesakuru":{"anchor_1":[{"x":805,"y":564},null]},"ka_vowelUdivesakuru":{"anchor_1":[{"x":534,"y":551},null]},"ka_vowelUUdivesakuru":{"anchor_1":[{"x":534,"y":551},null]},"nga_gadivesakuru":[{"anchor_0":{"x":565,"y":590}},null],"tta_ttadivesakuru":[{"anchor_0":{"x":671,"y":590}},null],"tta_vadivesakuru":[{"anchor_0":{"x":915,"y":590}},null],"nna_ddadivesakuru":[{"anchor_0":{"x":795,"y":590}},null],"ta_thadivesakuru":[{"anchor_0":{"x":695,"y":590}},null],"ta_medyadivesakuru":{"anchor_1":[{"x":815,"y":292},null]},"da_medyadivesakuru":{"anchor_1":[{"x":625,"y":252},null]},"da_vowelUdivesakuru":{"anchor_1":[{"x":635,"y":199},null]},"dha_vowelIdivesakuru":{"anchor_1":[{"x":932,"y":622},null]},"dha_vowelIIdivesakuru":{"anchor_1":[{"x":1035,"y":662},null]},"dha_vowelUdivesakuru":{"anchor_1":[{"x":1046,"y":367},null]},"na_ta_medradivesakuru":[{"anchor_0":{"x":1445,"y":590},"anchor_1":{"x":1405,"y":264}},null],"na_thadivesakuru":[{"anchor_0":{"x":715,"y":590}},null],"na_dhadivesakuru":[{"anchor_0":{"x":825,"y":590}},null],"na_dha_vowelIdivesakuru":[{"anchor_0":{"x":1192,"y":714},"anchor_1":{"x":1157,"y":622}},null],"na_dha_vowelIIdivesakuru":[{"anchor_0":{"x":1298,"y":714},"anchor_1":{"x":1225,"y":655}},null],"na_dha_vowelUdivesakuru":[{"anchor_0":{"x":1319,"y":536},"anchor_1":{"x":1264,"y":363}},null],"na_vowelUdivesakuru":{"anchor_1":[{"x":652,"y":542},null]},"pa_medradivesakuru":{"anchor_1":[{"x":845,"y":370},null]},"pa_vowelIdivesakuru":{"anchor_1":[{"x":755,"y":622},null]},"pa_vowelUdivesakuru":{"anchor_1":[{"x":932,"y":370},null]},"pa_vowelUUdivesakuru":{"anchor_1":[{"x":992,"y":372},null]},"ba_bhadivesakuru":[{"anchor_0":{"x":1175,"y":590}},null],"ma_badivesakuru":[{"anchor_0":{"x":805,"y":590}},null],"ma_vowelUdivesakuru":{"anchor_1":[{"x":708,"y":251},null]},"ya_medyadivesakuru":{"anchor_1":[{"x":822,"y":398},null]},"udivesakuru.00":[{"anchor_0":{"x":911,"y":590},"anchor_1":{"x":862,"y":367}},null],"uudivesakuru.00":[{"anchor_0":{"x":1011,"y":590},"anchor_1":{"x":945,"y":368}},null],"yya_medyadivesakuru":{"anchor_1":[{"x":790,"y":387},null]},"yya_vowelIdivesakuru":{"anchor_1":[{"x":780,"y":360},null]},"ra_vowelUdivesakuru":{"anchor_1":[{"x":440,"y":510},null]},"va_vadivesakuru":[{"anchor_0":{"x":837,"y":590}},null],"sha_ra_vowelIdivesakuru":[{"anchor_0":{"x":1072,"y":536},"anchor_1":{"x":1031,"y":340}},null],"sha_medradivesakuru":{"anchor_1":[{"x":896,"y":265},null]},"ssa_ttadivesakuru":[{"anchor_0":{"x":822,"y":590}},null],"sa_tadivesakuru":[{"anchor_0":{"x":990,"y":590}},null],"sa_ta_medradivesakuru":[{"anchor_0":{"x":1140,"y":590},"anchor_1":{"x":1175,"y":264}},null],"sa_pa_medradivesakuru":[{"anchor_0":{"x":1406,"y":590},"anchor_1":{"x":1417,"y":368}},null],"sa_vadivesakuru":[{"anchor_0":{"x":930,"y":590}},null],"sa_medyadivesakuru":{"anchor_1":[{"x":715,"y":466},null]},"sa_vowelIdivesakuru":{"anchor_1":[{"x":665,"y":622},null]},"sa_vowelUdivesakuru":{"anchor_1":[{"x":735,"y":456},null]},"atouchdivesakuru":{"anchor_0":{"x":[707,576],"y":[366,590]}},"gatouchdivesakuru":{"anchor_0":{"x":[90,148],"y":[590,714]}},"matouchdivesakuru":{"anchor_0":{"x":[60,486]}},"u11930":{"anchor_0":{"y":[590,653]},"anchor_1":[{"x":131,"y":402},null]},"u11931":{"anchor_1":[{"x":5,"y":639},null]},"u11932":{"anchor_1":[{"x":45,"y":663},null]},"u11933":{"anchor_1":[{"x":83,"y":367},null]},"u11934":{"anchor_0":{"x":[264,171]},"anchor_1":[{"x":120,"y":367},null]},"uVoweldivesakuru.00":[{"anchor_1":{"x":83,"y":367}},null],"uuVoweldivesakuru.00":[{"anchor_1":{"x":110,"y":367}},null],"u11904.00":[null,{"anchor_0":{"x":911,"y":590}}],"u11905.00":[null,{"anchor_0":{"x":1011,"y":590}}],"chdivesakuru":[null,{"anchor_0":{"x":515,"y":590}}],"ssa_ttdivesakuru":[null,{"anchor_0":{"x":822,"y":590}}],"pdivesakuru":[null,{"anchor_0":{"x":566,"y":590}}],"itouchdivesakuru":[null,{"anchor_0":{"x":472,"y":590}}],"u11933.00":[null,{"anchor_0":{"x":144,"y":540}}],"u11934.00":[null,{"anchor_0":{"x":161,"y":540}}]}}},"3":{"0":{"type":["mark_to_mark","mark_to_base"],"marks":{"anchor_0":{"u11941":[{"x":-232,"y":673},null],"u1193B":[{"x":-405,"y":673},null],"u1193C":[{"x":-426,"y":673},null],"u1193F":[null,{"x":-207,"y":674}]}},"basemarks":[{"u11941":{"anchor_0":{"x":0,"y":860}},"u1193B":{"anchor_0":{"x":-403,"y":960}},"u1193C":{"anchor_0":{"x":-422,"y":960}}},null],"bases":[null,{"u11900":{"anchor_0":{"x":252,"y":607}},"u11901":{"anchor_0":{"x":252,"y":607}},"u11902":{"anchor_0":{"x":136,"y":607}},"u11903":{"anchor_0":{"x":136,"y":607}},"u11904":{"anchor_0":{"x":343,"y":543}},"u11905":{"anchor_0":{"x":343,"y":543}},"u11906":{"anchor_0":{"x":367,"y":543}},"u11909":{"anchor_0":{"x":257,"y":537}},"u1190C":{"anchor_0":{"x":534,"y":551}},"u1190D":{"anchor_0":{"x":312,"y":537}},"u1190F":{"anchor_0":{"x":340,"y":543}},"u11910":{"anchor_0":{"x":259,"y":547}},"u11911":{"anchor_0":{"x":346,"y":543}},"u11912":{"anchor_0":{"x":347,"y":543}},"u11913":{"anchor_0":{"x":342,"y":543}},"u11915":{"anchor_0":{"x":350,"y":543}},"u11916":{"anchor_0":{"x":270,"y":543}},"u11918":{"anchor_0":{"x":341,"y":543}},"u11919":{"anchor_0":{"x":260,"y":543}},"u1191A":{"anchor_0":{"x":350,"y":543}},"u1191B":{"anchor_0":{"x":310,"y":543}},"u1191C":{"anchor_0":{"x":292,"y":536}},"u1191D":{"anchor_0":{"x":252,"y":546}},"u1191E":{"anchor_0":{"x":262,"y":536}},"u1191F":{"anchor_0":{"x":330,"y":543}},"u11920":{"anchor_0":{"x":262,"y":536}},"u11921":{"anchor_0":{"x":252,"y":536}},"u11922":{"anchor_0":{"x":242,"y":536}},"u11923":{"anchor_0":{"x":242,"y":537}},"u11924":{"anchor_0":{"x":262,"y":537}},"u11925":{"anchor_0":{"x":292,"y":537}},"u11940":{"anchor_0":{"x":152,"y":495}},"u11926":{"anchor_0":{"x":432,"y":316}},"u11927":{"anchor_0":{"x":182,"y":467}},"u11942":{"anchor_0":{"x":-52,"y":467}},"u11928":{"anchor_0":{"x":228,"y":390}},"u11929":{"anchor_0":{"x":348,"y":543}},"u1192A":{"anchor_0":{"x":292,"y":543}},"u1192B":{"anchor_0":{"x":292,"y":543}},"u1192C":{"anchor_0":{"x":260,"y":541}},"u1192D":{"anchor_0":{"x":382,"y":543}},"u1192E":{"anchor_0":{"x":259,"y":547}},"u1192F":{"anchor_0":{"x":335,"y":535}},"ka_medradivesakuru":{"anchor_0":{"x":805,"y":564}},"ka_vowelUdivesakuru":{"anchor_0":{"x":534,"y":551}},"ka_vowelUUdivesakuru":{"anchor_0":{"x":534,"y":551}},"ta_medyadivesakuru":{"anchor_0":{"x":815,"y":292}},"da_medyadivesakuru":{"anchor_0":{"x":625,"y":252}},"da_vowelUdivesakuru":{"anchor_0":{"x":635,"y":199}},"dha_vowelIdivesakuru":{"anchor_0":{"x":932,"y":622}},"dha_vowelIIdivesakuru":{"anchor_0":{"x":1035,"y":662}},"dha_vowelUdivesakuru":{"anchor_0":{"x":1046,"y":367}},"na_vowelUdivesakuru":{"anchor_0":{"x":652,"y":542}},"pa_medradivesakuru":{"anchor_0":{"x":845,"y":370}},"pa_vowelIdivesakuru":{"anchor_0":{"x":755,"y":622}},"pa_vowelUdivesakuru":{"anchor_0":{"x":932,"y":370}},"pa_vowelUUdivesakuru":{"anchor_0":{"x":992,"y":372}},"ma_vowelUdivesakuru":{"anchor_0":{"x":708,"y":251}},"ya_medyadivesakuru":{"anchor_0":{"x":822,"y":398}},"u11904.00":{"anchor_0":{"x":862,"y":367}},"u11905.00":{"anchor_0":{"x":945,"y":368}},"yya_medyadivesakuru":{"anchor_0":{"x":790,"y":387}},"yya_vowelIdivesakuru":{"anchor_0":{"x":780,"y":360}},"ra_vowelUdivesakuru":{"anchor_0":{"x":440,"y":510}},"sha_medradivesakuru":{"anchor_0":{"x":896,"y":265}},"sa_medyadivesakuru":{"anchor_0":{"x":715,"y":466}},"sa_vowelIdivesakuru":{"anchor_0":{"x":665,"y":622}},"sa_vowelUdivesakuru":{"anchor_0":{"x":735,"y":456}},"u11930":{"anchor_0":{"x":131,"y":402}},"u11931":{"anchor_0":{"x":5,"y":639}},"u11932":{"anchor_0":{"x":45,"y":663}},"u11933":{"anchor_0":{"x":83,"y":367}},"u11934":{"anchor_0":{"x":120,"y":367}},"u11933.00":{"anchor_0":{"x":83,"y":367}},"u11934.00":{"anchor_0":{"x":110,"y":367}}}]}},"4":{"0":{"type":["mark_to_base","mark_to_lig"],"marks":{"anchor_0":{"u11943":[{"x":-355,"y":-38},null],"u11941":[null,{"x":-232,"y":673}],"u1193B":[null,{"x":-405,"y":673}],"u1193C":[null,{"x":-426,"y":673}]}},"bases":[{"u11900":{"anchor_0":{"x":466,"y":-202}},"u11901":{"anchor_0":{"x":466,"y":-202}},"u11902":{"anchor_0":{"x":456,"y":-292}},"u11903":{"anchor_0":{"x":552,"y":-432}},"u11904":{"anchor_0":{"x":405,"y":-38}},"u11905":{"anchor_0":{"x":405,"y":-38}},"u11906":{"anchor_0":{"x":435,"y":-38}},"u11909":{"anchor_0":{"x":535,"y":-38}},"u1190C":{"anchor_0":{"x":505,"y":-276}},"u1190D":{"anchor_0":{"x":403,"y":-38}},"u1190E":{"anchor_0":{"x":375,"y":-38}},"u1190F":{"anchor_0":{"x":488,"y":-38}},"u11910":{"anchor_0":{"x":275,"y":-38}},"u11911":{"anchor_0":{"x":514,"y":-38}},"u11912":{"anchor_0":{"x":614,"y":-138}},"u11913":{"anchor_0":{"x":495,"y":-38}},"u11915":{"anchor_0":{"x":425,"y":-138}},"u11916":{"anchor_0":{"x":455,"y":-38}},"u11918":{"anchor_0":{"x":535,"y":-38}},"u11919":{"anchor_0":{"x":535,"y":-38}},"u1191A":{"anchor_0":{"x":425,"y":-38}},"u1191B":{"anchor_0":{"x":455,"y":-276}},"u1191C":{"anchor_0":{"x":395,"y":-38}},"u1191D":{"anchor_0":{"x":275,"y":-38}},"u1191E":{"anchor_0":{"x":575,"y":-38}},"u1191F":{"anchor_0":{"x":415,"y":-38}},"u11920":{"anchor_0":{"x":545,"y":-38}},"u11921":{"anchor_0":{"x":585,"y":-277}},"u11922":{"anchor_0":{"x":475,"y":-38}},"u11923":{"anchor_0":{"x":575,"y":-276}},"u11924":{"anchor_0":{"x":382,"y":-38}},"u11925":{"anchor_0":{"x":415,"y":-38}},"u11940":{"anchor_0":{"x":295,"y":-138}},"u11926":{"anchor_0":{"x":415,"y":-38}},"u11927":{"anchor_0":{"x":229,"y":-38}},"u11942":{"anchor_0":{"x":-235,"y":-328}},"u11928":{"anchor_0":{"x":375,"y":-38}},"u11929":{"anchor_0":{"x":435,"y":-38}},"u1192A":{"anchor_0":{"x":535,"y":-38}},"u1192B":{"anchor_0":{"x":421,"y":-38}},"u1192C":{"anchor_0":{"x":445,"y":-38}},"u1192D":{"anchor_0":{"x":445,"y":-38}},"u1192E":{"anchor_0":{"x":305,"y":-248}},"u1192F":{"anchor_0":{"x":525,"y":-38}},"ka_thadivesakuru":{"anchor_0":{"x":829,"y":-293}},"ka_ra_vowelIdivesakuru":{"anchor_0":{"x":1169,"y":-171}},"ka_ssadivesakuru":{"anchor_0":{"x":929,"y":-293}},"ka_medradivesakuru":{"anchor_0":{"x":815,"y":-308}},"ka_vowelUdivesakuru":{"anchor_0":{"x":739,"y":-15}},"ka_vowelUUdivesakuru":{"anchor_0":{"x":966,"y":-353}},"nga_gadivesakuru":{"anchor_0":{"x":539,"y":-293}},"tta_ttadivesakuru":{"anchor_0":{"x":670,"y":-38}},"tta_vadivesakuru":{"anchor_0":{"x":889,"y":-293}},"nna_ddadivesakuru":{"anchor_0":{"x":769,"y":-38}},"ta_thadivesakuru":{"anchor_0":{"x":689,"y":-293}},"ta_medyadivesakuru":{"anchor_0":{"x":995,"y":-208}},"da_medyadivesakuru":{"anchor_0":{"x":775,"y":-208}},"da_vowelUdivesakuru":{"anchor_0":{"x":676,"y":-353}},"dha_vowelIdivesakuru":{"anchor_0":{"x":1019,"y":-38}},"dha_vowelIIdivesakuru":{"anchor_0":{"x":1119,"y":-138}},"dha_vowelUdivesakuru":{"anchor_0":{"x":1117,"y":-273}},"na_ta_medradivesakuru":{"anchor_0":{"x":1229,"y":-492}},"na_thadivesakuru":{"anchor_0":{"x":689,"y":-38}},"na_dhadivesakuru":{"anchor_0":{"x":799,"y":-38}},"na_dha_vowelIdivesakuru":{"anchor_0":{"x":1240,"y":-38}},"na_dha_vowelIIdivesakuru":{"anchor_0":{"x":1346,"y":-138}},"na_dha_vowelUdivesakuru":{"anchor_0":{"x":1344,"y":-273}},"na_vowelUdivesakuru":{"anchor_0":{"x":819,"y":-148}},"pa_medradivesakuru":{"anchor_0":{"x":769,"y":-276}},"pa_vowelIdivesakuru":{"anchor_0":{"x":840,"y":-38}},"pa_vowelUdivesakuru":{"anchor_0":{"x":1002,"y":-273}},"pa_vowelUUdivesakuru":{"anchor_0":{"x":1074,"y":-273}},"ba_bhadivesakuru":{"anchor_0":{"x":1115,"y":-276}},"ma_badivesakuru":{"anchor_0":{"x":789,"y":-116}},"ma_vowelUdivesakuru":{"anchor_0":{"x":764,"y":-273}},"ya_medyadivesakuru":{"anchor_0":{"x":915,"y":-128}},"ya_vowelIdivesakuru":{"anchor_0":{"x":705,"y":-238}},"udivesakuru.00":{"anchor_0":{"x":953,"y":-239}},"uudivesakuru.00":{"anchor_0":{"x":1083,"y":-239}},"yya_medyadivesakuru":{"anchor_0":{"x":929,"y":-128}},"yya_vowelIdivesakuru":{"anchor_0":{"x":705,"y":-238}},"ra_vowelUdivesakuru":{"anchor_0":{"x":619,"y":-148}},"va_vadivesakuru":{"anchor_0":{"x":811,"y":-293}},"sha_ra_vowelIdivesakuru":{"anchor_0":{"x":1104,"y":-323}},"sha_medradivesakuru":{"anchor_0":{"x":749,"y":-276}},"ssa_ttadivesakuru":{"anchor_0":{"x":801,"y":-38}},"sa_tadivesakuru":{"anchor_0":{"x":969,"y":-276}},"sa_ta_medradivesakuru":{"anchor_0":{"x":1019,"y":-486}},"sa_pa_medradivesakuru":{"anchor_0":{"x":1285,"y":-276}},"sa_vadivesakuru":{"anchor_0":{"x":899,"y":-166}},"sa_medyadivesakuru":{"anchor_0":{"x":815,"y":-88}},"sa_vowelIdivesakuru":{"anchor_0":{"x":740,"y":-38}},"sa_vowelUdivesakuru":{"anchor_0":{"x":794,"y":-187}},"lla_vowelUdivesakuru":{"anchor_0":{"x":305,"y":-238}},"ya_udivesakuru":{"anchor_0":{"x":415,"y":-38}},"chdivesakuru":{"anchor_0":{"x":614,"y":-138}},"ssa_ttdivesakuru":{"anchor_0":{"x":801,"y":-38}},"pdivesakuru":{"anchor_0":{"x":545,"y":-38}},"atouchdivesakuru":{"anchor_0":{"x":466,"y":-202}},"etouchdivesakuru":{"anchor_0":{"x":435,"y":-38}},"gatouchdivesakuru":{"anchor_0":{"x":375,"y":-38}},"itouchdivesakuru":{"anchor_0":{"x":456,"y":-292}},"katouchdivesakuru":{"anchor_0":{"x":505,"y":-276}},"patouchdivesakuru":{"anchor_0":{"x":545,"y":-38}},"llatouchdivesakuru":{"anchor_0":{"x":305,"y":-248}},"matouchdivesakuru":{"anchor_0":{"x":388,"y":-38}},"natouchdivesakuru":{"anchor_0":{"x":415,"y":-38}},"ratouchdivesakuru":{"anchor_0":{"x":229,"y":-38}},"tatouchdivesakuru":{"anchor_0":{"x":455,"y":-276}},"yatouchdivesakuru":{"anchor_0":{"x":415,"y":-38}},"u11931":{"anchor_0":{"x":83,"y":-18}},"u11932":{"anchor_0":{"x":103,"y":-105}},"u11933":{"anchor_0":{"x":182,"y":-275}},"u11934":{"anchor_0":{"x":229,"y":-275}},"uVoweldivesakuru.00":{"anchor_0":{"x":182,"y":-275}},"uuVoweldivesakuru.00":{"anchor_0":{"x":219,"y":-275}}},null],"ligatures":[null,{"ka_ra_vowelIdivesakuru":{"anchor_0_1":{"x":842,"y":653}},"na_ta_medradivesakuru":{"anchor_0_1":{"x":416,"y":590},"anchor_0_2":{"x":1112,"y":590}}}]}},"5":{"0":{"type":["pair","mark_to_lig"],"u1190C":[{"ka_thadivesakuru":{"x":-174},"ka_ra_vowelIdivesakuru":{"x":-174},"ka_ssadivesakuru":{"x":-174},"ka_medradivesakuru":{"x":-174},"ka_vowelUdivesakuru":{"x":-174},"ka_vowelUUdivesakuru":{"x":-174},"ta_thadivesakuru":{"x":-170},"ta_medyadivesakuru":{"x":-170},"ra_vowelUdivesakuru":{"x":-169},"kdivesakuru":{"x":-174},"katouchdivesakuru":{"x":-174},"ratouchdivesakuru":{"x":-169},"tatouchdivesakuru":{"x":-170}},null],"u1190E":[{"gatouchdivesakuru":{"x":-227}},null],"u1191B":[{"ka_thadivesakuru":{"x":-160},"ka_ra_vowelIdivesakuru":{"x":-160},"ka_ssadivesakuru":{"x":-160},"ka_medradivesakuru":{"x":-160},"ka_vowelUdivesakuru":{"x":-160},"ka_vowelUUdivesakuru":{"x":-160},"pa_medradivesakuru":{"x":-240},"pa_vowelIdivesakuru":{"x":-240},"pa_vowelUdivesakuru":{"x":-240},"pa_vowelUUdivesakuru":{"x":-240},"kdivesakuru":{"x":-180},"atouchdivesakuru":{"x":-180},"katouchdivesakuru":{"x":-160},"patouchdivesakuru":{"x":-240}},null],"u1191F":[{"na_ta_medradivesakuru":{"x":-120},"na_thadivesakuru":{"x":-120},"na_dhadivesakuru":{"x":-120},"na_dha_vowelIdivesakuru":{"x":-120},"na_dha_vowelIIdivesakuru":{"x":-120},"na_dha_vowelUdivesakuru":{"x":-120},"na_vowelUdivesakuru":{"x":-120},"ya_medyadivesakuru":{"x":-135},"ya_vowelIdivesakuru":{"x":-135},"ndivesakuru":{"x":-120},"tdivesakuru":{"x":-138},"na_dhdivesakuru":{"x":-120},"ya_udivesakuru":{"x":-135},"etouchdivesakuru":{"x":-130},"itouchdivesakuru":{"x":-143},"natouchdivesakuru":{"x":-120},"yatouchdivesakuru":{"x":-135}},null],"u11924":[{"ma_badivesakuru":{"x":-257},"ma_vowelUdivesakuru":{"x":-257},"matouchdivesakuru":{"x":-257}},null],"u11925":[{"ya_medyadivesakuru":{"x":-183},"ya_vowelIdivesakuru":{"x":-183},"ya_udivesakuru":{"x":-183},"yatouchdivesakuru":{"x":-183}},null],"u1192C":[{"pa_medradivesakuru":{"x":-113},"pa_vowelIdivesakuru":{"x":-113},"pa_vowelUdivesakuru":{"x":-113},"pa_vowelUUdivesakuru":{"x":-113},"pdivesakuru":{"x":-113},"patouchdivesakuru":{"x":-113}},null],"u1192E":[{"lla_vowelUdivesakuru":{"x":-142},"llatouchdivesakuru":{"x":-142}},null],"marks":[null,{"anchor_0":{"u11941":{"x":-232,"y":673},"u1193B":{"x":-405,"y":673},"u1193C":{"x":-426,"y":673}}}],"ligatures":[null,{"ka_ra_vowelIdivesakuru":{"anchor_0_1":{"x":842,"y":653}},"na_ta_medradivesakuru":{"anchor_0_1":{"x":416,"y":590},"anchor_0_2":{"x":1112,"y":590}}}]}},"6":{"0":{"type":["mark_to_base","mark_to_lig"],"marks":{"anchor_0":{"u11941":[{"x":-218,"y":673},null],"u1193F":[null,{"x":-207,"y":674}]}},"bases":[{"uni25CC":{"anchor_0":{"x":73,"y":590}}},null],"ligatures":[null,{"ka_ra_vowelIdivesakuru":{"anchor_0_1":{"x":805,"y":564}},"na_ta_medradivesakuru":{"anchor_0_1":{"x":330,"y":543},"anchor_0_2":{"x":946,"y":543}}}]}},"7":{"0":{"type":["mark_to_base","mark_to_mark"],"bases":[{"dha_medyadivesakuru":{"anchor_0":{"x":1019,"y":536}},"ptouchdivesakuru":{"anchor_0":{"x":566,"y":590}},"ya_vowelItouchdivesakuru":{"anchor_0":{"x":746,"y":536}},"uni25CC":{"anchor_0":{"x":386,"y":606}}},null],"basemarks":[null,{"u11941":{"anchor_0":{"x":0,"y":860}},"u1193B":{"anchor_0":{"x":-403,"y":960}},"u1193C":{"anchor_0":{"x":-422,"y":960}}}]}},"8":{"0":{"marks":{"anchor_0":{"u11941":[{"x":-232,"y":673},null],"u1193B":[{"x":-405,"y":673},null],"u1193C":[{"x":-426,"y":673},null],"u11943":[null,{"x":-355,"y":-38}]},"anchor_1":[{"u1193F":{"x":-207,"y":674}},null],"anchor_2":[{"u11943":{"x":-355,"y":-38}},null]},"bases":{"dha_medyadivesakuru":[{"anchor_0":{"x":1019,"y":536},"anchor_1":{"x":953,"y":401},"anchor_2":{"x":1115,"y":-98}},null],"ptouchdivesakuru":[{"anchor_2":{"x":545,"y":-38}},null],"ya_utouchdivesakuru":[{"anchor_2":{"x":415,"y":-38}},null],"ya_vowelItouchdivesakuru":[{"anchor_0":{"x":746,"y":536},"anchor_2":{"x":705,"y":-238}},null],"uni25CC":[{"anchor_1":{"x":320,"y":486},"anchor_2":{"x":399,"y":-152}},null],"u11900":[null,{"anchor_0":{"x":466,"y":-202}}],"u11901":[null,{"anchor_0":{"x":466,"y":-202}}],"u11902":[null,{"anchor_0":{"x":456,"y":-292}}],"u11903":[null,{"anchor_0":{"x":552,"y":-432}}],"u11904":[null,{"anchor_0":{"x":405,"y":-38}}],"u11905":[null,{"anchor_0":{"x":405,"y":-38}}],"u11906":[null,{"anchor_0":{"x":435,"y":-38}}],"u11909":[null,{"anchor_0":{"x":535,"y":-38}}],"u1190C":[null,{"anchor_0":{"x":505,"y":-276}}],"u1190D":[null,{"anchor_0":{"x":403,"y":-38}}],"u1190E":[null,{"anchor_0":{"x":375,"y":-38}}],"u1190F":[null,{"anchor_0":{"x":488,"y":-38}}],"u11910":[null,{"anchor_0":{"x":275,"y":-38}}],"u11911":[null,{"anchor_0":{"x":514,"y":-38}}],"u11912":[null,{"anchor_0":{"x":614,"y":-138}}],"u11913":[null,{"anchor_0":{"x":495,"y":-38}}],"u11915":[null,{"anchor_0":{"x":425,"y":-138}}],"u11916":[null,{"anchor_0":{"x":455,"y":-38}}],"u11918":[null,{"anchor_0":{"x":535,"y":-38}}],"u11919":[null,{"anchor_0":{"x":535,"y":-38}}],"u1191A":[null,{"anchor_0":{"x":425,"y":-38}}],"u1191B":[null,{"anchor_0":{"x":455,"y":-276}}],"u1191C":[null,{"anchor_0":{"x":395,"y":-38}}],"u1191D":[null,{"anchor_0":{"x":275,"y":-38}}],"u1191E":[null,{"anchor_0":{"x":575,"y":-38}}],"u1191F":[null,{"anchor_0":{"x":415,"y":-38}}],"u11920":[null,{"anchor_0":{"x":545,"y":-38}}],"u11921":[null,{"anchor_0":{"x":585,"y":-277}}],"u11922":[null,{"anchor_0":{"x":475,"y":-38}}],"u11923":[null,{"anchor_0":{"x":575,"y":-276}}],"u11924":[null,{"anchor_0":{"x":382,"y":-38}}],"u11925":[null,{"anchor_0":{"x":415,"y":-38}}],"u11940":[null,{"anchor_0":{"x":295,"y":-138}}],"u11926":[null,{"anchor_0":{"x":415,"y":-38}}],"u11927":[null,{"anchor_0":{"x":229,"y":-38}}],"u11942":[null,{"anchor_0":{"x":-235,"y":-328}}],"u11928":[null,{"anchor_0":{"x":375,"y":-38}}],"u11929":[null,{"anchor_0":{"x":435,"y":-38}}],"u1192A":[null,{"anchor_0":{"x":535,"y":-38}}],"u1192B":[null,{"anchor_0":{"x":421,"y":-38}}],"u1192C":[null,{"anchor_0":{"x":445,"y":-38}}],"u1192D":[null,{"anchor_0":{"x":445,"y":-38}}],"u1192E":[null,{"anchor_0":{"x":305,"y":-248}}],"u1192F":[null,{"anchor_0":{"x":525,"y":-38}}],"ka_medradivesakuru":[null,{"anchor_0":{"x":815,"y":-308}}],"ka_vowelUdivesakuru":[null,{"anchor_0":{"x":739,"y":-15}}],"ka_vowelUUdivesakuru":[null,{"anchor_0":{"x":966,"y":-353}}],"ta_medyadivesakuru":[null,{"anchor_0":{"x":995,"y":-208}}],"da_medyadivesakuru":[null,{"anchor_0":{"x":775,"y":-208}}],"da_vowelUdivesakuru":[null,{"anchor_0":{"x":676,"y":-353}}],"dha_vowelIdivesakuru":[null,{"anchor_0":{"x":1019,"y":-38}}],"dha_vowelIIdivesakuru":[null,{"anchor_0":{"x":1119,"y":-138}}],"dha_vowelUdivesakuru":[null,{"anchor_0":{"x":1117,"y":-273}}],"na_vowelUdivesakuru":[null,{"anchor_0":{"x":819,"y":-148}}],"pa_medradivesakuru":[null,{"anchor_0":{"x":769,"y":-276}}],"pa_vowelIdivesakuru":[null,{"anchor_0":{"x":840,"y":-38}}],"pa_vowelUdivesakuru":[null,{"anchor_0":{"x":1002,"y":-273}}],"pa_vowelUUdivesakuru":[null,{"anchor_0":{"x":1074,"y":-273}}],"ma_vowelUdivesakuru":[null,{"anchor_0":{"x":764,"y":-273}}],"ya_medyadivesakuru":[null,{"anchor_0":{"x":915,"y":-128}}],"ya_vowelIdivesakuru":[null,{"anchor_0":{"x":705,"y":-238}}],"u11904.00":[null,{"anchor_0":{"x":953,"y":-239}}],"u11905.00":[null,{"anchor_0":{"x":1083,"y":-239}}],"yya_medyadivesakuru":[null,{"anchor_0":{"x":929,"y":-128}}],"yya_vowelIdivesakuru":[null,{"anchor_0":{"x":705,"y":-238}}],"ra_vowelUdivesakuru":[null,{"anchor_0":{"x":619,"y":-148}}],"sha_medradivesakuru":[null,{"anchor_0":{"x":749,"y":-276}}],"sa_medyadivesakuru":[null,{"anchor_0":{"x":815,"y":-88}}],"sa_vowelIdivesakuru":[null,{"anchor_0":{"x":740,"y":-38}}],"sa_vowelUdivesakuru":[null,{"anchor_0":{"x":794,"y":-187}}],"lla_vowelUdivesakuru":[null,{"anchor_0":{"x":305,"y":-238}}],"chdivesakuru":[null,{"anchor_0":{"x":614,"y":-138}}],"ssa_ttdivesakuru":[null,{"anchor_0":{"x":801,"y":-38}}],"pdivesakuru":[null,{"anchor_0":{"x":545,"y":-38}}],"atouchdivesakuru":[null,{"anchor_0":{"x":466,"y":-202}}],"etouchdivesakuru":[null,{"anchor_0":{"x":435,"y":-38}}],"gatouchdivesakuru":[null,{"anchor_0":{"x":375,"y":-38}}],"itouchdivesakuru":[null,{"anchor_0":{"x":456,"y":-292}}],"katouchdivesakuru":[null,{"anchor_0":{"x":505,"y":-276}}],"patouchdivesakuru":[null,{"anchor_0":{"x":545,"y":-38}}],"llatouchdivesakuru":[null,{"anchor_0":{"x":305,"y":-248}}],"matouchdivesakuru":[null,{"anchor_0":{"x":388,"y":-38}}],"natouchdivesakuru":[null,{"anchor_0":{"x":415,"y":-38}}],"ratouchdivesakuru":[null,{"anchor_0":{"x":229,"y":-38}}],"tatouchdivesakuru":[null,{"anchor_0":{"x":455,"y":-276}}],"yatouchdivesakuru":[null,{"anchor_0":{"x":415,"y":-38}}],"u11931":[null,{"anchor_0":{"x":83,"y":-18}}],"u11932":[null,{"anchor_0":{"x":103,"y":-105}}],"u11933":[null,{"anchor_0":{"x":182,"y":-275}}],"u11934":[null,{"anchor_0":{"x":229,"y":-275}}],"u11933.00":[null,{"anchor_0":{"x":182,"y":-275}}],"u11934.00":[null,{"anchor_0":{"x":219,"y":-275}}]}}},"9":[null,[{"type":"mark_to_lig","marks":{"anchor_0":{"u11943":{"x":-355,"y":-38}}},"ligatures":{"ka_ra_vowelIdivesakuru":{"anchor_0_1":{"x":815,"y":-308}},"na_ta_medradivesakuru":{"anchor_0_1":{"x":415,"y":-38},"anchor_0_2":{"x":1091,"y":-276}}}}]],"10":[null,[{"type":"pair","u1190C":{"u1190C_u1191C":{"x":-174},"ka_ra_vowelIdivesakuru":{"x":-174},"u1190C_u1192B":{"x":-174},"ka_medradivesakuru":{"x":-174},"ka_vowelUdivesakuru":{"x":-174},"ka_vowelUUdivesakuru":{"x":-174},"u1191B_u1191C":{"x":-170},"ta_medyadivesakuru":{"x":-170},"ra_vowelUdivesakuru":{"x":-169},"kdivesakuru":{"x":-174},"katouchdivesakuru":{"x":-174},"ratouchdivesakuru":{"x":-169},"tatouchdivesakuru":{"x":-170}},"u1190E":{"gatouchdivesakuru":{"x":-227}},"u1191B":{"u1190C_u1191C":{"x":-160},"ka_ra_vowelIdivesakuru":{"x":-160},"u1190C_u1192B":{"x":-160},"ka_medradivesakuru":{"x":-160},"ka_vowelUdivesakuru":{"x":-160},"ka_vowelUUdivesakuru":{"x":-160},"pa_medradivesakuru":{"x":-240},"pa_vowelIdivesakuru":{"x":-240},"pa_vowelUdivesakuru":{"x":-240},"pa_vowelUUdivesakuru":{"x":-240},"kdivesakuru":{"x":-180},"atouchdivesakuru":{"x":-180},"katouchdivesakuru":{"x":-160},"patouchdivesakuru":{"x":-240}},"u1191F":{"na_ta_medradivesakuru":{"x":-120},"u1191F_u1191C":{"x":-120},"u1191F_u1191E":{"x":-120},"na_dha_vowelIdivesakuru":{"x":-120},"na_dha_vowelIIdivesakuru":{"x":-120},"na_dha_vowelUdivesakuru":{"x":-120},"na_vowelUdivesakuru":{"x":-120},"ya_medyadivesakuru":{"x":-135},"ya_vowelIdivesakuru":{"x":-135},"ndivesakuru":{"x":-120},"tdivesakuru":{"x":-138},"na_dhdivesakuru":{"x":-120},"u11925_u11904":{"x":-135},"etouchdivesakuru":{"x":-130},"itouchdivesakuru":{"x":-143},"natouchdivesakuru":{"x":-120},"yatouchdivesakuru":{"x":-135}},"u11924":{"u11924_u11922":{"x":-257},"ma_vowelUdivesakuru":{"x":-257},"matouchdivesakuru":{"x":-257}},"u11925":{"ya_medyadivesakuru":{"x":-183},"ya_vowelIdivesakuru":{"x":-183},"u11925_u11904":{"x":-183},"yatouchdivesakuru":{"x":-183}},"u1192C":{"pa_medradivesakuru":{"x":-113},"pa_vowelIdivesakuru":{"x":-113},"pa_vowelUdivesakuru":{"x":-113},"pa_vowelUUdivesakuru":{"x":-113},"pdivesakuru":{"x":-113},"patouchdivesakuru":{"x":-113}},"u1192E":{"lla_vowelUdivesakuru":{"x":-142},"llatouchdivesakuru":{"x":-142}}}]],"11":[null,[{"type":"mark_to_base","marks":{"anchor_0":{"u11941":{"x":-232,"y":673},"u1193B":{"x":-405,"y":673},"u1193C":{"x":-426,"y":673}}},"bases":{"dha_medyadivesakuru":{"anchor_0":{"x":1019,"y":536}},"ya_vowelItouchdivesakuru":{"anchor_0":{"x":746,"y":536}}}}]],"12":[null,[{"type":"mark_to_base","marks":{"anchor_0":{"u11943":{"x":-355,"y":-38}}},"bases":{"dha_medyadivesakuru":{"anchor_0":{"x":1115,"y":-98}},"ptouchdivesakuru":{"anchor_0":{"x":545,"y":-38}},"ya_utouchdivesakuru":{"anchor_0":{"x":415,"y":-38}},"ya_vowelItouchdivesakuru":{"anchor_0":{"x":705,"y":-238}},"uni25CC":{"anchor_0":{"x":399,"y":-152}}}}]],"13":[null,[{"type":"mark_to_base","marks":{"anchor_0":{"u11941":{"x":-218,"y":673}}},"bases":{"uni25CC":{"anchor_0":{"x":73,"y":590}}}}]],"14":[null,[{"type":"mark_to_base","marks":{"anchor_0":{"u11941":{"x":-232,"y":673},"u1193B":{"x":-405,"y":673},"u1193C":{"x":-426,"y":673}}},"bases":{"dha_medyadivesakuru":{"anchor_0":{"x":1019,"y":536}},"ptouchdivesakuru":{"anchor_0":{"x":566,"y":590}},"ya_vowelItouchdivesakuru":{"anchor_0":{"x":746,"y":536}},"uni25CC":{"anchor_0":{"x":386,"y":606}}}}]],"15":[null,[{"type":"mark_to_base","marks":{"anchor_0":{"u1193F":{"x":-207,"y":674}}},"bases":{"dha_medyadivesakuru":{"anchor_0":{"x":953,"y":401}},"uni25CC":{"anchor_0":{"x":320,"y":486}}}}]]}},"GSUB":{"feature_list":{"cjct":{"0":[14,8],"1":[18,10],"2":[19,11],"3":[20,12],"4":[21,13],"5":[22,14],"6":[23,15]},"haln":{"0":[24,16],"1":[25,17],"2":[27,19],"3":[29,21],"4":[31,23],"5":[33,25]},"psts":{"4":[10,6]}},"lookup_list":{"1":{"0":{"sa_tadivesakuru u11942":["sa_ta_medradivesakuru",null],"u1192C_u1191B u11942":[null,"sa_ta_medradivesakuru"]}},"4":{"0":{"rules":{"1":["u11919 u11933' lookup lookup_6","u11919 u11933' lookup lookup_5"],"2":["u11922 u11933' lookup lookup_7","u11922 u11933' lookup lookup_5"],"3":["u11923 u11933' lookup lookup_8","u11923 u11933' lookup lookup_5"],"4":["u1192F u11933' lookup lookup_9","u1192F u11933' lookup lookup_5"]}}},"5":{"0":{"u11933":["uVoweldivesakuru.00","u11933.00"]}},"6":{"0":{"type":["single","chained_sequence_context"],"u11933":["uVoweldivesakuru.00",null],"rules":[null,["u11918 u11934' lookup lookup_7","u11919 u11934' lookup lookup_7","u11922 u11934' lookup lookup_7"]]}},"7":{"0":{"u11933":["uVoweldivesakuru.00",null],"u11934":[null,"u11934.00"]}},"8":{"0":{"type":["single","chained_sequence_context"],"u11933":["uVoweldivesakuru.00",null],"rules":[null,["u1193E u1191B u11900' lookup lookup_9","u1193E u1191F u11902' lookup lookup_9","u1193E u1191F u11906' lookup lookup_9","u1193E u1190C u1190C' lookup lookup_9","u1193E u11927 u1190C' lookup lookup_9","u1193E u1191B u1190C' lookup lookup_9","u1193E u11941 u1190E' lookup lookup_9","u1193E u1190E u1190E' lookup lookup_9","u1193E u1190C u1191B' lookup lookup_9","u1193E u1191F u1191B' lookup lookup_9","u1193E u1191F u1191F' lookup lookup_9","u1193E u1191B u11920' lookup lookup_9","u1193E u1192C u11920' lookup lookup_9","u1193E u11941 u11924' lookup lookup_9","u1193E u11924 u11924' lookup lookup_9","u1193E u1191F u11925' lookup lookup_9","u1193E u11925 u11925' lookup lookup_9","u1193E u1190C u11927' lookup lookup_9","u1193E u1192E u1192E' lookup lookup_9"]]}},"9":{"0":{"u11933":["uVoweldivesakuru.00",null],"u11900":[null,"atouchdivesakuru"],"u11902":[null,"itouchdivesakuru"],"u11906":[null,"etouchdivesakuru"],"u1190C":[null,"katouchdivesakuru"],"u1190E":[null,"gatouchdivesakuru"],"u1191B":[null,"tatouchdivesakuru"],"u1191F":[null,"natouchdivesakuru"],"u11920":[null,"patouchdivesakuru"],"u11924":[null,"matouchdivesakuru"],"u11925":[null,"yatouchdivesakuru"],"u11927":[null,"ratouchdivesakuru"],"u1192E":[null,"llatouchdivesakuru"]}},"10":{"0":{"type":["chained_sequence_context","ligature"],"rules":[["u11918 u11934' lookup lookup_11","u11919 u11934' lookup lookup_12","u11922 u11934' lookup lookup_13"],null],"u1193E katouchdivesakuru":[null,"katouchdivesakuru"],"u1193E tatouchdivesakuru":[null,"tatouchdivesakuru"],"u1193E natouchdivesakuru":[null,"natouchdivesakuru"],"u1193E matouchdivesakuru":[null,"matouchdivesakuru"],"u1193E yatouchdivesakuru":[null,"yatouchdivesakuru"],"u1193E ratouchdivesakuru":[null,"ratouchdivesakuru"],"u1193E llatouchdivesakuru":[null,"llatouchdivesakuru"],"u1193E patouchdivesakuru":[null,"patouchdivesakuru"],"u1193E gatouchdivesakuru":[null,"gatouchdivesakuru"],"u1193E itouchdivesakuru":[null,"itouchdivesakuru"],"u1193E etouchdivesakuru":[null,"etouchdivesakuru"],"u1193E atouchdivesakuru":[null,"atouchdivesakuru"]}},"11":{"0":{"type":["single","ligature"],"u11934":["uuVoweldivesakuru.00",null],"u1190C u1193E u1192B":[null,"u1190C_u1192B"],"u1190C u1193E u1191C":[null,"u1190C_u1191C"],"u11910 u1193E u1190E":[null,"u11910_u1190E"],"u11916 u1193E u11916":[null,"u11916_u11916"],"u11916 u1193E u11929":[null,"u11916_u11929"],"u1191A u1193E u11918":[null,"u1191A_u11918"],"u1191B u1193E u1191C":[null,"u1191B_u1191C"],"u1191F u1193E u1191C":[null,"u1191F_u1191C"],"u1191F u1193E u1191E":[null,"u1191F_u1191E"],"u11922 u1193E u11923":[null,"u11922_u11923"],"u11924 u1193E u11922":[null,"u11924_u11922"],"u11929 u1193E u11929":[null,"u11929_u11929"],"u1192B u1193E u11916":[null,"u1192B_u11916"],"u1192C u1193E u11929":[null,"u1192C_u11929"],"u1192C u1193E u1191B":[null,"u1192C_u1191B"],"katouchdivesakuru u1193E u1192B":[null,"u1190C_u1192B"],"katouchdivesakuru u1193E u1191C":[null,"u1190C_u1191C"],"matouchdivesakuru u1193E u11922":[null,"u11924_u11922"],"natouchdivesakuru u1193E u1191C":[null,"u1191F_u1191C"],"natouchdivesakuru u1193E u1191E":[null,"u1191F_u1191E"],"tatouchdivesakuru u1193E u1191C":[null,"u1191B_u1191C"]}},"12":{"0":{"type":["single","ligature"],"u11934":["uuVoweldivesakuru.00",null],"u1191E u11931":[null,"dha_vowelIdivesakuru"],"u11920 u11931":[null,"pa_vowelIdivesakuru"],"u11926 u11931":[null,"yya_vowelIdivesakuru"],"u1192C u11931":[null,"sa_vowelIdivesakuru"],"u1191F_u1191E u11931":[null,"na_dha_vowelIdivesakuru"],"patouchdivesakuru u11931":[null,"pa_vowelIdivesakuru"]}},"13":{"0":{"type":["single","ligature"],"u11934":["uuVoweldivesakuru.00",null],"u1191E u11932":[null,"dha_vowelIIdivesakuru"],"u1191F_u1191E u11932":[null,"na_dha_vowelIIdivesakuru"]}},"14":{"0":{"type":["chained_sequence_context","ligature"],"rules":[["viramadivesakuru u1191B u11900' lookup lookup_15","viramadivesakuru u1191F u11902' lookup lookup_15","viramadivesakuru u1191F u11906' lookup lookup_15","viramadivesakuru u1190C u1190C' lookup lookup_15","viramadivesakuru u11927 u1190C' lookup lookup_16","viramadivesakuru u1191B u1190C' lookup lookup_17","viramadivesakuru u11941 u1190E' lookup lookup_15","viramadivesakuru u1190E u1190E' lookup lookup_16","viramadivesakuru u1190C u1191B' lookup lookup_15","viramadivesakuru u1191F u1191B' lookup lookup_16","viramadivesakuru u1191F u1191F' lookup lookup_15","viramadivesakuru u1191B u11920' lookup lookup_15","viramadivesakuru u1192C u11920' lookup lookup_16","viramadivesakuru u11941 u11924' lookup lookup_15","viramadivesakuru u11924 u11924' lookup lookup_16","viramadivesakuru u1191F u11925' lookup lookup_15","viramadivesakuru u11925 u11925' lookup lookup_16","viramadivesakuru u1190C u11927' lookup lookup_15","viramadivesakuru u1192E u1192E' lookup lookup_15"],null],"u1190C u11933":[null,"ka_vowelUdivesakuru"],"u1191D u11933":[null,"da_vowelUdivesakuru"],"u1191E u11933":[null,"dha_vowelUdivesakuru"],"u1191F u11933":[null,"na_vowelUdivesakuru"],"u11920 u11933":[null,"pa_vowelUdivesakuru"],"u11924 u11933":[null,"ma_vowelUdivesakuru"],"u11925 u11933":[null,"u11904.00"],"u11927 u11933":[null,"ra_vowelUdivesakuru"],"u1192C u11933":[null,"sa_vowelUdivesakuru"],"u1192E u11933":[null,"lla_vowelUdivesakuru"],"u1191F_u1191E u11933":[null,"na_dha_vowelUdivesakuru"],"katouchdivesakuru u11933":[null,"ka_vowelUdivesakuru"],"patouchdivesakuru u11933":[null,"pa_vowelUdivesakuru"],"llatouchdivesakuru u11933":[null,"lla_vowelUdivesakuru"],"matouchdivesakuru u11933":[null,"ma_vowelUdivesakuru"],"natouchdivesakuru u11933":[null,"na_vowelUdivesakuru"],"ratouchdivesakuru u11933":[null,"ra_vowelUdivesakuru"]}},"15":{"0":{"type":["single","ligature"],"u11900":["atouchdivesakuru",null],"u11902":["itouchdivesakuru",null],"u11906":["etouchdivesakuru",null],"u1190C":["katouchdivesakuru",null],"u1190E":["gatouchdivesakuru",null],"u1191B":["tatouchdivesakuru",null],"u1191F":["natouchdivesakuru",null],"u11920":["patouchdivesakuru",null],"u11924":["matouchdivesakuru",null],"u11925":["yatouchdivesakuru",null],"u11927":["ratouchdivesakuru",null],"u1192E":["llatouchdivesakuru",null],"u1190C u11934":[null,"ka_vowelUUdivesakuru"],"u11920 u11934":[null,"pa_vowelUUdivesakuru"],"u11925 u11934":[null,"u11905.00"],"katouchdivesakuru u11934":[null,"ka_vowelUUdivesakuru"],"patouchdivesakuru u11934":[null,"pa_vowelUUdivesakuru"]}},"16":{"0":{"type":["single","ligature"],"u1190C":["katouchdivesakuru",null],"u1190E":["gatouchdivesakuru",null],"u1191B":["tatouchdivesakuru",null],"u11920":["patouchdivesakuru",null],"u11924":["matouchdivesakuru",null],"u11925":["yatouchdivesakuru",null],"u1190C u1193D":[null,"kdivesakuru"],"u11912 u1193D":[null,"chdivesakuru"],"u11916 u1193D":[null,"ttdivesakuru"],"u1191B u1193D":[null,"tdivesakuru"],"u1191E u1193D":[null,"dhdivesakuru"],"u1191F u1193D":[null,"ndivesakuru"],"u11920 u1193D":[null,"pdivesakuru"],"u11922 u1193D":[null,"bdivesakuru"],"u11925 u1193D":[null,"u11925_u11904"],"u11926 u1193D":[null,"yydivesakuru"],"u1192C u1193D":[null,"sdivesakuru"],"u11916_u11916 u1193D":[null,"tta_ttdivesakuru"],"u1191F_u1191E u1193D":[null,"na_dhdivesakuru"],"u11924_u11922 u1193D":[null,"u11924_b"],"u1192B_u11916 u1193D":[null,"ssa_ttdivesakuru"],"katouchdivesakuru u1193D":[null,"kdivesakuru"],"patouchdivesakuru u1193D":[null,"pdivesakuru"],"natouchdivesakuru u1193D":[null,"ndivesakuru"],"tatouchdivesakuru u1193D":[null,"tdivesakuru"],"yatouchdivesakuru u1193D":[null,"u11925_u11904"]}},"17":{"0":{"type":["single","chained_sequence_context"],"u1190C":["katouchdivesakuru",null],"rules":[null,["[u1190E u11918 u11919 u11923 u11926 u1192F u11922_u11923] u1193D' lookup lookup_18"]]}},"18":{"0":{"type":["ligature","single"],"viramadivesakuru atouchdivesakuru":["atouchdivesakuru",null],"viramadivesakuru etouchdivesakuru":["etouchdivesakuru",null],"viramadivesakuru gatouchdivesakuru":["gatouchdivesakuru",null],"viramadivesakuru itouchdivesakuru":["itouchdivesakuru",null],"viramadivesakuru katouchdivesakuru":["katouchdivesakuru",null],"viramadivesakuru llatouchdivesakuru":["llatouchdivesakuru",null],"viramadivesakuru matouchdivesakuru":["matouchdivesakuru",null],"viramadivesakuru natouchdivesakuru":["natouchdivesakuru",null],"viramadivesakuru patouchdivesakuru":["patouchdivesakuru",null],"viramadivesakuru ratouchdivesakuru":["ratouchdivesakuru",null],"viramadivesakuru tatouchdivesakuru":["tatouchdivesakuru",null],"viramadivesakuru yatouchdivesakuru":["yatouchdivesakuru",null],"u1193D":[null,"u1193D.00"]}},"19":{"0":{"type":["ligature","chained_sequence_context"],"u1190C viramadivesakuru u1191C":["ka_thadivesakuru",null],"u1190C viramadivesakuru u1192B":["ka_ssadivesakuru",null],"u11910 viramadivesakuru u1190E":["nga_gadivesakuru",null],"u11916 viramadivesakuru u11916":["tta_ttadivesakuru",null],"u11916 viramadivesakuru u11929":["tta_vadivesakuru",null],"u1191A viramadivesakuru u11918":["nna_ddadivesakuru",null],"u1191B viramadivesakuru u1191C":["ta_thadivesakuru",null],"u1191F viramadivesakuru u1191C":["na_thadivesakuru",null],"u1191F viramadivesakuru u1191E":["na_dhadivesakuru",null],"u11922 viramadivesakuru u11923":["ba_bhadivesakuru",null],"u11924 viramadivesakuru u11922":["ma_badivesakuru",null],"u11929 viramadivesakuru u11929":["va_vadivesakuru",null],"u1192B viramadivesakuru u11916":["ssa_ttadivesakuru",null],"u1192C viramadivesakuru u1191B":["sa_tadivesakuru",null],"u1192C viramadivesakuru u11929":["sa_vadivesakuru",null],"katouchdivesakuru viramadivesakuru u1191C":["ka_thadivesakuru",null],"katouchdivesakuru viramadivesakuru u1192B":["ka_ssadivesakuru",null],"matouchdivesakuru viramadivesakuru u11922":["ma_badivesakuru",null],"natouchdivesakuru viramadivesakuru u1191C":["na_thadivesakuru",null],"natouchdivesakuru viramadivesakuru u1191E":["na_dhadivesakuru",null],"tatouchdivesakuru viramadivesakuru u1191C":["ta_thadivesakuru",null],"rules":[null,["[u1190F u11913 u1191C u11924 u11929 u1192A u1191F_u1191C] u1193D' lookup lookup_20"]]}},"20":{"0":{"type":["ligature","single"],"u1191E u11931":["dha_vowelIdivesakuru",null],"u11920 u11931":["pa_vowelIdivesakuru",null],"u11926 u11931":["yya_vowelIdivesakuru",null],"u1192C u11931":["sa_vowelIdivesakuru",null],"na_dhadivesakuru u11931":["na_dha_vowelIdivesakuru",null],"patouchdivesakuru u11931":["pa_vowelIdivesakuru",null],"u1193D":[null,"u1193D.01"]}},"21":{"0":{"type":["ligature","chained_sequence_context"],"u1191E u11932":["dha_vowelIIdivesakuru",null],"na_dhadivesakuru u11932":["na_dha_vowelIIdivesakuru",null],"rules":[null,["[u1190D u11910_u1190E] u1193D' lookup lookup_22"]]}},"22":{"0":{"type":["ligature","single"],"u1190C u11933":["ka_vowelUdivesakuru",null],"u1191D u11933":["da_vowelUdivesakuru",null],"u1191E u11933":["dha_vowelUdivesakuru",null],"u1191F u11933":["na_vowelUdivesakuru",null],"u11920 u11933":["pa_vowelUdivesakuru",null],"u11924 u11933":["ma_vowelUdivesakuru",null],"u11925 u11933":["udivesakuru.00",null],"u11927 u11933":["ra_vowelUdivesakuru",null],"u1192C u11933":["sa_vowelUdivesakuru",null],"u1192E u11933":["lla_vowelUdivesakuru",null],"na_dhadivesakuru u11933":["na_dha_vowelUdivesakuru",null],"katouchdivesakuru u11933":["ka_vowelUdivesakuru",null],"patouchdivesakuru u11933":["pa_vowelUdivesakuru",null],"llatouchdivesakuru u11933":["lla_vowelUdivesakuru",null],"matouchdivesakuru u11933":["ma_vowelUdivesakuru",null],"natouchdivesakuru u11933":["na_vowelUdivesakuru",null],"ratouchdivesakuru u11933":["ra_vowelUdivesakuru",null],"u1193D":[null,"u1193D.02"]}},"23":{"0":{"type":["ligature","chained_sequence_context"],"u1190C u11934":["ka_vowelUUdivesakuru",null],"u11920 u11934":["pa_vowelUUdivesakuru",null],"u11925 u11934":["uudivesakuru.00",null],"katouchdivesakuru u11934":["ka_vowelUUdivesakuru",null],"patouchdivesakuru u11934":["pa_vowelUUdivesakuru",null],"rules":[null,["u1192B u1193D' lookup lookup_24"]]}},"24":{"0":{"type":["ligature","single"],"u1190C u1193D":["kdivesakuru",null],"u11912 u1193D":["chdivesakuru",null],"u11916 u1193D":["ttdivesakuru",null],"u1191B u1193D":["tdivesakuru",null],"u1191E u1193D":["dhdivesakuru",null],"u1191F u1193D":["ndivesakuru",null],"u11920 u1193D":["pdivesakuru",null],"u11922 u1193D":["bdivesakuru",null],"u11925 u1193D":["ya_udivesakuru",null],"u11926 u1193D":["yydivesakuru",null],"u1192C u1193D":["sdivesakuru",null],"tta_ttadivesakuru u1193D":["tta_ttdivesakuru",null],"na_dhadivesakuru u1193D":["na_dhdivesakuru",null],"ma_badivesakuru u1193D":["ma_bdivesakuru",null],"ssa_ttadivesakuru u1193D":["ssa_ttdivesakuru",null],"katouchdivesakuru u1193D":["kdivesakuru",null],"patouchdivesakuru u1193D":["pdivesakuru",null],"natouchdivesakuru u1193D":["ndivesakuru",null],"tatouchdivesakuru u1193D":["tdivesakuru",null],"yatouchdivesakuru u1193D":["ya_udivesakuru",null],"u1193D":[null,"u1193D.03"]}},"25":{"0":{"rules":{"0":["[u1190E u11918 u11919 u11923 u11926 u1192F ba_bhadivesakuru] u1193D' lookup lookup_26","[u1190C_u1191C u1190C_u1192B u11916_u11929 u1191B_u1191C u11929_u11929] u1193D' lookup lookup_26"]}}},"26":{"0":{"u1193D":["halantadivesakuru.00","u1193D.02"]}},"27":[[{"type":"chained_sequence_context","rules":["[u1190F u11913 u1191C u11924 u11929 u1192A na_thadivesakuru] u1193D' lookup lookup_28"]}],null],"28":[[{"type":"single","u1193D":"halantadivesakuru.01"}],null],"29":[[{"type":"chained_sequence_context","rules":["[u1190D nga_gadivesakuru] u1193D' lookup lookup_30"]}],null],"30":[[{"type":"single","u1193D":"halantadivesakuru.02"}],null],"31":[[{"type":"chained_sequence_context","rules":["u1192B u1193D' lookup lookup_32"]}],null],"32":[[{"type":"single","u1193D":"halantadivesakuru.03"}],null],"33":[[{"type":"chained_sequence_context","rules":["[ka_thadivesakuru ka_ssadivesakuru tta_vadivesakuru ta_thadivesakuru va_vadivesakuru] u1193D' lookup lookup_34"]}],null],"34":[[{"type":"single","u1193D":"halantadivesakuru.02"}],null]}},"cmap":{"U+1193E":["viramadivesakuru","u1193E"]},"head":{"checksum_adjustment":[2425214393,3376325727],"modified":[3748257110,3813908165]},"hhea":{"caret_slope_rise":[1,1000]},"hmtx":{"ka_thadivesakuru":[{"width":985,"lsb":10},null],"ka_ssadivesakuru":[{"width":1304,"lsb":10},null],"nga_gadivesakuru":[{"width":786,"lsb":28},null],"tta_ttadivesakuru":[{"width":957,"lsb":30},null],"tta_vadivesakuru":[{"width":1077,"lsb":28},null],"nna_ddadivesakuru":[{"width":1117,"lsb":34},null],"ta_thadivesakuru":[{"width":838,"lsb":40},null],"na_thadivesakuru":[{"width":927,"lsb":25},null],"na_dhadivesakuru":[{"width":1174,"lsb":25},null],"ba_bhadivesakuru":[{"width":1437,"lsb":40},null],"ma_badivesakuru":[{"width":1119,"lsb":40},null],"udivesakuru.00":[{"width":1195,"lsb":8},null],"uudivesakuru.00":[{"width":1325,"lsb":8},null],"va_vadivesakuru":[{"width":1001,"lsb":37},null],"ssa_ttadivesakuru":[{"width":1029,"lsb":26},null],"sa_tadivesakuru":[{"width":1197,"lsb":44},null],"sa_vadivesakuru":[{"width":1132,"lsb":44},null],"ma_bdivesakuru":[{"width":1253,"lsb":40},null],"ya_udivesakuru":[{"width":1031,"lsb":8},null],"viramadivesakuru":[{"width":0,"lsb":-130},null],"halantadivesakuru.00":[{"width":113,"lsb":-171},null],"halantadivesakuru.01":[{"width":134,"lsb":-210},null],"halantadivesakuru.02":[{"width":327,"lsb":-87},null],"halantadivesakuru.03":[{"width":193,"lsb":-120},null],"halantadivesakuru.04":[{"width":162,"lsb":-119},null],"uVoweldivesakuru.00":[{"width":395,"lsb":-171},null],"uuVoweldivesakuru.00":[{"width":452,"lsb":-100},null],"u1190C_u1191C":[null,{"width":985,"lsb":10}],"u1190C_u1192B":[null,{"width":1304,"lsb":10}],"u11910_u1190E":[null,{"width":786,"lsb":28}],"u11916_u11916":[null,{"width":957,"lsb":30}],"u11916_u11929":[null,{"width":1077,"lsb":28}],"u1191A_u11918":[null,{"width":1117,"lsb":34}],"u1191B_u1191C":[null,{"width":838,"lsb":40}],"u1191F_u1191C":[null,{"width":927,"lsb":25}],"u1191F_u1191E":[null,{"width":1174,"lsb":25}],"u11922_u11923":[null,{"width":1437,"lsb":40}],"u11924_u11922":[null,{"width":1119,"lsb":40}],"u11904.00":[null,{"width":1195,"lsb":8}],"u11905.00":[null,{"width":1325,"lsb":8}],"u11929_u11929":[null,{"width":1001,"lsb":37}],"u1192B_u11916":[null,{"width":1029,"lsb":26}],"u1192C_u1191B":[null,{"width":1197,"lsb":44}],"u1192C_u11929":[null,{"width":1132,"lsb":44}],"u11924_b":[null,{"width":1253,"lsb":40}],"u11925_u11904":[null,{"width":1031,"lsb":8}],"u1193E":[null,{"width":0,"lsb":-130}],"u1193D.00":[null,{"width":113,"lsb":-171}],"u1193D.01":[null,{"width":134,"lsb":-210}],"u1193D.02":[null,{"width":327,"lsb":-87}],"u1193D.03":[null,{"width":193,"lsb":-120}],"u1193D.04":[null,{"width":162,"lsb":-119}],"u11933.00":[null,{"width":395,"lsb":-171}],"u11934.00":[null,{"width":452,"lsb":-100}]}},"kerns":{"u1190C/ka_thadivesakuru":[{"x":-174},null],"u1190C/ka_ssadivesakuru":[{"x":-174},null],"u1190C/ta_thadivesakuru":[{"x":-170},null],"u1191B/ka_thadivesakuru":[{"x":-160},null],"u1191B/ka_ssadivesakuru":[{"x":-160},null],"u1191F/na_thadivesakuru":[{"x":-120},null],"u1191F/na_dhadivesakuru":[{"x":-120},null],"u1191F/ya_udivesakuru":[{"x":-135},null],"u11924/ma_badivesakuru":[{"x":-257},null],"u11925/ya_udivesakuru":[{"x":-183},null],"u1190C/u1190C_u1191C":[null,{"x":-174}],"u1190C/u1190C_u1192B":[null,{"x":-174}],"u1190C/u1191B_u1191C":[null,{"x":-170}],"u1191B/u1190C_u1191C":[null,{"x":-160}],"u1191B/u1190C_u1192B":[null,{"x":-160}],"u1191F/u1191F_u1191C":[null,{"x":-120}],"u1191F/u1191F_u1191E":[null,{"x":-120}],"u1191F/u11925_u11904":[null,{"x":-135}],"u11924/u11924_u11922":[null,{"x":-257}],"u11925/u11925_u11904":[null,{"x":-183}]},"cmap_diff":{},"locations":[{"location":"Default","words":{}}]};
+		function buildLocation_statichtml(loc) {
+  // Set font styles to appropriate axis locations
+  let rule = document.styleSheets[0].cssRules[2].style;
+  let cssSetting = "";
+  let textLocation = "Default";
+  if (loc.coords) {
+    cssSetting = Object.entries(loc.coords)
+      .map(function ([axis, value]) {
+        return `"${axis}" ${value}`;
+      })
+      .join(", ");
+    textLocation = Object.entries(loc.coords)
+      .map(function ([axis, value]) {
+        return `${axis}=${value}`;
+      })
+      .join(" ");
+    rule.setProperty("font-variation-settings", cssSetting);
+  }
+
+  $("#main").empty();
+
+  $("#title").html(`<h4 class="mt-2">${textLocation}</h2>`);
+
+  if (loc.glyphs) {
+    $("#main").append("<h4>Modified Glyphs</h4>");
+    let glyphs = $("<div>");
+    for (let glyph of loc.glyphs) {
+      addAGlyph(glyph, glyphs);
+    }
+    $("#main").append(glyphs);
+  }
+
+  if (loc.words) {
+    $("#main").append("<h4>Modified Words</h4>");
+    for (let [script, words] of Object.entries(loc.words)) {
+      let scriptTitle = $(`<h6>${script}</h6>`);
+      $("#main").append(scriptTitle);
+      let worddiv = $("<div>");
+      for (let word of words) {
+        addAWord(word, worddiv);
+      }
+      $("#main").append(worddiv);
+    }
+  }
+  $('[data-toggle="tooltip"]').tooltip();
+}
+
+$(function () {
+  if (report["tables"]) {
+    diffTables(report);
+  }
+  if (report["kerns"]) {
+    diffKerns(report);
+  }
+  cmapDiff(report);
+  $('[data-toggle="tooltip"]').tooltip();
+  if (!report["locations"]) {
+    $("#title").html("<h4 class='mt-2'>No differences found</h4>");
+    $("#ui-nav").hide();
+    return;
+  }
+
+  for (var [index, loc] of report["locations"].entries()) {
+    var loc_nav = $(`<li class="nav-item">
+		<a class="nav-link text-secondary" href="#" data-index="${index}">${loc.location.replaceAll(
+      ",",
+      ",\u200b"
+    )}</a>
+	</li>`);
+    $("#locationnav").append(loc_nav);
+  }
+  $("#locationnav li a").on("click", function (e) {
+    $("#locationnav li a").removeClass("active");
+    $(this).addClass("active");
+    buildLocation_statichtml(report.locations[$(this).data("index")]);
+  });
+  $("#locationnav li a").eq(0).click();
+
+  document.styleSheets[0].cssRules[0].style.setProperty(
+    "src",
+    "url(old-NotoSerifDivesAkuru-Regular.ttf)"
+  );
+  document.styleSheets[0].cssRules[1].style.setProperty(
+    "src",
+    "url(new-NotoSerifDivesAkuru-Regular.ttf)"
+  );
+  setupAnimation();
+});
+
+	</script>
+</body>
+
+</html>
