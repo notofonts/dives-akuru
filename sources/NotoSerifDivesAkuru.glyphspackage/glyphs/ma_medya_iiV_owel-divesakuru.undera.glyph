@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 0;
 glyphname = "ma_medya_iiVowel-divesakuru.undera";
 kernLeft = dha;
 kernRight = i;
@@ -27,7 +28,7 @@ pos = (1551,0);
 },
 {
 name = top;
-pos = (307,471);
+pos = (307,862);
 }
 );
 layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";

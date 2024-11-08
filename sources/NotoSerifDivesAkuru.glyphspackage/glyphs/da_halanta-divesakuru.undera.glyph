@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 0;
 glyphname = "da_halanta-divesakuru.undera";
 kernLeft = da;
 kernRight = ga_halanta;
@@ -23,7 +24,7 @@ pos = (824,0);
 },
 {
 name = top;
-pos = (253,886);
+pos = (253,862);
 }
 );
 layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";

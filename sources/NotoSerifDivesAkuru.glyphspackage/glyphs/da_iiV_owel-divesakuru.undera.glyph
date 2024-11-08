@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 0;
 glyphname = "da_iiVowel-divesakuru.undera";
 kernLeft = da;
 kernRight = i;
@@ -27,7 +28,7 @@ pos = (728,434);
 },
 {
 name = top;
-pos = (243,756);
+pos = (243,862);
 }
 );
 background = {

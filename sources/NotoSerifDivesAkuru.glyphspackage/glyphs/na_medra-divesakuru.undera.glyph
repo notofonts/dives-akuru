@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 0;
 glyphname = "na_medra-divesakuru.undera";
 kernLeft = medra;
 kernRight = na;
@@ -23,7 +24,7 @@ pos = (982,0);
 },
 {
 name = top;
-pos = (623,781);
+pos = (623,862);
 }
 );
 background = {

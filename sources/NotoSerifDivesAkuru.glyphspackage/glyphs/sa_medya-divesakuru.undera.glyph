@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 0;
 glyphname = "sa_medya-divesakuru.undera";
 kernLeft = sa;
 kernRight = ya;
@@ -23,7 +24,7 @@ pos = (1388,0);
 },
 {
 name = top;
-pos = (247,614);
+pos = (247,862);
 }
 );
 layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";

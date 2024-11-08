@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 0;
 glyphname = "nga_ga-divesakuru.undera";
 kernLeft = ga;
 kernRight = ga;
@@ -23,7 +24,7 @@ pos = (757,0);
 },
 {
 name = top;
-pos = (487,801);
+pos = (487,862);
 }
 );
 background = {

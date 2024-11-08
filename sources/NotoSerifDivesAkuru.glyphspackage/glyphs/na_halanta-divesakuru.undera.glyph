@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 0;
 glyphname = "na_halanta-divesakuru.undera";
 kernLeft = na_halanta;
 kernRight = na_halanta;
@@ -23,7 +24,7 @@ pos = (802.8,0);
 },
 {
 name = top;
-pos = (261.8,323);
+pos = (262,862);
 }
 );
 background = {

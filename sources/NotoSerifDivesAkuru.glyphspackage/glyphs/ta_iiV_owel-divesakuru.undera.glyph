@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 0;
 glyphname = "ta_iiVowel-divesakuru.undera";
 kernLeft = ta;
 kernRight = i;
@@ -23,7 +24,7 @@ pos = (1045,0);
 },
 {
 name = top;
-pos = (361,492);
+pos = (361,862);
 }
 );
 layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";

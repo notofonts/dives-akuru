@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 0;
 glyphname = "nna_aiVowel-divesakuru.undera";
 kernLeft = ka_eVowel;
 kernRight = nna;
@@ -23,7 +24,7 @@ pos = (996,0);
 },
 {
 name = top;
-pos = (1296,531);
+pos = (1296,862);
 }
 );
 layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";

@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 0;
 glyphname = "ba-divesakuru.undera";
 kernLeft = ba;
 kernRight = ba;
@@ -19,7 +20,7 @@ pos = (879,-112);
 },
 {
 name = top;
-pos = (441,499);
+pos = (441,862);
 }
 );
 layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";

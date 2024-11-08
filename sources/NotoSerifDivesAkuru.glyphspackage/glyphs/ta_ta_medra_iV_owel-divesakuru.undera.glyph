@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 0;
 glyphname = "ta_ta_medra_iVowel-divesakuru.undera";
 kernLeft = medra;
 kernRight = ga;
@@ -31,7 +32,7 @@ pos = (2196,0);
 },
 {
 name = top;
-pos = (899,801);
+pos = (899,862);
 }
 );
 background = {
