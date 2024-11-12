@@ -9,7 +9,7 @@ layers = (
 anchors = (
 {
 name = _undera;
-pos = (1075,0);
+pos = (815,0);
 },
 {
 name = _underatwo;
@@ -20,7 +20,7 @@ pos = (1595.5,-451);
 },
 {
 name = caret_1;
-pos = (996,0);
+pos = (876,0);
 },
 {
 name = top;
