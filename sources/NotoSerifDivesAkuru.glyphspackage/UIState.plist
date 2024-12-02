@@ -1,7 +1,9 @@
 {
 displayStrings = (
-"𑤿/prefixedNasalSign-divesakuru.alt/prefixedNasalSign-divesakuru.undera.tall1/prefixedNasalSign-divesakuru.undera.tall2 
-𑤀𑤿𑤎",
+"𑤩/na_iVowel-divesakuru 𑤩𑤩
+𑤩/na_iiVowel-divesakuru 𑤩𑤩
+𑤩/na_aaVowel-divesakuru 𑤩𑤩
+",
 "/prefixedNasalSign-divesakuru.undera.tall1"
 );
 }

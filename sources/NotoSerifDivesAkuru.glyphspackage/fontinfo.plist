@@ -1,5 +1,5 @@
 {
-.appVersion = "3217";
+.appVersion = "3306";
 .formatVersion = 3;
 classes = (
 {
@@ -2910,6 +2910,7 @@ lookup chooseDoubleVersion { # For correct anchor placement
 } chooseDoubleVersion;
 
 ";
+disabled = 1;
 labels = (
 {
 language = dflt;
@@ -3941,6 +3942,7 @@ sub @yya prefixedNasalSign-divesakuru' by prefixedNasalSign-divesakuru.alt;
 
 } rclt_4;
 ";
+disabled = 1;
 labels = (
 {
 language = dflt;
@@ -5223,12 +5225,9 @@ space = 0;
 "ma_medya_iVowel-divesakuru" = -110;
 "ma_medya_iiVowel-divesakuru" = -110;
 "na-divesakuru" = -40;
-"na_aaVowel-divesakuru" = 30;
-"na_aaVowel-divesakuru.undera" = 20;
+"na_aaVowel-divesakuru" = 10;
 "na_iVowel-divesakuru" = 5;
-"na_iVowel-divesakuru.undera" = 20;
-"na_iiVowel-divesakuru" = 0;
-"na_iiVowel-divesakuru.undera" = 20;
+"na_iiVowel-divesakuru" = 10;
 "na_medra-divesakuru" = -120;
 "na_medra_aaVowel-divesakuru" = -140;
 "na_uVowel-divesakuru" = -160;
