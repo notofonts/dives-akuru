@@ -1,8 +1,6 @@
 {
 category = Mark;
 glyphname = "na_uVowel-divesakuru.undera";
-kernLeft = na;
-kernRight = u;
 layers = (
 {
 anchors = (

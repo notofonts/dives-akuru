@@ -2,8 +2,6 @@
 category = Mark;
 color = 0;
 glyphname = "yya-divesakuru.undera";
-kernLeft = yya;
-kernRight = ya;
 layers = (
 {
 anchors = (

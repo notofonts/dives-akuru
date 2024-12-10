@@ -2,8 +2,6 @@
 category = Mark;
 color = 0;
 glyphname = "nna_aaVowel-divesakuru.undera";
-kernLeft = nna;
-kernRight = ga_aaVowel;
 layers = (
 {
 anchors = (

@@ -2,8 +2,6 @@
 category = Mark;
 color = 0;
 glyphname = "ta_tha-divesakuru.undera";
-kernLeft = ta_uVowel;
-kernRight = va;
 layers = (
 {
 anchors = (

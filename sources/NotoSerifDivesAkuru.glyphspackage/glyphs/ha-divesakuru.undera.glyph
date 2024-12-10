@@ -1,8 +1,6 @@
 {
 category = Mark;
 glyphname = "ha-divesakuru.undera";
-kernLeft = na;
-kernRight = ka;
 layers = (
 {
 anchors = (

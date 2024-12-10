@@ -2,8 +2,6 @@
 category = Mark;
 color = 0;
 glyphname = "lla_iVowel-divesakuru.undera";
-kernLeft = lla;
-kernRight = ka;
 layers = (
 {
 anchors = (

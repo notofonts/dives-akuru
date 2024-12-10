@@ -2,8 +2,6 @@
 category = Mark;
 color = 0;
 glyphname = "ssa_halanta-divesakuru.undera";
-kernLeft = dha;
-kernRight = dha_halanta;
 layers = (
 {
 anchors = (

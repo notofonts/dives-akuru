@@ -2910,7 +2910,6 @@ lookup chooseDoubleVersion { # For correct anchor placement
 } chooseDoubleVersion;
 
 ";
-disabled = 1;
 labels = (
 {
 language = dflt;
@@ -3942,7 +3941,6 @@ sub @yya prefixedNasalSign-divesakuru' by prefixedNasalSign-divesakuru.alt;
 
 } rclt_4;
 ";
-disabled = 1;
 labels = (
 {
 language = dflt;

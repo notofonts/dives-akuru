@@ -2,8 +2,6 @@
 category = Mark;
 color = 0;
 glyphname = "tta-divesakuru.undera";
-kernLeft = tta;
-kernRight = tta;
 layers = (
 {
 anchors = (

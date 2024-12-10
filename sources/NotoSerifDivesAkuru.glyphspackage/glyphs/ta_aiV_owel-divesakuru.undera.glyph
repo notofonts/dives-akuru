@@ -2,8 +2,6 @@
 category = Mark;
 color = 0;
 glyphname = "ta_aiVowel-divesakuru.undera";
-kernLeft = ka_eVowel;
-kernRight = ga;
 layers = (
 {
 anchors = (

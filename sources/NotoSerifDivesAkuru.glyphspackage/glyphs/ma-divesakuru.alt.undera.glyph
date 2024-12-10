@@ -2,8 +2,6 @@
 category = Mark;
 color = 0;
 glyphname = "ma-divesakuru.alt.undera";
-kernLeft = ma;
-kernRight = va.alt;
 layers = (
 {
 anchors = (

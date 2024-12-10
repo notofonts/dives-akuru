@@ -2,8 +2,6 @@
 category = Mark;
 color = 0;
 glyphname = "ssa-divesakuru.undera";
-kernLeft = dha;
-kernRight = ssa;
 layers = (
 {
 anchors = (

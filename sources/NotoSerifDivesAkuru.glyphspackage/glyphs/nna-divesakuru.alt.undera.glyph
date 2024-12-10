@@ -2,8 +2,6 @@
 category = Mark;
 color = 0;
 glyphname = "nna-divesakuru.alt.undera";
-kernLeft = nna;
-kernRight = nna;
 layers = (
 {
 anchors = (
