@@ -633,67 +633,109 @@ code = "pha_ooVowel-divesakuru";
 name = undera_width30;
 },
 {
-code = "yya-divesakuru.undera
-yya_eVowel-divesakuru.undera
-yya_aiVowel-divesakuru.undera
-za-divesakuru.undera
-za_eVowel-divesakuru.undera
-za_aiVowel-divesakuru.undera
-ddha-divesakuru.undera
-ddha_eVowel-divesakuru.undera
-ddha_aiVowel-divesakuru.undera";
-name = undera_kerning_yya;
-},
-{
 code = "la-divesakuru.undera
-la_eVowel-divesakuru.undera
-la_aiVowel-divesakuru.undera
-";
-name = undera_kerning_la;
+la_medya-divesakuru.undera
+la_uVowel-divesakuru.undera
+la_uuVowel-divesakuru.undera
+la_aaVowel-divesakuru.undera
+la_iVowel-divesakuru.undera
+la_iiVowel-divesakuru.undera
+la_halanta-divesakuru.undera";
+name = undera_kerning_la_2nd;
 },
 {
-code = "ka-divesakuru.undera
+code = "ddha_aiVowel-divesakuru.undera
+ddha_eVowel-divesakuru.undera
+ddha_medya-divesakuru.undera
+dha-divesakuru.undera
+dha_aiVowel-divesakuru.undera
+dha_eVowel-divesakuru.undera
+dha_medya-divesakuru.undera
+e-divesakuru.undera
+la-divesakuru.undera
+la_aiVowel-divesakuru.undera
+la_eVowel-divesakuru.undera
+la_medya-divesakuru.undera
+ma_medya-divesakuru.undera
+ma_medya_eVowel-divesakuru.undera
+sa_medya-divesakuru.undera
+va_medya-divesakuru.undera
+ya-divesakuru.undera
+ya_aiVowel-divesakuru.undera
+ya_eVowel-divesakuru.undera
+yya-divesakuru.undera
+yya_aiVowel-divesakuru.undera
+yya_eVowel-divesakuru.undera";
+name = undera_kerning_yya_1st;
+},
+{
+code = "o-divesakuru.undera
+ka-divesakuru.undera
+nna-divesakuru.undera
+nna-divesakuru.alt.undera
+pha-divesakuru.undera
+bha-divesakuru.undera
+ha-divesakuru.undera
+ka_iVowel-divesakuru.undera
 ka_eVowel-divesakuru.undera
 ka_aiVowel-divesakuru.undera
-";
-name = undera_kerning_ka;
-},
-{
-code = "ma-divesakuru.undera
-va-divesakuru.undera
-lla-divesakuru.undera
-sa_va-divesakuru.undera
-ka_tha-divesakuru.undera
-ta_tha-divesakuru.undera
-na_tha-divesakuru.undera
-ma_eVowel-divesakuru.undera
-ma_aiVowel-divesakuru.undera
-ba_va-divesakuru.undera
-va_eVowel-divesakuru.undera
-va_aiVowel-divesakuru.undera
-lla_eVowel-divesakuru.undera
-lla_aiVowel-divesakuru.undera
-";
-name = undera_kerning_va;
-},
-{
-code = "la_halanta-divesakuru.undera
-lla_halanta-divesakuru.undera
-ma_halanta-divesakuru.undera
-yya_halanta-divesakuru.undera
-va_halanta-divesakuru.undera
-za_halanta-divesakuru.undera
-";
-name = undera_kerning_halanta;
-},
-{
-code = "ta_halanta-divesakuru.undera";
-name = "undera_kerning_ta-halanta";
-},
-{
-code = "ka_halanta-divesakuru.undera
-na_halanta-divesakuru.undera";
-name = "undera_kerning_ka-halanta";
+ka_oVowel-divesakuru.undera
+tta_iVowel-divesakuru.undera
+tta_oVowel-divesakuru.undera
+ddha_iVowel-divesakuru.undera
+ddha_oVowel-divesakuru.undera
+nna_halanta-divesakuru.undera
+dha_iVowel-divesakuru.undera
+dha_oVowel-divesakuru.undera
+pa_iVowel-divesakuru.undera
+pa_oVowel-divesakuru.undera
+pha_iVowel-divesakuru.undera
+pha_eVowel-divesakuru.undera
+pha_aiVowel-divesakuru.undera
+pha_oVowel-divesakuru.undera
+ba_aaVowel-divesakuru.undera
+bha_eVowel-divesakuru.undera
+bha_aiVowel-divesakuru.undera
+ma_aaVowel-divesakuru.undera
+ma_iVowel-divesakuru.undera
+ma_oVowel-divesakuru.undera
+ya_iVowel-divesakuru.undera
+ya_oVowel-divesakuru.undera
+yya_iVowel-divesakuru.undera
+yya_oVowel-divesakuru.undera
+la_iVowel-divesakuru.undera
+la_oVowel-divesakuru.undera
+va_aaVowel-divesakuru.undera
+va_iVowel-divesakuru.undera
+va_oVowel-divesakuru.undera
+ha_iVowel-divesakuru.undera
+ha_eVowel-divesakuru.undera
+ha_aiVowel-divesakuru.undera
+ha_oVowel-divesakuru.undera
+ha_halanta-divesakuru.undera
+lla_aaVowel-divesakuru.undera
+lla_iVowel-divesakuru.undera
+lla_oVowel-divesakuru.undera
+za_iVowel-divesakuru.undera
+pa_medra-divesakuru.undera
+ma_medya_iVowel-divesakuru.undera
+ya_medra-divesakuru.undera
+va_medya_iVowel-divesakuru.undera
+ha_medra-divesakuru.undera
+ka_ooVowel-divesakuru.undera
+tta_ooVowel-divesakuru.undera
+ddha_ooVowel-divesakuru.undera
+dha_ooVowel-divesakuru.undera
+pa_ooVowel-divesakuru.undera
+pha_ooVowel-divesakuru.undera
+ma_ooVowel-divesakuru.undera
+ya_ooVowel-divesakuru.undera
+yya_ooVowel-divesakuru.undera
+la_ooVowel-divesakuru.undera
+va_ooVowel-divesakuru.undera
+ha_ooVowel-divesakuru.undera
+lla_ooVowel-divesakuru.undera";
+name = undera_kerning_ka_1st;
 },
 {
 code = "ka-divesakuru.undera
@@ -712,6 +754,64 @@ ka_medya_iVowel-divesakuru.undera
 name = undera_kerning_ka_2nd;
 },
 {
+code = "ka_uVowel-divesakuru.undera
+ka_uuVowel-divesakuru.undera
+";
+name = undera_kerning_ka_uVowel_1st;
+},
+{
+code = "ma-divesakuru.undera
+va-divesakuru.undera
+lla-divesakuru.undera
+sa_va-divesakuru.undera
+ka_tha-divesakuru.undera
+ta_tha-divesakuru.undera
+na_tha-divesakuru.undera
+ma_eVowel-divesakuru.undera
+ma_aiVowel-divesakuru.undera
+ba_va-divesakuru.undera
+va_eVowel-divesakuru.undera
+va_aiVowel-divesakuru.undera
+lla_eVowel-divesakuru.undera
+lla_aiVowel-divesakuru.undera
+";
+name = undera_kerning_va_1st;
+},
+{
+code = "la_halanta-divesakuru.undera
+lla_halanta-divesakuru.undera
+ma_halanta-divesakuru.undera
+yya_halanta-divesakuru.undera
+va_halanta-divesakuru.undera
+za_halanta-divesakuru.undera
+";
+name = undera_kerning_halanta_1st;
+},
+{
+code = "ta-divesakuru.undera
+ta_aaVowel-divesakuru.undera
+ta_iVowel-divesakuru.undera
+ta_iiVowel-divesakuru.undera
+ta_medya_halanta-divesakuru.undera
+ta_medya_iVowel-divesakuru.undera
+ta_ta-divesakuru.undera";
+name = undera_kerning_ta_2nd;
+},
+{
+code = "ta_halanta-divesakuru.undera";
+name = "undera_kerning_ta-halanta_1st";
+},
+{
+code = "ta_uVowel-divesakuru.undera
+ta_uuVowel-divesakuru.undera";
+name = undera_kerning_ta_uVowel_1st;
+},
+{
+code = "ka_halanta-divesakuru.undera
+na_halanta-divesakuru.undera";
+name = "undera_kerning_ka-halanta_1st";
+},
+{
 code = "ma_medya_eVowel-divesakuru.undera
 la_medya-divesakuru.undera
 va_medya-divesakuru.undera
@@ -720,47 +820,61 @@ dha_medya-divesakuru.undera
 ma_medya-divesakuru.undera
 la_medya-divesakuru.undera
 ";
-name = undera_kerning_medya;
-},
-{
-code = "ta_uVowel-divesakuru.undera
-ta_uuVowel-divesakuru.undera";
-name = undera_kerning_ta_uVowel;
+name = undera_kerning_medya_1st;
 },
 {
 code = "ha_uVowel-divesakuru.undera
 ha_uuVowel-divesakuru.undera";
-name = undera_kerning_ha_uVowel;
-},
-{
-code = "ka_uVowel-divesakuru.undera
-ka_uuVowel-divesakuru.undera
-";
-name = undera_kerning_ka_uVowel;
+name = undera_kerning_ha_uVowel_1st;
 },
 {
 code = "nna_uVowel-divesakuru.undera
 nna_uuVowel-divesakuru.undera
 ";
-name = undera_kerning_nna_uVowel;
+name = undera_kerning_nna_uVowel_1st;
 },
 {
-code = "ga-divesakuru.undera
-ga_eVowel-divesakuru.undera
+code = "ba_iVowel-divesakuru.undera
+ba_oVowel-divesakuru.undera
+ba_ooVowel-divesakuru.undera
+bha_iVowel-divesakuru.undera
+bha_oVowel-divesakuru.undera
+bha_ooVowel-divesakuru.undera
+dda_medya_iVowel-divesakuru.undera
+ga-divesakuru.undera
 ga_aiVowel-divesakuru.undera
-";
-name = undera_kerning_ga;
+ga_eVowel-divesakuru.undera
+ga_iVowel-divesakuru.undera
+ga_oVowel-divesakuru.undera
+ga_ooVowel-divesakuru.undera
+ha_medya_iVowel-divesakuru.undera
+ka_medya_iVowel-divesakuru.undera
+lla_medya_iVowel-divesakuru.undera
+na_medya_iVowel-divesakuru.undera
+nga_ga-divesakuru.undera
+ta-divesakuru.undera
+ta_aiVowel-divesakuru.undera
+ta_eVowel-divesakuru.undera
+ta_iVowel-divesakuru.undera
+ta_medya_iVowel-divesakuru.undera
+ta_oVowel-divesakuru.undera
+ta_ooVowel-divesakuru.undera
+ta_ta-divesakuru.undera
+ta_ta_eVowel-divesakuru.undera
+ta_ta_medra_iVowel-divesakuru.undera
+ya_medya_iVowel-divesakuru.undera
+ga_halanta-divesakuru.undera";
+name = undera_kerning_ga_1st;
 },
 {
 code = "ga-divesakuru.undera
-ga_aaVowel-divesakuru.undera
 ga_iVowel-divesakuru.undera
+nga_ga-divesakuru.undera
+ga_aaVowel-divesakuru.undera
+ga_halanta-divesakuru.undera
 ga_iiVowel-divesakuru.undera
 ga_uVowel-divesakuru.undera
-ga_uuVowel-divesakuru.undera
-ga_halanta-divesakuru.undera
-nga_ga-divesakuru.undera
-";
+ga_uuVowel-divesakuru.undera";
 name = undera_kerning_ga_2nd;
 },
 {
@@ -795,18 +909,7 @@ ddha_uuVowel-divesakuru.undera
 ddha_halanta-divesakuru.undera
 ddha_medya-divesakuru.undera
 ";
-name = undera_kerning_ddha;
-},
-{
-code = "ta-divesakuru.undera
-ta_ta-divesakuru.undera
-ta_aaVowel-divesakuru.undera
-ta_iVowel-divesakuru.undera
-ta_iiVowel-divesakuru.undera
-ta_medya_iVowel-divesakuru.undera
-ta_medya_halanta-divesakuru.undera
-";
-name = undera_kerning_ta;
+name = undera_kerning_ddha_2nd;
 },
 {
 code = "ra-divesakuru.undera
@@ -821,7 +924,16 @@ code = "dda-divesakuru.undera
 dda_eVowel-divesakuru.undera
 dda_aiVowel-divesakuru.undera
 ";
-name = undera_kerning_dda;
+name = undera_kerning_dda_1st;
+},
+{
+code = "da_iVowel-divesakuru.undera
+da-divesakuru.undera
+da_halanta-divesakuru.undera
+da_iiVowel-divesakuru.undera
+da_uVowel-divesakuru.undera
+da_uuVowel-divesakuru.undera";
+name = undera_kerning_da_1st;
 },
 {
 code = "da-divesakuru.undera
@@ -833,6 +945,77 @@ da_uuVowel-divesakuru.undera
 da_halanta-divesakuru.undera
 ";
 name = undera_kerning_da_2nd;
+},
+{
+code = "ba-divesakuru.undera
+ba_iVowel-divesakuru.undera
+bha_iVowel-divesakuru.undera
+bha_halanta-divesakuru.undera
+ba_iiVowel-divesakuru.undera
+bha_iiVowel-divesakuru.undera
+ba_aaVowel-divesakuru.undera
+bha-divesakuru.undera
+bha_aaVowel-divesakuru.undera
+ba_halanta-divesakuru.undera
+ba_uVowel-divesakuru.undera
+ba_uuVowel-divesakuru.undera
+bha_uVowel-divesakuru.undera
+bha_uuVowel-divesakuru.undera
+ba_va-divesakuru.undera";
+name = undera_kerning_ba_1st;
+},
+{
+code = "ba-divesakuru.undera
+ba_aaVowel-divesakuru.undera
+ba_halanta-divesakuru.undera
+ba_iVowel-divesakuru.undera
+ba_iiVowel-divesakuru.undera
+ba_uVowel-divesakuru.undera
+ba_uuVowel-divesakuru.undera
+ba_va-divesakuru.undera
+bha-divesakuru.undera
+bha_aaVowel-divesakuru.undera
+bha_halanta-divesakuru.undera
+bha_iVowel-divesakuru.undera
+bha_iiVowel-divesakuru.undera
+bha_uVowel-divesakuru.undera
+bha_uuVowel-divesakuru.undera";
+name = undera_kerning_ba_2nd;
+},
+{
+code = "da_aaVowel-divesakuru
+da_iVowel-divesakuru
+da_oVowel-divesakuru
+da_ooVowel-divesakuru
+";
+name = undera_kerning_da_1st;
+},
+{
+code = "i-divesakuru.undera";
+name = undera_kerning_i;
+},
+{
+code = "ka_aaVowel-divesakuru.undera";
+name = undera_kerning_ka_aaVowel;
+},
+{
+code = "ha-divesakuru.undera
+ha_aaVowel-divesakuru.undera
+ha_halanta-divesakuru.undera
+ha_iVowel-divesakuru.undera
+ha_iiVowel-divesakuru.undera
+ha_medya_iVowel-divesakuru.undera
+ha_uVowel-divesakuru.undera
+ha_uuVowel-divesakuru.undera
+na-divesakuru.undera
+na_aaVowel-divesakuru.undera
+na_iVowel-divesakuru.undera
+na_iiVowel-divesakuru.undera
+na_medya_iVowel-divesakuru.undera
+na_tha-divesakuru.undera
+na_uVowel-divesakuru.undera
+na_uuVowel-divesakuru.undera";
+name = undera_kerning_na_2nd;
 }
 );
 customParameters = (
@@ -4188,17 +4371,17 @@ code = "# Automatic Code
 lookup undera-kerning-1 {
 
 #adjust too loose spacing on the right side 
-pos @Undera' <35 0 0 0> @undera_kerning_yya' <35 0 0 0> kernblocker; 
-pos @Undera' <70 0 0 0> @undera_kerning_la' <70 0 0 0> kernblocker; 
-pos @Undera' <50 0 0 0> @undera_kerning_va' <50 0 0 0> kernblocker; 
-pos @Undera' <50 0 0 0> @undera_kerning_halanta' <50 0 0 0> kernblocker; 
-pos @Undera' <80 0 0 0> @undera_kerning_ka-halanta' <80 0 0 0> kernblocker; 
-pos @Undera' <100 0 0 0> @undera_kerning_ta-halanta' <100 0 0 0> kernblocker; 
-pos @Undera' <50 0 0 0> @undera_kerning_medya' <50 0 0 0> kernblocker; 
-pos @Undera' <100 0 0 0> @undera_kerning_ta_uVowel' <100 0 0 0> kernblocker; 
-pos @Undera' <50 0 0 0> @undera_kerning_ha_uVowel' <50 0 0 0> kernblocker;
-pos @Undera' <30 0 0 0> @undera_kerning_ka_uVowel' <30 0 0 0> kernblocker; 
-pos @Undera' <30 0 0 0> @undera_kerning_nna_uVowel' <30 0 0 0> kernblocker;  
+pos @Undera' <35 0 0 0> @undera_kerning_yya_1st' <35 0 0 0> kernblocker; 
+pos @Undera' <70 0 0 0> @undera_kerning_la_2nd' <70 0 0 0> kernblocker; 
+pos @Undera' <50 0 0 0> @undera_kerning_va_1st' <50 0 0 0> kernblocker; 
+pos @Undera' <50 0 0 0> @undera_kerning_halanta_1st' <50 0 0 0> kernblocker; 
+pos @Undera' <80 0 0 0> @undera_kerning_ka-halanta_1st' <80 0 0 0> kernblocker; 
+pos @Undera' <100 0 0 0> @undera_kerning_ta-halanta_1st' <100 0 0 0> kernblocker; 
+pos @Undera' <50 0 0 0> @undera_kerning_medya_1st' <50 0 0 0> kernblocker; 
+pos @Undera' <100 0 0 0> @undera_kerning_ta_uVowel_1st' <100 0 0 0> kernblocker; 
+pos @Undera' <50 0 0 0> @undera_kerning_ha_uVowel_1st' <50 0 0 0> kernblocker;
+pos @Undera' <30 0 0 0> @undera_kerning_ka_uVowel_1st' <30 0 0 0> kernblocker; 
+pos @Undera' <30 0 0 0> @undera_kerning_nna_uVowel_1st' <30 0 0 0> kernblocker;  
 pos ta_halanta-divesakuru.undera' <80 0 0 0> @Undera' <80 0 0 0> kernblocker;  
 
 } undera-kerning-1;
@@ -4206,24 +4389,24 @@ lookup undera-kerning-2 {
 
 
 #adjust too loose spacing on the middle
-pos @undera_kerning_ga' <80 0 0 0> @undera_kerning_tta_2nd' <-80 0 0 0> kernblocker;  
-pos @undera_kerning_ga' <40 0 0 0> @undera_kerning_tta_iVowel_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_ga' <20 0 0 0> @undera_kerning_ka_2nd' <-20 0 0 0> kernblocker;  
-pos @undera_kerning_ga' <40 0 0 0> @undera_kerning_ddha' <-40 0 0 0> kernblocker;  
+pos @undera_kerning_ga_1st' <60 0 0 0> @undera_kerning_tta_2nd' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_ga_1st' <40 0 0 0> @undera_kerning_tta_iVowel_2nd' <-40 0 0 0> kernblocker;  
+pos @undera_kerning_ga_1st' <20 0 0 0> @undera_kerning_ka_2nd' <-20 0 0 0> kernblocker;  
+pos @undera_kerning_ga_1st' <40 0 0 0> @undera_kerning_ddha_2nd' <-40 0 0 0> kernblocker;  
 
 pos @undera_kerning_tta_1st' <80 0 0 0> @undera_kerning_tta_2nd' <-80 0 0 0> kernblocker;
 pos @undera_kerning_tta_1st' <40 0 0 0> @undera_kerning_tta_iVowel_2nd' <-40 0 0 0> kernblocker;    
-pos @undera_kerning_tta_1st' <40 0 0 0> @undera_kerning_ddha' <-40 0 0 0> kernblocker; 
+pos @undera_kerning_tta_1st' <40 0 0 0> @undera_kerning_ddha_2nd' <-40 0 0 0> kernblocker; 
 pos @undera_kerning_tta_1st' <20 0 0 0> @undera_kerning_ga_2nd' <-20 0 0 0> kernblocker;   
-pos @undera_kerning_tta_1st' <40 0 0 0> @undera_kerning_ta' <-40 0 0 0> kernblocker; 
+pos @undera_kerning_tta_1st' <40 0 0 0> @undera_kerning_ta_2nd' <-40 0 0 0> kernblocker; 
 pos @undera_kerning_tta_1st' <20 0 0 0> @undera_kerning_da_2nd' <-20 0 0 0> kernblocker;  
-pos @undera_kerning_tta_1st' <20 0 0 0> @undera_kerning_ka' <-20 0 0 0> kernblocker;
+pos @undera_kerning_tta_1st' <20 0 0 0> @undera_kerning_ka_2nd' <-20 0 0 0> kernblocker;
 
-pos @undera_kerning_dda' <60 0 0 0> @undera_kerning_tta_2nd' <-60 0 0 0> kernblocker;
-pos @undera_kerning_dda' <40 0 0 0> @undera_kerning_tta_iVowel_2nd' <-40 0 0 0> kernblocker;
-pos @undera_kerning_dda' <40 0 0 0> @undera_kerning_ddha' <-40 0 0 0> kernblocker;
+pos @undera_kerning_dda_1st' <60 0 0 0> @undera_kerning_tta_2nd' <-60 0 0 0> kernblocker;
+pos @undera_kerning_dda_1st' <40 0 0 0> @undera_kerning_tta_iVowel_2nd' <-40 0 0 0> kernblocker;
+pos @undera_kerning_dda_1st' <40 0 0 0> @undera_kerning_ddha_2nd' <-40 0 0 0> kernblocker;
 
-pos @undera_kerning_ka' <40 0 0 0> @undera_kerning_ta' <-40 0 0 0> kernblocker;  
+pos @undera_kerning_ka_1st' <40 0 0 0> @undera_kerning_ta_2nd' <-40 0 0 0> kernblocker;  
 
 
 } undera-kerning-2;
