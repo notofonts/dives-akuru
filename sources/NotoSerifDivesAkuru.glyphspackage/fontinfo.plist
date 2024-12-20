@@ -905,6 +905,18 @@ ga_uuVowel-divesakuru.undera";
 name = undera_kerning_ga_2nd;
 },
 {
+code = "dha_aaVowel-divesakuru.undera
+ga_aaVowel-divesakuru.undera
+ha_aaVowel-divesakuru.undera
+ha_medra_aaVowel-divesakuru.undera
+nna_aaVowel-divesakuru.undera
+ra_aaVowel-divesakuru.undera
+ta_aaVowel-divesakuru.undera
+tta_aaVowel-divesakuru.undera
+ya_aaVowel-divesakuru.undera";
+name = undera_kerning_ga_aaVowel_1st;
+},
+{
 code = "tta-divesakuru.undera
 tta_eVowel-divesakuru.undera
 tta_aiVowel-divesakuru.undera
@@ -4518,7 +4530,8 @@ pos da_aaVowel-divesakuru' <40 0 0 0> @undera_kerning_tta_iVowel_2nd' <-40 0 0 0
 pos @undera_kerning_da_iVowel' <40 0 0 0> @undera_kerning_tta_2nd' <-40 0 0 0> kernblocker;  
 pos @undera_kerning_da_iVowel' <40 0 0 0> @undera_kerning_tta_iVowel_2nd' <-40 0 0 0> kernblocker;   
 pos @undera_kerning_dda_1st' <40 0 0 0> @undera_kerning_ka_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_ga_1st' <40 0 0 0> @undera_kerning_ga_2nd' <-40 0 0 0> kernblocker;  
+pos @undera_kerning_ga_aaVowel_1st' <60 0 0 0> @undera_kerning_tta_2nd' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_ga_aaVowel_1st' <60 0 0 0> @undera_kerning_ga_2nd' <-60 0 0 0> kernblocker;  
 pos @undera_kerning_ga_1st' <40 0 0 0> @undera_kerning_tta_2nd' <-40 0 0 0> kernblocker;  
 pos @undera_kerning_i' <40 0 0 0> @undera_kerning_tta_2nd' <-40 0 0 0> kernblocker;  
 pos @undera_kerning_i' <40 0 0 0> @undera_kerning_tta_2nd' <-40 0 0 0> kernblocker;  
