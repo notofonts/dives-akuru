@@ -764,7 +764,11 @@ name = undera_kerning_ka_uVowel_1st;
 {
 code = "ka_halanta-divesakuru.undera
 na_halanta-divesakuru.undera";
-name = "undera_kerning_ka-halanta_1st";
+name = undera_kerning_ka_halanta_1st;
+},
+{
+code = "ka_aaVowel-divesakuru.undera";
+name = undera_kerning_ka_aaVowel;
 },
 {
 code = "ma-divesakuru.undera
@@ -853,6 +857,14 @@ name = undera_kerning_medya_1st;
 code = "ha_uVowel-divesakuru.undera
 ha_uuVowel-divesakuru.undera";
 name = undera_kerning_ha_uVowel_1st;
+},
+{
+code = "nna_aiVowel-divesakuru.undera
+nna_eVowel-divesakuru.undera
+nna_iVowel-divesakuru.undera
+nna_oVowel-divesakuru.undera
+nna_ooVowel-divesakuru.undera";
+name = undera_kerning_nna_1st;
 },
 {
 code = "nna_uVowel-divesakuru.undera
@@ -962,8 +974,7 @@ name = undera_kerning_ra;
 code = "dda-divesakuru.undera
 dda_eVowel-divesakuru.undera
 dda_aiVowel-divesakuru.undera
-dda_aaVowel-divesakuru.undera
-ta_tha_medra_iVowel-divesakuru.undera
+
 ";
 name = undera_kerning_dda_1st;
 },
@@ -973,12 +984,9 @@ ta_tha_medra_iVowel-divesakuru.undera";
 name = undera_kerning_dda_aaVowel_1st;
 },
 {
-code = "da_iVowel-divesakuru.undera
-da-divesakuru.undera
-da_halanta-divesakuru.undera
-da_iiVowel-divesakuru.undera
-da_uVowel-divesakuru.undera
-da_uuVowel-divesakuru.undera";
+code = "da_iVowel-divesakuru
+da_oVowel-divesakuru
+da_ooVowel-divesakuru";
 name = undera_kerning_da_1st;
 },
 {
@@ -1036,19 +1044,8 @@ bha_uuVowel-divesakuru.undera";
 name = undera_kerning_ba_2nd;
 },
 {
-code = "da_iVowel-divesakuru
-da_oVowel-divesakuru
-da_ooVowel-divesakuru
-";
-name = undera_kerning_da_1st;
-},
-{
 code = "i-divesakuru.undera";
 name = undera_kerning_i;
-},
-{
-code = "ka_aaVowel-divesakuru.undera";
-name = undera_kerning_ka_aaVowel;
 },
 {
 code = "na-divesakuru.undera
@@ -1092,14 +1089,6 @@ na_medra_aaVowel-divesakuru.undera";
 name = undera_kerning_na_aaVowel;
 },
 {
-code = "nna_aiVowel-divesakuru.undera
-nna_eVowel-divesakuru.undera
-nna_iVowel-divesakuru.undera
-nna_oVowel-divesakuru.undera
-nna_ooVowel-divesakuru.undera";
-name = undera_kerning_nna_1st;
-},
-{
 code = "ya-divesakuru.undera
 ya_uVowel-divesakuru.undera
 ya_uuVowel-divesakuru.undera
@@ -1122,6 +1111,70 @@ name = undera_kerning_za_1st;
 code = "ma-divesakuru.undera
 ";
 name = undera_kerning_ma_2nd;
+},
+{
+code = "dda_iVowel-divesakuru.undera
+dda_oVowel-divesakuru.undera
+dda_ooVowel-divesakuru.undera";
+name = undera_kerning_dda_iVowel_1st;
+},
+{
+code = "dda_halanta-divesakuru.undera
+ddha_halanta-divesakuru.undera
+dha_halanta-divesakuru.undera
+ka_ssa_halanta-divesakuru.undera
+la_halanta-divesakuru.undera
+pa_halanta-divesakuru.undera
+sa_halanta-divesakuru.undera
+ssa_halanta-divesakuru.undera
+ya_halanta-divesakuru.undera
+yya_halanta-divesakuru.undera
+za_halanta-divesakuru.undera";
+name = undera_kerning_dha_halanta_1st;
+},
+{
+code = "bha_halanta-divesakuru.undera
+ga_halanta-divesakuru.undera
+pha_halanta-divesakuru.undera";
+name = undera_kerning_ga_halanta_1st;
+},
+{
+code = "bha_aaVowel-divesakuru.undera
+ddha_aaVowel-divesakuru.undera
+la_aaVowel-divesakuru.undera
+pa_aaVowel-divesakuru.undera
+pha_aaVowel-divesakuru.undera
+sa_aaVowel-divesakuru.undera
+yya_aaVowel-divesakuru.undera
+za_aaVowel-divesakuru.undera";
+name = undera_kerning_la_aaVowel_1st;
+},
+{
+code = "pa-divesakuru.undera
+pa_aiVowel-divesakuru.undera
+pa_eVowel-divesakuru.undera
+sa-divesakuru.undera
+sa_aiVowel-divesakuru.undera
+sa_eVowel-divesakuru.undera
+sa_iVowel-divesakuru.undera
+sa_oVowel-divesakuru.undera
+sa_ooVowel-divesakuru.undera";
+name = undera_kerning_pa_1st;
+},
+{
+code = "ba_halanta-divesakuru.undera
+lla_halanta-divesakuru.undera
+ma_halanta-divesakuru.undera
+ta_medya_halanta-divesakuru.undera
+tta_halanta-divesakuru.undera
+va_halanta-divesakuru.undera";
+name = undera_kerning_tta_halanta_1st;
+},
+{
+code = "ba-divesakuru.undera
+ba_aiVowel-divesakuru.undera
+ba_eVowel-divesakuru.undera";
+name = undera_kerning_ba_1st;
 }
 );
 customParameters = (
@@ -4481,7 +4534,7 @@ pos @Undera' <35 0 0 0> @undera_kerning_yya_1st' <35 0 0 0> kernblocker;
 pos @Undera' <70 0 0 0> @undera_kerning_la_2nd' <70 0 0 0> kernblocker; 
 pos @Undera' <50 0 0 0> @undera_kerning_va_1st' <50 0 0 0> kernblocker; 
 pos @Undera' <50 0 0 0> @undera_kerning_halanta_1st' <50 0 0 0> kernblocker; 
-pos @Undera' <80 0 0 0> @undera_kerning_ka-halanta_1st' <80 0 0 0> kernblocker; 
+pos @Undera' <80 0 0 0> @undera_kerning_ka_halanta_1st' <80 0 0 0> kernblocker; 
 pos @Undera' <100 0 0 0> @undera_kerning_ta-halanta_1st' <100 0 0 0> kernblocker; 
 pos @Undera' <50 0 0 0> @undera_kerning_medya_1st' <50 0 0 0> kernblocker; 
 pos @Undera' <100 0 0 0> @undera_kerning_ta_uVowel_1st' <100 0 0 0> kernblocker; 
@@ -4495,68 +4548,96 @@ lookup undera-kerning-2 {
 
 
 #adjust too loose spacing on the middle
-pos @undera_kerning_ga_1st' <60 0 0 0> @undera_kerning_tta_2nd' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_ga_1st' <80 0 0 0> @undera_kerning_tta_2nd' <-80 0 0 0> kernblocker;  
 pos @undera_kerning_ga_1st' <40 0 0 0> @undera_kerning_tta_iVowel_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_ga_1st' <60 0 0 0> @undera_kerning_ka_2nd' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_ga_1st' <20 0 0 0> @undera_kerning_ka_2nd' <-20 0 0 0> kernblocker;  
 pos @undera_kerning_ga_1st' <40 0 0 0> @undera_kerning_ddha_2nd' <-40 0 0 0> kernblocker;  
 pos @undera_kerning_tta_1st' <80 0 0 0> @undera_kerning_tta_2nd' <-80 0 0 0> kernblocker;
 pos @undera_kerning_tta_1st' <60 0 0 0> @undera_kerning_tta_iVowel_2nd' <-60 0 0 0> kernblocker;    
 pos @undera_kerning_tta_1st' <40 0 0 0> @undera_kerning_ddha_2nd' <-40 0 0 0> kernblocker; 
 pos @undera_kerning_tta_1st' <20 0 0 0> @undera_kerning_ga_2nd' <-20 0 0 0> kernblocker;   
 pos @undera_kerning_tta_1st' <40 0 0 0> @undera_kerning_ta_2nd' <-40 0 0 0> kernblocker; 
-pos @undera_kerning_tta_1st' <20 0 0 0> @undera_kerning_da_2nd' <-20 0 0 0> kernblocker;  
+pos @undera_kerning_tta_1st' <40 0 0 0> @undera_kerning_da_2nd' <-40 0 0 0> kernblocker;  
 pos @undera_kerning_tta_1st' <20 0 0 0> @undera_kerning_ka_2nd' <-20 0 0 0> kernblocker;
 pos @undera_kerning_dda_1st' <90 0 0 0> @undera_kerning_tta_2nd' <-90 0 0 0> kernblocker;
-pos @undera_kerning_dda_1st' <40 0 0 0> @undera_kerning_tta_iVowel_2nd' <-40 0 0 0> kernblocker;
-pos @undera_kerning_dda_1st' <40 0 0 0> @undera_kerning_ddha_2nd' <-40 0 0 0> kernblocker;
+pos @undera_kerning_dda_1st' <70 0 0 0> @undera_kerning_tta_iVowel_2nd' <-70 0 0 0> kernblocker;
+pos @undera_kerning_dda_1st' <60 0 0 0> @undera_kerning_ddha_2nd' <-60 0 0 0> kernblocker;
+pos @undera_kerning_dda_aaVowel_1st' <60 0 0 0> @undera_kerning_tta_2nd' <-60 0 0 0> kernblocker;
+pos @undera_kerning_dda_aaVowel_1st' <40 0 0 0> @undera_kerning_tta_iVowel_2nd' <-40 0 0 0> kernblocker;
+pos @undera_kerning_dda_aaVowel_1st' <30 0 0 0> @undera_kerning_ddha_2nd' <-30 0 0 0> kernblocker;
 pos @undera_kerning_ka_1st' <25 0 0 0> @undera_kerning_ta_2nd' <-25 0 0 0> kernblocker;  
 
 
-pos @undera_kerning_dda_1st' <20 0 0 0> @undera_kerning_ka_2nd' <-20 0 0 0> kernblocker;  
-pos @undera_kerning_yya_1st' <80 0 0 0> @undera_kerning_ga_2nd' <-80 0 0 0> kernblocker;  
-pos @undera_kerning_yya_1st' <80 0 0 0> @undera_kerning_ta_2nd' <-80 0 0 0> kernblocker;  
-pos @undera_kerning_ka_1st' <40 0 0 0> @undera_kerning_ta_2nd' <-40 0 0 0> kernblocker;  
+pos @undera_kerning_dda_1st' <40 0 0 0> @undera_kerning_ka_2nd' <-40 0 0 0> kernblocker;  
+pos @undera_kerning_yya_1st' <60 0 0 0> @undera_kerning_ga_2nd' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_yya_1st' <60 0 0 0> @undera_kerning_ta_2nd' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_ka_1st' <200 0 0 0> @undera_kerning_ta_2nd' <-200 0 0 0> kernblocker;  
 pos @undera_kerning_ka_1st' <40 0 0 0> @undera_kerning_ga_2nd' <-40 0 0 0> kernblocker;  
 pos @undera_kerning_ga_1st' <40 0 0 0> @undera_kerning_ddha_2nd' <-40 0 0 0> kernblocker;  
 pos @undera_kerning_ga_1st' <20 0 0 0> @undera_kerning_da_2nd' <-20 0 0 0> kernblocker;  
 pos @undera_kerning_ga_1st' <40 0 0 0> @undera_kerning_tta_2nd' <-40 0 0 0> kernblocker;  
 pos @undera_kerning_ba_1st' <40 0 0 0> @undera_kerning_da_2nd' <-40 0 0 0> kernblocker;  
 pos @undera_kerning_ba_1st' <40 0 0 0> @undera_kerning_ddha_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_ba_1st' <40 0 0 0> @undera_kerning_ga_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_ba_1st' <60 0 0 0> @undera_kerning_tta_2nd' <-60 0 0 0> kernblocker;  
-pos @undera_kerning_ba_1st' <40 0 0 0> @undera_kerning_tta_iVowel_2nd' <-40 0 0 0> kernblocker;  
-pos da_aaVowel-divesakuru' <40 0 0 0> @undera_kerning_tta_2nd' <-40 0 0 0> kernblocker;  
-pos da_aaVowel-divesakuru' <40 0 0 0> @undera_kerning_tta_iVowel_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_da_iVowel' <40 0 0 0> @undera_kerning_tta_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_da_iVowel' <40 0 0 0> @undera_kerning_tta_iVowel_2nd' <-40 0 0 0> kernblocker;   
-pos @undera_kerning_dda_1st' <40 0 0 0> @undera_kerning_ka_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_ga_aaVowel_1st' <60 0 0 0> @undera_kerning_tta_2nd' <-60 0 0 0> kernblocker;  
-pos @undera_kerning_ga_aaVowel_1st' <60 0 0 0> @undera_kerning_ga_2nd' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_ba_1st' <60 0 0 0> @undera_kerning_ga_2nd' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_ba_1st' <50 0 0 0> @undera_kerning_tta_2nd' <-50 0 0 0> kernblocker;  
+pos @undera_kerning_ba_1st' <30 0 0 0> @undera_kerning_tta_iVowel_2nd' <-30 0 0 0> kernblocker;  
+pos da_aaVowel-divesakuru.undera' <120 0 0 0> @undera_kerning_tta_2nd' <-120 0 0 0> kernblocker;  
+pos da_aaVowel-divesakuru.undera' <80 0 0 0> @undera_kerning_tta_iVowel_2nd' <-80 0 0 0> kernblocker;  
+pos @undera_kerning_da_iVowel' <20 0 0 0> @undera_kerning_tta_2nd' <-20 0 0 0> kernblocker;  
+pos @undera_kerning_da_iVowel' <20 0 0 0> @undera_kerning_tta_iVowel_2nd' <-20 0 0 0> kernblocker; 
+pos @undera_kerning_da_iVowel' <40 0 0 0> @undera_kerning_ka_2nd' <-40 0 0 0> kernblocker;   
+pos @undera_kerning_ga_aaVowel_1st' <30 0 0 0> @undera_kerning_tta_2nd' <-30 0 0 0> kernblocker;  
+pos @undera_kerning_ga_aaVowel_1st' <30 0 0 0> @undera_kerning_ga_2nd' <-30 0 0 0> kernblocker;  
 pos @undera_kerning_ga_1st' <40 0 0 0> @undera_kerning_tta_2nd' <-40 0 0 0> kernblocker;  
+pos @undera_kerning_ga_1st' <40 0 0 0> @undera_kerning_ga_2nd' <-40 0 0 0> kernblocker;  
 pos @undera_kerning_i' <40 0 0 0> @undera_kerning_tta_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_i' <40 0 0 0> @undera_kerning_tta_2nd' <-40 0 0 0> kernblocker;  
+pos @undera_kerning_i' <30 0 0 0> @undera_kerning_tta_iVowel_2nd' <-30 0 0 0> kernblocker;  
 pos @undera_kerning_ka_aaVowel' <40 0 0 0> @undera_kerning_ga_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_ka_aaVowel' <40 0 0 0> @undera_kerning_ka_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_ka_aaVowel' <40 0 0 0> @undera_kerning_ta_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_ka-halanta_1st' <40 0 0 0> @undera_kerning_ba_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_ka-halanta_1st' <80 0 0 0> @undera_kerning_ta_2nd' <-80 0 0 0> kernblocker;  
-pos @undera_kerning_ka-halanta_1st' <80 0 0 0> @undera_kerning_na_2nd' <-80 0 0 0> kernblocker;  
-pos @undera_kerning_na_1st' <20 0 0 0> @undera_kerning_tta_2nd' <-20 0 0 0> kernblocker;  
+pos @undera_kerning_ka_aaVowel' <20 0 0 0> @undera_kerning_ka_2nd' <-20 0 0 0> kernblocker;  
+pos @undera_kerning_ka_aaVowel' <30 0 0 0> @undera_kerning_ta_2nd' <-30 0 0 0> kernblocker;  
+pos @undera_kerning_ka_halanta_1st' <60 0 0 0> @undera_kerning_ba_2nd' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_ka_halanta_1st' <80 0 0 0> @undera_kerning_ta_2nd' <-80 0 0 0> kernblocker;  
+pos @undera_kerning_ka_halanta_1st' <70 0 0 0> @undera_kerning_na_2nd' <-70 0 0 0> kernblocker;  
+pos @undera_kerning_na_1st' <30 0 0 0> @undera_kerning_tta_2nd' <-30 0 0 0> kernblocker;  
 pos @undera_kerning_na_aaVowel' <40 0 0 0> @undera_kerning_ga_2nd' <-40 0 0 0> kernblocker;  
 pos @undera_kerning_nna_1st' <40 0 0 0> @undera_kerning_tta_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_ka_1st' <40 0 0 0> @undera_kerning_ta_2nd' <-40 0 0 0> kernblocker;  
+pos @undera_kerning_ka_1st' <90 0 0 0> @undera_kerning_ta_2nd' <-90 0 0 0> kernblocker;  
 pos @undera_kerning_va_1st' <40 0 0 0> @undera_kerning_ba_2nd' <-40 0 0 0> kernblocker;  
 pos @undera_kerning_va_1st' <80 0 0 0> @undera_kerning_va_2nd' <-80 0 0 0> kernblocker;  
-pos @undera_kerning_va_1st' <100 0 0 0> @undera_kerning_tta_2nd' <-100 0 0 0> kernblocker;  
+pos @undera_kerning_va_1st' <120 0 0 0> @undera_kerning_tta_2nd' <-120 0 0 0> kernblocker;  
 pos @undera_kerning_va_1st' <80 0 0 0> @undera_kerning_ya_2nd' <-80 0 0 0> kernblocker;  
-pos @undera_kerning_va_1st' <40 0 0 0> @undera_kerning_ba_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_va_1st' <80 0 0 0> @undera_kerning_ddha_2nd' <-80 0 0 0> kernblocker;  
-pos @undera_kerning_va_1st' <40 0 0 0> @undera_kerning_ka_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_va_1st' <40 0 0 0> @undera_kerning_la_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_za_1st' <40 0 0 0> @undera_kerning_ga_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_za_1st' <40 0 0 0> @undera_kerning_ma_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_za_1st' <40 0 0 0> @undera_kerning_va_2nd' <-40 0 0 0> kernblocker;  
-pos @undera_kerning_za_1st' <80 0 0 0> @undera_kerning_ta_2nd' <-80 0 0 0> kernblocker;  
+pos @undera_kerning_va_1st' <30 0 0 0> @undera_kerning_ba_2nd' <-30 0 0 0> kernblocker;  
+pos @undera_kerning_va_1st' <60 0 0 0> @undera_kerning_ddha_2nd' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_va_1st' <70 0 0 0> @undera_kerning_ka_2nd' <-70 0 0 0> kernblocker;  
+pos @undera_kerning_va_1st' <20 0 0 0> @undera_kerning_la_2nd' <-20 0 0 0> kernblocker;  
+pos @undera_kerning_za_1st' <50 0 0 0> @undera_kerning_ga_2nd' <-50 0 0 0> kernblocker;  
+pos @undera_kerning_za_1st' <20 0 0 0> @undera_kerning_ma_2nd' <-20 0 0 0> kernblocker;  
+pos @undera_kerning_za_1st' <30 0 0 0> @undera_kerning_va_2nd' <-30 0 0 0> kernblocker;  
+pos @undera_kerning_za_1st' <60 0 0 0> @undera_kerning_ta_2nd' <-60 0 0 0> kernblocker;  
+
+pos @undera_kerning_ba_1st' <80 0 0 0> i-divesakuru.undera' <-80 0 0 0> kernblocker;  
+pos @undera_kerning_dda_1st' <60 0 0 0> i-divesakuru.undera' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_dda_aaVowel_1st' <60 0 0 0> i-divesakuru.undera' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_dda_iVowel_1st' <60 0 0 0> i-divesakuru.undera' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_dha_halanta_1st' <80 0 0 0> i-divesakuru.undera' <-80 0 0 0> kernblocker;  
+pos @undera_kerning_ga_1st' <60 0 0 0> i-divesakuru.undera' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_ga_aaVowel_1st' <60 0 0 0> i-divesakuru.undera' <-60 0 0 0> kernblocker;  
+pos @undera_kerning_ga_halanta_1st' <40 0 0 0> i-divesakuru.undera' <-40 0 0 0> kernblocker;  
+pos @undera_kerning_ka_1st' <80 0 0 0> i-divesakuru.undera' <-80 0 0 0> kernblocker;  
+pos @undera_kerning_ka_aaVowel' <80 0 0 0> i-divesakuru.undera' <-80 0 0 0> kernblocker;  
+pos ka_halanta-divesakuru.undera' <120 0 0 0> i-divesakuru.undera' <-120 0 0 0> kernblocker;
+pos na_halanta-divesakuru.undera' <10 0 0 0> i-divesakuru.undera' <-10 0 0 0> kernblocker;
+pos ta_halanta-divesakuru.undera' <60 0 0 0> i-divesakuru.undera' <-60 0 0 0> kernblocker;
+pos @undera_kerning_la_aaVowel_1st' <100 0 0 0> i-divesakuru.undera' <-100 0 0 0> kernblocker;
+
+pos @undera_kerning_na_1st' <60 0 0 0> i-divesakuru.undera' <-60 0 0 0> kernblocker;
+pos @undera_kerning_na_aaVowel' <60 0 0 0> i-divesakuru.undera' <-60 0 0 0> kernblocker;
+pos @undera_kerning_pa_1st' <60 0 0 0> i-divesakuru.undera' <-60 0 0 0> kernblocker;
+
+pos @undera_kerning_tta_1st' <60 0 0 0> i-divesakuru.undera' <-60 0 0 0> kernblocker;
+pos @undera_kerning_tta_halanta_1st' <80 0 0 0> i-divesakuru.undera' <-80 0 0 0> kernblocker;
+pos @undera_kerning_yya_1st' <100 0 0 0> i-divesakuru.undera' <-100 0 0 0> kernblocker;
+pos @undera_kerning_za_1st' <100 0 0 0> i-divesakuru.undera' <-100 0 0 0> kernblocker;
 } undera-kerning-2;
 
 lookup undera-kerning-3 {
