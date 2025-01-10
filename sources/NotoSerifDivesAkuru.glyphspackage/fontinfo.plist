@@ -4669,6 +4669,8 @@ pos @contextual-kerning-halanta-1' 80 @contextual-kerning-1 prefixedNasalSign-di
 pos @contextual-kerning-halanta-1' 280 @contextual-kerning-2 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-1' 300 @contextual-kerning-3 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-1' 260 @contextual-kerning-3-2 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-1' 260 @contextual-kerning-3-2 prefixedNasalSign-divesakuru.alt;
+
 pos @contextual-kerning-halanta-1' 420 @contextual-kerning-4 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-1' 120 @contextual-kerning-6 prefixedNasalSign-divesakuru;
 
@@ -4677,6 +4679,8 @@ pos @contextual-kerning-halanta-2' 520 @contextual-kerning-1 prefixedNasalSign-d
 pos @contextual-kerning-halanta-2' 740 @contextual-kerning-2 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-2' 780 @contextual-kerning-3 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-2' 680 @contextual-kerning-3-2 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-2' 680 @contextual-kerning-3-2 prefixedNasalSign-divesakuru.alt;
+
 pos @contextual-kerning-halanta-2' 850 @contextual-kerning-4 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-2' 160 @contextual-kerning-5 prefixedNasalSign-divesakuru;
 
@@ -4685,6 +4689,8 @@ pos @contextual-kerning-halanta-3' 490 @contextual-kerning-1 prefixedNasalSign-d
 pos @contextual-kerning-halanta-3' 530 @contextual-kerning-2 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-3' 750 @contextual-kerning-3 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-3' 650 @contextual-kerning-3-2 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-3' 650 @contextual-kerning-3-2 prefixedNasalSign-divesakuru.alt;
+
 pos @contextual-kerning-halanta-3' 800 @contextual-kerning-4 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-3' 160 @contextual-kerning-5 prefixedNasalSign-divesakuru;
 
@@ -4693,6 +4699,8 @@ pos @contextual-kerning-halanta-4' 50 @contextual-kerning-1 prefixedNasalSign-di
 pos @contextual-kerning-halanta-4' 300 @contextual-kerning-2 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-4' 260 @contextual-kerning-3 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-4' 140 @contextual-kerning-3-2 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-4' 140 @contextual-kerning-3-2 prefixedNasalSign-divesakuru.alt;
+
 pos @contextual-kerning-halanta-4' 500 @contextual-kerning-4 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-4' 150 @contextual-kerning-6 prefixedNasalSign-divesakuru;
 
