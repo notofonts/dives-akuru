@@ -1,5 +1,5 @@
 {
-.appVersion = "3337";
+.appVersion = "3217";
 .formatVersion = 3;
 classes = (
 {
@@ -1991,7 +1991,8 @@ sub @Letters by @Undera;
 } ConvertToUnderAMark;
 
 lookup AddKernBlocker{
-sub @Undera by @Undera kernblocker;
+#sub @Undera by @Undera kernblocker;
+sub @Undera by @Undera;
 } AddKernBlocker;
 ";
 name = ConvertToUnderAMark;
@@ -2184,9 +2185,13 @@ lookup VowelAboveMarkSwaps {
 	sub prefixedNasalSign-divesakuru.alt' lookup toHalanta halanta-divesakuru' lookup toPrefixedNasalSign.alt;
 	sub prefixedNasalSign-divesakuru' lookup toMedYa ya-divesakuru.medi' lookup toPrefixedNasalSign;
 	sub prefixedNasalSign-divesakuru.alt' lookup toMedYa ya-divesakuru.medi' lookup toPrefixedNasalSign.alt;
-
 } VowelAboveMarkSwaps;
 
+# Run it a second time in case there is medya + iVowel
+lookup VowelAboveMarkSwaps2 {
+	sub prefixedNasalSign-divesakuru' lookup toIVowel iVowel-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toIVowel iVowel-divesakuru' lookup toPrefixedNasalSign.alt;
+} VowelAboveMarkSwaps2;
 # Swap nukta-halanta for the same reason
 lookup SwapNuktaHalanta {
 	sub nukta-divesakuru' lookup nukta_halanta halanta-divesakuru' lookup halanta_nukta;
@@ -2503,6 +2508,7 @@ tag = haln;
 code = "# First, code which both allocates the correct width of stem, and
 # converts each letter to a mark glyph
 lookup doubleAToMarks {
+lookupflag UseMarkFilteringSet @Undera;
 # from Foundation import NSMaxY
 # import re
 # def average(l): return sum(l)/len(l)
