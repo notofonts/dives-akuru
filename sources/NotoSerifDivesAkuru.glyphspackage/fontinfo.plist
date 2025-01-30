@@ -1,5 +1,5 @@
 {
-.appVersion = "3337";
+.appVersion = "3310";
 .formatVersion = 3;
 classes = (
 {
@@ -2109,14 +2109,17 @@ lookup toMedYa {
 	sub [prefixedNasalSign-divesakuru prefixedNasalSign-divesakuru.alt] by ya-divesakuru.medi;
 } toMedYa;
 
+lookup toMedRa {
+	sub [prefixedNasalSign-divesakuru prefixedNasalSign-divesakuru.alt] by ra-divesakuru.medi;
+} toMedRa;
 
 lookup toPrefixedNasalSign {
-	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru ooVowel-divesakuru halanta-divesakuru ya-divesakuru.medi] by prefixedNasalSign-divesakuru;
+	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru ooVowel-divesakuru halanta-divesakuru ya-divesakuru.medi ra-divesakuru.medi] by prefixedNasalSign-divesakuru;
 } toPrefixedNasalSign;
 
 
 lookup toPrefixedNasalSign.alt {
-	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru ooVowel-divesakuru halanta-divesakuru ya-divesakuru.medi] by prefixedNasalSign-divesakuru.alt;
+	sub [iVowel-divesakuru aaVowel-divesakuru iiVowel-divesakuru uVowel-divesakuru uuVowel-divesakuru ooVowel-divesakuru halanta-divesakuru ya-divesakuru.medi ra-divesakuru.medi] by prefixedNasalSign-divesakuru.alt;
 } toPrefixedNasalSign.alt;
 
 lookup nukta_halanta { sub nukta-divesakuru by halanta-divesakuru; } nukta_halanta;
@@ -2185,12 +2188,30 @@ lookup VowelAboveMarkSwaps {
 	sub prefixedNasalSign-divesakuru.alt' lookup toHalanta halanta-divesakuru' lookup toPrefixedNasalSign.alt;
 	sub prefixedNasalSign-divesakuru' lookup toMedYa ya-divesakuru.medi' lookup toPrefixedNasalSign;
 	sub prefixedNasalSign-divesakuru.alt' lookup toMedYa ya-divesakuru.medi' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toMedRa ra-divesakuru.medi' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toMedRa ra-divesakuru.medi' lookup toPrefixedNasalSign.alt;
 } VowelAboveMarkSwaps;
 
-# Run it a second time in case there is medya + iVowel
+# Run it a second time in case there is medya + iVowel / aaVowel, etc.
 lookup VowelAboveMarkSwaps2 {
 	sub prefixedNasalSign-divesakuru' lookup toIVowel iVowel-divesakuru' lookup toPrefixedNasalSign;
 	sub prefixedNasalSign-divesakuru.alt' lookup toIVowel iVowel-divesakuru' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toAAVowel aaVowel-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toAAVowel aaVowel-divesakuru' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toIIVowel iiVowel-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toIIVowel iiVowel-divesakuru' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toUVowel uVowel-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toUVowel uVowel-divesakuru' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toUUVowel uuVowel-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toUUVowel uuVowel-divesakuru' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toOOVowel ooVowel-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toOOVowel ooVowel-divesakuru' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toHalanta halanta-divesakuru' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toHalanta halanta-divesakuru' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toMedYa ya-divesakuru.medi' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toMedYa ya-divesakuru.medi' lookup toPrefixedNasalSign.alt;
+	sub prefixedNasalSign-divesakuru' lookup toMedRa ra-divesakuru.medi' lookup toPrefixedNasalSign;
+	sub prefixedNasalSign-divesakuru.alt' lookup toMedRa ra-divesakuru.medi' lookup toPrefixedNasalSign.alt;
 } VowelAboveMarkSwaps2;
 # Swap nukta-halanta for the same reason
 lookup SwapNuktaHalanta {
