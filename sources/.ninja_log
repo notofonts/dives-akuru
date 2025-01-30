@@ -65,3 +65,13 @@
 24212	25316	1738227385188350830	../fonts/NotoSerifDivesAkuru/full/ttf/NotoSerifDivesAkuru-Regular.ttf	85bc3a7fa919c6e5
 25316	26536	1738227386417982624	../fonts/NotoSerifDivesAkuru/googlefonts/ttf/NotoSerifDivesAkuru-Regular.ttf	537e722c39519cd9
 3955	29096	1738227388966078985	../fonts/NotoSerifDivesAkuru/full/otf/NotoSerifDivesAkuru-Regular.otf	8f97a8ee04c0af96
+1	1062	1738227792235676877	instance_ufos/NotoSerifDivesAkuru-Regular.ufo.json	8f50f71837dbac77
+1	2815	1738227793918840458	full-designspace/NotoSerifDivesAkuru.designspace	564ba81a4558a778
+2815	3899	1738227795066893608	full-designspace/instance_ufos/NotoSerifDivesAkuru-Regular.ufo.json	55401526e842c52f
+1062	9892	1738227801049857464	../fonts/NotoSerifDivesAkuru/unhinted/ttf/NotoSerifDivesAkuru-Regular.ttf	9feecbde64989ef2
+9893	10975	1738227802124000807	../fonts/NotoSerifDivesAkuru/hinted/ttf/NotoSerifDivesAkuru-Regular.ttf	3212b0cc0e58cf0e
+1063	14940	1738227806095530725	../fonts/NotoSerifDivesAkuru/unhinted/otf/NotoSerifDivesAkuru-Regular.otf	a0e57b8b05a2f18f
+3899	24080	1738227815239240413	/var/folders/vw/f5w2tmys16q9dc_tq16mv_040000gn/T/tmpy_u2_in1	58837b0727be7e00
+24080	25180	1738227816332828912	../fonts/NotoSerifDivesAkuru/full/ttf/NotoSerifDivesAkuru-Regular.ttf	5253ef49dfa49e6f
+25180	26417	1738227817573908816	../fonts/NotoSerifDivesAkuru/googlefonts/ttf/NotoSerifDivesAkuru-Regular.ttf	537e722c39519cd9
+3899	29203	1738227820356873407	../fonts/NotoSerifDivesAkuru/full/otf/NotoSerifDivesAkuru-Regular.otf	8f97a8ee04c0af96

@@ -1,6 +1,9 @@
 {
 category = Letter;
+color = 0;
 glyphname = "a-divesakuru.0030.two";
+kernLeft = dha;
+kernRight = a;
 layers = (
 {
 anchors = (
