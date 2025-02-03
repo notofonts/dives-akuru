@@ -206,7 +206,8 @@ code = "dda_halanta-divesakuru ddha_halanta-divesakuru dha_halanta-divesakuru pa
 name = "contextual-kerning-halanta-1";
 },
 {
-code = "ba_halanta-divesakuru ma_halanta-divesakuru va_halanta-divesakuru lla_halanta-divesakuru ta_medya_halanta-divesakuru ";
+code = "ba_halanta-divesakuru ma_halanta-divesakuru va_halanta-divesakuru lla_halanta-divesakuru ta_medya_halanta-divesakuru tta_halanta-divesakuru
+";
 name = "contextual-kerning-halanta-2";
 },
 {
@@ -218,6 +219,15 @@ name = "contextual-kerning-halanta-3";
 code = "ha_halanta-divesakuru nna_halanta-divesakuru
 ";
 name = "contextual-kerning-halanta-4";
+},
+{
+code = "ka_halanta-divesakuru
+ka_halanta-divesakuru.0001
+ta_halanta-divesakuru
+ta_halanta-divesakuru.0001
+na_halanta-divesakuru
+na_halanta-divesakuru.0001";
+name = "contextual-kerning-halanta-5";
 },
 {
 automatic = 1;
@@ -4732,6 +4742,8 @@ pos @contextual-kerning-halanta-4' 140 @contextual-kerning-3-2 prefixedNasalSign
 pos @contextual-kerning-halanta-4' 500 @contextual-kerning-4 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-4' 150 @contextual-kerning-6 prefixedNasalSign-divesakuru;
 
+pos @contextual-kerning-halanta-5' 320 @contextual-kerning-0 prefixedNasalSign-divesakuru;
+
 } contextual-kerning-1;
 
 lookup contextual-kerning-2 {
@@ -4743,6 +4755,8 @@ pos @contextual-kerning-halanta-3' -100 [ddha-divesakuru ddha_aaVowel-divesakuru
 pos @contextual-kerning-halanta-4' 140 [za-divesakuru za_aaVowel-divesakuru za_iVowel-divesakuru za_iiVowel-divesakuru za_uVowel-divesakuru za_uuVowel-divesakuru za_halanta-divesakuru] prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-4' -100 [ra-divesakuru ra_aaVowel-divesakuru ra_iVowel-divesakuru ra_iiVowel-divesakuru ra_uVowel-divesakuru ra_uuVowel-divesakuru ra_halanta-divesakuru] prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-2' 100 ya_medra-divesakuru prefixedNasalSign-divesakuru;
+
+pos bha_halanta-divesakuru' 110 [tta-divesakuru dda-divesakuru nna-divesakuru da-divesakuru] prefixedNasalSign-divesakuru;
 } contextual-kerning-2;
 
 lookup contextual-kerning-3 {
@@ -6758,6 +6772,7 @@ space = 0;
 };
 "lla_halanta-divesakuru" = {
 "@MMK_R_ba" = -35;
+"@MMK_R_ga" = -80;
 "@MMK_R_medra" = 380;
 "@MMK_R_na" = -40;
 "@MMK_R_tta" = -40;
@@ -6831,6 +6846,7 @@ space = 0;
 "ma_halanta-divesakuru" = {
 "@MMK_R_ba" = -35;
 "@MMK_R_ddha" = 40;
+"@MMK_R_ga" = -80;
 "@MMK_R_i" = -60;
 "@MMK_R_ka" = -75;
 "@MMK_R_ka_eVowel" = 0;
