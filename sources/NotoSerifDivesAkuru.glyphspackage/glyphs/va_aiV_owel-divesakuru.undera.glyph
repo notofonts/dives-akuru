@@ -1,5 +1,6 @@
 {
 category = Mark;
+color = 0;
 glyphname = "va_aiVowel-divesakuru.undera";
 layers = (
 {

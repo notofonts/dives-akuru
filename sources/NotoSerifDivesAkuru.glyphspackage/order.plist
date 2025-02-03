@@ -792,6 +792,7 @@ uni25CC,
 "prefixedNasalSign-divesakuru",
 "prefixedNasalSign-divesakuru.alt",
 "prefixedNasalSign-divesakuru.undera.tall1",
+"prefixedNasalSign-divesakuru.undera.tall2",
 "nukta-divesakuru",
 "eVowel-divesakuru",
 "aiVowel-divesakuru",
@@ -810,5 +811,6 @@ nullmark,
 "_part.na_halanda-divesakuru",
 "_ma-divesakuru.alt2",
 "_uuVowel-divesakuru",
-"_va-divesakuru.alt2"
+"_va-divesakuru.alt2",
+kernblocker
 )
