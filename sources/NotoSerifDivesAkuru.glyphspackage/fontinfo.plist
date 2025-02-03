@@ -4742,7 +4742,7 @@ pos @contextual-kerning-halanta-4' 140 @contextual-kerning-3-2 prefixedNasalSign
 pos @contextual-kerning-halanta-4' 500 @contextual-kerning-4 prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-4' 150 @contextual-kerning-6 prefixedNasalSign-divesakuru;
 
-pos @contextual-kerning-halanta-5' 320 @contextual-kerning-0 prefixedNasalSign-divesakuru;
+pos @contextual-kerning-halanta-5' 300 @contextual-kerning-0 prefixedNasalSign-divesakuru;
 
 } contextual-kerning-1;
 
@@ -4756,7 +4756,7 @@ pos @contextual-kerning-halanta-4' 140 [za-divesakuru za_aaVowel-divesakuru za_i
 pos @contextual-kerning-halanta-4' -100 [ra-divesakuru ra_aaVowel-divesakuru ra_iVowel-divesakuru ra_iiVowel-divesakuru ra_uVowel-divesakuru ra_uuVowel-divesakuru ra_halanta-divesakuru] prefixedNasalSign-divesakuru;
 pos @contextual-kerning-halanta-2' 100 ya_medra-divesakuru prefixedNasalSign-divesakuru;
 
-pos bha_halanta-divesakuru' 110 [tta-divesakuru dda-divesakuru nna-divesakuru da-divesakuru] prefixedNasalSign-divesakuru;
+pos bha_halanta-divesakuru' 120 [tta-divesakuru dda-divesakuru nna-divesakuru da-divesakuru za-divesakuru] prefixedNasalSign-divesakuru;
 } contextual-kerning-2;
 
 lookup contextual-kerning-3 {
