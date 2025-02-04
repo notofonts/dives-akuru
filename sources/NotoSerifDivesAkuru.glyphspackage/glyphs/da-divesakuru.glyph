@@ -1,4 +1,5 @@
 {
+color = 0;
 glyphname = "da-divesakuru";
 kernLeft = da;
 kernRight = i;
