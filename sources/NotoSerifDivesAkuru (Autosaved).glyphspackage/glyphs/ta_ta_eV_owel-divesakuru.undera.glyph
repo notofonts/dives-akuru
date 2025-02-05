@@ -1,0 +1,43 @@
+{
+category = Mark;
+glyphname = "ta_ta_eVowel-divesakuru.undera";
+lastChange = "2025-02-05 08:22:42 +0000";
+layers = (
+{
+.lastUpdate = 760441931.555;
+anchors = (
+{
+name = _undera;
+pos = (1289,0);
+},
+{
+name = _underatwo;
+},
+{
+name = bottom;
+pos = (1565,-296);
+},
+{
+name = caret_1;
+pos = (657,0);
+},
+{
+name = caret_2;
+pos = (1616,0);
+},
+{
+name = top;
+pos = (1007,862);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "ta_ta_eVowel-divesakuru";
+}
+);
+width = 2518;
+}
+);
+subCategory = Nonspacing;
+}

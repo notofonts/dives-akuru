@@ -1,0 +1,36 @@
+{
+glyphname = "ra_uuVowel-divesakuru";
+kernLeft = ra;
+kernRight = u;
+lastChange = "2025-02-05 08:38:10 +0000";
+layers = (
+{
+.lastUpdate = 760441931.526;
+anchors = (
+{
+name = bottom;
+pos = (302,-116);
+},
+{
+name = caret_1;
+pos = (767,0);
+},
+{
+name = top;
+pos = (240,562);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "ra_uVowel-divesakuru";
+},
+{
+pos = (429,0);
+ref = "_uuVowel-divesakuru";
+}
+);
+width = 1090;
+}
+);
+}

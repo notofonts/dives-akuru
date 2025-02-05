@@ -1,0 +1,35 @@
+{
+category = Mark;
+glyphname = "la-divesakuru.undera";
+lastChange = "2025-02-05 08:22:42 +0000";
+layers = (
+{
+.lastUpdate = 760441931.523;
+anchors = (
+{
+name = _undera;
+pos = (552,0);
+},
+{
+name = _underatwo;
+},
+{
+name = bottom;
+pos = (561.5,-115);
+},
+{
+name = top;
+pos = (341,862);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "la-divesakuru";
+}
+);
+width = 1123;
+}
+);
+subCategory = Nonspacing;
+}

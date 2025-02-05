@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "na_halanta-divesakuru";
 kernLeft = na_halanta;
 kernRight = na_halanta.first;

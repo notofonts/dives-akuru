@@ -1,0 +1,46 @@
+{
+glyphname = "ma_medya_eVowel-divesakuru";
+kernLeft = ka_eVowel;
+kernRight = ya;
+lastChange = "2025-02-05 08:22:42 +0000";
+layers = (
+{
+.lastUpdate = 760441931.465;
+anchors = (
+{
+name = bottom;
+pos = (1514,-140);
+},
+{
+name = caret_1;
+pos = (658,0);
+},
+{
+name = caret_2;
+pos = (1666,0);
+},
+{
+name = top;
+pos = (953,471);
+}
+);
+backgroundImage = {
+imagePath = "/Users/fernandodemoraescaro/Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_101.jpg";
+pos = (-23,-437);
+scale = (70,70);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "eVowel-divesakuru";
+},
+{
+pos = (646,0);
+ref = "ma_medya-divesakuru";
+}
+);
+width = 2381;
+}
+);
+subCategory = Conjunct;
+}

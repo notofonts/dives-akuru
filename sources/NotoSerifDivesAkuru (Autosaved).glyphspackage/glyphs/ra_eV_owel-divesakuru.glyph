@@ -1,0 +1,36 @@
+{
+glyphname = "ra_eVowel-divesakuru";
+kernLeft = ka_eVowel;
+kernRight = na;
+lastChange = "2025-02-05 08:22:42 +0000";
+layers = (
+{
+.lastUpdate = 760441931.511;
+anchors = (
+{
+name = bottom;
+pos = (1017.5,-116);
+},
+{
+name = caret_1;
+pos = (646,0);
+},
+{
+name = top;
+pos = (886,562);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "eVowel-divesakuru";
+},
+{
+pos = (646,0);
+ref = "ra-divesakuru";
+}
+);
+width = 1413;
+}
+);
+}

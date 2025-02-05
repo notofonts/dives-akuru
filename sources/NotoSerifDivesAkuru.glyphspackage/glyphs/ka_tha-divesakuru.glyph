@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "ka_tha-divesakuru";
 kernLeft = ka_uVowel;
 kernRight = va;

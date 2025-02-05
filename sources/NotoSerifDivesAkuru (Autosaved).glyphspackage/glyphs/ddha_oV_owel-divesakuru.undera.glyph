@@ -1,0 +1,39 @@
+{
+category = Mark;
+glyphname = "ddha_oVowel-divesakuru.undera";
+lastChange = "2025-02-05 08:22:42 +0000";
+layers = (
+{
+.lastUpdate = 760441931.537;
+anchors = (
+{
+name = _undera;
+pos = (1215,0);
+},
+{
+name = _underatwo;
+},
+{
+name = bottom;
+pos = (1506.5,-292);
+},
+{
+name = caret_1;
+pos = (646,0);
+},
+{
+name = top;
+pos = (904,862);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "ddha_oVowel-divesakuru";
+}
+);
+width = 2430;
+}
+);
+subCategory = Nonspacing;
+}

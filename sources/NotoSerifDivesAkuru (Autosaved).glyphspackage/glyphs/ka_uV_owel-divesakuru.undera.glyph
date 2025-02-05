@@ -1,0 +1,43 @@
+{
+category = Mark;
+glyphname = "ka_uVowel-divesakuru.undera";
+lastChange = "2025-02-05 08:38:10 +0000";
+layers = (
+{
+.lastUpdate = 760437490.549;
+anchors = (
+{
+name = _undera;
+pos = (673.5,0);
+},
+{
+name = _underatwo;
+},
+{
+name = bottom;
+pos = (677,-93);
+},
+{
+name = caret_1;
+pos = (1013,0);
+},
+{
+name = center;
+pos = (1048,-107);
+},
+{
+name = top;
+pos = (342,862);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "ka_uVowel-divesakuru";
+}
+);
+width = 1301;
+}
+);
+subCategory = Nonspacing;
+}

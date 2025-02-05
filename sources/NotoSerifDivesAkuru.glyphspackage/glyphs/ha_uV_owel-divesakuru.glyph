@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "ha_uVowel-divesakuru";
 kernLeft = na;
 kernRight = u;
@@ -875,5 +874,5 @@ width = 1335;
 }
 );
 metricLeft = "=na-divesakuru";
-metricRight = "=u-divesakuru-186";
+metricRight = "=u-divesakuru-60";
 }

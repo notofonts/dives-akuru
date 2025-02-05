@@ -1,0 +1,11 @@
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+width = 300;
+}
+);
+metricWidth = "=space";
+unicode = 160;
+}

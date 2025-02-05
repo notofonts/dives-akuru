@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "i-divesakuru";
 kernLeft = i.first;
 kernRight = i;

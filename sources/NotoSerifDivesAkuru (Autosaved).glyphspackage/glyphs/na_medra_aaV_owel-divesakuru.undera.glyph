@@ -1,0 +1,84 @@
+{
+category = Mark;
+glyphname = "na_medra_aaVowel-divesakuru.undera";
+lastChange = "2025-02-05 08:22:42 +0000";
+layers = (
+{
+.lastUpdate = 760441931.534;
+anchors = (
+{
+name = _undera;
+pos = (808,0);
+},
+{
+name = _underatwo;
+},
+{
+name = bottom;
+pos = (987,-407);
+},
+{
+name = caret_1;
+pos = (1022,0);
+},
+{
+name = caret_2;
+pos = (1254,0);
+},
+{
+name = top;
+pos = (623,862);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "na_medra-divesakuru.undera";
+},
+{
+closed = 1;
+nodes = (
+(1095,-337,o),
+(1541,-32,o),
+(1541,297,cs),
+(1541,495,o),
+(1380,693,o),
+(1114,693,cs),
+(1061,693,o),
+(998,685,o),
+(956,673,c),
+(964,635,l),
+(998,641,o),
+(1029,644,o),
+(1063,644,c),
+(1280,635,o),
+(1424,470,o),
+(1424,284,cs),
+(1424,-19,o),
+(1044,-277,o),
+(648,-277,cs),
+(540,-277,o),
+(493,-258,o),
+(493,-219,cs),
+(493,-178,o),
+(544,-144,o),
+(622,-131,c),
+(598,-93,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99997";
+};
+}),
+(463,-129,o),
+(378,-180,o),
+(378,-241,cs),
+(378,-302,o),
+(462,-337,o),
+(622,-337,cs)
+);
+}
+);
+width = 1616;
+}
+);
+subCategory = Nonspacing;
+}

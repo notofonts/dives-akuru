@@ -1,0 +1,36 @@
+{
+glyphname = "yya_uuVowel-divesakuru";
+kernLeft = yya;
+kernRight = u;
+lastChange = "2025-02-05 08:38:10 +0000";
+layers = (
+{
+.lastUpdate = 760441931.471;
+anchors = (
+{
+name = bottom;
+pos = (662,-99);
+},
+{
+name = caret_1;
+pos = (1283,0);
+},
+{
+name = top;
+pos = (402,450);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "yya_uVowel-divesakuru";
+},
+{
+pos = (927,0);
+ref = "_uuVowel-divesakuru";
+}
+);
+width = 1574;
+}
+);
+}

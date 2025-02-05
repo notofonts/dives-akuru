@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "ga_aiVowel-divesakuru";
 kernLeft = ka_eVowel;
 kernRight = ga;

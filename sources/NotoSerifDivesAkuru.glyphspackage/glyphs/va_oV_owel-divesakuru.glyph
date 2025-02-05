@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "va_oVowel-divesakuru";
 kernLeft = ka_eVowel;
 kernRight = ka;

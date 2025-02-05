@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "ra_eVowel-divesakuru";
 kernLeft = ka_eVowel;
 kernRight = na;

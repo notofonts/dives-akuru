@@ -1,0 +1,38 @@
+{
+glyphname = "ga_halanta-divesakuru";
+kernLeft = ga;
+kernRight = ga_halanta;
+lastChange = "2025-02-05 08:22:42 +0000";
+layers = (
+{
+.lastUpdate = 760441945.494;
+anchors = (
+{
+name = bottom;
+pos = (625,-289);
+},
+{
+name = caret_1;
+pos = (994,0);
+},
+{
+name = top;
+pos = (321,753);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+alignment = -1;
+ref = "ga-divesakuru";
+},
+{
+pos = (648,-154);
+ref = "halanta-divesakuru";
+}
+);
+width = 1094;
+}
+);
+metricWidth = "ga-divesakuru";
+}

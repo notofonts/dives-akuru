@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = "ddha_aiVowel-divesakuru";
 kernLeft = ka_eVowel;
 kernRight = ya;

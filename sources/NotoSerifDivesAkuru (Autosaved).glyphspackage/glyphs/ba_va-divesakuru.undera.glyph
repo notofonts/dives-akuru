@@ -1,0 +1,39 @@
+{
+category = Mark;
+glyphname = "ba_va-divesakuru.undera";
+lastChange = "2025-02-05 08:22:42 +0000";
+layers = (
+{
+.lastUpdate = 760441931.468;
+anchors = (
+{
+name = _undera;
+pos = (942,0);
+},
+{
+name = _underatwo;
+},
+{
+name = bottom;
+pos = (1358,-471);
+},
+{
+name = caret_1;
+pos = (1244,0);
+},
+{
+name = top;
+pos = (441,862);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "ba_va-divesakuru";
+}
+);
+width = 1941;
+}
+);
+subCategory = Nonspacing;
+}
