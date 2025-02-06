@@ -7888,7 +7888,7 @@ value = GOOG;
 },
 {
 key = versionString;
-value = "Version 1.001";
+value = "Version 2.000";
 }
 );
 settings = {
@@ -7931,6 +7931,6 @@ oV = "123";
 };
 };
 };
-versionMajor = 1;
-versionMinor = 1;
+versionMajor = 2;
+versionMinor = 0;
 }
