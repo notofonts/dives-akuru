@@ -2,7 +2,6 @@ buildVariable: false
 category:
 - SERIF
 familyName: Noto Serif Dives Akuru
-recipeProvider: noto
 googleFonts: true
 includeSubsets:
 - from: Noto Serif
