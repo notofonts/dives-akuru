@@ -1,0 +1,21 @@
+{
+glyphname = "oVowel-divesakuru";
+kernLeft = ka_eVowel;
+layers = (
+{
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+alignment = -1;
+ref = "eVowel-divesakuru";
+},
+{
+pos = (656,0);
+ref = "aaVowel-divesakuru";
+}
+);
+width = 2386;
+}
+);
+unicode = 71992;
+}

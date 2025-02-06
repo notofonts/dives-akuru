@@ -1,0 +1,34 @@
+{
+glyphname = "da_oVowel-divesakuru";
+kernLeft = ka_eVowel;
+kernRight = da_iVowel;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (1168,-610);
+},
+{
+name = caret_1;
+pos = (646,0);
+},
+{
+name = top;
+pos = (899,886);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "eVowel-divesakuru";
+},
+{
+pos = (646,0);
+ref = "da_iVowel-divesakuru";
+}
+);
+width = 1904;
+}
+);
+}

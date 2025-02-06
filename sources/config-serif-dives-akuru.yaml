@@ -2,10 +2,11 @@ buildVariable: false
 category:
 - SERIF
 familyName: Noto Serif Dives Akuru
+recipeProvider: noto
 googleFonts: true
 includeSubsets:
 - from: Noto Serif
   name: GF_Latin_Core
 recipeProvider: noto
 sources:
-- NotoSerifDivesAkuru.glyphs
+- NotoSerifDivesAkuru.glyphspackage

@@ -7,6 +7,15 @@ node_modules
 package-lock.json
 package.json
 
+# Generated Files
+*.ufo
+subset-files
+sources/full-designspace
+*.designspace
+instance_ufos
+build.ninja
+.ninja.log
+
 # OS generated files #
 ######################
 .DS_Store

@@ -1,0 +1,24 @@
+{
+category = Letter;
+glyphname = "a-divesakuru.0016.two";
+kernLeft = dha;
+kernRight = a;
+layers = (
+{
+anchors = (
+{
+name = underatwo;
+pos = (1183,0);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "a-divesakuru.0016";
+}
+);
+width = 4066;
+}
+);
+subCategory = Other;
+}

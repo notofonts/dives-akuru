@@ -1,0 +1,143 @@
+{
+glyphname = "na_medra_aaVowel-divesakuru";
+kernLeft = medra;
+kernRight = na_aaVowel;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (987,-407);
+},
+{
+name = caret_1;
+pos = (1022,0);
+},
+{
+name = caret_2;
+pos = (1254,0);
+},
+{
+name = top;
+pos = (565,932);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(1095,-337,o),
+(1541,-32,o),
+(1541,299,cs),
+(1541,495,o),
+(1380,693,o),
+(1112,693,cs),
+(1061,693,o),
+(998,685,o),
+(956,673,c),
+(964,635,l),
+(998,641,o),
+(1029,644,o),
+(1063,644,c),
+(1280,635,o),
+(1424,470,o),
+(1424,279,cs),
+(1424,-19,o),
+(1044,-277,o),
+(623,-277,cs),
+(540,-277,o),
+(493,-258,o),
+(493,-215,cs),
+(493,-178,o),
+(544,-144,o),
+(622,-131,c),
+(598,-93,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99997";
+};
+}),
+(463,-129,o),
+(378,-180,o),
+(378,-242,cs),
+(378,-302,o),
+(462,-337,o),
+(602,-337,cs)
+);
+}
+);
+};
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_77.jpg";
+pos = (0,-655);
+scale = (70,70);
+};
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1095,-337,o),
+(1541,-32,o),
+(1541,297,cs),
+(1541,495,o),
+(1380,693,o),
+(1114,693,cs),
+(1061,693,o),
+(998,685,o),
+(956,673,c),
+(964,635,l),
+(998,641,o),
+(1029,644,o),
+(1063,644,cs),
+(1280,644,o),
+(1424,460,o),
+(1424,274,cs),
+(1424,-28,o),
+(1044,-277,o),
+(648,-277,cs),
+(540,-277,o),
+(493,-258,o),
+(493,-219,cs),
+(493,-181,o),
+(544,-149,o),
+(622,-137,c),
+(598,-104,l,{
+"Letterink-NibData" = {
+AngleInDegrees = "359.99997";
+};
+}),
+(463,-137,o),
+(378,-185,o),
+(378,-241,cs),
+(378,-302,o),
+(462,-337,o),
+(622,-337,cs)
+);
+},
+{
+ref = "na_medra-divesakuru";
+},
+{
+closed = 0;
+nodes = (
+(593,947,ls)
+);
+}
+);
+width = 1616;
+},
+{
+associatedMasterId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+backgroundImage = {
+imagePath = "../../../../Library/CloudStorage/GoogleDrive-fernando.de-moraes-caro@mail.ensa-nancy.fr/Other computers/My MacBook Air/ANRT/Other/Work/Noto/2_Research/1_Character samples/Conjuncts/Document 32/Conjunct_D32_77.jpg";
+pos = (0,-655);
+scale = (70,70);
+};
+layerId = "C212E3D0-89EB-4101-A123-B3D975A43110";
+name = "Jul 28, 24 at 17:03";
+width = 2027;
+}
+);
+subCategory = Conjunct;
+}

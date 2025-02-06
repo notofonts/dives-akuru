@@ -1,0 +1,37 @@
+{
+category = Mark;
+glyphname = "bha_uuVowel-divesakuru.undera";
+layers = (
+{
+anchors = (
+{
+name = _undera;
+pos = (1010,0);
+},
+{
+name = _underatwo;
+},
+{
+name = bottom;
+pos = (980,-259);
+},
+{
+name = caret_1;
+pos = (1723,0);
+},
+{
+name = top;
+pos = (441,862);
+}
+);
+layerId = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
+shapes = (
+{
+ref = "bha_uuVowel-divesakuru";
+}
+);
+width = 2030;
+}
+);
+subCategory = Nonspacing;
+}
