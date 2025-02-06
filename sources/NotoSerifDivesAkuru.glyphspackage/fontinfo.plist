@@ -1,5 +1,5 @@
 {
-.appVersion = "3337";
+.appVersion = "3310";
 .formatVersion = 3;
 classes = (
 {
@@ -5075,6 +5075,16 @@ tag = kern;
 );
 fontMaster = (
 {
+customParameters = (
+{
+name = winAscent;
+value = 1551;
+},
+{
+name = winDescent;
+value = 764;
+}
+);
 id = "0C4B00F6-5348-41D6-8EE7-AA18FE59D1B1";
 metricValues = (
 {
